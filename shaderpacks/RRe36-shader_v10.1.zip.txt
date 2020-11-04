@@ -1,0 +1,13 @@
+#Wed Dec 25 14:00:53 CET 2019
+mBlurSamples=3
+s_cloudMode=0
+s_godrays=false
+s_rainPuddles=false
+s_ssr=false
+s_vcLightingQuality=0
+s_vcSamples=6
+setAmbientOcclusion=false
+setBloom=false
+setFog=false
+setMotionblur=false
+shadowMapResolution=1024

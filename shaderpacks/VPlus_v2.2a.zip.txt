@@ -1,0 +1,5 @@
+#Tue Nov 03 18:47:44 CET 2020
+bloomEnabled=false
+fog_density=0.6
+fog_start=0.9
+vignette_enabled=false

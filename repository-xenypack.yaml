@@ -3839,7 +3839,7 @@ bundles:
         generatedAt: "2020-11-07T16:43:02Z"
     - id: "ffba"
       name: "Put biome config files here"
-      src: "config/biomesoplenty/biomes/Put biome config files here"
+      src: "config/biomesoplenty/biomes/Put%20biome%20config%20files%20here"
       version: null
       type: "ITEM"
       target:
@@ -4148,7 +4148,7 @@ bundles:
         generatedAt: "2020-11-07T16:43:02Z"
     - id: "0Irn"
       name: "Building Gadgets.cfg"
-      src: "config/Building Gadgets.cfg"
+      src: "config/Building%20Gadgets.cfg"
       version: null
       type: "ITEM"
       target:
@@ -7373,7 +7373,7 @@ bundles:
         generatedAt: "2020-11-07T16:43:02Z"
     - id: "derv"
       name: "Extreme Reactors.cfg"
-      src: "config/Extreme Reactors/Extreme Reactors.cfg"
+      src: "config/Extreme%20Reactors/Extreme%20Reactors.cfg"
       version: null
       type: "ITEM"
       target:
@@ -11644,7 +11644,7 @@ bundles:
         generatedAt: "2020-11-07T16:43:02Z"
     - id: "U9tj"
       name: "glorious eternal credits.txt"
-      src: "config/ruins_config/glorious eternal credits.txt"
+      src: "config/ruins_config/glorious%20eternal%20credits.txt"
       version: null
       type: "ITEM"
       target:
@@ -16786,7 +16786,7 @@ bundles:
         fileLength: "95850"
     - id: "QGIF"
       name: "Toast Control-1.12.2-1.8.1.jar"
-      src: "https://edge.forgecdn.net/files/2707/353/Toast Control-1.12.2-1.8.1.jar"
+      src: "https://edge.forgecdn.net/files/2707/353/Toast%20Control-1.12.2-1.8.1.jar"
       version: null
       type: "ITEM"
       target:

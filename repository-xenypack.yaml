@@ -10010,7 +10010,7 @@ bundles:
       description: ""
       itemDate: "2020-11-07T16:43:02Z"
       hashes:
-        md5: "2ED9CFA5DE9FFF4C1B896DAA4539A685"
+        md5: "8CE2CF66AD65ECE15AFF2F96236DABC5"
         sha256: null
         sha1: null
         crc32: null
@@ -17841,13 +17841,22 @@ bundles:
     default: null
     windows: "${APPDATA}\\.minecraft"
     unix: "${HOME}/.minecraft"
-  baseItemUrl: https://raw.githubusercontent.com/Detronit/xenypack-modpack/master/3.6/client
+  baseItemUrl: "https://raw.githubusercontent.com/Detronit/xenypack-modpack/master/3.6/client"
   updateDate: "2020-11-07T16:43:03Z"
   additionalFields:
     forge-version: "1.12.2-14.23.5.2854"
     forge-installer: "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-installer.jar"
     launcher-tlauncher: "https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.72-Installer-0.5.4.exe"
     launcher-shiginima: "https://dpcdn-s14.pl/po_godzinach/ShiginimaSE_v4400.zip"
-    vmOptions-java-1.8: "-Xmx3228m -Xms3228m -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=30 -XX:G1MixedGCLiveThresholdPercent=90 "
-    vmOptionsAdvanced-java-1.8: "-Xmx3200m -Xms3200m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1"
-    vmOptions-java-11: "-Xmx3G -Xms3G -XX:+UnlockExperimentalVMOptions -Xmn256M -XX:+OptimizeStringConcat -XX:NewSize=84m -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3"
+    vmOptions-java-1.8: "-Xmx3228m -Xms3228m -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions\
+      \ -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90\
+      \ -XX:G1NewSizePercent=30 -XX:G1MixedGCLiveThresholdPercent=90 "
+    vmOptionsAdvanced-java-1.8: "-Xmx3200m -Xms3200m -XX:+UseG1GC -XX:+ParallelRefProcEnabled\
+      \ -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC\
+      \ -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
+      \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
+      \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
+      \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem\
+      \ -XX:MaxTenuringThreshold=1"
+    vmOptions-java-11: "-Xmx3G -Xms3G -XX:+UnlockExperimentalVMOptions -Xmn256M -XX:+OptimizeStringConcat\
+      \ -XX:NewSize=84m -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3"

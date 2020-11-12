@@ -42,7 +42,7 @@ ofChunkUpdatesDynamic:false
 ofTime:0
 ofClearWater:true
 ofAaLevel:0
-ofAfLevel:4
+ofAfLevel:0
 ofProfiler:false
 ofBetterSnow:false
 ofSwampColors:true

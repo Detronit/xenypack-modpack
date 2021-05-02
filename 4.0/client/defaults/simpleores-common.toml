@@ -1,0 +1,115 @@
+
+[General]
+	#Add SimpleOres items to chest loot?
+	AddModLootToChests = true
+
+[OreGeneration]
+	#Enable copper ore generation?
+	EnableCopperOre = true
+	#Enable tin ore generation?
+	EnableTinOre = true
+	#Enable mythril ore generation?
+	EnableMythrilOre = true
+	#Enable adamantium ore generation?
+	EnableAdamantiumOre = true
+	#Enable onyx ore generation?
+	EnableOnyxOre = true
+
+	[OreGeneration.Copper]
+		#Copper ore vein size
+		#Range: > 1
+		CopperVeinSize = 7
+		#Copper ore vein count per chunk
+		#Range: > 1
+		CopperVeinCount = 25
+		#Copper ore minimum height
+		#Range: 1 ~ 254
+		CopperBottomHeight = 40
+		#Copper ore maximum height
+		#Range: 1 ~ 255
+		CopperMaxHeight = 128
+
+	[OreGeneration.Tin]
+		#Tin ore vein size
+		#Range: > 1
+		TinVeinSize = 7
+		#Tin ore vein count per chunk
+		#Range: > 1
+		TinVeinCount = 20
+		#Tin ore minimum height
+		#Range: 1 ~ 254
+		TinBottomHeight = 20
+		#Tin ore maximum height
+		#Range: 1 ~ 255
+		TinMaxHeight = 90
+
+	[OreGeneration.Mythril]
+		#Mythril ore vein size
+		#Range: > 1
+		MythrilVeinSize = 4
+		#Mythril ore vein count per chunk
+		#Range: > 1
+		MythrilVeinCount = 8
+		#Mythril ore minimum height
+		#Range: 1 ~ 254
+		MythrilBottomHeight = 1
+		#Mythril ore maximum height
+		#Range: 1 ~ 255
+		MythrilMaxHeight = 35
+
+	[OreGeneration.Adamantium]
+		#Adamantium ore vein size
+		#Range: > 1
+		AdamantiumVeinSize = 4
+		#Adamantium ore vein count per chunk
+		#Range: > 1
+		AdamantiumVeinCount = 4
+		#Adamantium ore minimum height
+		#Range: 1 ~ 254
+		AdamantiumBottomHeight = 1
+		#Adamantium ore maximum height
+		#Range: 1 ~ 255
+		AdamantiumMaxHeight = 20
+
+	[OreGeneration.Onyx]
+		#Onyx ore vein size
+		#Range: > 1
+		OnyxVeinSize = 4
+		#Onyx ore vein count per chunk
+		#Range: > 1
+		OnyxVeinCount = 5
+		#Onyx ore minimum height
+		#Range: 1 ~ 127
+		OnyxBottomHeight = 1
+		#Onyx ore maximum height
+		#Range: 1 ~ 128
+		OnyxMaxHeight = 128
+
+[Tools]
+	#false disables recipes
+	EnableCopperTools = true
+	#false disables recipes
+	EnableTinTools = true
+	#false disables recipes
+	EnableMythrilTools = true
+	#false disables recipes
+	EnableAdamantiumTools = true
+	#false disables recipes
+	EnableOnyxTools = true
+	#false disables recipes
+	EnableCopperBucket = true
+	#false disables recipes
+	EnableModBows = true
+
+[Armor]
+	#false disables recipes
+	EnableCopperArmor = true
+	#false disables recipes
+	EnableTinArmor = true
+	#false disables recipes
+	EnableMythrilArmor = true
+	#false disables recipes
+	EnableAdamantiumArmor = true
+	#false disables recipes
+	EnableOnyxArmor = true
+

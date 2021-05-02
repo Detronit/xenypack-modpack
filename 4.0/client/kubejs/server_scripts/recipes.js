@@ -35,7 +35,8 @@ onEvent('recipes', e => {
 		'mekanismgenerators:turbine_valve',
 		'mekanismgenerators:turbine_vent',
 		'mekanismgenerators:hohlraum',
-        'twilightforest:uncrafting_table',
+		'twilightforest:uncrafting_table',
+        /industrialforegoing:infinity_.+/
 	]
 
 	// to remove

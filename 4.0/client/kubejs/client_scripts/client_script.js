@@ -1,41 +1,41 @@
 // priority: 0
-
+const MODPACK = 'XenyPack';
 var colors = [
-    `white`,
-    `light_gray`,
-    `gray`,
-    `black`,
-    `red`,
-    `orange`,
-    `yellow`,
-    `lime`,
-    `green`,
-    `light_blue`,
-    `cyan`,
-    `blue`,
-    `purple`,
-    `magenta`,
-    `pink`,
-    `brown`
+    'white',
+    'light_gray',
+    'gray',
+    'black',
+    'red',
+    'orange',
+    'yellow',
+    'lime',
+    'green',
+    'light_blue',
+    'cyan',
+    'blue',
+    'purple',
+    'magenta',
+    'pink',
+    'brown'
 ];
 
 var refined = [
-    `controller`,
-    `creative_controller`,
-    `grid`,
-    `crafting_grid`,
-    `pattern_grid`,
-    `fluid_grid`,
-    `network_receiver`,
-    `network_transmitter`,
-    `relay`,
-    `detector`,
-    `security_manager`,
-    `wireless_transmitter`,
-    `disk_manipulator`,
-    `crafter`,
-    `crafter_manager`,
-    `crafting_monitor`
+    'controller',
+    'creative_controller',
+    'grid',
+    'crafting_grid',
+    'pattern_grid',
+    'fluid_grid',
+    'network_receiver',
+    'network_transmitter',
+    'relay',
+    'detector',
+    'security_manager',
+    'wireless_transmitter',
+    'disk_manipulator',
+    'crafter',
+    'crafter_manager',
+    'crafting_monitor'
 ];
 
 onEvent('jei.hide.items', event => {
@@ -43,19 +43,20 @@ onEvent('jei.hide.items', event => {
     event.hide([
         'mekanism:electric_bow',
         /appliedenergistics2:facade/,
+        /industrialforegoing:infinity_.+/
     ])
 
     colors.forEach(color => {
         refined.forEach(refin => {
             e.hide([
-                `refinedstorage:${color}_${refin}`
+                'refinedstorage:' + color + '_' + refin
             ]);
         });
     });
 })
 
 
-onEvent(`item.tooltip`, e => {
+onEvent('item.tooltip', e => {
 
     var TO_REMOVE_LIST = [
 
@@ -85,11 +86,11 @@ onEvent(`item.tooltip`, e => {
         'mekanismgenerators:turbine_vent',
         'mekanismgenerators:hohlraum',
         'twilightforest:uncrafting_table',
-
+        /industrialforegoing:infinity_.+/
     ]
 
     refined.forEach(refin => {
-        e.add(`refinedstorage:${refin}`, `Right click or craft with a dye to color`);
+        e.add('refinedstorage:' + refin, 'Right click or craft with a dye to color');
     });
     e.add('mekanism:atomic_disassembler', ['§6§lRecipe changed to creative only§r [modpack ' + MODPACK + ']']);
     e.add(TO_REMOVE_LIST, ['§6§lRecipe removed§r [modpack ' + MODPACK + ']']);

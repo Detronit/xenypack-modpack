@@ -16,7 +16,7 @@
 	#Energy per operation tick (Joules).
 	energizedSmelter = "50"
 	#Energy per operation tick (Joules).
-	digitalMiner = "100"
+	digitalMiner = "400"
 	#Energy per operation tick (Joules).
 	electricPump = "100"
 	#Energy per operation tick (Joules).
@@ -42,7 +42,7 @@
 	#Energy per operation tick (Joules).
 	fluidicPlenisher = "100"
 	#Energy per operation tick (Joules).
-	laser = "10000"
+	laser = "50000"
 	#Energy per operation tick (Joules).
 	formulaicAssemblicator = "100"
 	#Energy per operation tick (Joules).
@@ -57,9 +57,9 @@
 	#Teleporter
 	[usage.teleporter]
 		#Base Joules cost for a teleportation.
-		teleporterBase = "1000"
+		teleporterBase = "4000"
 		#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
 		teleporterDistance = "10"
 		#Flat additional cost for interdimensional teleportation.
-		teleporterDimensionPenalty = "10000"
+		teleporterDimensionPenalty = "20000"
 

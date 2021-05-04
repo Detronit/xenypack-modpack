@@ -5,9 +5,9 @@
 
 [OreGeneration]
 	#Enable copper ore generation?
-	EnableCopperOre = true
+	EnableCopperOre = false
 	#Enable tin ore generation?
-	EnableTinOre = true
+	EnableTinOre = false
 	#Enable mythril ore generation?
 	EnableMythrilOre = true
 	#Enable adamantium ore generation?
@@ -46,10 +46,10 @@
 	[OreGeneration.Mythril]
 		#Mythril ore vein size
 		#Range: > 1
-		MythrilVeinSize = 4
+		MythrilVeinSize = 6
 		#Mythril ore vein count per chunk
 		#Range: > 1
-		MythrilVeinCount = 8
+		MythrilVeinCount = 6
 		#Mythril ore minimum height
 		#Range: 1 ~ 254
 		MythrilBottomHeight = 1
@@ -60,10 +60,10 @@
 	[OreGeneration.Adamantium]
 		#Adamantium ore vein size
 		#Range: > 1
-		AdamantiumVeinSize = 4
+		AdamantiumVeinSize = 5
 		#Adamantium ore vein count per chunk
 		#Range: > 1
-		AdamantiumVeinCount = 4
+		AdamantiumVeinCount = 5
 		#Adamantium ore minimum height
 		#Range: 1 ~ 254
 		AdamantiumBottomHeight = 1
@@ -74,10 +74,10 @@
 	[OreGeneration.Onyx]
 		#Onyx ore vein size
 		#Range: > 1
-		OnyxVeinSize = 4
+		OnyxVeinSize = 3
 		#Onyx ore vein count per chunk
 		#Range: > 1
-		OnyxVeinCount = 5
+		OnyxVeinCount = 3
 		#Onyx ore minimum height
 		#Range: 1 ~ 127
 		OnyxBottomHeight = 1
@@ -87,7 +87,7 @@
 
 [Tools]
 	#false disables recipes
-	EnableCopperTools = true
+	EnableCopperTools = false
 	#false disables recipes
 	EnableTinTools = true
 	#false disables recipes
@@ -97,9 +97,9 @@
 	#false disables recipes
 	EnableOnyxTools = true
 	#false disables recipes
-	EnableCopperBucket = true
+	EnableCopperBucket = false
 	#false disables recipes
-	EnableModBows = true
+	EnableModBows = false
 
 [Armor]
 	#false disables recipes

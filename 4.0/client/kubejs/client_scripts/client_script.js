@@ -48,7 +48,7 @@ onEvent('jei.hide.items', event => {
 
     colors.forEach(color => {
         refined.forEach(refin => {
-            e.hide([
+            event.hide([
                 'refinedstorage:' + color + '_' + refin
             ]);
         });
@@ -92,6 +92,6 @@ onEvent('item.tooltip', e => {
     refined.forEach(refin => {
         e.add('refinedstorage:' + refin, 'Right click or craft with a dye to color');
     });
-    e.add('mekanism:atomic_disassembler', ['§6§lRecipe changed to creative only§r [modpack ' + MODPACK + ']']);
-    e.add(TO_REMOVE_LIST, ['§6§lRecipe removed§r [modpack ' + MODPACK + ']']);
+    e.add('mekanism:atomic_disassembler', ['§6Recipe changed to creative only§r [modpack ' + MODPACK + ']']);
+    e.add(TO_REMOVE_LIST, ['§6Recipe removed§r [modpack ' + MODPACK + ']']);
 });

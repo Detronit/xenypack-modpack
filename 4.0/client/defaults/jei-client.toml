@@ -36,13 +36,13 @@
 	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "DISABLED"
+	CreativeTabSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "DISABLED"
+	ColorSearchMode = "REQUIRE_PREFIX"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = false
 
@@ -51,5 +51,5 @@
 	#Use these formatting keys:
 	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
 	#obfuscated, bold, strikethrough, underline, italic
-	ModNameFormat = "blue italic"
+	ModNameFormat = ""
 

@@ -2,22 +2,22 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Amount of energy in Joules the Bio Generator produces per tick.
-	bioGeneration = "350"
+	bioGeneration = "250"
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	energyPerFusionFuel = "10000000"
+	energyPerFusionFuel = "1000000"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "50"
+	solarGeneration = "60"
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "300"
+	advancedSolarGeneration = "170"
 
 	#Heat Generator Settings
 	[generators.heat_generator]
 		#Amount of energy in Joules the Heat Generator produces per tick. (heatGenerationLava * heatGenerationLava) + heatGenerationNether
-		heatGeneration = "200"
+		heatGeneration = "40"
 		#Multiplier of effectiveness of Lava in the Heat Generator.
-		heatGenerationLava = "30"
+		heatGenerationLava = "20"
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
-		heatGenerationNether = "100"
+		heatGenerationNether = "1"
 
 	#Turbine Settings
 	[generators.turbine]
@@ -36,9 +36,9 @@
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
-		windGenerationMin = "60"
+		windGenerationMin = "50"
 		#Maximum base generation value of the Wind Generator.
-		windGenerationMax = "480"
+		windGenerationMax = "100"
 		#The minimum Y value that affects the Wind Generators Power generation.
 		windGenerationMinY = 24
 		#The maximum Y value that affects the Wind Generators Power generation.
@@ -72,7 +72,7 @@
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
 		energyPerFissionFuel = "1000000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
-		casingHeatCapacity = 1000.0
+		casingHeatCapacity = 5000.0
 		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0

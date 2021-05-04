@@ -6,19 +6,19 @@
 	customShieldMaxReduction = true
 	#The portion of the incomming damage Vanilla Shields block in percent.
 	#Default: 75
-	defaultDamageReduction = 75
+	defaultDamageReduction = 65
 	#The portion of the incomming damage Iron Shields block in percent.
 	#Default: 90
-	ironDamageReduction = 90
+	ironDamageReduction = 85
 	#The portion of the incomming damage Gold Shields block in percent.
 	#Default: 85
-	goldDamageReduction = 85
+	goldDamageReduction = 75
 	#The portion of the incomming damage Diamond Shields block in percent.
 	#Default: 98
-	diamondDamageReduction = 98
+	diamondDamageReduction = 95
 	#The portion of the incomming damage Netherite Shields block in percent.
 	#Default: 100
-	netheriteDamageReduction = 100
+	netheriteDamageReduction = 99
 	#The durability of the Iron Shield.
 	#Default: 920
 	ironDurability = 920
@@ -27,10 +27,10 @@
 	goldDurability = 130
 	#The durability of the Diamond Shield.
 	#Default: 4600
-	diamondDurability = 4600
+	diamondDurability = 2500
 	#The durability of the Netherite Shield.
 	#Default: 6300
-	netheriteDurability = 6300
+	netheriteDurability = 4300
 	#Allows the Thorns enchantment to by applied to Shields
 	#Default: true
 	thornsOnShields = true

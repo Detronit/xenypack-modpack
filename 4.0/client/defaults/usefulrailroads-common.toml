@@ -6,7 +6,7 @@
 	[rail.highspeedrail]
 		#Maximum Speed for High Speed Rail (default: 5.0 blocks/tick)
 		#Range: 0.0 ~ 10.0
-		highSpeedRailMaxSpeed = 5.0
+		highSpeedRailMaxSpeed = 4.0
 		#Acceleration for High Speed Rail if Occupied (default: 4.0 blocks/tick^2)
 		#Range: 0.0 ~ 10.0
 		highSpeedRailAccelOccupied = 4.0

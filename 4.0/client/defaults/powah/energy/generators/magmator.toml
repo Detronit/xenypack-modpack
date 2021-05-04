@@ -40,17 +40,17 @@ magmaticFluidsAPI = true
 
 [Energy_Generation]
 	#Range: 0 ~ 9000000000000000000
-	starterGeneration = 15
+	starterGeneration = 40
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 70
+	basicGeneration = 80
 	#Range: 0 ~ 9000000000000000000
 	hardenedGeneration = 180
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 400
+	blazingGeneration = 380
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 900
+	nioticGeneration = 800
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 2000
+	spiritedGeneration = 1800
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 4800
+	nitroGeneration = 3500
 

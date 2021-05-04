@@ -66,13 +66,13 @@
 		# How often dungeons will attempt to spawn per chunk.
 		# 0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		#Range: 0 ~ 1000
-		endDungeonAttemptsPerChunk = 12
+		endDungeonAttemptsPerChunk = 8
 		#
 		# Add Nether themed dungeon to Nether biomes.
 		# How often dungeons will attempt to spawn per chunk.
 		# 0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 		#Range: 0 ~ 1000
-		netherDungeonAttemptsPerChunk = 12
+		netherDungeonAttemptsPerChunk = 8
 		#
 		# Add ocean themed dungeon to ocean biomes. These will spawn on
 		# the ocean's floor and inside water filled caves and ravines.
@@ -82,7 +82,7 @@
 		# them which is unlike the other modded dungeons from this mod
 		# as those would normally replace the Vanilla Dungeons.
 		#Range: 0 ~ 1000
-		oceanDungeonAttemptsPerChunk = 5
+		oceanDungeonAttemptsPerChunk = 6
 
 	[Dungeons."Min Height"]
 		#

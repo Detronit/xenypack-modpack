@@ -6,5 +6,5 @@
 	mobs_blacklist = [""]
 	#scaring radius
 	#Range: 0 ~ 100
-	scare_radius = 12
+	scare_radius = 8
 

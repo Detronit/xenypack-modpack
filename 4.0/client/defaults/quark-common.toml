@@ -26,7 +26,7 @@
 
 [categories]
 	Automation = true
-	Building = true
+	Building = false
 	Management = true
 	Tools = true
 	Tweaks = true
@@ -34,22 +34,22 @@
 	Mobs = true
 	Client = true
 	Oddities = true
-	Experimental = true
+	Experimental = false
 
 [automation]
 	"Chain Linkage" = true
-	"Chains Connect Blocks" = true
-	Chute = true
+	"Chains Connect Blocks" = false
+	Chute = false
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
-	"Endermites Form Shulkers" = true
+	"Endermites Form Shulkers" = false
 	"Feeding Trough" = true
-	Gravisand = true
-	"Iron Rod" = true
+	Gravisand = false
+	"Iron Rod" = false
 	"Metal Buttons" = true
 	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Redstone Circuit" = true
 	"Weather Sensor" = true
 
@@ -218,7 +218,7 @@
 	"Chests In Boats" = true
 	"Easy Transfering" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Right Click Armor" = true
 	"Shulker Box Right Click" = true
@@ -237,12 +237,12 @@
 		"Render Items In Chat" = true
 
 [tools]
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Bottled Cloud" = true
 	Camera = true
-	"Color Runes" = true
+	"Color Runes" = false
 	"Pathfinder Maps" = true
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
@@ -342,11 +342,11 @@
 	"Glass Shard" = true
 	"Hoe Harvesting" = true
 	"Improved Sleeping" = true
-	"Infinity Bucket" = true
-	"Lava Bucket As Trash" = true
+	"Infinity Bucket" = false
+	"Lava Bucket As Trash" = false
 	"Lock Rotation" = true
 	"Note Block Mob Sounds" = true
-	"Pat The Dogs" = true
+	"Pat The Dogs" = false
 	"Poison Potato Usage" = true
 	"Reacharound Placing" = true
 	"Replace Scaffolding" = true
@@ -431,7 +431,7 @@
 		#Can players harvest crops with empty hand clicks?
 		"Empty Hand Harvest" = true
 		#Does harvesting crops with a hoe cost durability?
-		"Harvesting Costs Durability" = false
+		"Harvesting Costs Durability" = true
 		#Should Quark look for (nonvanilla) crops, and handle them?
 		"Do Harvesting Search" = true
 		#Which crops can be harvested?
@@ -465,32 +465,32 @@
 		"Bone Meal Utility" = true
 
 [world]
-	"Big Dungeon" = true
-	"Big Stone Clusters" = true
-	Biotite = true
-	"Blossom Trees" = true
-	"Cave Roots" = true
-	"Chorus Vegetation" = true
-	Crevices = true
-	"Fairy Rings" = true
-	"Mega Caves" = true
+	"Big Dungeon" = false
+	"Big Stone Clusters" = false
+	Biotite = false
+	"Blossom Trees" = false
+	"Cave Roots" = false
+	"Chorus Vegetation" = false
+	Crevices = false
+	"Fairy Rings" = false
+	"Mega Caves" = false
 	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
-	"Realistic World Gen" = true
-	Speleothems = true
-	"Spiral Spires" = true
-	"Underground Clay" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
-	"Elder Prismarine Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Lush Underground Biome" = true
-	"Overgrown Underground Biome" = true
-	"Permafrost Underground Biome" = true
-	"Sandstone Underground Biome" = true
-	"Slime Underground Biome" = true
-	"Spider Nest Underground Biome" = true
+	"Nether Obsidian Spikes" = false
+	"New Stone Types" = false
+	"Realistic World Gen" = false
+	Speleothems = false
+	"Spiral Spires" = false
+	"Underground Clay" = false
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
+	"Elder Prismarine Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Lush Underground Biome" = false
+	"Overgrown Underground Biome" = false
+	"Permafrost Underground Biome" = false
+	"Sandstone Underground Biome" = false
+	"Slime Underground Biome" = false
+	"Spider Nest Underground Biome" = false
 
 	[world.big_dungeon]
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
@@ -1450,10 +1450,10 @@
 [mobs]
 	Crabs = true
 	Forgotten = true
-	Foxhound = true
+	Foxhound = false
 	Frogs = true
 	Stonelings = true
-	Toretoise = true
+	Toretoise = false
 	Wraith = true
 
 	[mobs.crabs]
@@ -1598,11 +1598,11 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Chest Searching" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
-	"Usage Ticker" = true
-	"Variant Animal Textures" = true
+	"Usage Ticker" = false
+	"Variant Animal Textures" = false
 
 	[client.greener_grass]
 		"Affect Leaves" = true
@@ -1656,12 +1656,12 @@
 		"Shiny Animal Chance" = 2048
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = false
-	Magnets = true
-	"Matrix Enchanting" = true
-	Pipes = true
-	"Totem Of Holding" = true
+	Magnets = false
+	"Matrix Enchanting" = false
+	Pipes = false
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them

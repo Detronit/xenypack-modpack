@@ -1,8 +1,0 @@
-{
-    "name": "§2Botanical",
-    "value": 7,
-    "farmland": "mysticalagriculture:supremium_farmland",
-    "essence": "botania:life_essence",
-    "fertilizable": true,
-    "secondarySeedDrop": true
-}

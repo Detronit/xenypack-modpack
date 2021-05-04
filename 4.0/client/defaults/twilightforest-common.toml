@@ -18,7 +18,7 @@ shouldReturnPortalBeUsable = true
 #Sets the default value of the game rule controlling enforced progression.
 progressionRuleDefault = true
 #Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.
-disableUncrafting = false
+disableUncrafting = true
 
 #Settings that are not reversible without consequences.
 ["Dimension Settings"]

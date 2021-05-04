@@ -33,17 +33,17 @@
 
 [Energy_Generation]
 	#Range: 0 ~ 9000000000000000000
-	starterGeneration = 100
+	starterGeneration = 15
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 400
+	basicGeneration = 70
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 840
+	hardenedGeneration = 160
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 1200
+	blazingGeneration = 250
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 2700
+	nioticGeneration = 500
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 3800
+	spiritedGeneration = 850
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 5400
+	nitroGeneration = 1500
 

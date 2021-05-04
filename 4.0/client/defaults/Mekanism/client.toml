@@ -9,7 +9,7 @@
 	holidays = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	baseSoundVolume = 1.0
+	baseSoundVolume = 0.75
 	#Show particles when machines active.
 	machineEffects = true
 	#Should active machines produce block light.

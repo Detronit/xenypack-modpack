@@ -23,18 +23,18 @@
 	#Show/Hide armor
 	showMain = true
 	#Show/Hide armor
-	showOff = true
+	showOff = false
 	#Show/Hide armor
 	showArrows = false
 	#Show/Hide armor
 	showInv = false
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
-	armView = "PERCENTAGE"
+	armView = "DAMAGE_LEFT"
 	#Show item durability bar
-	armBars = false
+	armBars = true
 	#Move all items at once or each one
-	moveAll = true
+	moveAll = false
 	#Show/Hide empty slot icon
 	showEmpty = true
 
@@ -91,46 +91,46 @@
 	yPotionPos = 20
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
-	helmPosX = 103
+	helmPosX = 138
 	#Helmet position (Y)
 	#Range: -9999 ~ 9999
-	helmPosY = 54
+	helmPosY = 64
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
-	chestPosX = 103
+	chestPosX = 138
 	#Chestplate position (Y)
 	#Range: -9999 ~ 9999
-	chestPosY = 37
+	chestPosY = 32
 	#Leggings position (X)
 	#Range: -9999 ~ 9999
-	legPosX = -103
+	legPosX = 138
 	#Leggings position (Y)
 	#Range: -9999 ~ 9999
-	legPosY = 54
+	legPosY = 48
 	#Boots position (X)
 	#Range: -9999 ~ 9999
-	bootPosX = -103
+	bootPosX = 138
 	#Boots position (Y)
 	#Range: -9999 ~ 9999
-	bootPosY = 37
+	bootPosY = 16
 	#MainHand position (X)
 	#Range: -9999 ~ 9999
-	mainPosX = 103
+	mainPosX = -103
 	#MainHand position (Y)
 	#Range: -9999 ~ 9999
-	mainPosY = 71
+	mainPosY = 37
 	#OffHand position (X)
 	#Range: -9999 ~ 9999
-	offPosX = -103
+	offPosX = 177
 	#OffHand position (Y)
 	#Range: -9999 ~ 9999
-	offPosY = 71
+	offPosY = 18
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
-	arrPosX = 103
+	arrPosX = 199
 	#Arrows position (Y)
 	#Range: -9999 ~ 9999
-	arrPosY = 20
+	arrPosY = 19
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
 	invPosX = -103
@@ -139,25 +139,25 @@
 	invPosY = 20
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	helmHal = "MIDDLE"
+	helmHal = "RIGHT"
 	#Helmet vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	helmVal = "BOTTOM"
 	#Chestplate horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	chestHal = "MIDDLE"
+	chestHal = "RIGHT"
 	#Chestplate vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	chestVal = "BOTTOM"
 	#Leggings horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	legHal = "MIDDLE"
+	legHal = "RIGHT"
 	#Leggings vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	legVal = "BOTTOM"
 	#Boots horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	bootHal = "MIDDLE"
+	bootHal = "RIGHT"
 	#Boots vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	bootVal = "BOTTOM"
@@ -169,13 +169,13 @@
 	mainVal = "BOTTOM"
 	#OffHand horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	offHal = "MIDDLE"
+	offHal = "RIGHT"
 	#OffHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	offVal = "BOTTOM"
 	#Arrows horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	arrHal = "MIDDLE"
+	arrHal = "RIGHT"
 	#Arrows vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	arrVal = "BOTTOM"

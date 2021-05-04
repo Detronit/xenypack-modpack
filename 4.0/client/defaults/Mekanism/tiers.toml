@@ -134,13 +134,13 @@
 		#Universal Cables
 		[tier.transmitters.energy]
 			#Internal buffer in Joules of each Basic universal cable.
-			basicCapacity = "8000"
+			basicCapacity = "4000"
 			#Internal buffer in Joules of each Advanced universal cable.
-			advancedCapacity = "128000"
+			advancedCapacity = "65000"
 			#Internal buffer in Joules of each Elite universal cable.
-			eliteCapacity = "1024000"
+			eliteCapacity = "512000"
 			#Internal buffer in Joules of each Ultimate universal cable.
-			ultimateCapacity = "8192000"
+			ultimateCapacity = "4096000"
 
 		#Mechanical Pipes
 		[tier.transmitters.fluid]

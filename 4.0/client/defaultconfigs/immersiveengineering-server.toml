@@ -27,7 +27,7 @@
 	[wires.electrum]
 		#The maximum length of electrum wires
 		#Range: > 0
-		maxLength = 16
+		maxLength = 32
 		#The transfer rate of electrum wire in IF/t
 		#Range: > 0
 		transferRate = 8192
@@ -75,7 +75,7 @@
 	[wires.insulated_electrum]
 		#The maximum length of insulated_electrum wires
 		#Range: > 0
-		maxLength = 16
+		maxLength = 32
 
 [machines]
 	#The base Flux that is output by the dynamo. This will be modified by the rotation modifier of the attached water- or windmill
@@ -96,12 +96,12 @@
 	#The Flux per tick the Charging Station can insert into an item
 	#Range: > 1
 	charger_consumption = 256
-	#The Flux the Assembler will consume to craft an item from a recipe
-	#Range: > 1
-	assembler_consumption = 80
 	#The amount of damage a sawblade in the sawmill takes for a single recipe.
 	#Range: > 1
 	sawmill_bladeDamage = 5
+	#The Flux the Assembler will consume to craft an item from a recipe
+	#Range: > 1
+	assembler_consumption = 80
 
 	[machines.capacitors]
 
@@ -172,10 +172,10 @@
 	[machines.teslacoil]
 		#The Flux per tick the Tesla Coil will consume, simply by being active
 		#Range: > 1
-		consumption = 256
+		consumption = 512
 		#The amount of Flux the Tesla Coil will consume when shocking an entity
 		#Range: > 1
-		consumption_active = 512
+		consumption_active = 1024
 		#The amount of damage the Tesla Coil will do when shocking an entity
 		#Range: 0.0 ~ 2.147483647E9
 		damage = 6.0
@@ -183,7 +183,7 @@
 	[machines.turret]
 		#The Flux per tick any turret consumes to monitor the area
 		#Range: > 1
-		consumption = 64
+		consumption = 128
 		#The Flux per tick the chemthrower turret consumes to shoot
 		#Range: > 1
 		chem_consumption = 32
@@ -194,16 +194,16 @@
 	[machines.garden_cloche]
 		#The Flux per tick the cloche consumes to grow plants
 		#Range: > 1
-		consumption = 8
+		consumption = 80
 		#The amount of ticks one dose of fertilizer lasts in the cloche
 		#Range: > 1
-		fertilizer = 6000
+		fertilizer = 3000
 		#The amount of fluid the cloche uses per dose of fertilizer
 		#Range: > 1
 		fluid = 250
 		#A modifier to apply to the cloches total growing speed
 		#Range: 0.001 ~ 1000.0
-		growth_modifier = 1.0
+		growth_modifier = 0.5
 		#A base-modifier for all solid fertilizers in the cloche
 		#Range: 0.001 ~ 1000.0
 		solid_fertilizer_mod = 1.0
@@ -216,7 +216,7 @@
 		spawnPrevent = true
 		#How much Flux the powered lantern draws per tick
 		#Range: > 1
-		energyDraw = 1
+		energyDraw = 10
 		#How much Flux the powered lantern can hold (should be greater than the power draw)
 		#Range: > 1
 		maxStorage = 10
@@ -226,7 +226,7 @@
 		spawnPrevent = true
 		#How much Flux the floodlight draws per tick
 		#Range: > 1
-		energyDraw = 5
+		energyDraw = 15
 		#How much Flux the floodlight can hold (must be at least 10x the power draw)
 		#Range: > 1
 		max_storage = 80
@@ -267,9 +267,6 @@
 		#A modifier to apply to the energy costs of every refinery recipe
 		#Range: 0.001 ~ 1000.0
 		energyModifier = 1.0
-		#A modifier to apply to the time of every refinery recipe
-		#Range: 0.001 ~ 1000.0
-		timeModifier = 1.0
 
 	[machines.auto_workbench]
 		#A modifier to apply to the energy costs of every auto workbench recipe
@@ -295,6 +292,14 @@
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0
 
+	[machines.sawmill]
+		#A modifier to apply to the energy costs of every sawmill recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every sawmill recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
 	[machines.arc_furnace]
 		#A modifier to apply to the energy costs of every arc furnace recipe
 		#Range: 0.001 ~ 1000.0
@@ -305,10 +310,15 @@
 		#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
 		#Range: > 1
 		electrodeDamage = 96000
-                                                                                                                
-                           
-		#Set this to false to disable the Arc Furnace's recycling of armors and tools
-		recycle = true
+		#The recycling functionality of the arc furnace is no longer controlled by a config option.
+		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
+		#immersiveengineering/recipes/arc_recycling_list.json
+		#To disable recycling, add that file to your datapack and fill it with the following content:
+		#{
+		#  "type": "immersiveengineering:generated_list",
+		#  "conditions": [ { "type": "forge:false" } ]
+		#}
+		recycle = ""
 
 	[machines.excavator]
 		#The Flux per tick the Excavator will consume to dig
@@ -329,15 +339,7 @@
 		#Range: 0.0 ~ 1.0
 		initial_depletion = 0.2
 		#List of dimensions that can't contain minerals. Default: The End.
-		dimBlacklist = ["minecraft:dimension_type"]
-
-	[machines.sawmill]
-		#A modifier to apply to the energy costs of every sawmill recipe
-		#Range: 0.001 ~ 1000.0
-		energyModifier = 1.0
-		#A modifier to apply to the time of every sawmill recipe
-		#Range: 0.001 ~ 1000.0
-		timeModifier = 1.0
+		dimBlacklist = ["minecraft:the_end"]
 
 [ores]
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
@@ -369,13 +371,13 @@
 	[ores.bauxite]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 0
+		vein_size = 6
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 40
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 85
+		max_y = 70
 		#The average number of veins per chunk
 		#Range: > 0
 		avg_veins_per_chunk = 8
@@ -403,16 +405,16 @@
 	[ores.silver]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 0
+		vein_size = 8
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = 8
+		min_y = 16
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 40
+		max_y = 45
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 4
+		avg_veins_per_chunk = 6
 		#Set this to true to allow retro-generation of silver Ore.
 		retrogen_enable = false
 
@@ -420,16 +422,16 @@
 	[ores.nickel]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 0
+		vein_size = 8
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = 8
+		min_y = 4
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 24
+		max_y = 32
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 2
+		avg_veins_per_chunk = 5
 		#Set this to true to allow retro-generation of nickel Ore.
 		retrogen_enable = false
 
@@ -451,8 +453,6 @@
 		retrogen_enable = false
 
 [tools]
-	#Set this to true to completely disable the ore-crushing recipes with the Engineers Hammer
-	disable_hammer_crushing = false
 	#The maximum durability of the Engineer's Hammer. Used up when hammering ingots into plates.
 	#Range: > 1
 	hammer_durability = 100

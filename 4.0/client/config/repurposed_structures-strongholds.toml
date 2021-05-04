@@ -4,7 +4,7 @@
 	# Add the ID/resource location of the biome you don't want
 	# RS's strongholds to spawn in. Separate each ID with a comma ,
 	#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-	blacklistedStrongholdBiomes = ""
+	blacklistedStrongholdBiomes = " "
 	#
 	# How large the Stronghold is on average as a percentage.
 	# Note: The Stonghold is much larger by default. To get something 
@@ -43,7 +43,7 @@
 		# How rare are Stonebrick-styled Strongholds.
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
-		stonebrickStrongholdMaxChunkDistance = 85
+		stonebrickStrongholdMaxChunkDistance = 110
 		#
 		# How often Silverfish Blocks will generate in Strongholds as a percentage.
 		# Note: Mossy Stone Bricks block cannot be infected by Silverfish
@@ -75,6 +75,9 @@
 		#Range: 1 ~ 1001
 		netherStrongholdMaxChunkDistance = 85
 		#
+		# Allow Nether-styled Stronghold to generate in modded Nether biomes.
+		addNetherStrongholdToModdedBiomes = true
+		#
 		# Allow Nether-styled Strongholds to spawn in Nether category biomes.
 		# Note: Eyes of Ender will work and show the closest Nether Stronghold too.
 		allowNetherStronghold = true
@@ -83,7 +86,7 @@
 		# Default is 35.
 		# Note: Strongholds will spawn between min and max y height set in config.
 		#Range: 0 ~ 255
-		netherStrongholdMinHeight = 33
+		netherStrongholdMinHeight = 10
 		#
 		# Minimum Y height that Nether stronghold's starting point can spawn at. 
 		# Default is 40.
@@ -95,7 +98,4 @@
 		# How rare are Chains in this Stronghold. (Can have Soul Lantern attached)
 		#Range: 0 ~ 1000
 		netherStrongholdChainSpawnrate = 50
-		#
-		# Allow Nether-styled Stronghold to generate in modded Nether biomes.
-		addNetherStrongholdToModdedBiomes = true
 

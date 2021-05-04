@@ -23,7 +23,7 @@
 	#Time between Memory Checks that will get saved for display(in seconds)
 	#Range: > 0
 	timer = 30
-	#Threshold at which the Memory checker will diplay a warning in the Log (in MB)
+	#Threshold at which the Memory checker will display a warning in the Log (in MB)
 	#Range: > 0
 	threshold = 1000
 	#Run /spark heapdump when memory fills up more than 95 % the first time. This value gets set to false if this occurs

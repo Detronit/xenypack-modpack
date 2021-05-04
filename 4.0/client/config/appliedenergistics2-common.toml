@@ -12,21 +12,21 @@
 
 	[features.Misc]
 		#No comment
-		CraftingLog = false
-		#No comment
-		IntegrationLogging = false
-		#No comment
-		DebugLogging = false
-		#No comment
-		PacketLogging = false
-		#No comment
 		UnsupportedDeveloperTools = false
 		#No comment
-		UpdateLogging = false
+		IntegrationLogging = false
 		#No comment
 		WebsiteRecipes = false
 		#No comment
 		LogSecurityAudits = false
+		#No comment
+		UpdateLogging = false
+		#No comment
+		PacketLogging = false
+		#No comment
+		CraftingLog = false
+		#No comment
+		DebugLogging = false
 
 	[features.Commands]
 		#No comment
@@ -34,25 +34,25 @@
 
 	[features.Crafting]
 		#No comment
-		EnableDisassemblyCrafting = true
-		#No comment
-		InWorldFluix = true
+		EnableFacadeCrafting = true
 		#No comment
 		InWorldSingularity = true
 		#No comment
+		InWorldFluix = true
+		#No comment
 		InWorldPurification = true
 		#No comment
-		EnableFacadeCrafting = true
+		EnableDisassemblyCrafting = true
 
 	[features.World]
 		#No comment
 		CertusQuartzWorldGen = true
 		#No comment
-		VillagerTrading = true
+		MeteoriteWorldGen = true
 		#No comment
 		SpawnPressesInMeteorites = true
 		#No comment
-		MeteoriteWorldGen = true
+		VillagerTrading = true
 
 [general]
 	#Will auto-remove items that crash when being loaded from storage. This will destroy those items instead of crashing the game!
@@ -66,10 +66,10 @@
 	craftingCalculationTimePerTick = 5
 
 [spatialio]
+	spatialPowerMultiplier = 1250.0
+	spatialPowerExponent = 1.35
 	#BE CAREFUL, CAN CORRUPT YOUR WORLD! Will use #spatial/whitelist as whitelist.
 	spatialBlockTags = false
-	spatialPowerExponent = 1.35
-	spatialPowerMultiplier = 1250.0
 
 [GrindStone]
 	#Chance to actually get an output with stacksize > 1.
@@ -77,29 +77,29 @@
 	oreDoublePercentage = 90.0
 
 [battery]
-	entropyManipulator = 200000
-	chargedStaff = 8000
 	wirelessTerminal = 1600000
+	chargedStaff = 8000
+	entropyManipulator = 200000
 	portableCell = 20000
 	colorApplicator = 20000
 	matterCannon = 200000
 
 [worldGen]
-	quartzOresClusterAmount = 20
-	quartzOresPerCluster = 4
 	#Range: 0.0 ~ 1.0
 	spawnChargedChance = 0.08
 	meteoriteBiomeBlacklist = []
+	quartzOresPerCluster = 4
+	quartzOresClusterAmount = 20
 	quartzOresBiomeBlacklist = []
 
 [wireless]
-	wirelessTerminalDrainMultiplier = 1.0
-	wirelessBoosterExp = 1.5
-	wirelessCostMultiplier = 1.0
-	wirelessHighWirelessCount = 64.0
-	wirelessBaseRange = 16.0
 	wirelessBaseCost = 8.0
+	wirelessCostMultiplier = 1.0
+	wirelessBaseRange = 16.0
 	wirelessBoosterRangeMultiplier = 1.0
+	wirelessBoosterExp = 1.5
+	wirelessHighWirelessCount = 64.0
+	wirelessTerminalDrainMultiplier = 1.0
 
 [PowerRatios]
 	ForgeEnergy = 0.5
@@ -107,8 +107,8 @@
 	UsageMultiplier = 1.0
 
 [Condenser]
-	Singularity = 256000
 	MatterBalls = 256
+	Singularity = 256000
 
 # Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.
 [tickRates]

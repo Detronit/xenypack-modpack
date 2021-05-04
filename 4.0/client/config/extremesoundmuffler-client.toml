@@ -13,5 +13,5 @@
 	#Set to true to move the muffle and play buttons to the left side of the GUI
 	leftButtons = false
 	#Show a message the first time a sound is muffled indicating that you can change the volume
-	showTip = false
+	showTip = true
 

@@ -10,72 +10,72 @@
 	#Generation Settings for copper ore.
 	[world_generation.copper]
 		#Determines if copper ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that copper generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 16
+		perChunk = 10
 		#Maximum number of blocks in a vein of copper.
 		#Range: 1 ~ 512
-		maxVeinSize = 8
+		maxVeinSize = 10
 		#Maximum height (exclusive) that veins of copper can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
-		maxHeight = 60
+		maxHeight = 65
 		#Top offset for calculating height that veins of copper can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		topOffset = 0
+		topOffset = 30
 		#Bottom offset for calculating height that veins of copper can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		bottomOffset = 0
+		bottomOffset = 30
 
 	#Generation Settings for tin ore.
 	[world_generation.tin]
 		#Determines if tin ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that tin generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 14
+		perChunk = 10
 		#Maximum number of blocks in a vein of tin.
 		#Range: 1 ~ 512
-		maxVeinSize = 8
+		maxVeinSize = 7
 		#Maximum height (exclusive) that veins of tin can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
 		maxHeight = 60
 		#Top offset for calculating height that veins of tin can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		topOffset = 0
+		topOffset = 25
 		#Bottom offset for calculating height that veins of tin can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		bottomOffset = 0
+		bottomOffset = 25
 
 	#Generation Settings for osmium ore.
 	[world_generation.osmium]
 		#Determines if osmium ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that osmium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 12
+		perChunk = 10
 		#Maximum number of blocks in a vein of osmium.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
 		#Maximum height (exclusive) that veins of osmium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
-		maxHeight = 60
+		maxHeight = 45
 		#Top offset for calculating height that veins of osmium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		topOffset = 0
+		topOffset = 16
 		#Bottom offset for calculating height that veins of osmium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		bottomOffset = 0
+		bottomOffset = 16
 
 	#Generation Settings for uranium ore.
 	[world_generation.uranium]
 		#Determines if uranium ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that uranium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 8
+		perChunk = 6
 		#Maximum number of blocks in a vein of uranium.
 		#Range: 1 ~ 512
-		maxVeinSize = 8
+		maxVeinSize = 10
 		#Maximum height (exclusive) that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
-		maxHeight = 60
+		maxHeight = 45
 		#Top offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
-		topOffset = 0
+		topOffset = 8
 		#Bottom offset for calculating height that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		bottomOffset = 0
 
@@ -85,7 +85,7 @@
 		shouldGenerate = true
 		#Chance that fluorite generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 6
+		perChunk = 4
 		#Maximum number of blocks in a vein of fluorite.
 		#Range: 1 ~ 512
 		maxVeinSize = 12
@@ -100,10 +100,10 @@
 	#Generation Settings for lead ore.
 	[world_generation.lead]
 		#Determines if lead ore should be added to world generation.
-		shouldGenerate = false
+		shouldGenerate = true
 		#Chance that lead generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 8
+		perChunk = 7
 		#Maximum number of blocks in a vein of lead.
 		#Range: 1 ~ 512
 		maxVeinSize = 8

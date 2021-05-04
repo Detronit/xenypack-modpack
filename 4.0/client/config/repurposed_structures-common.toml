@@ -5,7 +5,7 @@
 	# no Repurposed Structures structure to spawn in.
 	# Separate multiple entries with a comma.
 	#   Example: "minecraft:the_end,awesome_mod:awesome_dimension"
-	blacklistedDimensions = "the_bumblezone:the_bumblezone"
+	blacklistedDimensions = "the_bumblezone:the_bumblezone, twilightforest:twilightforest, undergarden:undergarden, the_midnight:the_midnight, theabyss:theabyssdim, theabyss:theabyssiceworld, theabyss:death, theabyss:the_end_of_time, theabyss:the_end_of_time_2"
 
 	["Mod-wide Impacting Options"."Feature Options"]
 
@@ -17,7 +17,7 @@
 			# Add the ID/resource location of the biome you don't want
 			# RS's boulders to spawn in. Separate each ID with a comma ,
 			#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-			blacklistedBoulderBiomes = ""
+			blacklistedBoulderBiomes = " "
 			#
 			# How many Giant Boulders per chunk. (Can be decimal too)
 			#Range: 0.0 ~ 100.0
@@ -56,7 +56,7 @@
 			# Add the ID/resource location of the biome you don't want
 			# RS's Jungle Fortresses to spawn in. Separate each ID with a comma ,
 			#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-			blacklistedFortressBiomes = ""
+			blacklistedFortressBiomes = " "
 			#
 			# How often Silverfish Blocks will generate in Jungle Fortress as a percentage.
 			# Note: Mossy Stone Bricks block cannot be infected by Silverfish
@@ -76,7 +76,7 @@
 			# Add the ID/resource location of the biome you don't want
 			# RS's Igloos to spawn in. Separate each ID with a comma ,
 			#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-			blacklistedIglooBiomes = ""
+			blacklistedIglooBiomes = " "
 			#
 			# How rare are Grassy Igloos in Plains and Forests.
 			# 1 for spawning in most chunks and 1001 for no spawn.
@@ -99,7 +99,7 @@
 			# Add the ID/resource location of the biome you don't want
 			# RS's Ruined Portals to spawn in. Separate each ID with a comma ,
 			#   Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
-			blacklistedRuinedPortalsBiomes = ""
+			blacklistedRuinedPortalsBiomes = " "
 			#
 			# How rare are End themed Ruined Portals in End category biomes. 1 for spawning in most
 			# chunks and 1001 for none.

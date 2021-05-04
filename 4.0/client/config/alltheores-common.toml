@@ -3,7 +3,7 @@
 	#Enable Nickel Worldgen
 	nickel = true
 	#Enable Platinum Worldgen
-	platinum = true
+	platinum = false
 	#Enable Tin Worldgen
 	tin = true
 	#Enable Copper Worldgen
@@ -17,7 +17,7 @@
 	#Enable Uranium Worldgen
 	uranium = true
 	#Enable Zinc Worldgen
-	zinc = true
+	zinc = false
 	#Enable Lead Worldgen
 	lead = true
 

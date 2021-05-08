@@ -12057,8 +12057,8 @@ bundles:
         generatedAt: "2021-05-08T08:44:49Z"
       selected: true
     - id: "Gjye"
-      name: "BQ+Shaders+Low+(Chocapic13+Edit).zip"
-      src: "https://edge.forgecdn.net/files/3214/628/BQ+Shaders+Low+(Chocapic13+Edit).zip"
+      name: "BQ Shaders Low (Chocapic13 Edit).zip"
+      src: "https://media.forgecdn.net/files/3214/628/BQ%20Shaders%20Low%20(Chocapic13%20Edit).zip"
       type: "ITEM"
       target:
         matching: {}

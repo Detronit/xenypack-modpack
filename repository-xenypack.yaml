@@ -8597,13 +8597,13 @@ bundles:
         fileLength: "23054"
       selected: true
     - id: "m9Wo"
-      name: "Chunk+Pregenerator-V1.16-3.0.5.jar"
-      src: "https://edge.forgecdn.net/files/3237/965/Chunk+Pregenerator-V1.16-3.0.5.jar"
+      name: "Chunk Pregenerator-V1.16-3.0.5.jar"
+      src: "https://media.forgecdn.net/files/3237/965/Chunk%20Pregenerator-V1.16-3.0.5.jar"
       version: "3.0.5"
       type: "ITEM"
       target:
         matching:
-          wildcard: "Chunk+Pregenerator*.jar"
+          wildcard: "Chunk Pregenerator*.jar"
         absolute: false
         override: true
       parent: "+s9W"

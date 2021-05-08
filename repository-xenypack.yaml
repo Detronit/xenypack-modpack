@@ -12094,7 +12094,7 @@ bundles:
       selected: true
     - id: "u5C5"
       name: "ComplementaryShaders_3.13.zip"
-      src: "https://edge.forgecdn.net/files/3269/095/ComplementaryShaders_3.13.zip"
+      src: "shaderpacks/ComplementaryShaders_3.13.zip"
       type: "ITEM"
       target:
         matching: {}

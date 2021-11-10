@@ -74,6 +74,29 @@
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
+	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
+	#Range: 0.0 ~ 10.0
+	cachalotVolume = 3.0
+	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
+	falconryTeleportsBack = false
+	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
+	fireproofTarantulaHawk = false
+	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
+	voidWormSpawnDimensions = ["minecraft:the_end"]
+	#All void worm damage is scaled to this.
+	#Range: 0.0 ~ 100.0
+	voidWormDamageModifier = 1.0
+	#Max Health of the void worm boss.
+	#Range: 0.0 ~ 1000000.0
+	voidWormMaxHealth = 160.0
+	#Whether the void worm boss is summonable or not, via the mysterious worm item.
+	voidWormSummonable = true
+	#Whether seagulls should steal food out of players' hotbar slots.
+	seagullStealing = true
+	#List of items that seagulls cannot take from players.
+	seagullStealingBlacklist = []
+	#Whether the Clinging Potion effect should flip the screen. Warning: may cause nausea.
+	clingingFlipEffect = false
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -346,6 +369,48 @@
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		enderiophageSpawnRolls = 3
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		baldEagleSpawnWeight = 15
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		baldEagleSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		tigerSpawnWeight = 100
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		tigerSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		tarantulaHawkSpawnWeight = 6
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		tarantulaHawkSpawnRolls = 1
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		voidWormSpawnWeight = 0
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		voidWormSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		frilledSharkSpawnWeight = 11
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		frilledSharkSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		mimicOctopusSpawnWeight = 9
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		mimicOctopusSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		seagullSpawnWeight = 21
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		seagullSpawnRolls = 0
 
 		[general.spawning.uniqueSpawning]
 			#Whether to enable beached cachalot whales to spawn on beaches during thunder storms.

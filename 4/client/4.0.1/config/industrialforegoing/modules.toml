@@ -99,6 +99,9 @@
 		[modules.core.sewage]
 			enabled = true
 
+		[modules.core.processing_addons]
+			enabled = true
+
 	#All machines that generate power
 	[modules.generator]
 		enabled = true
@@ -161,6 +164,15 @@
 		[modules.transport.supreme_black_hole_tank]
 			enabled = true
 
+		[modules.transport.black_hole_units]
+			enabled = true
+
+		[modules.transport.black_hole_tanks]
+			enabled = true
+
+		[modules.transport.transporters]
+			enabled = true
+
 	#A collection of Industrial Foregoing tools
 	[modules.tools]
 		enabled = true
@@ -184,6 +196,12 @@
 			enabled = true
 
 		[modules.tools.infinity_hammer]
+			enabled = true
+
+		[modules.tools.infinity_launcher]
+			enabled = true
+
+		[modules.tools.infinity_nuke]
 			enabled = true
 
 	[modules.resource_production]

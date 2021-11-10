@@ -34,4 +34,7 @@
 	#Allows the Thorns enchantment to by applied to Shields
 	#Default: true
 	thornsOnShields = true
+	#Enables modified damage reduction values for shields.
+	#Default: true
+	enableDamageReduction = true
 

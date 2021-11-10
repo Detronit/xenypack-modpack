@@ -33,6 +33,7 @@ bundles:
   additionalFields:
     forge-version: "36.2.4"
     forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.4/forge-1.16.5-36.2.4-installer.jar"
+    optifine: "https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar"
     launcher-tlauncher: "https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.72-Installer-0.5.4.exe"
     launcher-shiginima: "https://dpcdn-s14.pl/po_godzinach/ShiginimaSE_v4400.zip"
     vmOptions-java-1.8: "-Xmx4000m -Xms3228m -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions\

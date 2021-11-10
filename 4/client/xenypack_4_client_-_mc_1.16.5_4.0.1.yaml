@@ -10872,26 +10872,6 @@ entries:
     fileFingerPrint: "1119454746"
     fileLength: "4735"
   selected: true
-- id: "XVt-kkR4k1vu+w"
-  name: "OptiFine_1.16.5_HD_U_G8.jar"
-  src: "https://optifine.net/downloadx?f=OptiFine_1.16.5_HD_U_G8.jar&x=9e5e19eb67f057f2700a2dd9d1e5cce9"
-  version: "G8"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "OptiFine*.jar"
-    absolute: false
-    override: true
-  parent: "GGiNwk2BONSEuw"
-  group: false
-  description: ""
-  itemDate: "2021-11-10T18:26:38Z"
-  hashes:
-    md5: "1C2E383207F84DCBDA411A262798105F"
-  fileSize: 6046996
-  additionalFields:
-    generatedAt: "2021-11-10T18:26:38Z"
-  selected: true
 - id: "fj2Qst5N72v24w"
   name: "overloadedarmorbar-5.1.0.jar"
   src: "https://edge.forgecdn.net/files/3055/679/overloadedarmorbar-5.1.0.jar"

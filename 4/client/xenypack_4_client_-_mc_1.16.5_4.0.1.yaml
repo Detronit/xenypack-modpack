@@ -10887,7 +10887,7 @@ entries:
   description: ""
   itemDate: "2021-11-10T18:26:38Z"
   hashes:
-    md5: "E0717BA6D1674AF83036EBC479FC77B4"
+    md5: "1C2E383207F84DCBDA411A262798105F"
   fileSize: 6046996
   additionalFields:
     generatedAt: "2021-11-10T18:26:38Z"
@@ -12509,7 +12509,7 @@ entries:
   selected: true
 - id: "4Fa3Jha4rU-qCA"
   name: "Updated_Engineering_v1.3.zip"
-  src: "resourcepacks/Updated_Engineering_v1.3.zip"
+  src: "https://media.forgecdn.net/files/3237/19/Updated_Engineering_v1.3.zip"
   type: "ITEM"
   target:
     matching: {}
@@ -12520,7 +12520,7 @@ entries:
   description: ""
   itemDate: "2021-11-10T18:26:38Z"
   hashes:
-    md5: "F1050C36B2FB74CB1372DAF398DAF483"
+    md5: "5A056CBF679E6617D067ECB0DD8B63CA"
   fileSize: 172188
   additionalFields:
     generatedAt: "2021-11-10T18:26:38Z"

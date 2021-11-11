@@ -89,7 +89,7 @@
 	spawnChargedChance = 0.08
 	meteoriteBiomeBlacklist = []
 	quartzOresPerCluster = 4
-	quartzOresClusterAmount = 20
+	quartzOresClusterAmount = 8
 	quartzOresBiomeBlacklist = []
 
 [wireless]

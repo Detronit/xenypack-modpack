@@ -60,16 +60,16 @@
 	[OreGeneration.Adamantium]
 		#Adamantium ore vein size
 		#Range: > 1
-		AdamantiumVeinSize = 5
+		AdamantiumVeinSize = 4
 		#Adamantium ore vein count per chunk
 		#Range: > 1
-		AdamantiumVeinCount = 5
+		AdamantiumVeinCount = 4
 		#Adamantium ore minimum height
 		#Range: 1 ~ 254
 		AdamantiumBottomHeight = 1
 		#Adamantium ore maximum height
 		#Range: 1 ~ 255
-		AdamantiumMaxHeight = 20
+		AdamantiumMaxHeight = 25
 
 	[OreGeneration.Onyx]
 		#Onyx ore vein size

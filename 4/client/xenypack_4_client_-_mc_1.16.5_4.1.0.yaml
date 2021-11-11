@@ -38,6 +38,993 @@ entries:
   additionalFields:
     generatedAt: "2021-11-10T18:26:38Z"
   selected: true
+- id: "kkgHFIsiJmRmIg"
+  name: "adlods"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "adlods"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "fekIdsnUvHz00Q"
+  group: true
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "MLiunMpRIvpiNg"
+  name: "adlods.cfg"
+  src: "config/adlods/adlods.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "kkgHFIsiJmRmIg"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "9AFE508559EABC342131CA14D30C26C4"
+  fileSize: 337
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "vlS3hplWYXj97A"
+  name: "Deposits"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "Deposits"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "kkgHFIsiJmRmIg"
+  group: true
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "WW9WnlLs7+1aoQ"
+  name: "aluminum.cfg"
+  src: "config/adlods/Deposits/aluminum.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "47FA81E2BFA8383BF8F4454B49B3E9CC"
+  fileSize: 6186
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "gKM8fb-BgGJbsw"
+  name: "amethyst.cfg"
+  src: "config/adlods/Deposits/amethyst.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "76547D9BAEA510ACB2CB535681ACCBA1"
+  fileSize: 6174
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "3goj0zGboyNsxA"
+  name: "ancient_debris.cfg"
+  src: "config/adlods/Deposits/ancient_debris.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "40180FBD6CD57821EA558D5E44569E6B"
+  fileSize: 5995
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "nxyjiKmIwR7f5A"
+  name: "coal.cfg"
+  src: "config/adlods/Deposits/coal.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "5A798121F893B383CC8F74C1AD4D4E6F"
+  fileSize: 6180
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "MUqTmEVB8nH65g"
+  name: "cobalt.cfg"
+  src: "config/adlods/Deposits/cobalt.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "F607DE60603B6CD231DC1EE1FADBDA31"
+  fileSize: 6188
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "5DiCWOzTDy03fQ"
+  name: "copper.cfg"
+  src: "config/adlods/Deposits/copper.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "7A7A08D22109E260CA75115CB1BB4E10"
+  fileSize: 6189
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "-70huQcUULwodA"
+  name: "diamond.cfg"
+  src: "config/adlods/Deposits/diamond.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "24B59DE678E13B67AE97F6CD15BBF070"
+  fileSize: 6171
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "ZKOYCFyJk2L0Ag"
+  name: "emerald.cfg"
+  src: "config/adlods/Deposits/emerald.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "0C66A469DA766B4CB9CB0A99421D9D13"
+  fileSize: 6185
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "NnPEvD+DVNHbtg"
+  name: "gas_pocket.cfg"
+  src: "config/adlods/Deposits/gas_pocket.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "5978F87480574B34BA0E8216A4BC2916"
+  fileSize: 5990
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "oLxgH-j63Ub1gw"
+  name: "gold.cfg"
+  src: "config/adlods/Deposits/gold.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "B46C1CC1873E800B8D7CAD30F41FF2CD"
+  fileSize: 6165
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "TCxgBxxPMoAQuw"
+  name: "iridium.cfg"
+  src: "config/adlods/Deposits/iridium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "4F10465857FAF31FA351B0A2DAECDCC8"
+  fileSize: 6170
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "GtJUTllJCYhBug"
+  name: "iron.cfg"
+  src: "config/adlods/Deposits/iron.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2F3BF8D2FBF5C7780E0B76033DFF1C72"
+  fileSize: 6169
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "Oup8NoUX5oAUMw"
+  name: "lapis.cfg"
+  src: "config/adlods/Deposits/lapis.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "0F9D114B1CB3D91714312168C57C38B9"
+  fileSize: 6169
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "BlD0YGwxtr5XRw"
+  name: "lead.cfg"
+  src: "config/adlods/Deposits/lead.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "065B804F8E69B00A8BA175AC2025722C"
+  fileSize: 6164
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "5XSe1xPi1HMGUQ"
+  name: "nether_gold.cfg"
+  src: "config/adlods/Deposits/nether_gold.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "F3F60E784ACEDB6B48D9343B9A1523B1"
+  fileSize: 5912
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "3DkSNnlxFYxGNg"
+  name: "nether_quartz.cfg"
+  src: "config/adlods/Deposits/nether_quartz.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "E60398963E414A03C960FD5089413F6D"
+  fileSize: 5914
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "gpaJt7cRka5JHA"
+  name: "nickel.cfg"
+  src: "config/adlods/Deposits/nickel.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "EBD77C0D4A47AAF8D3C648405220773B"
+  fileSize: 6192
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "SGG0qB5ThNpkog"
+  name: "osmium.cfg"
+  src: "config/adlods/Deposits/osmium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "7D9354928E8C1189082A95AAF7EAB7F8"
+  fileSize: 6192
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "gbTTVm0QPGaXNg"
+  name: "palladium.cfg"
+  src: "config/adlods/Deposits/palladium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "C6CBB82008AEDEE00737242B0F8934D9"
+  fileSize: 6169
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "jfuadUdolZh1zQ"
+  name: "platinum.cfg"
+  src: "config/adlods/Deposits/platinum.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "7FB1687D0BE438BD4D0C0C50D3C901D2"
+  fileSize: 6180
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "a5ifajbIiCB9zw"
+  name: "redstone.cfg"
+  src: "config/adlods/Deposits/redstone.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2673B0769AA77DCF99BD6E324DA3C28E"
+  fileSize: 6160
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "kpTQOjpRVnMGaQ"
+  name: "rhodium.cfg"
+  src: "config/adlods/Deposits/rhodium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "AD25E65F65BD545DFEF6D209DF782F7C"
+  fileSize: 6167
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "l8q+ERPT62JktA"
+  name: "ruby.cfg"
+  src: "config/adlods/Deposits/ruby.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "FDF565AD473CB9201A80C8A92DAD640D"
+  fileSize: 6154
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "MY9E2qieetV4-w"
+  name: "ruthenium.cfg"
+  src: "config/adlods/Deposits/ruthenium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2A57E38460AA9378329F8B9CBFD30BA4"
+  fileSize: 6186
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "SjdtljP-S6uHRw"
+  name: "sapphire.cfg"
+  src: "config/adlods/Deposits/sapphire.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "28D1B26CB4E8BDCD52F4FBD170532426"
+  fileSize: 6170
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "-J3mLkdGi8TTFQ"
+  name: "silver.cfg"
+  src: "config/adlods/Deposits/silver.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "FB539844B1CBD289CA051A0B43FC4CF8"
+  fileSize: 6170
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "mCgR+UoNh+qy2Q"
+  name: "tin.cfg"
+  src: "config/adlods/Deposits/tin.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "8EFF13C16E939BC6EA1E81103D3DC5DA"
+  fileSize: 6185
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "iJigowFBlHJrMg"
+  name: "topaz.cfg"
+  src: "config/adlods/Deposits/topaz.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "D92E4095AAADD8FDB3553E711B36E554"
+  fileSize: 6169
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "524do7DTSLPT+Q"
+  name: "uranium.cfg"
+  src: "config/adlods/Deposits/uranium.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "3CBA97BCA3B0476ED413B22CC9B0620E"
+  fileSize: 6178
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "iL7LYOVGkWLw5Q"
+  name: "zinc.cfg"
+  src: "config/adlods/Deposits/zinc.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vlS3hplWYXj97A"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "6B0E77C344CA6208ED7DE10AFA61395F"
+  fileSize: 6192
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "J4uaVbIB2RQczA"
+  name: "VanillaOres"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "VanillaOres"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "kkgHFIsiJmRmIg"
+  group: true
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "y9bQtY1hUulmSA"
+  name: "ancient_debris.cfg"
+  src: "config/adlods/VanillaOres/ancient_debris.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "DC371AE18E94719CE02B83AE5D578B70"
+  fileSize: 4796
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "vLoxJPc+hdHAxw"
+  name: "andesite.cfg"
+  src: "config/adlods/VanillaOres/andesite.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "C08F17D502F1E2979861A391E01020C1"
+  fileSize: 4787
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "C6aBZV9c+WRHaA"
+  name: "blackstone.cfg"
+  src: "config/adlods/VanillaOres/blackstone.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "A679D1832EEFD8C1BF163D496C87174D"
+  fileSize: 4786
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "S1hYpoi9W5Aavw"
+  name: "coal_ore.cfg"
+  src: "config/adlods/VanillaOres/coal_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "A70D92F5B2B348BAFD0B6D5C9C1FC0A5"
+  fileSize: 4788
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "iewHIZws4Ck8MA"
+  name: "diamond_ore.cfg"
+  src: "config/adlods/VanillaOres/diamond_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "DA15621C4E0352DAB7565627F0FA6B45"
+  fileSize: 4787
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "fy3UKzKNuP5Z1A"
+  name: "diorite.cfg"
+  src: "config/adlods/VanillaOres/diorite.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "7CDCF084AC33CA08017898997671BEC6"
+  fileSize: 4785
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "oPKsPEtmfHUlDw"
+  name: "dirt.cfg"
+  src: "config/adlods/VanillaOres/dirt.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "1C64A82FDBAD4CF9BEA1D0AEC23E92B2"
+  fileSize: 4781
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "GaO0ICKKgiwB3w"
+  name: "emerald_ore.cfg"
+  src: "config/adlods/VanillaOres/emerald_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2ED49260A516F3E3FB241D7E4BE834A3"
+  fileSize: 4787
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "esyeaOMHHYc1SA"
+  name: "gold_ore.cfg"
+  src: "config/adlods/VanillaOres/gold_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "B81A2DBD22EA5207A3848F91D443DB79"
+  fileSize: 4781
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "luwjoFBXSyIzJg"
+  name: "granite.cfg"
+  src: "config/adlods/VanillaOres/granite.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "A03C3440DE0368CA167E26C003A5D81F"
+  fileSize: 4785
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "icwzy5YvFo2VqA"
+  name: "gravel.cfg"
+  src: "config/adlods/VanillaOres/gravel.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "5B9226347441C9ADA0FAF16445E56392"
+  fileSize: 4781
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "-o51mcqYPQvl7A"
+  name: "infested_stone.cfg"
+  src: "config/adlods/VanillaOres/infested_stone.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2581771B0740F9405FCCCC68554826B8"
+  fileSize: 4793
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "3SNRT3NjCFtezw"
+  name: "iron_ore.cfg"
+  src: "config/adlods/VanillaOres/iron_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "292AF6438D544EFE0B066F8DD1220864"
+  fileSize: 4784
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "+Rcc1BnKirZ-fA"
+  name: "lapis_ore.cfg"
+  src: "config/adlods/VanillaOres/lapis_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "08328E598539A9E9D94F260640F17283"
+  fileSize: 4783
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "Fp2GleKRKSO5zA"
+  name: "magma_block.cfg"
+  src: "config/adlods/VanillaOres/magma_block.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "E343C8372B0474C48197DC175E3BD22A"
+  fileSize: 4790
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "lmb5LmoVc-ODTg"
+  name: "nether_gold_ore.cfg"
+  src: "config/adlods/VanillaOres/nether_gold_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "611D4582AF4C7230BB9BFC6FD7D23475"
+  fileSize: 4804
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "rC1818Hb3x2nmg"
+  name: "nether_quartz_ore.cfg"
+  src: "config/adlods/VanillaOres/nether_quartz_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "AAC0028AD9AB02DC8E556A20E816458A"
+  fileSize: 4808
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "MoMWFHQq23RVBw"
+  name: "redstone_ore.cfg"
+  src: "config/adlods/VanillaOres/redstone_ore.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "3D34DBACE5E710303AF8EA072EE53E35"
+  fileSize: 4789
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "T3X3pBg54rxcTg"
+  name: "soul_sand.cfg"
+  src: "config/adlods/VanillaOres/soul_sand.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "J4uaVbIB2RQczA"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "2901D3BD48A0D8DB2DB780075BB2841E"
+  fileSize: 4788
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "zMDO7T9MyMcCIA"
+  name: "adlods-client.toml"
+  src: "config/adlods-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "fekIdsnUvHz00Q"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "81051BCC2CF1BEDF378224B0A93E2877"
+  fileSize: 2
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
+- id: "rFMjL4x6cAmjTg"
+  name: "adlods-common.toml"
+  src: "config/adlods-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "fekIdsnUvHz00Q"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:25:00Z"
+  hashes:
+    md5: "81051BCC2CF1BEDF378224B0A93E2877"
+  fileSize: 2
+  additionalFields:
+    generatedAt: "2021-11-11T21:25:00Z"
+  selected: true
 - id: "enGn2QOm7-nAgg"
   name: "alexsmobs"
   src: ""
@@ -8115,6 +9102,25 @@ entries:
   additionalFields:
     generatedAt: "2021-11-10T18:26:38Z"
   selected: true
+- id: "l+VBeuqGLsiKYQ"
+  name: "AdLods-1.16.5-4.1.9.0-build.0180.jar"
+  src: "https://edge.forgecdn.net/files/3460/181/AdLods-1.16.5-4.1.9.0-build.0180.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "AdLods*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:17:18Z"
+  hashes:
+    md5: "47BF365D5763C030A6E5DD6A5672BD1B"
+  fileSize: 107333
+  additionalFields:
+    generatedAt: "2021-11-11T21:17:18Z"
+  selected: true
 - id: "l0LsV5qK6yMATw"
   name: "ae2extras-1.3.1-1.16.5.jar"
   src: "https://edge.forgecdn.net/files/3457/753/ae2extras-1.3.1-1.16.5.jar"
@@ -9418,6 +10424,25 @@ entries:
     fileId: "3489820"
     fileFingerPrint: "2951625440"
     fileLength: "243757"
+  selected: true
+- id: "DDq6DYHw21X+Ug"
+  name: "ForgeEndertech-1.16.5-7.2.1.0-build.0180.jar"
+  src: "https://edge.forgecdn.net/files/3460/179/ForgeEndertech-1.16.5-7.2.1.0-build.0180.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ForgeEndertech*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-11-11T21:17:18Z"
+  hashes:
+    md5: "03A545F2DC2BBC8192821AC1667D90D5"
+  fileSize: 500871
+  additionalFields:
+    generatedAt: "2021-11-11T21:17:18Z"
   selected: true
 - id: "qyraNQ+DzYhXrA"
   name: "energymeter-1.16.5-1.3.0.jar"

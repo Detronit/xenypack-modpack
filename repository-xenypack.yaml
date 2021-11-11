@@ -29,6 +29,10 @@ bundles:
       versionId: 2
       link: "xenypack_4_client_-_mc_1.16.5_4.0.1.yaml"
       versionName: "4.0.1"
+    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+      versionId: 3
+      link: "xenypack_4_client_-_mc_1.16.5_4.1.0.yaml"
+      versionName: "4.1.0-light"
   baseItemUrl: "4/client/"
   additionalFields:
     forge-version: "36.2.4"

@@ -40,9 +40,7 @@ bundles:
     optifine: "https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar"
     launcher-tlauncher: "https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.72-Installer-0.5.4.exe"
     launcher-shiginima: "https://dpcdn-s14.pl/po_godzinach/ShiginimaSE_v4400.zip"
-    vmOptions-java-1.8: "-Xmx4000m -Xms3228m -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions\
-    \ -XX:MaxGCPauseMillis=200 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90\
-    \ -XX:G1NewSizePercent=30 -XX:G1MixedGCLiveThresholdPercent=90 "
+    vmOptions-java-1.8: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
     vmOptionsAdvanced-java-1.8: "-Xmx4000m -Xms3200m -XX:+UseG1GC -XX:+ParallelRefProcEnabled\
     \ -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC\
     \ -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
@@ -50,5 +48,5 @@ bundles:
     \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
     \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem\
     \ -XX:MaxTenuringThreshold=1"
-    vmOptions-java-11: "-Xmx4G -Xms4G -XX:+UnlockExperimentalVMOptions -Xmn256M -XX:+OptimizeStringConcat\
-    \ -XX:NewSize=84m -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3"
+    vmOptions-java-11: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
+    vmOptions-java-17: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseZGC --add-opens java.base/java.lang=ALL-UNNAMED"

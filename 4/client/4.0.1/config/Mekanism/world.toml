@@ -67,10 +67,10 @@
 		shouldGenerate = true
 		#Chance that uranium generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 8
+		perChunk = 9
 		#Maximum number of blocks in a vein of uranium.
 		#Range: 1 ~ 512
-		maxVeinSize = 7
+		maxVeinSize = 6
 		#Maximum height (exclusive) that veins of uranium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
 		maxHeight = 45

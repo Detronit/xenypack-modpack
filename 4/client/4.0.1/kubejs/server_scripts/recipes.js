@@ -222,29 +222,29 @@ onEvent('recipes', e => {
 
 	e.shapeless('4x minecraft:clay_ball', 'minecraft:clay').id(`kubejs:clay`)
 	e.shapeless('4x minecraft:quartz', 'minecraft:quartz_block').id(`kubejs:quartz`)
-	e.shapeless('appliedenergistics2:interface', 'appliedenergistics2:cable_interface').id(`kubejs:ae_interface`)
+	// e.shapeless('appliedenergistics2:interface', 'appliedenergistics2:cable_interface').id(`kubejs:ae_interface`)
 
 
 	//special
 
 	modifySmelt('refinedstorage:silicon', '#appliedenergistics2:crystals/quartz')
-	e.remove({
-		id: 'appliedenergistics2:inscriber/silicon_print'
-	})
-	e.recipes.appliedenergistics2.inscriber({
-		mode: 'inscribe',
-		result: {
-			item: 'appliedenergistics2:printed_silicon'
-		},
-		ingredients: {
-			top: {
-				item: 'appliedenergistics2:silicon_press'
-			},
-			middle: {
-				tag: 'forge:silicon'
-			}
-		}
-	})
+	// e.remove({
+	// 	id: 'appliedenergistics2:inscriber/silicon_print'
+	// })
+	// e.recipes.appliedenergistics2.inscriber({
+	// 	mode: 'inscribe',
+	// 	result: {
+	// 		item: 'appliedenergistics2:printed_silicon'
+	// 	},
+	// 	ingredients: {
+	// 		top: {
+	// 			item: 'appliedenergistics2:silicon_press'
+	// 		},
+	// 		middle: {
+	// 			tag: 'forge:silicon'
+	// 		}
+	// 	}
+	// })
 
 	e.recipes.industrialforegoing.dissolution_chamber({
 		input: [{
@@ -377,21 +377,21 @@ onEvent('recipes', e => {
 		});
 		e.recipes.minecraft.smelting(ingotItem, `#forge:dusts/${name}`).xp(0.5);
 		e.recipes.minecraft.blasting(ingotItem, `#forge:dusts/${name}`).xp(0.5);
-		e.remove({
-			id: `appliedenergistics2:grinder/${name}_dust_ingot`
-		});
-		e.recipes.appliedenergistics2.grinder({
-			input: {
-				tag: `forge:ingots/${name}`
-			},
-			result: {
-				primary: {
-					item: dustItem,
-					count: 1
-				}
-			},
-			turns: 8
-		});
+		// e.remove({
+		// 	id: `appliedenergistics2:grinder/${name}_dust_ingot`
+		// });
+		// e.recipes.appliedenergistics2.grinder({
+		// 	input: {
+		// 		tag: `forge:ingots/${name}`
+		// 	},
+		// 	result: {
+		// 		primary: {
+		// 			item: dustItem,
+		// 			count: 1
+		// 		}
+		// 	},
+		// 	turns: 8
+		// });
 		e.recipes.immersiveengineering.crusher({
 			secondaries: [],
 			result: {
@@ -423,21 +423,21 @@ onEvent('recipes', e => {
 				},
 				energy: 3000
 			});
-			e.remove({
-				id: `appliedenergistics2:grinder/${name}_dust_ore`
-			});
-			e.recipes.appliedenergistics2.grinder({
-				input: {
-					tag: `forge:ores/${name}`
-				},
-				result: {
-					primary: {
-						item: dustItem,
-						count: 2
-					}
-				},
-				turns: 8
-			});
+			// e.remove({
+			// 	id: `appliedenergistics2:grinder/${name}_dust_ore`
+			// });
+			// e.recipes.appliedenergistics2.grinder({
+			// 	input: {
+			// 		tag: `forge:ores/${name}`
+			// 	},
+			// 	result: {
+			// 		primary: {
+			// 			item: dustItem,
+			// 			count: 2
+			// 		}
+			// 	},
+			// 	turns: 8
+			// });
 		}
 		e.replaceInput(nuggetItem, (`#forge:nuggets/${name}`));
 		e.replaceInput(dustItem, (`#forge:dusts/${name}`));

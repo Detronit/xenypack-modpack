@@ -8,7 +8,7 @@ website: "https://github.com/Detronit/xenypack-modpack"
 title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
-updateDate: "2021-11-10T18:32:32Z"
+updateDate: "2021-11-13T18:07:59Z"
 bundles:
 - id: "xenypack_4_client_-_mc_1.16.5"
   name: "Xenypack 4 Client - MC 1.16.5"
@@ -19,7 +19,7 @@ bundles:
     default: null
     windows: "${APPDATA}\\.minecraft"
     unix: "${HOME}/.minecraft"
-  updateDate: "2021-11-10T18:32:32Z"
+  updateDate: "2021-11-13T18:07:59Z"
   versions:
     - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
       versionId: 1
@@ -28,11 +28,11 @@ bundles:
     - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
       versionId: 2
       link: "xenypack_4_client_-_mc_1.16.5_4.0.1.yaml"
-      versionName: "4.0.1"
+      versionName: "4.0.1-light"
     - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
       versionId: 3
       link: "xenypack_4_client_-_mc_1.16.5_4.1.0.yaml"
-      versionName: "4.1.0-light"
+      versionName: "4.1.0"
   baseItemUrl: "4/client/"
   additionalFields:
     forge-version: "36.2.4"

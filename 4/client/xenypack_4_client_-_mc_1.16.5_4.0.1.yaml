@@ -15037,6 +15037,7 @@ entries:
 - id: "MHxPj3nyGYYbKg"
   name: "BloodMagic-1.16.4-3.1.5-25.jar"
   src: "https://edge.forgecdn.net/files/3477/631/BloodMagic-1.16.4-3.1.5-25.jar"
+  version: "3.1.5-25"
   type: "ITEM"
   target:
     matching:
@@ -15057,6 +15058,7 @@ entries:
 - id: "hcA4DmR3HoMDAA"
   name: "framedcompactdrawers-1.16-2.2.1.jar"
   src: "https://edge.forgecdn.net/files/3487/197/framedcompactdrawers-1.16-2.2.1.jar"
+  version: "2.2.1"
   type: "ITEM"
   target:
     matching:
@@ -15077,6 +15079,7 @@ entries:
 - id: "zSb11OJDtk2FSw"
   name: "RoadRunner-mc1.16.5-1.3.0.jar"
   src: "https://edge.forgecdn.net/files/3487/988/RoadRunner-mc1.16.5-1.3.0.jar"
+  version: "1.3.0"
   type: "ITEM"
   target:
     matching:
@@ -15097,6 +15100,7 @@ entries:
 - id: "r5E8ncWrxx+blA"
   name: "sulfuric-1.1.jar"
   src: "https://edge.forgecdn.net/files/3496/27/sulfuric-1.1.jar"
+  version: "1.1"
   type: "ITEM"
   target:
     matching:
@@ -15116,7 +15120,8 @@ entries:
   enabled: true
 - id: "PtsBXu3fCq6pOA"
   name: "World+Stripper-1.16.5-2.1.0.jar"
-  src: "https://edge.forgecdn.net/files/3415/529/World+Stripper-1.16.5-2.1.0.jar"
+  src: "https://media.forgecdn.net/files/3415/529/World+Stripper-1.16.5-2.1.0.jar"
+  version: "2.1.0"
   type: "ITEM"
   target:
     matching:

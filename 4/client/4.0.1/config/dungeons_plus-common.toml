@@ -5,10 +5,10 @@
 	probability = 0.75
 	#The average distance between structures of this type, measured in chunks.
 	#Range: > 1
-	spacing = 25
+	spacing = 40
 	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 	#Range: > 0
-	offset = 6
+	offset = 16
 	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
 	biomes = "#structure_gel:plains, #structure_gel:oak_forest, #structure_gel:dark_forest, #structure_gel:birch_forest, #structure_gel:mountain"
 	#How the biomes list should be used. true = whitelist, false = blacklist.
@@ -73,7 +73,7 @@
 	probability = 0.8
 	#The average distance between structures of this type, measured in chunks.
 	#Range: > 1
-	spacing = 24
+	spacing = 34
 	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 	#Range: > 0
 	offset = 8
@@ -120,5 +120,5 @@
 ["waystones compat"]
 	#Percent chance for a waystone from Waystones to generate on top of the tower
 	#Range: 0 ~ 100
-	tower_waystone_chance = 100
+	tower_waystone_chance = 25
 

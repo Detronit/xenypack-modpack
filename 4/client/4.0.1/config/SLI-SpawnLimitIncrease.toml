@@ -131,5 +131,22 @@
 	#Defines list of multipliers that override default value. List is loaded from top to bottom. Example is provided
 	[[Spawn_Attempts.entries]]
 		creatureSpawnProbabilityMultiplier = 4.0
-		affectedBiomes = ["minecraft:plains", "biomesoplenty:shrubland", "biomesoplenty:shrubland_hills", "biomesoplenty:scrubland", "biomesoplenty:wooded_scrubland", "miencraft:savanna", "biomesoplenty:highland", "biomesoplenty:highland_moor", "biomesoplenty:prairie", "biomesoplenty:golden_prairie"]
+		affectedBiomes = [
+			"minecraft:plains", 
+			"minecraft:mountains",
+			"minecraft:savanna",
+			"minecraft:swamp",
+			"terraforged:steppe",
+			"terraforged:savanna_scrub",
+			"terraforged:flower_plains",
+			"biomesoplenty:shrubland", 
+			"biomesoplenty:shrubland_hills", 
+			"biomesoplenty:scrubland", 
+			"biomesoplenty:wooded_scrubland", 
+			"miencraft:savanna", 
+			"biomesoplenty:highland", 
+			"biomesoplenty:highland_moor", 
+			"biomesoplenty:prairie", 
+			"biomesoplenty:golden_prairie"
+		]
 

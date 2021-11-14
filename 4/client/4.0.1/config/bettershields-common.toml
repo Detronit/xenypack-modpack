@@ -3,22 +3,22 @@
 [general]
 	#If set to true Shields added by other mods block 100% of the incomming damage, if set to false the will block the amount set in defaultDamageReduction.
 	#Default: true
-	customShieldMaxReduction = true
+	customShieldMaxReduction = false
 	#The portion of the incomming damage Vanilla Shields block in percent.
 	#Default: 75
-	defaultDamageReduction = 65
+	defaultDamageReduction = 50
 	#The portion of the incomming damage Iron Shields block in percent.
 	#Default: 90
-	ironDamageReduction = 85
+	ironDamageReduction = 65
 	#The portion of the incomming damage Gold Shields block in percent.
 	#Default: 85
-	goldDamageReduction = 75
+	goldDamageReduction = 80
 	#The portion of the incomming damage Diamond Shields block in percent.
 	#Default: 98
-	diamondDamageReduction = 95
+	diamondDamageReduction = 90
 	#The portion of the incomming damage Netherite Shields block in percent.
 	#Default: 100
-	netheriteDamageReduction = 99
+	netheriteDamageReduction = 98
 	#The durability of the Iron Shield.
 	#Default: 920
 	ironDurability = 920

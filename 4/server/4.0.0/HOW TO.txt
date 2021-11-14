@@ -1,0 +1,6 @@
+Copy following direcotries from Minecraft client to directory with server:
+- config
+- mods
+- defaultconfigs
+
+Make sure Optifine is not included in mods directory on server

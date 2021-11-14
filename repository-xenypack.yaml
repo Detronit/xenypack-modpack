@@ -8,45 +8,69 @@ website: "https://github.com/Detronit/xenypack-modpack"
 title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
-updateDate: "2021-11-13T18:07:59Z"
+additionalFields: {}
+updateDate: "2021-11-14T12:02:39Z"
 bundles:
 - id: "xenypack_4_client_-_mc_1.16.5"
   name: "Xenypack 4 Client - MC 1.16.5"
   description: ""
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
-    # Default base path (target path on user computer) that is prefilled when bundle is loaded
-    default: null
     windows: "${APPDATA}\\.minecraft"
     unix: "${HOME}/.minecraft"
-  updateDate: "2021-11-13T18:07:59Z"
-  versions:
-    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-      versionId: 1
-      link: "xenypack_4_client_-_mc_1.16.5_4.0.0.yaml"
-      versionName: "4.0.0"
-    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-      versionId: 2
-      link: "xenypack_4_client_-_mc_1.16.5_4.0.1.yaml"
-      versionName: "4.0.1-light"
-    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-      versionId: 3
-      link: "xenypack_4_client_-_mc_1.16.5_4.1.0.yaml"
-      versionName: "4.1.0"
+  # Url used as base path for all versions - can be relative
   baseItemUrl: "4/client/"
+  updateDate: "2021-11-13T18:07:59Z"
   additionalFields:
     forge-version: "36.2.4"
     forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.4/forge-1.16.5-36.2.4-installer.jar"
     optifine: "https://optifine.net/adloadx?f=OptiFine_1.16.5_HD_U_G8.jar"
     launcher-tlauncher: "https://dl2.tlauncher.org/f.php?f=files%2FTLauncher-2.72-Installer-0.5.4.exe"
     launcher-shiginima: "https://dpcdn-s14.pl/po_godzinach/ShiginimaSE_v4400.zip"
-    vmOptions-java-1.8: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
+    vmOptions-java-1.8: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC\
+      \ -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
     vmOptionsAdvanced-java-1.8: "-Xmx4000m -Xms3200m -XX:+UseG1GC -XX:+ParallelRefProcEnabled\
-    \ -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC\
-    \ -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
-    \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
-    \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
-    \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem\
-    \ -XX:MaxTenuringThreshold=1"
-    vmOptions-java-11: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
-    vmOptions-java-17: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseZGC --add-opens java.base/java.lang=ALL-UNNAMED"
+      \ -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC\
+      \ -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
+      \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
+      \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
+      \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem\
+      \ -XX:MaxTenuringThreshold=1"
+    vmOptions-java-11: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC\
+      \ -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
+    vmOptions-java-17: "-Xmx4000m -Xms3228m -XX:+UnlockExperimentalVMOptions -XX:+UseZGC\
+      \ --add-opens java.base/java.lang=ALL-UNNAMED"
+  versions:
+  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+    versionId: 1
+    link: "xenypack_4_client_-_mc_1.16.5_4.0.0.yaml"
+    versionName: "4.0.0"
+  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+    versionId: 2
+    link: "xenypack_4_client_-_mc_1.16.5_4.0.1.yaml"
+    versionName: "4.0.1-light"
+  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+    versionId: 3
+    link: "xenypack_4_client_-_mc_1.16.5_4.1.0.yaml"
+    versionName: "4.1.0"
+- id: "xenypack_4_server_-_mc_1.16.5"
+  name: "Xenypack 4 Server - MC 1.16.5"
+  description: ""
+  versioningMode: "ONLY_SELECTED"
+  preferredBasePath:
+    # Default base path (target path on user computer) that is prefilled when bundle is loaded
+    default: "${user.home}"
+  baseItemUrl: "4/server/"
+  updateDate: "2021-11-14T12:02:39Z"
+  additionalFields:
+    forge-version: "36.2.4"
+    forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.4/forge-1.16.5-36.2.4-installer.jar"
+    vmOptions-java-11: "-server -Xmx3000m -Xms2228m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC\
+      \ -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
+    vmOptions-java-17: "-server -Xmx3000m -Xms2228m -XX:+UnlockExperimentalVMOptions -XX:+UseZGC\
+      \ --add-opens java.base/java.lang=ALL-UNNAMED"
+  versions:
+  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+    versionId: 1
+    link: "xenypack_4_server_-_mc_1.16.5_4.0.0.yaml"
+    versionName: "4.0.0"

@@ -13073,6 +13073,28 @@ entries:
     generatedAt: "2021-11-10T18:26:38Z"
     createdAt: "2021-11-13T16:47:12Z"
   enabled: true
+- id: "PJZn775O2452yA"
+  name: "SimpleLogin-1.16-1.1.3.jar"
+  src: "https://edge.forgecdn.net/files/3519/297/SimpleLogin-1.16-1.1.3.jar"
+  version: "1.1.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "SimpleLogin*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-12-04T18:26:38Z"
+  updateDate: "2021-12-04T16:47:12Z"
+  hashes:
+    md5: "291246B5705E301979B3E911D8BA1053"
+  fileSize: 98561
+  additionalFields:
+    generatedAt: "2021-12-04T18:26:38Z"
+    createdAt: "2021-12-04T18:26:38Z"
+  enabled: true
 - id: "vy-oD0uZRi0YbQ"
   name: "simplemagnets-1.1.2-mc1.16.5.jar"
   src: "https://edge.forgecdn.net/files/3239/732/simplemagnets-1.1.2-mc1.16.5.jar"

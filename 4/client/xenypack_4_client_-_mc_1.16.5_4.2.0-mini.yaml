@@ -9619,7 +9619,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "jei*.jar"
+      wildcard: "jei-1*.jar"
     absolute: false
     override: true
   parent: "6xe325L4kEyXWQ"
@@ -9915,7 +9915,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "Mekanism*.jar"
+      wildcard: "Mekanism-1*.jar"
     absolute: false
     override: true
   parent: "6xe325L4kEyXWQ"

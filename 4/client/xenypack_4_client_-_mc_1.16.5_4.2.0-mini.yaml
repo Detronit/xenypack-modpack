@@ -8854,31 +8854,6 @@ entries:
     fileFingerPrint: "1130306748"
     fileLength: "111189"
   enabled: true
-- id: "KdH0oMH-8Num1A"
-  name: "CTM-MC1.16.1-1.1.2.6.jar"
-  src: "https://edge.forgecdn.net/files/3137/659/CTM-MC1.16.1-1.1.2.6.jar"
-  version: "1.1.2.6"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "CTM*.jar"
-    absolute: false
-    override: true
-  parent: "6xe325L4kEyXWQ"
-  group: false
-  description: ""
-  itemDate: "2020-12-13T18:05:47.6Z"
-  updateDate: "2021-12-05T12:13:06Z"
-  hashes:
-    md5: "758F81BDE7EE49B21B8ED2C0E1EF3567"
-  fileSize: 186068
-  additionalFields:
-    createdAt: "2021-12-05T12:13:06Z"
-    projectId: "267602"
-    fileId: "3137659"
-    fileFingerPrint: "1104122771"
-    fileLength: "186068"
-  enabled: true
 - id: "AljZ9jRLP-sPYA"
   name: "curioofundying-forge-1.16.5-5.2.0.0.jar"
   src: "https://edge.forgecdn.net/files/3308/969/curioofundying-forge-1.16.5-5.2.0.0.jar"

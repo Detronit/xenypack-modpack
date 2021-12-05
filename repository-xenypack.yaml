@@ -55,7 +55,7 @@ bundles:
     versionName: "4.1.0"
   - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
     versionId: 20
-    link: "xenypack_4_client_-_mc_1.16.5_4.2.0-mini.yaml"
+    link: "xenypack_4_client_-_mc_1.16.5_4.2.0.yaml"
     versionName: "4.2.0-mini"
 - id: "xenypack_4_server_-_mc_1.16.5"
   name: "Xenypack 4 Server - MC 1.16.5"

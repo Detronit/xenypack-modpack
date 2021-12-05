@@ -2,7 +2,7 @@
 [towers]
 	#How rarely the towers will spawn (low: common, high: rare). Default: 20
 	#Range: 3 ~ 200
-	towerRarity = 20
+	towerRarity = 30
 	#How rarely the derelict towers will spawn (low: common, high: rare). Default: 72
 	#Range: 3 ~ 200
 	derelictTowerRarity = 80

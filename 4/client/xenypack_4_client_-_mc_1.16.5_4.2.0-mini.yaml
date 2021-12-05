@@ -10311,7 +10311,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "refinedstorage*.jar"
+      wildcard: "refinedstorage-1*.jar"
     absolute: false
     override: true
   parent: "6xe325L4kEyXWQ"

@@ -59,10 +59,10 @@
 			shouldGenerate = true
 			#Chance that large tin veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 12
+			perChunk = 6
 			#Maximum number of blocks in a large tin vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 9
+			maxVeinSize = 7
 			#Chance that blocks that are directly exposed to air in a large tin vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.0
@@ -108,7 +108,7 @@
 			perChunk = 55
 			#Maximum number of blocks in a upper osmium vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 7
+			maxVeinSize = 6
 			#Chance that blocks that are directly exposed to air in a upper osmium vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.0
@@ -149,7 +149,7 @@
 			perChunk = 6
 			#Maximum number of blocks in a middle osmium vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 9
+			maxVeinSize = 7
 			#Chance that blocks that are directly exposed to air in a middle osmium vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.0
@@ -190,7 +190,7 @@
 			perChunk = 8
 			#Maximum number of blocks in a small osmium vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 4
+			maxVeinSize = 3
 			#Chance that blocks that are directly exposed to air in a small osmium vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.0
@@ -266,7 +266,7 @@
 				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
 				type = "ABSOLUTE"
 				#Value used for calculating y for the anchor based on the type.
-				value = 8
+				value = 16
 
 		#buried uranium vein Generation Settings.
 		[world_generation.uranium.buried]
@@ -274,7 +274,7 @@
 			shouldGenerate = true
 			#Chance that buried uranium veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 7
+			perChunk = 5
 			#Maximum number of blocks in a buried uranium vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 9
@@ -361,10 +361,10 @@
 			shouldGenerate = true
 			#Chance that buried fluorite veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 3
+			perChunk = 2
 			#Maximum number of blocks in a buried fluorite vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 13
+			maxVeinSize = 6
 			#Chance that blocks that are directly exposed to air in a buried fluorite vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 1.0
@@ -410,7 +410,7 @@
 			perChunk = 6
 			#Maximum number of blocks in a normal lead vein.
 			#Range: 1 ~ 64
-			maxVeinSize = 9
+			maxVeinSize = 8
 			#Chance that blocks that are directly exposed to air in a normal lead vein are not placed.
 			#Range: 0.0 ~ 1.0
 			discardChanceOnAirExposure = 0.25

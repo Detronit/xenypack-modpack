@@ -40,7 +40,7 @@
 	#Move all items at once or each one
 	moveAll = false
 	#Show/Hide empty slot icon
-	showEmpty = true
+	showEmpty = false
 	#Show overall count of items in main/off hand
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
@@ -105,52 +105,52 @@
 	yPotionPos = 47
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
-	helmPosX = 138
+	helmPosX = 99
 	#Helmet position (Y)
 	#Range: -9999 ~ 9999
-	helmPosY = 64
+	helmPosY = 50
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
-	chestPosX = 138
+	chestPosX = 99
 	#Chestplate position (Y)
 	#Range: -9999 ~ 9999
-	chestPosY = 32
+	chestPosY = 38
 	#Leggings position (X)
 	#Range: -9999 ~ 9999
-	legPosX = 138
+	legPosX = 99
 	#Leggings position (Y)
 	#Range: -9999 ~ 9999
-	legPosY = 48
+	legPosY = 26
 	#Boots position (X)
 	#Range: -9999 ~ 9999
-	bootPosX = 138
+	bootPosX = 99
 	#Boots position (Y)
 	#Range: -9999 ~ 9999
-	bootPosY = 16
+	bootPosY = 14
 	#MainHand position (X)
 	#Range: -9999 ~ 9999
-	mainPosX = -103
+	mainPosX = 130
 	#MainHand position (Y)
 	#Range: -9999 ~ 9999
-	mainPosY = 37
+	mainPosY = 15
 	#OffHand position (X)
 	#Range: -9999 ~ 9999
-	offPosX = 177
+	offPosX = 130
 	#OffHand position (Y)
 	#Range: -9999 ~ 9999
-	offPosY = 18
+	offPosY = 27
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
-	arrPosX = 199
+	arrPosX = 130
 	#Arrows position (Y)
 	#Range: -9999 ~ 9999
-	arrPosY = 19
+	arrPosY = 39
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
-	invPosX = -103
+	invPosX = 130
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
-	invPosY = 20
+	invPosY = 51
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	helmHal = "RIGHT"
@@ -177,7 +177,7 @@
 	bootVal = "BOTTOM"
 	#MainHand horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	mainHal = "MIDDLE"
+	mainHal = "RIGHT"
 	#MainHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	mainVal = "BOTTOM"
@@ -195,7 +195,7 @@
 	arrVal = "BOTTOM"
 	#InvIcon horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHal = "MIDDLE"
+	invHal = "RIGHT"
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"

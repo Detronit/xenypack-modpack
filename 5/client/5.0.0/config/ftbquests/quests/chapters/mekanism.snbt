@@ -2740,33 +2740,6 @@
 			]
 		}
 		{
-			x: -6.875d
-			y: 4.375d
-			shape: "hexagon"
-			subtitle: "Mekanism's All In One Tool"
-			hide_dependency_lines: true
-			dependencies: ["162CE44400A63575"]
-			size: 1.25d
-			id: "49675EA8CBCA1388"
-			tasks: [{
-				id: "79F38A9428A0A23D"
-				type: "item"
-				item: "mekanism:atomic_disassembler"
-			}]
-			rewards: [
-				{
-					id: "1E9683F66A5FE752"
-					type: "random"
-					table_id: 7197061527498167330L
-				}
-				{
-					id: "76A57DE86B17E93A"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			title: "Enriched Items"
 			x: -4.0d
 			y: -0.5d

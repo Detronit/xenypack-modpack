@@ -1,0 +1,6825 @@
+--- !<com.sheryv.tools.filematcher.model.BundleVersion>
+versionId: 1
+versionName: "5.0.0"
+versionUrlPart: "5.0.0"
+changesDescription: ""
+entries:
+- id: "hHhDJ52LLDSevQ"
+  name: "config"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "config"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "MYDgC+40dRMCwg"
+  name: "almostunified"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "almostunified"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "gQErdtqXXZn46g"
+  name: "unify.json"
+  src: "config/almostunified/unify.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "MYDgC+40dRMCwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "BF7ECEB5EEF65D7599D53ACD55205F99"
+  fileSize: 1571
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "lr2FefU+OW0GnQ"
+  name: "biggerreactors-common.toml"
+  src: "config/biggerreactors-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:21:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "5540D2FCFA310EF2474BA76776C275BA"
+  fileSize: 2518
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "FBWgTa1NXtL2aQ"
+  name: "chunkloaders-common.toml"
+  src: "config/chunkloaders-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T10:20:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F5A8BD1A74B1B26E62E4485D420EB3CC"
+  fileSize: 1604
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "T1XmC31GjE8VzA"
+  name: "clienttweaks-common.toml"
+  src: "config/clienttweaks-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-10T22:57:36Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "81DB7DAF02F39816473459227C162A1F"
+  fileSize: 2796
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "8HWmAblv97rvqg"
+  name: "computercraft-client.toml"
+  src: "config/computercraft-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:17:37Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8C48AB63C2991BEA26EABE953D01F321"
+  fileSize: 566
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "9XW9P9wwn04qDw"
+  name: "create-common.toml"
+  src: "config/create-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T13:47:29Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "99D28914513C129C57253F35216C3953"
+  fileSize: 1299
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "c2gAGbGYuJFnlA"
+  name: "Default"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "Default"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "-QZa9C98+U7hbw"
+  name: "keys.txt"
+  src: "config/Default/keys.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "c2gAGbGYuJFnlA"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:13:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E5C1F8F281A31F53E0E39CA58B7FDFFC"
+  fileSize: 10396
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "4yxoOVd7Ddc6xQ"
+  name: "options.txt"
+  src: "config/Default/options.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "c2gAGbGYuJFnlA"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:13:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "380AB268CE0D2B58AE685B3E06049719"
+  fileSize: 2141
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "cfnCmiNO3ZqfDw"
+  name: "optionsshaders.txt"
+  src: "config/Default/optionsshaders.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "c2gAGbGYuJFnlA"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:13:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "662D6AB6524E5DE0D6D537B7BAD7F5E5"
+  fileSize: 350
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "S3jxt6l+WUgA4Q"
+  name: "enderchests.toml"
+  src: "config/enderchests.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "FDE6CC8F24638CC901F1E51BB4307AC8"
+  fileSize: 2752
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "x8CUGr6EVWVYWA"
+  name: "endertanks-client.toml"
+  src: "config/endertanks-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "843F0D9EC78DDCCA0FA87FC904852340"
+  fileSize: 1105
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "eekkY2c-hp6-cA"
+  name: "fallingtree.json"
+  src: "config/fallingtree.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:21:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "CBBCF1C3EC3836BF98A9B17B0563F242"
+  fileSize: 1240
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "rMf9mWB6UpX2bA"
+  name: "farmingforblockheads-common.toml"
+  src: "config/farmingforblockheads-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "C0C8E1086DFFC2521E28B0EEF72A7269"
+  fileSize: 1117
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "0dMs-bfcSWRW0w"
+  name: "farsight-common.toml"
+  src: "config/farsight-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E7EA28130E61FEDB19EC2DC7C6BDD5C1"
+  fileSize: 135
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ahZgdcCA1+LLuw"
+  name: "flywheel-client.toml"
+  src: "config/flywheel-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:03:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D11CE5B362AA066147037487C1ABAE44"
+  fileSize: 267
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "6tjmigy5ex6ktQ"
+  name: "fml.toml"
+  src: "config/fml.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:03:59Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9D417FEA14E356B9CF7BAF3CD32D5E81"
+  fileSize: 311
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "StWhbReAC6cDLg"
+  name: "ftbquests"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "ftbquests"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "uS0THiLuOP+Qgg"
+  name: "quests"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "quests"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "StWhbReAC6cDLg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "TzVniwSSqUNMeQ"
+  name: "chapters"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "chapters"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "uS0THiLuOP+Qgg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "c5nqwk2iuFmlLQ"
+  name: "basic_power_generation.snbt"
+  src: "config/ftbquests/quests/chapters/basic_power_generation.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "C3A80594B8185CE1733CB016A48B00EE"
+  fileSize: 29848
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "8oUSnwX2fnysHA"
+  name: "create.snbt"
+  src: "config/ftbquests/quests/chapters/create.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "07995A474F36671436952C9E626CA7D9"
+  fileSize: 21034
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "hpTJbQgAQTW9GQ"
+  name: "food_and_farming.snbt"
+  src: "config/ftbquests/quests/chapters/food_and_farming.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "4B40CB53C5362675090D25FA4D277949"
+  fileSize: 23807
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "33SOhQUMEOOTwQ"
+  name: "generating_and_transferring_power.snbt"
+  src: "config/ftbquests/quests/chapters/generating_and_transferring_power.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "2D996951178CA89CF4ECA691434AE550"
+  fileSize: 12452
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "HoIKbVNcIbrSKg"
+  name: "getting_started.snbt"
+  src: "config/ftbquests/quests/chapters/getting_started.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "44DE4B79A211A685635DFC4684903214"
+  fileSize: 20844
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "BGqQACk+2M0Epg"
+  name: "industrial_foregoing.snbt"
+  src: "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8EAC3716AED0B2602BF49969AE527DEA"
+  fileSize: 25708
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "iN2Qmg4tXDkFtQ"
+  name: "mekanism.snbt"
+  src: "config/ftbquests/quests/chapters/mekanism.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T21:14:55Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D192325822D18F944711D0D4BD7928F3"
+  fileSize: 61517
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "95IHn8NnnhkikQ"
+  name: "refined_storage.snbt"
+  src: "config/ftbquests/quests/chapters/refined_storage.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "602943C4E3148D2968C192C7B5C84516"
+  fileSize: 31358
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "IUG6Gc-zseLllQ"
+  name: "storage.snbt"
+  src: "config/ftbquests/quests/chapters/storage.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "0ED8BBA5DA286B2FDD93496819DAAF19"
+  fileSize: 35771
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "JirS6Gte6yfoPg"
+  name: "tips_and_tricks.snbt"
+  src: "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "5C12D9803422A75F124496AA06AC9C6F"
+  fileSize: 8902
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "+1TKEEFnfA1EhA"
+  name: "twilight_forest.snbt"
+  src: "config/ftbquests/quests/chapters/twilight_forest.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "33B4754D222CE8527B973D9389D1ABB6"
+  fileSize: 49818
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "XY7bgODEpFGOVw"
+  name: "welcome.snbt"
+  src: "config/ftbquests/quests/chapters/welcome.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "TzVniwSSqUNMeQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F20734BE89F77D3966844F7AB47A6D41"
+  fileSize: 1237
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "7Nt5vkP2TygO2A"
+  name: "chapter_groups.snbt"
+  src: "config/ftbquests/quests/chapter_groups.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "uS0THiLuOP+Qgg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F5CEE8895E8629BBBDC0F6E42C3C65BD"
+  fileSize: 388
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "wCkk+xeR12Vehw"
+  name: "data.snbt"
+  src: "config/ftbquests/quests/data.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "uS0THiLuOP+Qgg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "6638701DEEFC4FB36478B371792684BD"
+  fileSize: 454
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "gFhtcQL3Ak+uwg"
+  name: "reward_tables"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "reward_tables"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "uS0THiLuOP+Qgg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "d+8bQI8IvYDkTQ"
+  name: "mekanism.snbt"
+  src: "config/ftbquests/quests/reward_tables/mekanism.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "gFhtcQL3Ak+uwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "1DA4F6057D5250E75CC58E3809FFC1C6"
+  fileSize: 498
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "lub5NqwK3goZ3A"
+  name: "random_tier_1_glyph.snbt"
+  src: "config/ftbquests/quests/reward_tables/random_tier_1_glyph.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "gFhtcQL3Ak+uwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9A282F40560096085B54631BB5679ACD"
+  fileSize: 1262
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "oRy1zz9oWlbzVQ"
+  name: "refined_storage_base_materials.snbt"
+  src: "config/ftbquests/quests/reward_tables/refined_storage_base_materials.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "gFhtcQL3Ak+uwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "1281CA7EA7E9E4E21C77A9E213CCAAD9"
+  fileSize: 242
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "d5c4hBChSq6Pbw"
+  name: "refined_storage_parts.snbt"
+  src: "config/ftbquests/quests/reward_tables/refined_storage_parts.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "gFhtcQL3Ak+uwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "C8E37BEDB4CDC0B989E9C8801998CBBA"
+  fileSize: 416
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "D0NJ0f4BOhRovw"
+  name: "twilight_forest_loot_bag.snbt"
+  src: "config/ftbquests/quests/reward_tables/twilight_forest_loot_bag.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "gFhtcQL3Ak+uwg"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T21:40:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "70CD069262DC73590ACE47CA5C332AD1"
+  fileSize: 1622
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "pPPTg+X4Jz73Dg"
+  name: "immersiveengineering-common.toml"
+  src: "config/immersiveengineering-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F2E86A0C069D00D796F909C1C22D7EC4"
+  fileSize: 1719
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "lh3L+qspn41p1A"
+  name: "industrialforegoing"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "industrialforegoing"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "5WIxSMKEHEL7Iw"
+  name: "machine-agriculture-husbandry.toml"
+  src: "config/industrialforegoing/machine-agriculture-husbandry.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lh3L+qspn41p1A"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "FB0544C368C336382E73F3D362F0F60A"
+  fileSize: 4977
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "GBK5kMiXPMW0rQ"
+  name: "machine-core.toml"
+  src: "config/industrialforegoing/machine-core.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lh3L+qspn41p1A"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "51DDBC873A8EEF52EE886245DFB63C22"
+  fileSize: 1393
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "YRQ07527ORvBRQ"
+  name: "machine-generator.toml"
+  src: "config/industrialforegoing/machine-generator.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lh3L+qspn41p1A"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "45CB0D5E465A61EC9B0D892DBCBFA5EF"
+  fileSize: 1141
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ef4b0nqlc7HnFg"
+  name: "machine-misc.toml"
+  src: "config/industrialforegoing/machine-misc.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lh3L+qspn41p1A"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E877A5FFE4671F369D4A55A01ED96720"
+  fileSize: 1852
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ImEwSVBv-dhZag"
+  name: "machine-resource-production.toml"
+  src: "config/industrialforegoing/machine-resource-production.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lh3L+qspn41p1A"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:47:07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "09985FAD3ADF7FFCD2821FC9AD2B8BD0"
+  fileSize: 6480
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "KMRppqDhBTjO3w"
+  name: "inventoryhud-client.toml"
+  src: "config/inventoryhud-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T18:21:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3BC2F79DA4C1D19209FE4107B8C2333D"
+  fileSize: 4888
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "RPir2ATmMOKdiA"
+  name: "itshallnottick-common.toml"
+  src: "config/itshallnottick-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:21:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D70B848B01CFF3EDFF1752F807BDC8C7"
+  fileSize: 1230
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "drgzAseMpU-+UQ"
+  name: "jei"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "jei"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "pE1U7hhwugi3cA"
+  name: "recipe-category-sort-order.ini"
+  src: "config/jei/recipe-category-sort-order.ini"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "drgzAseMpU-+UQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:47:07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8535C129B92A45A5DC796843745ABEE3"
+  fileSize: 3809
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "vl5B1wXmxcF4xA"
+  name: "Mekanism"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "Mekanism"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "r+oyGSsT+l-WMQ"
+  name: "client.toml"
+  src: "config/Mekanism/client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:47:07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "45A93A10EC99FC9610091FBA0FFEC77C"
+  fileSize: 4113
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ahVTnnc5t8OV4Q"
+  name: "gear.toml"
+  src: "config/Mekanism/gear.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:47:07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "25CAFD63EB2854E14561AF904A55006A"
+  fileSize: 15215
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "HJd9o4XC8W56YA"
+  name: "general.toml"
+  src: "config/Mekanism/general.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:03:59Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "BB98CC2620A46654150D1BAC604E67F7"
+  fileSize: 9953
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "vx1411+XX6yFEg"
+  name: "generators.toml"
+  src: "config/Mekanism/generators.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:53:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "53968958EA3AC98757E6E2D883B5943E"
+  fileSize: 4982
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "9BzGq5Td4kqJ4A"
+  name: "machine-usage.toml"
+  src: "config/Mekanism/machine-usage.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:53:09Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "CE59EDBA2FBEA00575BFB5BCB1A681F8"
+  fileSize: 2614
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "LEhIzFoG43Ww4g"
+  name: "tools-client.toml"
+  src: "config/Mekanism/tools-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T18:01:56Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "AB36DE04A5EF3CA05C2037CDA4E9BE5C"
+  fileSize: 181
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "WgA7ccJ4IiqRYA"
+  name: "tools.toml"
+  src: "config/Mekanism/tools.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:26:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "27D5F68F8EED970EBC2149A7AC99BD32"
+  fileSize: 24205
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "1snw3nNzVTxe9g"
+  name: "world.toml"
+  src: "config/Mekanism/world.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "vl5B1wXmxcF4xA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T21:41:32Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "DDAC2CA6F73C204D0E24002B7F3FE742"
+  fileSize: 18321
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "MUm5WMotGX49TQ"
+  name: "powah.json5"
+  src: "config/powah.json5"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T13:29:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9D6AAFA8BAFF8B15B8A8FFF8061D3C82"
+  fileSize: 7967
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "xwaWSuXuQfdDiQ"
+  name: "quark-common.toml"
+  src: "config/quark-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:03:59Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "1ED3FCAAE3CA7BD6398674A9CAB493E5"
+  fileSize: 57496
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "vN9WFxxt3Phc9g"
+  name: "rftoolsbase-common.toml"
+  src: "config/rftoolsbase-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T16:25:18Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "A83A04E833ECFC971B7A541C3652A0A9"
+  fileSize: 1266
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "O216u9rqOYzMlQ"
+  name: "simplebackups-common.toml"
+  src: "config/simplebackups-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T11:48:41Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "340B5F8F913081C1F66BACD3B9F4ACDA"
+  fileSize: 922
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "-mdFVuL+QP1SGw"
+  name: "simpleores-common.toml"
+  src: "config/simpleores-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "06BEC98E1D89672B32962FFDB613E390"
+  fileSize: 1192
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "OqGj1mqdNRw7RQ"
+  name: "SLI-SpawnLimitIncrease.toml"
+  src: "config/SLI-SpawnLimitIncrease.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-13T19:14:58Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3F53F6BEB12CE819EC73A32D0237702E"
+  fileSize: 1163
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Mjr5MQJ1ixVA8w"
+  name: "storagedrawers-common.toml"
+  src: "config/storagedrawers-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EAA67743ADD86A75C539F3CBBA930EDF"
+  fileSize: 1438
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "P+cXGJ0nv0Ih4Q"
+  name: "theoneprobe-client.toml"
+  src: "config/theoneprobe-client.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T21:39:19Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "41CBB8399EABC4682DC120B2432ABBB5"
+  fileSize: 5827
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Xvm0+RVyP7OAiw"
+  name: "theoneprobe-common.toml"
+  src: "config/theoneprobe-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T20:59:03Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8D761EF3AAA85AEEB8C13EC5753D0619"
+  fileSize: 3150
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "8YI0JCG-oy3W9Q"
+  name: "toolstats.json"
+  src: "config/toolstats.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "193E7F46D14C70B28EBA11990E1EF8B8"
+  fileSize: 241
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "k7i5I1zDViAKyQ"
+  name: "twilightforest-common.toml"
+  src: "config/twilightforest-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:03:59Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7832A0F9D44CB349354977D4A3920764"
+  fileSize: 5935
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "oVm3KS7uysUasw"
+  name: "waystones-common.toml"
+  src: "config/waystones-common.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3EC11AE6723F0B1770E386F303D0B44D"
+  fileSize: 7775
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "wpqyf4INN9yiAg"
+  name: "wstweaks.cfg"
+  src: "config/wstweaks.cfg"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "hHhDJ52LLDSevQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T12:29:33Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E32B7B9198AF0D4E18468D6E3A891721"
+  fileSize: 1403
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "9ces0XJGijKDoQ"
+  name: "defaultconfigs"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "defaultconfigs"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "jayWjlAvsUBI6g"
+  name: "buildinggadgets-server.toml"
+  src: "defaultconfigs/buildinggadgets-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B3A0400CB3CFB668BA04076F8CB4BBA6"
+  fileSize: 4161
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "JfHJpNzZ1X3D1g"
+  name: "corpse-server.toml"
+  src: "defaultconfigs/corpse-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:42Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "314D0FA43B573892402FE20C2E7C9C21"
+  fileSize: 1021
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "eJ7+NpetpMjt0g"
+  name: "elevatorid-server.toml"
+  src: "defaultconfigs/elevatorid-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3AB998849D854911B1A5D2CEB755CB8D"
+  fileSize: 629
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "wT6ZI8AiR5wsQQ"
+  name: "ftbchunks.snbt"
+  src: "defaultconfigs/ftbchunks.snbt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T20:46:01Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D38B3EC47CDED438020C7034DB93ED67"
+  fileSize: 1718
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "AAa8QrH7FGtK2Q"
+  name: "globalxp-server.toml"
+  src: "defaultconfigs/globalxp-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3DEAC0867D239E31DB6FB06A09294A43"
+  fileSize: 2386
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "l0nFCg9O9NihNA"
+  name: "immersiveengineering-server.toml"
+  src: "defaultconfigs/immersiveengineering-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:37:53Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3661DE54DF34A66464C805C6D3E06DCA"
+  fileSize: 19294
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "pEeu-8cpyMn-FQ"
+  name: "refinedstorage-server.toml"
+  src: "defaultconfigs/refinedstorage-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7D1D65DACEC8EBB53B4D0EB0DA607E7C"
+  fileSize: 6501
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "+9x0qoL5YKqkhA"
+  name: "rftoolsbuilder-server.toml"
+  src: "defaultconfigs/rftoolsbuilder-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "824DBF3830545DD6F93B201F45AC131F"
+  fileSize: 8541
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "NeMQVcQlajoVrQ"
+  name: "rftoolspower-server.toml"
+  src: "defaultconfigs/rftoolspower-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "AC15EFAE000EF842C74273320A3DFB98"
+  fileSize: 4801
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "R47Aa5XicUDaog"
+  name: "rftoolsstorage-server.toml"
+  src: "defaultconfigs/rftoolsstorage-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "145D51F8C629521E389FFA16590FDA2A"
+  fileSize: 9950
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "QS7urZpcAV-e5Q"
+  name: "rftoolsutility-server.toml"
+  src: "defaultconfigs/rftoolsutility-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T14:49:43Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EEB9CBBA9A95DE3FEFF19B3C68DBA29F"
+  fileSize: 11087
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "XOxBljBbRIPqiQ"
+  name: "solcarrot-server.toml"
+  src: "defaultconfigs/solcarrot-server.toml"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "9ces0XJGijKDoQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T23:03:36Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B1EC2C2B799388C3A87A6755DA40BF21"
+  fileSize: 1134
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "zAGPR86AbKRsYg"
+  name: "kubejs"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "kubejs"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "5i68x+D-wZmeAw"
+  name: "assets"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "assets"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "zAGPR86AbKRsYg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "lzHFeyhz1Zbw6g"
+  name: "kubejs"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "kubejs"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "5i68x+D-wZmeAw"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "4ROKuT+3hqUmkQ"
+  name: "blockstates"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "blockstates"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lzHFeyhz1Zbw6g"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "yBf-sA0sI-m-rw"
+  name: "magical_soil.json"
+  src: "kubejs/assets/kubejs/blockstates/magical_soil.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "4ROKuT+3hqUmkQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F95BCF840AB25E554F311647965D6D09"
+  fileSize: 82
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ij-dJ77zjoMBRg"
+  name: "models"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "models"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lzHFeyhz1Zbw6g"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "G5nOm4BGjpZIzA"
+  name: "block"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "block"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ij-dJ77zjoMBRg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Z-y-VK9HuJpiFg"
+  name: "magical_soil.json"
+  src: "kubejs/assets/kubejs/models/block/magical_soil.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "G5nOm4BGjpZIzA"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E29067BDF119BACA068E6AA3FB572752"
+  fileSize: 197
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "+YnmDwhV9dNw1g"
+  name: "textures"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "textures"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "lzHFeyhz1Zbw6g"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "+uVnmvNVHwqBWA"
+  name: "block"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "block"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "+YnmDwhV9dNw1g"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "nurkFB7f0-VrNw"
+  name: "magical_soil_side.png"
+  src: "kubejs/assets/kubejs/textures/block/magical_soil_side.png"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "+uVnmvNVHwqBWA"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E54B4D77BA88AF4241F279211E37E4FE"
+  fileSize: 848
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "xxXCfxXjaoJsmQ"
+  name: "magical_soil_side.png.mcmeta"
+  src: "kubejs/assets/kubejs/textures/block/magical_soil_side.png.mcmeta"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "+uVnmvNVHwqBWA"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "DF595558D76F6A9F357887250E37EC52"
+  fileSize: 216
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "K1N-FJC6KByclw"
+  name: "magical_soil_top.png"
+  src: "kubejs/assets/kubejs/textures/block/magical_soil_top.png"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "+uVnmvNVHwqBWA"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "70940AFBC26D83595D60071B496C4D1A"
+  fileSize: 873
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "08Qu8-OpiEYSKA"
+  name: "magical_soil_top.png.mcmeta"
+  src: "kubejs/assets/kubejs/textures/block/magical_soil_top.png.mcmeta"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "+uVnmvNVHwqBWA"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "2E1069281448F4B485A1686AC84AF116"
+  fileSize: 141
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "xZCn16ryvPapNQ"
+  name: "client_scripts"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "client_scripts"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "zAGPR86AbKRsYg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "RmgqguLzwMweQQ"
+  name: "client_script.js"
+  src: "kubejs/client_scripts/client_script.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "xZCn16ryvPapNQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:35:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "C8AA2413DA1B49282D56D3AC3D957250"
+  fileSize: 3990
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "G21MU2gjrg7a3w"
+  name: "jei_hide.js"
+  src: "kubejs/client_scripts/jei_hide.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "xZCn16ryvPapNQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T16:04:48Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "5FE3BD764189CFAF1E41AF078EFDD998"
+  fileSize: 639
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Dhb3zcE+rnAB1Q"
+  name: "tooltips.js"
+  src: "kubejs/client_scripts/tooltips.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "xZCn16ryvPapNQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T15:16:34Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "4323362518258B39C8ACE548478BA897"
+  fileSize: 5850
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "JN4edH4Xxsxsow"
+  name: "config"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "config"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "zAGPR86AbKRsYg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Il8-OntS0O85SA"
+  name: "client.properties"
+  src: "kubejs/config/client.properties"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "JN4edH4Xxsxsow"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B76C3E16BC6E04C085689BDBE39ED78D"
+  fileSize: 335
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "eLAKUfkcsoT8vg"
+  name: "common.properties"
+  src: "kubejs/config/common.properties"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "JN4edH4Xxsxsow"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T19:04:52Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3B80E6B9B1FA50F44F1F27C5EA5BECED"
+  fileSize: 248
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ygDLKVMixD9KRA"
+  name: "server_scripts"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "server_scripts"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "zAGPR86AbKRsYg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "XjOa-MNN7MxMHQ"
+  name: "conflicts.js"
+  src: "kubejs/server_scripts/conflicts.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ygDLKVMixD9KRA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:35:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EFB068DDAB4E846F8A5C7E78761BBC91"
+  fileSize: 3891
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "0zCYtSc3b3jdLw"
+  name: "mods"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "mods"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ygDLKVMixD9KRA"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "sW+S8SvSTfJRpg"
+  name: "buildinggadgets.js"
+  src: "kubejs/server_scripts/mods/buildinggadgets.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T16:12:11Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9657C17E6F187CE4DDA0BC4A7DE86526"
+  fileSize: 412
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "mT4XU4C4wRsrHw"
+  name: "comforts.js"
+  src: "kubejs/server_scripts/mods/comforts.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:32:37Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7B3A2E30ED8445D81AB8C810EDAAF9F7"
+  fileSize: 507
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "X80i6b7d5CcINQ"
+  name: "farmingforblockheads"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "farmingforblockheads"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "DtDMaVc4NXJ1LQ"
+  name: "market.js"
+  src: "kubejs/server_scripts/mods/farmingforblockheads/market.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "X80i6b7d5CcINQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-10T20:34:55Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "2B5B74C691689567ACA3B527F09DB9A1"
+  fileSize: 2801
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "oiKaXg84XM5ayg"
+  name: "marketitems.json"
+  src: "kubejs/server_scripts/mods/farmingforblockheads/marketitems.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "X80i6b7d5CcINQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-10T20:36:07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7D799828A43D7B773DF4D47B187D371B"
+  fileSize: 5183
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ILS7Poj5d7ruHQ"
+  name: "industrial_foregoing.js"
+  src: "kubejs/server_scripts/mods/industrial_foregoing.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T17:31:56Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "DBCCDE24A200FDA243065991781FBDDE"
+  fileSize: 425
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Ytl3Eg1CHE-q7A"
+  name: "refinedstorage.js"
+  src: "kubejs/server_scripts/mods/refinedstorage.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T16:04:47Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3317C5D4352044A87553FA7875B6B231"
+  fileSize: 7261
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "pR1+AluvBU1v0g"
+  name: "rftools.js"
+  src: "kubejs/server_scripts/mods/rftools.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T16:49:39Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "DA7AFADA8A79DD4E7F10C5D686146A6C"
+  fileSize: 297
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "gNyJeWrXhpYI9g"
+  name: "twilightforest.js"
+  src: "kubejs/server_scripts/mods/twilightforest.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "0zCYtSc3b3jdLw"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:28Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8359936FEED6CF05581C25C01C395049"
+  fileSize: 91
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "UPqs9ckmn8M0nA"
+  name: "recipes.js"
+  src: "kubejs/server_scripts/recipes.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ygDLKVMixD9KRA"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:35:51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F695A6FF33E6FD9E5F565739F2423296"
+  fileSize: 25953
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "uJVP94mCKyATBQ"
+  name: "tags.js"
+  src: "kubejs/server_scripts/tags.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ygDLKVMixD9KRA"
+  group: false
+  description: ""
+  itemDate: "2022-11-10T20:49:57Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "04AE18CD850DA5CE630330FD45D9928E"
+  fileSize: 1930
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "ZIT1JaD0spfqhw"
+  name: "startup_scripts"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "startup_scripts"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "zAGPR86AbKRsYg"
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "aVQvwXDe3pYpkg"
+  name: "custom_additions.js"
+  src: "kubejs/startup_scripts/custom_additions.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "ZIT1JaD0spfqhw"
+  group: false
+  description: ""
+  itemDate: "2022-11-11T22:45:59Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "CC42DC4B07A50D8BDC23C51BC0B493BB"
+  fileSize: 806
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "Cqn+gqtQBRfmLQ"
+  name: "mods"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "mods"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:49:52Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+  enabled: true
+- id: "gPwZbgVexX42og"
+  name: "AdvancementPlaques-1.19.2-1.4.7.jar"
+  src: "https://edge.forgecdn.net/files/4029/209/AdvancementPlaques-1.19.2-1.4.7.jar"
+  version: "1.4.7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "AdvancementPlaques*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-15T03:27:34.797Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B167331ABE438731F132EB339AD03682"
+  fileSize: 206511
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "499826"
+    fileId: "4029209"
+    fileFingerPrint: "899680134"
+    fileLength: "206511"
+  enabled: true
+- id: "Gw7FbwgvK5Tgsg"
+  name: "almostunified-forge-1.19.2-0.2.3.jar"
+  src: "https://edge.forgecdn.net/files/4072/747/almostunified-forge-1.19.2-0.2.3.jar"
+  version: "0.2.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "almostunified-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T13:17:41.937Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "37BC3AED9E7611E95E5E3DB6EEB52E48"
+  fileSize: 153911
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "633823"
+    fileId: "4072747"
+    fileFingerPrint: "1009624795"
+    fileLength: "153911"
+  enabled: true
+- id: "d2qfmGDX4VnvKw"
+  name: "antighost-1.19.1-forge42.0.1-1.1.2.jar"
+  src: "https://edge.forgecdn.net/files/3907/379/antighost-1.19.1-forge42.0.1-1.1.2.jar"
+  version: "forge42.0.1-1.1.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "antighost*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-30T11:20:35.757Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3A1C5BDA0A09DDBEEB6B5E3910144DB7"
+  fileSize: 149092
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "273279"
+    fileId: "3907379"
+    fileFingerPrint: "2421943420"
+    fileLength: "149092"
+  enabled: true
+- id: "ReWS0-iNUkbn7Q"
+  name: "appleskin-forge-mc1.19-2.4.2.jar"
+  src: "https://edge.forgecdn.net/files/3872/808/appleskin-forge-mc1.19-2.4.2.jar"
+  version: "2.4.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "appleskin-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T22:39:02.983Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3CD43C763F6E9A244A115606FAAECF4F"
+  fileSize: 46991
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "248787"
+    fileId: "3872808"
+    fileFingerPrint: "271456054"
+    fileLength: "46991"
+  enabled: true
+- id: "eU0cKZrYYBdLmg"
+  name: "architectury-6.3.49-forge.jar"
+  src: "https://edge.forgecdn.net/files/4040/977/architectury-6.3.49-forge.jar"
+  version: "forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "architectury*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-22T17:17:14.94Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "69B9927B425FD538D3988E48F2D7FBAA"
+  fileSize: 544983
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "419699"
+    fileId: "4040977"
+    fileFingerPrint: "2812035629"
+    fileLength: "544983"
+  enabled: true
+- id: "O4Z7NfRTI8H1Ag"
+  name: "AttributeFix-Forge-1.19.2-17.1.3.jar"
+  src: "https://edge.forgecdn.net/files/3963/622/AttributeFix-Forge-1.19.2-17.1.3.jar"
+  version: "17.1.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "AttributeFix-Forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-02T12:57:25.47Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7C08E414C06095164516692517C916D4"
+  fileSize: 20408
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "280510"
+    fileId: "3963622"
+    fileFingerPrint: "2209694818"
+    fileLength: "20408"
+  enabled: true
+- id: "mcrXPeYXkAIMGA"
+  name: "AutoRegLib-1.8-54.jar"
+  src: "https://edge.forgecdn.net/files/3857/246/AutoRegLib-1.8-54.jar"
+  version: "54"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "AutoRegLib*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-03T00:54:32.183Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "C646069BC931050A21CD451F5776E8F5"
+  fileSize: 43143
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "250363"
+    fileId: "3857246"
+    fileFingerPrint: "1935388563"
+    fileLength: "43143"
+  enabled: true
+- id: "y7e-Z8NqhVlgKg"
+  name: "balm-4.5.3.jar"
+  src: "https://edge.forgecdn.net/files/3914/527/balm-4.5.3.jar"
+  version: "4.5.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "balm*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-03T17:00:05.36Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "94E3B3D14559F1B15BE539F1E7449BD7"
+  fileSize: 623779
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "531761"
+    fileId: "3914527"
+    fileFingerPrint: "3544016358"
+    fileLength: "623779"
+  enabled: true
+- id: "AUQAbE+A5xMUQA"
+  name: "BetterAdvancements-1.19.2-0.2.2.142.jar"
+  src: "https://edge.forgecdn.net/files/3940/452/BetterAdvancements-1.19.2-0.2.2.142.jar"
+  version: "0.2.2.142"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "BetterAdvancements*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-18T11:05:04.76Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F31B318C80A16ECDBB9CE23555FC8AF7"
+  fileSize: 71144
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "272515"
+    fileId: "3940452"
+    fileFingerPrint: "3015843602"
+    fileLength: "71144"
+  enabled: true
+- id: "gsyYSDFX-J4pHA"
+  name: "biggerreactors-1.19.2-0.6.0-beta.5.1.jar"
+  src: "https://edge.forgecdn.net/files/3964/114/biggerreactors-1.19.2-0.6.0-beta.5.1.jar"
+  version: "0.6.0-beta.5.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "biggerreactors*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-02T18:43:15.433Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EAD4C87939602B3F100B0CB946BEFD9D"
+  fileSize: 1142697
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "407780"
+    fileId: "3964114"
+    fileFingerPrint: "3856416770"
+    fileLength: "1142697"
+  enabled: true
+- id: "XJlhC9EVPz53Nw"
+  name: "blockui-1.19-0.0.64-ALPHA.jar"
+  src: "https://edge.forgecdn.net/files/4014/930/blockui-1.19-0.0.64-ALPHA.jar"
+  version: "0.0.64-ALPHA"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "blockui*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-02T07:58:31.147Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3E1FFBD6939C19BEC7166161F3A6FA73"
+  fileSize: 199324
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "522992"
+    fileId: "4014930"
+    fileFingerPrint: "4015016114"
+    fileLength: "199324"
+  enabled: true
+- id: "Z7BB2ffhsdehhQ"
+  name: "Bookshelf-Forge-1.19.2-16.1.11.jar"
+  src: "https://edge.forgecdn.net/files/4052/856/Bookshelf-Forge-1.19.2-16.1.11.jar"
+  version: "16.1.11"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Bookshelf-Forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-26T23:06:24.833Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "CD776B3F04D7DB25AE13417DF735A6A0"
+  fileSize: 318908
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "228525"
+    fileId: "4052856"
+    fileFingerPrint: "3773818607"
+    fileLength: "318908"
+  enabled: true
+- id: "8jN1Ne6Vaz-tXQ"
+  name: "buildersaddition-1.19.2-20220926a.jar"
+  src: "https://edge.forgecdn.net/files/4008/246/buildersaddition-1.19.2-20220926a.jar"
+  version: "20220926a"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "buildersaddition*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-26T10:59:55.827Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B0C6E4CE25DACF7A08CAA185527E8087"
+  fileSize: 2237908
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "389697"
+    fileId: "4008246"
+    fileFingerPrint: "731321577"
+    fileLength: "2237908"
+  enabled: true
+- id: "bPPp4rGW4lbfgg"
+  name: "buildinggadgets-3.16.1-build.15+mc1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/4002/496/buildinggadgets-3.16.1-build.15+mc1.19.2.jar"
+  version: "build.15+mc1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "buildinggadgets*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-24T08:54:27.87Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "BC3A437569E60260705091A3D0A6239B"
+  fileSize: 891529
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "298187"
+    fileId: "4002496"
+    fileFingerPrint: "1704082563"
+    fileLength: "891529"
+  enabled: true
+- id: "WxDPJVdxkNkjAg"
+  name: "bwncr-forge-1.19.2-3.14.0.jar"
+  src: "https://edge.forgecdn.net/files/3974/234/bwncr-forge-1.19.2-3.14.0.jar"
+  version: "3.14.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "bwncr-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-08T23:05:56.83Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "BC6C85206EC8A44B196CB459BC9535B4"
+  fileSize: 14285
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "261251"
+    fileId: "3974234"
+    fileFingerPrint: "3579797100"
+    fileLength: "14285"
+  enabled: true
+- id: "kTIjwaWza0TU1w"
+  name: "cabletiers-1.19.2-0.5471.jar"
+  src: "https://edge.forgecdn.net/files/4016/187/cabletiers-1.19.2-0.5471.jar"
+  version: "0.5471"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "cabletiers*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-02T19:00:58.087Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "AF767B470D1EC30B86CBAFEA6B43AB69"
+  fileSize: 227281
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "454382"
+    fileId: "4016187"
+    fileFingerPrint: "2116498722"
+    fileLength: "227281"
+  enabled: true
+- id: "1fXCJUQB1ZCvGg"
+  name: "caelus-forge-1.19.2-3.0.0.6.jar"
+  src: "https://edge.forgecdn.net/files/3929/284/caelus-forge-1.19.2-3.0.0.6.jar"
+  version: "3.0.0.6"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "caelus-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-11T09:17:55.637Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "918F8C78474EDC74A7B489B803124492"
+  fileSize: 37254
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "308989"
+    fileId: "3929284"
+    fileFingerPrint: "2509104207"
+    fileLength: "37254"
+  enabled: true
+- id: "hibuZ7b-3ozrxQ"
+  name: "canary-mc1.19.2-0.0.10.jar"
+  src: "https://edge.forgecdn.net/files/4071/156/canary-mc1.19.2-0.0.10.jar"
+  version: "0.0.10"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "canary*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-06T23:34:53.597Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3B3297EB203F4EEC9E4B4DE0B13AF5B9"
+  fileSize: 533538
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "665658"
+    fileId: "4071156"
+    fileFingerPrint: "4037249173"
+    fileLength: "533538"
+  enabled: true
+- id: "D8JI8EBqKeI6uw"
+  name: "cc-tweaked-1.19.2-1.101.1.jar"
+  src: "https://edge.forgecdn.net/files/4065/685/cc-tweaked-1.19.2-1.101.1.jar"
+  version: "1.101.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "cc-tweaked*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-03T20:42:21.347Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EE88F5B33BA35C61448C628E7DCC9519"
+  fileSize: 2222453
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "282001"
+    fileId: "4065685"
+    fileFingerPrint: "1727514178"
+    fileLength: "2222453"
+  enabled: true
+- id: "5sGwMoPWUNJWXA"
+  name: "charmofundying-forge-6.0.0+1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/3927/421/charmofundying-forge-6.0.0+1.19.2.jar"
+  version: "6.0.0+1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "charmofundying-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-10T03:50:56.247Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "95CD71B7B3ACA693B3E243BA792258BA"
+  fileSize: 42877
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "316873"
+    fileId: "3927421"
+    fileFingerPrint: "2691325049"
+    fileLength: "42877"
+  enabled: true
+- id: "DTGH8YzoFycvKQ"
+  name: "Chunk Pregenerator-1.19-4.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3946/418/Chunk Pregenerator-1.19-4.1.0.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-22T04:28:50.413Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "4A24D77BA424C4EE1FC5924EF94F997E"
+  fileSize: 330777
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "267193"
+    fileId: "3946418"
+    fileFingerPrint: "3012335653"
+    fileLength: "330777"
+  enabled: true
+- id: "JXPJAJ9I9TJwHw"
+  name: "chunkloaders-1.2.2-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3941/260/chunkloaders-1.2.2-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "chunkloaders*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-18T22:12:01.387Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "60264DD77D33F800967AED1174DD3EB6"
+  fileSize: 153700
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "402924"
+    fileId: "3941260"
+    fileFingerPrint: "2787252977"
+    fileLength: "153700"
+  enabled: true
+- id: "uRLKhMMUT2DWgg"
+  name: "clickadv-1.19.2-2.9.jar"
+  src: "https://edge.forgecdn.net/files/3969/986/clickadv-1.19.2-2.9.jar"
+  version: "2.9"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "clickadv*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-05T17:28:29.773Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F21F84CB1130EF1EFC92A75E0F41B466"
+  fileSize: 16424
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "511733"
+    fileId: "3969986"
+    fileFingerPrint: "908525986"
+    fileLength: "16424"
+  enabled: true
+- id: "30tqDRaVnzrqPw"
+  name: "clienttweaks-forge-1.19-8.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3901/914/clienttweaks-forge-1.19-8.1.0.jar"
+  version: "8.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "clienttweaks-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-27T10:35:11.51Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "6F1A2574CAC5DF79C20FA7DED13E652A"
+  fileSize: 121384
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "251407"
+    fileId: "3901914"
+    fileFingerPrint: "3081935258"
+    fileLength: "121384"
+  enabled: true
+- id: "Hiwo3dIAYKxwsQ"
+  name: "cloth-config-8.2.88-forge.jar"
+  src: "https://edge.forgecdn.net/files/3972/423/cloth-config-8.2.88-forge.jar"
+  version: "forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "cloth-config*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-07T15:01:22.41Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9AD6B6C3B72A0D23D53C7B761782082B"
+  fileSize: 1151677
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "348521"
+    fileId: "3972423"
+    fileFingerPrint: "2028618177"
+    fileLength: "1151677"
+  enabled: true
+- id: "i-6UzIeuHDytLg"
+  name: "Clumps-forge-1.19.2-9.0.0+11.jar"
+  src: "https://edge.forgecdn.net/files/3950/216/Clumps-forge-1.19.2-9.0.0+11.jar"
+  version: "9.0.0+11"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Clumps-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-24T18:19:53.803Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D9A16DC5DA321390E628E25AA79D4C8D"
+  fileSize: 16781
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "256717"
+    fileId: "3950216"
+    fileFingerPrint: "4097295544"
+    fileLength: "16781"
+  enabled: true
+- id: "2FQaqLT3qP-NOQ"
+  name: "comforts-forge-6.0.2+1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/4019/558/comforts-forge-6.0.2+1.19.2.jar"
+  version: "6.0.2+1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "comforts-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-06T05:41:52.183Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "43B8B33ED6C200E479ED47D86A99F749"
+  fileSize: 324699
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "276951"
+    fileId: "4019558"
+    fileFingerPrint: "776228193"
+    fileLength: "324699"
+  enabled: true
+- id: "XkoWylPPzQbITA"
+  name: "configured-2.0.1-1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/4011/355/configured-2.0.1-1.19.2.jar"
+  version: "1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "configured*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-29T07:57:35.143Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "6AC94EEF8FD10D34B7DC5C9D4016F922"
+  fileSize: 279160
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "457570"
+    fileId: "4011355"
+    fileFingerPrint: "2795256814"
+    fileLength: "279160"
+  enabled: true
+- id: "5zpUqd7e-3mV4g"
+  name: "connectedglass-1.1.4b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/967/connectedglass-1.1.4b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "connectedglass*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T13:36:15.493Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "A8CE1992265F3CBE00F9FCA10FBE6CED"
+  fileSize: 628942
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "383129"
+    fileId: "3871967"
+    fileFingerPrint: "825338194"
+    fileLength: "628942"
+  enabled: true
+- id: "NB+2+rJ5SobdEQ"
+  name: "Controlling-forge-1.19.2-10.0+7.jar"
+  src: "https://edge.forgecdn.net/files/4050/343/Controlling-forge-1.19.2-10.0+7.jar"
+  version: "10.0+7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Controlling-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-25T18:45:47.007Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "A1806659C98D659F6DAAD51A6673671A"
+  fileSize: 117659
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "250398"
+    fileId: "4050343"
+    fileFingerPrint: "3104155174"
+    fileLength: "117659"
+  enabled: true
+- id: "p+a4ZGf7aK8bog"
+  name: "cookingforblockheads-forge-1.19.2-13.3.0.jar"
+  src: "https://edge.forgecdn.net/files/4055/331/cookingforblockheads-forge-1.19.2-13.3.0.jar"
+  version: "13.3.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "cookingforblockheads-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-28T18:51:44.827Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "422E9420F99AA3F5D060396E1289DADC"
+  fileSize: 689559
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "231484"
+    fileId: "4055331"
+    fileFingerPrint: "537203779"
+    fileLength: "689559"
+  enabled: true
+- id: "RYnk9n+2nl-bLw"
+  name: "corpse-1.19.2-1.0.0.jar"
+  src: "https://edge.forgecdn.net/files/3920/717/corpse-1.19.2-1.0.0.jar"
+  version: "1.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "corpse*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-06T07:15:25.897Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "48C6552127E8AA4A6BA9B9D75AABBF6F"
+  fileSize: 220543
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "316582"
+    fileId: "3920717"
+    fileFingerPrint: "194472551"
+    fileLength: "220543"
+  enabled: true
+- id: "DtCiqUmP5pSz+Q"
+  name: "CosmeticArmorReworked-1.19.2-v1a.jar"
+  src: "https://edge.forgecdn.net/files/4016/732/CosmeticArmorReworked-1.19.2-v1a.jar"
+  version: "v1a"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "CosmeticArmorReworked*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-03T05:34:58.23Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "04E67C8F93E7121EFB0B34D96DB6370C"
+  fileSize: 87648
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "237307"
+    fileId: "4016732"
+    fileFingerPrint: "1996414238"
+    fileLength: "87648"
+  enabled: true
+- id: "6Lvhwu14AC2LgA"
+  name: "craftingtweaks-forge-1.19-15.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3914/7/craftingtweaks-forge-1.19-15.1.0.jar"
+  version: "15.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "craftingtweaks-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-03T10:14:52.39Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "AAE9427DB403BA19C6EE4414A3D97512"
+  fileSize: 178356
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "233071"
+    fileId: "3914007"
+    fileFingerPrint: "88344426"
+    fileLength: "178356"
+  enabled: true
+- id: "DhYVF980Qu+iqg"
+  name: "crashutilities-6.1.jar"
+  src: "https://edge.forgecdn.net/files/4033/133/crashutilities-6.1.jar"
+  version: "6.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "crashutilities*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-18T12:07:25.07Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "268CE5A3276D1F254C134DE9CFD05F1F"
+  fileSize: 231895
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "371813"
+    fileId: "4033133"
+    fileFingerPrint: "1537290945"
+    fileLength: "231895"
+  enabled: true
+- id: "X0ddoEnf5xeg2w"
+  name: "create-1.19.2-0.5.0.f.jar"
+  src: "https://edge.forgecdn.net/files/4011/414/create-1.19.2-0.5.0.f.jar"
+  version: "0.5.0.f"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "create*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-29T10:00:18.347Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "43FA9ADC8B9ED9073EB41DBF9892985E"
+  fileSize: 14429032
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "328085"
+    fileId: "4011414"
+    fileFingerPrint: "4021773835"
+    fileLength: "14429032"
+  enabled: true
+- id: "pAnfdUxeIoT6yw"
+  name: "createaddition-1.19.2-20221106a.jar"
+  src: "https://edge.forgecdn.net/files/4069/414/createaddition-1.19.2-20221106a.jar"
+  version: "20221106a"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "createaddition*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-06T00:06:21.323Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "E28B60934E007C47A96C74EA35E7252B"
+  fileSize: 848466
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "439890"
+    fileId: "4069414"
+    fileFingerPrint: "2572201487"
+    fileLength: "848466"
+  enabled: true
+- id: "FXWKZHpbGE+brQ"
+  name: "curios-forge-1.19.2-5.1.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3924/518/curios-forge-1.19.2-5.1.1.0.jar"
+  version: "5.1.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "curios-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-08T10:22:39.177Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "2039D08A7829EC0EB9B23806DE267E35"
+  fileSize: 269319
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "309927"
+    fileId: "3924518"
+    fileFingerPrint: "2110130877"
+    fileLength: "269319"
+  enabled: true
+- id: "jvqIfFKDaAMi8w"
+  name: "DefaultSettings-1.19.x-2.8.7.jar"
+  src: "https://edge.forgecdn.net/files/3952/323/DefaultSettings-1.19.x-2.8.7.jar"
+  version: "2.8.7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "DefaultSettings*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-26T05:14:07.823Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D92953C9D80295492B4E8AF52F86241A"
+  fileSize: 88431
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "318012"
+    fileId: "3952323"
+    fileFingerPrint: "3763214258"
+    fileLength: "88431"
+  enabled: true
+- id: "rqz5itmWorf7kA"
+  name: "dummmmmmy-1.19-1.5.5.jar"
+  src: "https://edge.forgecdn.net/files/3913/301/dummmmmmy-1.19-1.5.5.jar"
+  version: "1.5.5"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "dummmmmmy*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-02T21:32:59.257Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "71B5A4FE5CEAA55CBAACABB35F6D20C0"
+  fileSize: 103691
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "225738"
+    fileId: "3913301"
+    fileFingerPrint: "1442742733"
+    fileLength: "103691"
+  enabled: true
+- id: "v59xN5J8CI-1GA"
+  name: "DungeonCrawl-1.19-2.3.11.jar"
+  src: "https://edge.forgecdn.net/files/3875/588/DungeonCrawl-1.19-2.3.11.jar"
+  version: "2.3.11"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "DungeonCrawl*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-14T19:17:59.033Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8048E7A6C167FC629ACEFF6A13F05AE0"
+  fileSize: 760159
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "324973"
+    fileId: "3875588"
+    fileFingerPrint: "4200348330"
+    fileLength: "760159"
+  enabled: true
+- id: "vd4mNWhG5N+UYg"
+  name: "EdivadLib-1.19.2-1.2.0.jar"
+  src: "https://edge.forgecdn.net/files/3927/847/EdivadLib-1.19.2-1.2.0.jar"
+  version: "1.2.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "EdivadLib*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-10T12:08:33.497Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "24BC3DA0D9E67862FC8D0420C0AA98CF"
+  fileSize: 20537
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "638508"
+    fileId: "3927847"
+    fileFingerPrint: "3986385636"
+    fileLength: "20537"
+  enabled: true
+- id: "UFd7epMIfaa1ng"
+  name: "elevatorid-1.19-1.8.7.jar"
+  src: "https://edge.forgecdn.net/files/3934/86/elevatorid-1.19-1.8.7.jar"
+  version: "1.8.7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "elevatorid*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-14T14:02:21.487Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "DB22C808C549A49F751DC97E6D6F6120"
+  fileSize: 186675
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "250832"
+    fileId: "3934086"
+    fileFingerPrint: "4089162823"
+    fileLength: "186675"
+  enabled: true
+- id: "v4xaMy8-jH6T1A"
+  name: "elytraslot-forge-6.0.0+1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/3929/276/elytraslot-forge-6.0.0+1.19.2.jar"
+  version: "6.0.0+1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "elytraslot-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-11T09:14:32.833Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "88A3FE0ABC4DAE7B91CC086450C239B4"
+  fileSize: 42007
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "317716"
+    fileId: "3929276"
+    fileFingerPrint: "702802189"
+    fileLength: "42007"
+  enabled: true
+- id: "wX0PNCn2H1g+mg"
+  name: "EnchantmentDescriptions-Forge-1.19.2-13.0.8.jar"
+  src: "https://edge.forgecdn.net/files/4047/42/EnchantmentDescriptions-Forge-1.19.2-13.0.8.jar"
+  version: "13.0.8"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "EnchantmentDescriptions-Forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-24T01:43:35.24Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "D1578AE61BF5BA01ED49B93A630C8C7C"
+  fileSize: 61214
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "250419"
+    fileId: "4047042"
+    fileFingerPrint: "1600059778"
+    fileLength: "61214"
+  enabled: true
+- id: "Qqj2id0Zejc+vQ"
+  name: "enderchests-1.19-1.10.0.jar"
+  src: "https://edge.forgecdn.net/files/3888/544/enderchests-1.19-1.10.0.jar"
+  version: "1.10.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "enderchests*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-21T08:46:26.527Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7AA782CE18F17A720DE36208D59DE1EE"
+  fileSize: 228938
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "363535"
+    fileId: "3888544"
+    fileFingerPrint: "642083801"
+    fileLength: "228938"
+  enabled: true
+- id: "ETfeY304qGCPQQ"
+  name: "endertanks-1.19-1.12.0.jar"
+  src: "https://edge.forgecdn.net/files/3888/537/endertanks-1.19-1.12.0.jar"
+  version: "1.12.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "endertanks*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-21T08:43:33.18Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3F57124A185881CEAC7E870B8A4BC12D"
+  fileSize: 259118
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "59613"
+    fileId: "3888537"
+    fileFingerPrint: "3505457942"
+    fileLength: "259118"
+  enabled: true
+- id: "O6rTsYMDNm285w"
+  name: "energymeter-1.19.2-1.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4032/160/energymeter-1.19.2-1.0.0.jar"
+  version: "1.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "energymeter*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-17T15:48:37.893Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "182A7CFCE22D2AA4D9A282D82BA7E1B9"
+  fileSize: 122704
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "532169"
+    fileId: "4032160"
+    fileFingerPrint: "1779769222"
+    fileLength: "122704"
+  enabled: true
+- id: "OI96ujRnLH6r8w"
+  name: "entityculling-forge-1.5.2-mc1.19.1.jar"
+  src: "https://edge.forgecdn.net/files/3914/299/entityculling-forge-1.5.2-mc1.19.1.jar"
+  version: "mc1.19.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "entityculling-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-03T14:25:24.823Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7FABA5ADC0796E38F99AAE2D46EB0E43"
+  fileSize: 69493
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "448233"
+    fileId: "3914299"
+    fileFingerPrint: "2466424706"
+    fileLength: "69493"
+  enabled: true
+- id: "y4Tac3UEehcKoA"
+  name: "Entity_Collision_FPS_Fix-forge-1.19-2.0.0.0.jar"
+  src: "https://edge.forgecdn.net/files/3829/972/Entity_Collision_FPS_Fix-forge-1.19-2.0.0.0.jar"
+  version: "2.0.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Entity_Collision_FPS_Fix-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-13T01:48:04.577Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F7ADF3C46C9AF07674B09A55C9E03288"
+  fileSize: 10173
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "628345"
+    fileId: "3829972"
+    fileFingerPrint: "1646411075"
+    fileLength: "10173"
+  enabled: true
+- id: "IrrbnGGUDHKjMg"
+  name: "ExtraDisks-1.19.2-2.2.0.jar"
+  src: "https://edge.forgecdn.net/files/4012/950/ExtraDisks-1.19.2-2.2.0.jar"
+  version: "2.2.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ExtraDisks*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-30T17:11:47.857Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "1CF79C98FECA61D2F387B51EEACA3836"
+  fileSize: 233318
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "351491"
+    fileId: "4012950"
+    fileFingerPrint: "474068736"
+    fileLength: "233318"
+  enabled: true
+- id: "K1D3nq25v+yKgQ"
+  name: "ExtraStorage-1.19.2-3.0.1.jar"
+  src: "https://edge.forgecdn.net/files/4031/259/ExtraStorage-1.19.2-3.0.1.jar"
+  version: "3.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ExtraStorage*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-16T19:51:20.637Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "13DC87C5E568723B5CCD30818DABCF66"
+  fileSize: 354841
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "410168"
+    fileId: "4031259"
+    fileFingerPrint: "4064044117"
+    fileLength: "354841"
+  enabled: true
+- id: "Ko3f6hLG+vvVQA"
+  name: "extremesoundmuffler-3.33_forge-1.19.x.jar"
+  src: "https://edge.forgecdn.net/files/4033/58/extremesoundmuffler-3.33_forge-1.19.x.jar"
+  version: "1.19.x"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "extremesoundmuffler*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-18T09:48:12.887Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "0464D47F050E2872B66B0E71703E8097"
+  fileSize: 292799
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "363363"
+    fileId: "4033058"
+    fileFingerPrint: "2354115191"
+    fileLength: "292799"
+  enabled: true
+- id: "EPr6yuKVxWCIig"
+  name: "FallingTree-1.19.2-3.10.0.jar"
+  src: "https://edge.forgecdn.net/files/3968/312/FallingTree-1.19.2-3.10.0.jar"
+  version: "3.10.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FallingTree*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-04T15:21:25.943Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9C3E5C2FD08BBEDDF47EB4ADE16EA68E"
+  fileSize: 407197
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "349559"
+    fileId: "3968312"
+    fileFingerPrint: "3670199889"
+    fileLength: "407197"
+  enabled: true
+- id: "P2hUY1LXNPmcLA"
+  name: "FarmersDelight-1.19-1.2.0.jar"
+  src: "https://edge.forgecdn.net/files/3999/157/FarmersDelight-1.19-1.2.0.jar"
+  version: "1.2.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FarmersDelight*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-21T00:07:03.427Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "2FD6A6AF61CA2B6CF95A1F3565F99794"
+  fileSize: 2701111
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "398521"
+    fileId: "3999157"
+    fileFingerPrint: "293258144"
+    fileLength: "2701111"
+  enabled: true
+- id: "Sovu7zqrPs+IzQ"
+  name: "farmingforblockheads-forge-1.19-11.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3901/908/farmingforblockheads-forge-1.19-11.1.0.jar"
+  version: "11.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "farmingforblockheads-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-27T10:26:07.257Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "16249BE962432184D3C92994AB09CEA5"
+  fileSize: 548760
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "261924"
+    fileId: "3901908"
+    fileFingerPrint: "3433960290"
+    fileLength: "548760"
+  enabled: true
+- id: "A3K8NakkNqZ8tQ"
+  name: "farsight-1.19.2-2.1.jar"
+  src: "https://edge.forgecdn.net/files/4017/307/farsight-1.19.2-2.1.jar"
+  version: "2.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "farsight*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-03T19:18:10.357Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "314BA82FD4BFE128D826971A411D9BF3"
+  fileSize: 10705
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "495693"
+    fileId: "4017307"
+    fileFingerPrint: "3151228856"
+    fileLength: "10705"
+  enabled: true
+- id: "regZMx+QJZbDaQ"
+  name: "FastFurnace-1.19.2-7.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4028/348/FastFurnace-1.19.2-7.0.0.jar"
+  version: "7.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FastFurnace*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-14T08:41:09.463Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "5999D492E5731CDE00560B25CA85AA51"
+  fileSize: 5477
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "299540"
+    fileId: "4028348"
+    fileFingerPrint: "2026152198"
+    fileLength: "5477"
+  enabled: true
+- id: "EL0N0mx7N6gxMw"
+  name: "FastLeafDecay-30.jar"
+  src: "https://edge.forgecdn.net/files/3894/512/FastLeafDecay-30.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FastLeafDecay-30*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-23T08:19:57.937Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "9004A418268AB7E5C3529BD9E1922CE7"
+  fileSize: 11295
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "230976"
+    fileId: "3894512"
+    fileFingerPrint: "827526645"
+    fileLength: "11295"
+  enabled: true
+- id: "RZgCqsinUOZcEQ"
+  name: "FastSuite-1.19.2-4.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4028/357/FastSuite-1.19.2-4.0.0.jar"
+  version: "4.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FastSuite*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-14T08:48:37.953Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "30C7938E0F99D38422CDFADECB0E1B23"
+  fileSize: 11184
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "475117"
+    fileId: "4028357"
+    fileFingerPrint: "2143188813"
+    fileLength: "11184"
+  enabled: true
+- id: "lTy1NdOWVuL4lg"
+  name: "FastWorkbench-1.19.2-7.0.1.jar"
+  src: "https://edge.forgecdn.net/files/4029/996/FastWorkbench-1.19.2-7.0.1.jar"
+  version: "7.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FastWorkbench*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-15T20:36:04.317Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B12209E9F7F75D1D80616881E18D22C1"
+  fileSize: 25481
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "288885"
+    fileId: "4029996"
+    fileFingerPrint: "410905470"
+    fileLength: "25481"
+  enabled: true
+- id: "706bVda3QnwUSw"
+  name: "ferritecore-5.0.2-forge.jar"
+  src: "https://edge.forgecdn.net/files/4073/783/ferritecore-5.0.2-forge.jar"
+  version: "forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ferritecore*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-08T08:19:57.927Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "F4977F7ADAFBBA91BE6DA7A8B71620B0"
+  fileSize: 116656
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "429235"
+    fileId: "4073783"
+    fileFingerPrint: "539815104"
+    fileLength: "116656"
+  enabled: true
+- id: "Fx5eBc+2Sl6nfw"
+  name: "findme-3.1.0-forge.jar"
+  src: "https://edge.forgecdn.net/files/3910/1/findme-3.1.0-forge.jar"
+  version: "forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "findme*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-31T19:28:38.867Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "EBFD628C8BB79C5E6C76579D51DE1C5F"
+  fileSize: 33463
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "291936"
+    fileId: "3910001"
+    fileFingerPrint: "625745443"
+    fileLength: "33463"
+  enabled: true
+- id: "zgHexG30RXVdeQ"
+  name: "flickerfix-1.19.1-3.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3913/684/flickerfix-1.19.1-3.1.0.jar"
+  version: "3.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "flickerfix*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-03T02:22:33.937Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "5E205A03F453AB647BAB511BA020781C"
+  fileSize: 5857
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "431430"
+    fileId: "3913684"
+    fileFingerPrint: "342695654"
+    fileLength: "5857"
+  enabled: true
+- id: "p-5Ahs-SfmH7kA"
+  name: "FramedBlocks-6.6.1.jar"
+  src: "https://edge.forgecdn.net/files/4073/583/FramedBlocks-6.6.1.jar"
+  version: "6.6.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "FramedBlocks*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-08T01:35:31.833Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "A938562200492549E9F4AC5DB09210BB"
+  fileSize: 2187999
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "441647"
+    fileId: "4073583"
+    fileFingerPrint: "3182091011"
+    fileLength: "2187999"
+  enabled: true
+- id: "dQz+JIR5F0Ui3g"
+  name: "ftb-chunks-forge-1902.3.9-build.168.jar"
+  src: "https://edge.forgecdn.net/files/3981/376/ftb-chunks-forge-1902.3.9-build.168.jar"
+  version: "build.168"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ftb-chunks-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-10T16:32:37.94Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7B14DC8E8CAF13C8632EE15A96D70493"
+  fileSize: 739954
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "314906"
+    fileId: "3981376"
+    fileFingerPrint: "852839402"
+    fileLength: "739954"
+  enabled: true
+- id: "1qgYj0+8bVNlzw"
+  name: "ftb-library-forge-1902.3.10-build.156.jar"
+  src: "https://edge.forgecdn.net/files/4076/618/ftb-library-forge-1902.3.10-build.156.jar"
+  version: "build.156"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ftb-library-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-10T10:44:36.69Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "AC0CF542A46B02C747FE079B1228E349"
+  fileSize: 583650
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "404465"
+    fileId: "4076618"
+    fileFingerPrint: "3664443040"
+    fileLength: "583650"
+  enabled: true
+- id: "LhdgSMPDBnd2Yw"
+  name: "ftb-quests-forge-1902.4.3-build.140.jar"
+  src: "https://edge.forgecdn.net/files/4075/705/ftb-quests-forge-1902.4.3-build.140.jar"
+  version: "build.140"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ftb-quests-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T18:14:53.453Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "838997A55DE1760F38AF4134A841ACF1"
+  fileSize: 1060320
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "289412"
+    fileId: "4075705"
+    fileFingerPrint: "2599835912"
+    fileLength: "1060320"
+  enabled: true
+- id: "lbvJu9fL1tcoKg"
+  name: "ftb-teams-forge-1902.2.9-build.61.jar"
+  src: "https://edge.forgecdn.net/files/3963/573/ftb-teams-forge-1902.2.9-build.61.jar"
+  version: "build.61"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ftb-teams-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-02T12:22:51.207Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "0200441D4D054C9F86128C0A28779789"
+  fileSize: 173524
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "404468"
+    fileId: "3963573"
+    fileFingerPrint: "1870109370"
+    fileLength: "173524"
+  enabled: true
+- id: "aHq9pE60YUsAJg"
+  name: "geckolib-forge-1.19-3.1.36.jar"
+  src: "https://edge.forgecdn.net/files/4064/451/geckolib-forge-1.19-3.1.36.jar"
+  version: "3.1.36"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "geckolib-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-02T21:44:08.477Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "83D585970A92AB6BAF7B708FFB81C404"
+  fileSize: 2992814
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "388172"
+    fileId: "4064451"
+    fileFingerPrint: "1875067901"
+    fileLength: "2992814"
+  enabled: true
+- id: "3wbOSPoO-Hfswg"
+  name: "getittogetherdrops-forge-1.19.2-1.3.jar"
+  src: "https://edge.forgecdn.net/files/4044/83/getittogetherdrops-forge-1.19.2-1.3.jar"
+  version: "1.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "getittogetherdrops-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-23T13:24:29.737Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "8E6CF148C3A973111B230AF3212841B2"
+  fileSize: 7831
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "411045"
+    fileId: "4044083"
+    fileFingerPrint: "1174783074"
+    fileLength: "7831"
+  enabled: true
+- id: "d5xUQOaC3-kxQw"
+  name: "globalxp-1.19-1.10.2.jar"
+  src: "https://edge.forgecdn.net/files/3871/611/globalxp-1.19-1.10.2.jar"
+  version: "1.10.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "globalxp*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T07:46:54.92Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "52120DF752445B4C65353E0461A66749"
+  fileSize: 36668
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "268647"
+    fileId: "3871611"
+    fileFingerPrint: "4199594789"
+    fileLength: "36668"
+  enabled: true
+- id: "tYF097ttPulB9w"
+  name: "Iceberg-1.19.2-forge-1.0.49.jar"
+  src: "https://edge.forgecdn.net/files/4068/355/Iceberg-1.19.2-forge-1.0.49.jar"
+  version: "forge-1.0.49"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Iceberg*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-05T06:14:53.273Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "27B3296A7628A4B5A63EE5E84F0BF75D"
+  fileSize: 89652
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "520110"
+    fileId: "4068355"
+    fileFingerPrint: "3172875752"
+    fileLength: "89652"
+  enabled: true
+- id: "SVndWGC2zPHdxQ"
+  name: "ImmersiveEngineering-1.19.2-9.0.0-153.jar"
+  src: "https://edge.forgecdn.net/files/3963/698/ImmersiveEngineering-1.19.2-9.0.0-153.jar"
+  version: "9.0.0-153"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ImmersiveEngineering*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-02T13:53:02.197Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "B503CBCBA7C2592094A94FD4A9D338FB"
+  fileSize: 9707005
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "231951"
+    fileId: "3963698"
+    fileFingerPrint: "408832485"
+    fileLength: "9707005"
+  enabled: true
+- id: "DKaI6+WPTYmYWg"
+  name: "industrial-foregoing-1.19.2-3.3.2.0-2.jar"
+  src: "https://edge.forgecdn.net/files/4046/524/industrial-foregoing-1.19.2-3.3.2.0-2.jar"
+  version: "3.3.2.0-2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "industrial-foregoing*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-23T18:18:51.727Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "6609135B04CF794EA7EE918036386EB0"
+  fileSize: 4492339
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "266515"
+    fileId: "4046524"
+    fileFingerPrint: "266504049"
+    fileLength: "4492339"
+  enabled: true
+- id: "Y1TD5xHgiODOHw"
+  name: "inventoryessentials-forge-1.19-5.0.0.jar"
+  src: "https://edge.forgecdn.net/files/3832/522/inventoryessentials-forge-1.19-5.0.0.jar"
+  version: "5.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "inventoryessentials-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-14T20:39:18.893Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "3696360C3035C46B8CA233FCE53FAA2A"
+  fileSize: 130436
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "368825"
+    fileId: "3832522"
+    fileFingerPrint: "3932795036"
+    fileLength: "130436"
+  enabled: true
+- id: "4yts-OtpamoFNw"
+  name: "InventoryHud_[1.19.2].forge-3.4.6.jar"
+  src: "https://edge.forgecdn.net/files/3930/588/InventoryHud_[1.19.2].forge-3.4.6.jar"
+  version: "[1.19.2].forge-3.4.6"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "InventoryHud*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-12T04:01:15.417Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "874475266624FD83C74B51906CAA1795"
+  fileSize: 205479
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "357540"
+    fileId: "3930588"
+    fileFingerPrint: "1351473154"
+    fileLength: "205479"
+  enabled: true
+- id: "oQGm7URZnwj5MQ"
+  name: "ironchest-1.19.2-14.2.7.jar"
+  src: "https://edge.forgecdn.net/files/3966/365/ironchest-1.19.2-14.2.7.jar"
+  version: "14.2.7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ironchest*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-04T02:53:24.307Z"
+  updateDate: "2022-11-13T20:19:00Z"
+  hashes:
+    md5: "7E2CEE5753AEB0C9013FBA2D54D55E35"
+  fileSize: 295119
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "228756"
+    fileId: "3966365"
+    fileFingerPrint: "3871022475"
+    fileLength: "295119"
+  enabled: true
+- id: "MjV-gKWVs-nmZg"
+  name: "item-filters-forge-1902.2.9-build.46.jar"
+  src: "https://edge.forgecdn.net/files/4055/379/item-filters-forge-1902.2.9-build.46.jar"
+  version: "build.46"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "item-filters-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-28T19:42:10.213Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "3CB1510CBCBA7CC2BBEFC48442EC1938"
+  fileSize: 115285
+  additionalFields:
+    createdAt: "2022-11-13T20:19:00Z"
+    projectId: "309674"
+    fileId: "4055379"
+    fileFingerPrint: "4211681102"
+    fileLength: "115285"
+  enabled: true
+- id: "eUSn8LEy6vxUTA"
+  name: "itemcollectors-1.1.5b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/905/itemcollectors-1.1.5b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "itemcollectors*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T12:52:57.7Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "C2CAD4474CC6707569108C29D161DB5F"
+  fileSize: 91425
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "395620"
+    fileId: "3871905"
+    fileFingerPrint: "2185725571"
+    fileLength: "91425"
+  enabled: true
+- id: "kFLKnrWG-EpghA"
+  name: "ItShallNotTick-1.0.11-build.35.jar"
+  src: "https://edge.forgecdn.net/files/3950/475/ItShallNotTick-1.0.11-build.35.jar"
+  version: "build.35"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ItShallNotTick*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-24T21:31:37.21Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "5D76099F5E600D90EE6C6C5E0C0F1842"
+  fileSize: 49167
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "619355"
+    fileId: "3950475"
+    fileFingerPrint: "2447688456"
+    fileLength: "49167"
+  enabled: true
+- id: "UbTe+f1kt9I-Uw"
+  name: "JCPlugin-1.18.x-1.19.x-2.8.7.jar"
+  src: "https://edge.forgecdn.net/files/3951/271/JCPlugin-1.18.x-1.19.x-2.8.7.jar"
+  version: "1.19.x-2.8.7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "JCPlugin*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-25T14:15:09.8Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "95BF1FE0D655A6D2D84BB9F3522A3558"
+  fileSize: 27094
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "659192"
+    fileId: "3951271"
+    fileFingerPrint: "1067855792"
+    fileLength: "27094"
+  enabled: true
+- id: "Tc-LGdl6BNyzZA"
+  name: "jei-1.19.2-forge-11.4.0.285.jar"
+  src: "https://edge.forgecdn.net/files/4068/188/jei-1.19.2-forge-11.4.0.285.jar"
+  version: "forge-11.4.0.285"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "jei*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-05T01:58:36.57Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "42984B28570C1DD91940C19C5BF330E8"
+  fileSize: 1046424
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "238222"
+    fileId: "4068188"
+    fileFingerPrint: "1944325784"
+    fileLength: "1046424"
+  enabled: true
+- id: "J8U14H6GXDtnHQ"
+  name: "jmi-forge-1.19.2-0.13-30.jar"
+  src: "https://edge.forgecdn.net/files/3965/77/jmi-forge-1.19.2-0.13-30.jar"
+  version: "0.13-30"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "jmi-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-03T09:12:04.32Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "F55D17892A4FC946687734028BAE954E"
+  fileSize: 68906
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "525447"
+    fileId: "3965077"
+    fileFingerPrint: "3742417225"
+    fileLength: "68906"
+  enabled: true
+- id: "T7x+gB2pQamdHw"
+  name: "journeymap-1.19.1-5.9.0beta2-forge.jar"
+  src: "https://edge.forgecdn.net/files/3927/230/journeymap-1.19.1-5.9.0beta2-forge.jar"
+  version: "5.9.0beta2-forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "journeymap*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-10T00:22:58.227Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "3BBCB3D931D8E7A372A5E608D644BF0C"
+  fileSize: 7029855
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "32274"
+    fileId: "3927230"
+    fileFingerPrint: "3143547318"
+    fileLength: "7029855"
+  enabled: true
+- id: "aw6bFYWY-ip+fg"
+  name: "JustEnoughProfessions-forge-1.19-2.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3873/944/JustEnoughProfessions-forge-1.19-2.0.1.jar"
+  version: "2.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "JustEnoughProfessions-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-13T18:06:32.343Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "35C808291C2B03A66D903D1751F7E7AB"
+  fileSize: 23202
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "417645"
+    fileId: "3873944"
+    fileFingerPrint: "3180765838"
+    fileLength: "23202"
+  enabled: true
+- id: "G3jt9u1O-Ox6pg"
+  name: "JustEnoughResources-1.19.2-1.1.1.184.jar"
+  src: "https://edge.forgecdn.net/files/4065/174/JustEnoughResources-1.19.2-1.1.1.184.jar"
+  version: "1.1.1.184"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "JustEnoughResources*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-03T13:41:22.037Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "8E58B64564018FABE4B22389FD85A988"
+  fileSize: 270374
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "240630"
+    fileId: "4065174"
+    fileFingerPrint: "38760434"
+    fileLength: "270374"
+  enabled: true
+- id: "36e7ifT38cUFeg"
+  name: "kotlinforforge-3.7.1-obf.jar"
+  src: "https://edge.forgecdn.net/files/3925/887/kotlinforforge-3.7.1-obf.jar"
+  version: "obf"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "kotlinforforge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-09T04:17:01.053Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "4ED88C3EA64C55E214E2993AC0FE412E"
+  fileSize: 6796888
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "351264"
+    fileId: "3925887"
+    fileFingerPrint: "434158534"
+    fileLength: "6796888"
+  enabled: true
+- id: "EFTYfvb6jt65KQ"
+  name: "kubejs-forge-1902.6.0-build.114.jar"
+  src: "https://edge.forgecdn.net/files/4073/868/kubejs-forge-1902.6.0-build.114.jar"
+  version: "build.114"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "kubejs-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-08T09:42:08.067Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "3C3CB5E0630E43F11F266E11161DEC8F"
+  fileSize: 1052226
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "238086"
+    fileId: "4073868"
+    fileFingerPrint: "414130342"
+    fileLength: "1052226"
+  enabled: true
+- id: "BLkwkb0cG0sXXg"
+  name: "lazydfu-1.0-1.19+.jar"
+  src: "https://edge.forgecdn.net/files/3831/644/lazydfu-1.0-1.19+.jar"
+  version: "1.19+"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "lazydfu*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-14T06:41:40.023Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "D207033332336232DB3A692759FA5B7B"
+  fileSize: 15073
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "460819"
+    fileId: "3831644"
+    fileFingerPrint: "4274481433"
+    fileLength: "15073"
+  enabled: true
+- id: "usZMIYd80CEAkw"
+  name: "LegendaryTooltips-1.19.2-1.3.1.jar"
+  src: "https://edge.forgecdn.net/files/4068/347/LegendaryTooltips-1.19.2-1.3.1.jar"
+  version: "1.3.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "LegendaryTooltips*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-05T05:58:49.49Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "EE875DD291E4F5F3B334B9C36CD0FBB1"
+  fileSize: 46452
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "532127"
+    fileId: "4068347"
+    fileFingerPrint: "3616131302"
+    fileLength: "46452"
+  enabled: true
+- id: "N9hVNBxTGfj2lg"
+  name: "mcjtylib-1.19-7.0.5.jar"
+  src: "https://edge.forgecdn.net/files/4069/705/mcjtylib-1.19-7.0.5.jar"
+  version: "7.0.5"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "mcjtylib*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-06T06:29:14.257Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "AB29FFBF5F18CA778FF32A9B1E0923B1"
+  fileSize: 630115
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "233105"
+    fileId: "4069705"
+    fileFingerPrint: "727936677"
+    fileLength: "630115"
+  enabled: true
+- id: "EwYIgQqJRWp53Q"
+  name: "mcw-bridges-2.0.5-mc1.19.2forge.jar"
+  src: "https://edge.forgecdn.net/files/4018/295/mcw-bridges-2.0.5-mc1.19.2forge.jar"
+  version: "mc1.19.2forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "mcw-bridges*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-04T20:59:00.427Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "F79856D58A2C36BA36E3C1C6DFAB55A8"
+  fileSize: 535199
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "351725"
+    fileId: "4018295"
+    fileFingerPrint: "663785497"
+    fileLength: "535199"
+  enabled: true
+- id: "00wZ-nXQYzH+Kw"
+  name: "mcw-doors-1.0.7-mc1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/3930/976/mcw-doors-1.0.7-mc1.19.2.jar"
+  version: "mc1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "mcw-doors*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-12T11:50:10.78Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "5C6A62E0FD5CA2AB3D4B0BCC748CAD15"
+  fileSize: 877273
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "378646"
+    fileId: "3930976"
+    fileFingerPrint: "3178846839"
+    fileLength: "877273"
+  enabled: true
+- id: "t5vJJPqA3tg6-w"
+  name: "Mekanism-1.19.2-10.3.5.473.jar"
+  src: "https://edge.forgecdn.net/files/4041/164/Mekanism-1.19.2-10.3.5.473.jar"
+  version: "10.3.5.473"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Mekanism*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-22T19:38:17.327Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "0B69AC34C754C413EA1D6743CC9B0C73"
+  fileSize: 12110173
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "268560"
+    fileId: "4041164"
+    fileFingerPrint: "2047092239"
+    fileLength: "12110173"
+  enabled: true
+- id: "RFdIP9dkadY8bg"
+  name: "MekanismGenerators-1.19.2-10.3.5.473.jar"
+  src: "https://edge.forgecdn.net/files/4041/168/MekanismGenerators-1.19.2-10.3.5.473.jar"
+  version: "10.3.5.473"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "MekanismGenerators*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-22T19:38:20.177Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "F294725905A750046F0EE6ACD24EBEA9"
+  fileSize: 995048
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "268566"
+    fileId: "4041168"
+    fileFingerPrint: "3490040592"
+    fileLength: "995048"
+  enabled: true
+- id: "s-7FZjqQ9v9u9Q"
+  name: "MekanismTools-1.19.2-10.3.5.473.jar"
+  src: "https://edge.forgecdn.net/files/4041/169/MekanismTools-1.19.2-10.3.5.473.jar"
+  version: "10.3.5.473"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "MekanismTools*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-22T19:38:21.707Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "6BF51F9C76E9BB905398BA9521BB4B59"
+  fileSize: 413365
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "268567"
+    fileId: "4041169"
+    fileFingerPrint: "988756239"
+    fileLength: "413365"
+  enabled: true
+- id: "+mvHR4KmMIxhbw"
+  name: "modelfix-1.8.jar"
+  src: "https://edge.forgecdn.net/files/4024/855/modelfix-1.8.jar"
+  version: "1.8"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "modelfix*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-10T19:50:57.843Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "94DD393D878D22BE69F6F8FB90361572"
+  fileSize: 26382
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "676136"
+    fileId: "4024855"
+    fileFingerPrint: "2475064624"
+    fileLength: "26382"
+  enabled: true
+- id: "yhLu4UcvwEqvPA"
+  name: "modnametooltip-1.19-1.19.0.jar"
+  src: "https://edge.forgecdn.net/files/3898/427/modnametooltip-1.19-1.19.0.jar"
+  version: "1.19.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "modnametooltip*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-25T02:08:02.717Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "78C0A13A097B0C5AA944CF851F736433"
+  fileSize: 12658
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "238747"
+    fileId: "3898427"
+    fileFingerPrint: "1367513479"
+    fileLength: "12658"
+  enabled: true
+- id: "f-yoo37EBsml3w"
+  name: "moreminecarts-1.5.3.jar"
+  src: "https://edge.forgecdn.net/files/3918/770/moreminecarts-1.5.3.jar"
+  version: "1.5.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "moreminecarts*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-05T00:39:07.697Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "FA34AE19D9B22E6C8A97E9CC45A41FD6"
+  fileSize: 693534
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "440845"
+    fileId: "3918770"
+    fileFingerPrint: "654200180"
+    fileLength: "693534"
+  enabled: true
+- id: "N3eFRMEU39VuGQ"
+  name: "MouseTweaks-forge-mc1.19-2.23.jar"
+  src: "https://edge.forgecdn.net/files/3871/353/MouseTweaks-forge-mc1.19-2.23.jar"
+  version: "2.23"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "MouseTweaks-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T02:55:21.113Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "855222F31F7A2EBFE84CD57480B9E011"
+  fileSize: 75983
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "60089"
+    fileId: "3871353"
+    fileFingerPrint: "2506249165"
+    fileLength: "75983"
+  enabled: true
+- id: "cKRsB+D5jpPOFw"
+  name: "naturalist-forge-2.1.1-1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/3930/809/naturalist-forge-2.1.1-1.19.2.jar"
+  version: "1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "naturalist-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-12T09:14:11.02Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "AEDBC4E347B9C95BA2F06A0AECDA090A"
+  fileSize: 2122572
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "627986"
+    fileId: "3930809"
+    fileFingerPrint: "2335928258"
+    fileLength: "2122572"
+  enabled: true
+- id: "tgezfhDDN0pOQA"
+  name: "NaturesCompass-1.19.2-1.9.7-forge.jar"
+  src: "https://edge.forgecdn.net/files/3923/765/NaturesCompass-1.19.2-1.9.7-forge.jar"
+  version: "1.9.7-forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "NaturesCompass*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-07T21:36:14.587Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "14ECF38AC6BA26568B1A187F5C066FA4"
+  fileSize: 207517
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "252848"
+    fileId: "3923765"
+    fileFingerPrint: "2010425556"
+    fileLength: "207517"
+  enabled: true
+- id: "ale5CcLdxC-9tA"
+  name: "netherportalfix-forge-1.19-10.0.0.jar"
+  src: "https://edge.forgecdn.net/files/3832/619/netherportalfix-forge-1.19-10.0.0.jar"
+  version: "10.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "netherportalfix-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-14T21:56:31.647Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "DE7D8447EBAD408F12933CE1507C84E2"
+  fileSize: 216330
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "241160"
+    fileId: "3832619"
+    fileFingerPrint: "1683667712"
+    fileLength: "216330"
+  enabled: true
+- id: "6JhiFp5WgI+aLw"
+  name: "NoChatReports-FORGE-1.19.2-v1.5.0.jar"
+  src: "https://edge.forgecdn.net/files/4055/536/NoChatReports-FORGE-1.19.2-v1.5.0.jar"
+  version: "v1.5.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "NoChatReports-FORGE*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-28T21:36:19.937Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "67682FAF7E3FF69E5AED915E1EDC0F4B"
+  fileSize: 198200
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "634062"
+    fileId: "4055536"
+    fileFingerPrint: "3265400070"
+    fileLength: "198200"
+  enabled: true
+- id: "n-kWJ8AqGGvK2w"
+  name: "oculus-mc1.19.2-1.2.8.jar"
+  src: "https://edge.forgecdn.net/files/3973/908/oculus-mc1.19.2-1.2.8.jar"
+  version: "1.2.8"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "oculus*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-08T19:15:57.193Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "496BCF2CBD0E6D89EF17C5B01A4EBB73"
+  fileSize: 1886605
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "581495"
+    fileId: "3973908"
+    fileFingerPrint: "3866426220"
+    fileLength: "1886605"
+  enabled: true
+- id: "mE4kTAcXCskJLg"
+  name: "Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar"
+  src: "https://edge.forgecdn.net/files/4027/228/Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.0.13.jar"
+  version: "You'll_Go-forge-1.19.2-2.0.0.13"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Oh_The_Biomes*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-13T01:36:20.107Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "43087145240C9356BC4CACBE5A89DECB"
+  fileSize: 36453240
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "247560"
+    fileId: "4027228"
+    fileFingerPrint: "1278685513"
+    fileLength: "36453240"
+  enabled: true
+- id: "Owr-2eT4M4j7jw"
+  name: "overloadedarmorbar-1.19.2-7.jar"
+  src: "https://edge.forgecdn.net/files/4031/909/overloadedarmorbar-1.19.2-7.jar"
+  version: "7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "overloadedarmorbar*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-17T09:43:52.527Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "B7ACA07BAFCD499090868CE4671AE11D"
+  fileSize: 13246
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "314002"
+    fileId: "4031909"
+    fileFingerPrint: "1198050937"
+    fileLength: "13246"
+  enabled: true
+- id: "A3yVW1QucL9XwA"
+  name: "Patchouli-1.19.2-77.jar"
+  src: "https://edge.forgecdn.net/files/4031/402/Patchouli-1.19.2-77.jar"
+  version: "77"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Patchouli*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-16T21:36:44.76Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "5727784BAD9E215A74A64107C1E45036"
+  fileSize: 635370
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "306770"
+    fileId: "4031402"
+    fileFingerPrint: "3475497048"
+    fileLength: "635370"
+  enabled: true
+- id: "B5-dzYV7VksuVg"
+  name: "phosphophyllite-1.19.2-0.6.0-beta.5.jar"
+  src: "https://edge.forgecdn.net/files/3941/673/phosphophyllite-1.19.2-0.6.0-beta.5.jar"
+  version: "0.6.0-beta.5"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "phosphophyllite*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-19T07:46:43.57Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "F0F01BE39BFCD1F536F37CAE2BE00EF9"
+  fileSize: 1192340
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "412551"
+    fileId: "3941673"
+    fileFingerPrint: "596203666"
+    fileLength: "1192340"
+  enabled: true
+- id: "4H8PK-8TWG-a5g"
+  name: "pipez-1.19.2-1.0.1.jar"
+  src: "https://edge.forgecdn.net/files/4064/952/pipez-1.19.2-1.0.1.jar"
+  version: "1.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "pipez*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-03T08:55:51.14Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "51C4AD8EF7FA192865275F6E4EF096EA"
+  fileSize: 405261
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "443900"
+    fileId: "4064952"
+    fileFingerPrint: "3792898373"
+    fileLength: "405261"
+  enabled: true
+- id: "fC-552xLPltAFg"
+  name: "Placebo-1.19.2-7.0.1.jar"
+  src: "https://edge.forgecdn.net/files/4036/338/Placebo-1.19.2-7.0.1.jar"
+  version: "7.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Placebo*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-21T08:25:06.343Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "C084DEE180DCFFF19F410E9E0AAAFB66"
+  fileSize: 213112
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "283644"
+    fileId: "4036338"
+    fileFingerPrint: "3406054298"
+    fileLength: "213112"
+  enabled: true
+- id: "uPI5+w1HCNIZTA"
+  name: "pluto-mc1.19.2-0.0.6.jar"
+  src: "https://edge.forgecdn.net/files/4052/535/pluto-mc1.19.2-0.0.6.jar"
+  version: "0.0.6"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "pluto*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-26T19:04:54.473Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "64683E24F1B12282F513C60F63EB60D4"
+  fileSize: 216424
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "682881"
+    fileId: "4052535"
+    fileFingerPrint: "2527195064"
+    fileLength: "216424"
+  enabled: true
+- id: "uS3z0fQjJMU6Lg"
+  name: "Powah-4.0.4-beta.jar"
+  src: "https://edge.forgecdn.net/files/4019/923/Powah-4.0.4-beta.jar"
+  version: "beta"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Powah*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-06T15:18:22.57Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "2A89CA13B43A2801A34A3135249255DE"
+  fileSize: 1897416
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "633483"
+    fileId: "4019923"
+    fileFingerPrint: "1172370518"
+    fileLength: "1897416"
+  enabled: true
+- id: "C8d+OgqWhfSVQg"
+  name: "Prism-1.19.1-1.0.2.jar"
+  src: "https://edge.forgecdn.net/files/3993/293/Prism-1.19.1-1.0.2.jar"
+  version: "1.0.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Prism*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-17T04:52:05.613Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "2789A66452BA8B58C843EA991799933E"
+  fileSize: 51537
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "638111"
+    fileId: "3993293"
+    fileFingerPrint: "2514483981"
+    fileLength: "51537"
+  enabled: true
+- id: "rxao24YOj1WyRA"
+  name: "Quark-3.3-371.jar"
+  src: "https://edge.forgecdn.net/files/3961/436/Quark-3.3-371.jar"
+  version: "371"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "Quark*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-01T01:07:43.347Z"
+  updateDate: "2022-11-13T20:19:01Z"
+  hashes:
+    md5: "0AF9485837DE8FFC57590CDDDD0EBFA7"
+  fileSize: 13700941
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "243121"
+    fileId: "3961436"
+    fileFingerPrint: "138895553"
+    fileLength: "13700941"
+  enabled: true
+- id: "vrUwtAWtDBRaHw"
+  name: "quartz-1.19.2-0.1.0-beta.jar"
+  src: "https://edge.forgecdn.net/files/3941/677/quartz-1.19.2-0.1.0-beta.jar"
+  version: "0.1.0-beta"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "quartz*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-19T07:52:49.49Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "28A490C51EE0B4737473C19FF2AFF151"
+  fileSize: 144939
+  additionalFields:
+    createdAt: "2022-11-13T20:19:01Z"
+    projectId: "552262"
+    fileId: "3941677"
+    fileFingerPrint: "384881948"
+    fileLength: "144939"
+  enabled: true
+- id: "uXkBeEM0Rnnn9Q"
+  name: "radon-0.8.2.jar"
+  src: "https://edge.forgecdn.net/files/3822/783/radon-0.8.2.jar"
+  version: "0.8.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "radon*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-08T14:20:53.923Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "E92C2682FB7208F12C9409A68B12A20D"
+  fileSize: 98778
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "596879"
+    fileId: "3822783"
+    fileFingerPrint: "4109112642"
+    fileLength: "98778"
+  enabled: true
+- id: "LCrIEvkmuvw8cg"
+  name: "rangedpumps-1.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4012/692/rangedpumps-1.0.0.jar"
+  version: "1.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rangedpumps*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-30T13:08:24.093Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "4228278290EF37795C3FB32DF62F0FA9"
+  fileSize: 27155
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "247496"
+    fileId: "4012692"
+    fileFingerPrint: "3946934792"
+    fileLength: "27155"
+  enabled: true
+- id: "QfyTlmwvo49apA"
+  name: "rechiseled-1.0.10c-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/920/rechiseled-1.0.10c-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rechiseled*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T12:58:07.417Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "3576469A1B81A2B7BB988E42F257BD85"
+  fileSize: 1980051
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "558998"
+    fileId: "3871920"
+    fileFingerPrint: "343625562"
+    fileLength: "1980051"
+  enabled: true
+- id: "xqRyVauOXyNaFw"
+  name: "redstonepen-1.19.2-forge-1.2.17.jar"
+  src: "https://edge.forgecdn.net/files/3983/438/redstonepen-1.19.2-forge-1.2.17.jar"
+  version: "forge-1.2.17"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "redstonepen*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-11T09:41:19.36Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "F4BDDF754B909359965F43D8E832FD79"
+  fileSize: 458782
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "461710"
+    fileId: "3983438"
+    fileFingerPrint: "206778297"
+    fileLength: "458782"
+  enabled: true
+- id: "vE7t26kugDfhcw"
+  name: "refinedcooking-3.0.2.jar"
+  src: "https://edge.forgecdn.net/files/4056/424/refinedcooking-3.0.2.jar"
+  version: "3.0.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "refinedcooking*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-29T13:39:50.003Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "DC86128D68F34D08AF26EBCB59F47F29"
+  fileSize: 191246
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "543972"
+    fileId: "4056424"
+    fileFingerPrint: "3569638478"
+    fileLength: "191246"
+  enabled: true
+- id: "E12vnKYAEIP9hA"
+  name: "refinedstorage-1.11.1.jar"
+  src: "https://edge.forgecdn.net/files/4057/992/refinedstorage-1.11.1.jar"
+  version: "1.11.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "refinedstorage*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-30T12:11:09.893Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "B4CB7BF89823037B6FAA402499B52736"
+  fileSize: 3266051
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "243076"
+    fileId: "4057992"
+    fileFingerPrint: "3253219632"
+    fileLength: "3266051"
+  enabled: true
+- id: "FV5C3bRoZptBWA"
+  name: "refinedstorageaddons-0.9.0.jar"
+  src: "https://edge.forgecdn.net/files/4012/659/refinedstorageaddons-0.9.0.jar"
+  version: "0.9.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "refinedstorageaddons*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-30T12:19:18.467Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "934DFE7BD5C6F73E66E064E31E6729C5"
+  fileSize: 32913
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "272302"
+    fileId: "4012659"
+    fileFingerPrint: "8824057"
+    fileLength: "32913"
+  enabled: true
+- id: "B8UQ4bAIzEWy9A"
+  name: "rftoolsbase-1.19.1-4.0.3.jar"
+  src: "https://edge.forgecdn.net/files/3970/757/rftoolsbase-1.19.1-4.0.3.jar"
+  version: "4.0.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolsbase*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-06T04:46:52.647Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "2FB570CC87FD867E92E646230FC65264"
+  fileSize: 413923
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "326041"
+    fileId: "3970757"
+    fileFingerPrint: "1043081092"
+    fileLength: "413923"
+  enabled: true
+- id: "jZfHvvOS3MvcWg"
+  name: "rftoolsbuilder-1.19.1-5.0.4.jar"
+  src: "https://edge.forgecdn.net/files/3994/831/rftoolsbuilder-1.19.1-5.0.4.jar"
+  version: "5.0.4"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolsbuilder*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-18T05:40:26.003Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "A8EDA0D31B0C0D196EAD7375399FCF16"
+  fileSize: 635763
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "347706"
+    fileId: "3994831"
+    fileFingerPrint: "3612512570"
+    fileLength: "635763"
+  enabled: true
+- id: "eAkkqwqdKxxZHg"
+  name: "rftoolscontrol-1.19-6.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3970/765/rftoolscontrol-1.19-6.0.1.jar"
+  version: "6.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolscontrol*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-06T05:06:18.973Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "1A2162EEB77C8E471E1463C01FE6B2D3"
+  fileSize: 590522
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "250763"
+    fileId: "3970765"
+    fileFingerPrint: "3039607580"
+    fileLength: "590522"
+  enabled: true
+- id: "eIlZoY46rU+zpw"
+  name: "rftoolspower-1.19-5.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3932/613/rftoolspower-1.19-5.0.1.jar"
+  version: "5.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolspower*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-13T13:51:39.83Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "F9167464F4741C7BA72CC1BF457890CF"
+  fileSize: 560717
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "290209"
+    fileId: "3932613"
+    fileFingerPrint: "903208916"
+    fileLength: "560717"
+  enabled: true
+- id: "hVT8UJ1BCqgiGw"
+  name: "rftoolsstorage-1.19-4.0.3.jar"
+  src: "https://edge.forgecdn.net/files/4069/710/rftoolsstorage-1.19-4.0.3.jar"
+  version: "4.0.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolsstorage*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-06T06:38:59.93Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "E6929A4E4C2EBBD92AB55DFE32F79378"
+  fileSize: 368838
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "350006"
+    fileId: "4069710"
+    fileFingerPrint: "2336414671"
+    fileLength: "368838"
+  enabled: true
+- id: "358CO4LOVmgByg"
+  name: "rftoolsutility-1.19-5.0.2.jar"
+  src: "https://edge.forgecdn.net/files/3994/828/rftoolsutility-1.19-5.0.2.jar"
+  version: "5.0.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolsutility*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-18T05:39:08.1Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "1B18843D76B47A71135848176A01B8C2"
+  fileSize: 1612879
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "342466"
+    fileId: "3994828"
+    fileFingerPrint: "2233047990"
+    fileLength: "1612879"
+  enabled: true
+- id: "0r1wowLrDaLjEQ"
+  name: "rhino-forge-1902.2.1-build.257.jar"
+  src: "https://edge.forgecdn.net/files/4069/896/rhino-forge-1902.2.1-build.257.jar"
+  version: "build.257"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rhino-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-06T10:50:39.05Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "7E8147D590FF5D9195A46723F2E3CCD1"
+  fileSize: 1741136
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "416294"
+    fileId: "4069896"
+    fileFingerPrint: "3571362273"
+    fileLength: "1741136"
+  enabled: true
+- id: "f3oEUadXdfU1rg"
+  name: "RSInfinityBooster-1.19.2-3.0+23.jar"
+  src: "https://edge.forgecdn.net/files/4012/833/RSInfinityBooster-1.19.2-3.0+23.jar"
+  version: "3.0+23"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "RSInfinityBooster*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-30T15:28:59.307Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "C014D7C269F06131713CBF6B6E337BB3"
+  fileSize: 25258
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "446870"
+    fileId: "4012833"
+    fileFingerPrint: "686200785"
+    fileLength: "25258"
+  enabled: true
+- id: "AI7AqdSTm5FAuQ"
+  name: "rsrequestify-2.3.0.jar"
+  src: "https://edge.forgecdn.net/files/4014/76/rsrequestify-2.3.0.jar"
+  version: "2.3.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rsrequestify*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-01T15:32:45.9Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "12402EEFA3AA55224A2EBFE469AB7223"
+  fileSize: 62764
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "307788"
+    fileId: "4014076"
+    fileFingerPrint: "3728754339"
+    fileLength: "62764"
+  enabled: true
+- id: "umBPPlu3vUjfIQ"
+  name: "rubidium-0.6.2.jar"
+  src: "https://edge.forgecdn.net/files/3973/894/rubidium-0.6.2.jar"
+  version: "0.6.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rubidium*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-08T18:55:22.997Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "14FDF4A1243346F7073CE135D4901A39"
+  fileSize: 1369128
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "574856"
+    fileId: "3973894"
+    fileFingerPrint: "2882676633"
+    fileLength: "1369128"
+  enabled: true
+- id: "fJsSiZ55yf8mTQ"
+  name: "saturn-mc1.19.2-0.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3981/973/saturn-mc1.19.2-0.0.1.jar"
+  version: "0.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "saturn*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-11T00:29:20.403Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "E454697CA2A44E229A78FCBBD795F074"
+  fileSize: 20765
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "670986"
+    fileId: "3981973"
+    fileFingerPrint: "4059987817"
+    fileLength: "20765"
+  enabled: true
+- id: "sPwDhgySwKwgDw"
+  name: "shetiphiancore-1.19-3.11.1.jar"
+  src: "https://edge.forgecdn.net/files/4054/811/shetiphiancore-1.19-3.11.1.jar"
+  version: "3.11.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "shetiphiancore*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-28T11:23:12.653Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "4419D158BDD88809EA4321501080B3EF"
+  fileSize: 457626
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "71738"
+    fileId: "4054811"
+    fileFingerPrint: "1814731798"
+    fileLength: "457626"
+  enabled: true
+- id: "o9rTgGwbta9iyA"
+  name: "SimpleBackups-1.19.1-2.1.4.jar"
+  src: "https://edge.forgecdn.net/files/3971/337/SimpleBackups-1.19.1-2.1.4.jar"
+  version: "2.1.4"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "SimpleBackups*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-06T17:29:15.36Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "2BD497385FC5121C1078BA47F0FBFD97"
+  fileSize: 30020
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "583228"
+    fileId: "3971337"
+    fileFingerPrint: "3038685716"
+    fileLength: "30020"
+  enabled: true
+- id: "p58LTtwI+LFgOA"
+  name: "simplemagnets-1.1.8b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/975/simplemagnets-1.1.8b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "simplemagnets*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T13:41:45.95Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "D937827812BCE2E502B8E8363364AFF3"
+  fileSize: 119278
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "394140"
+    fileId: "3871975"
+    fileFingerPrint: "2306736034"
+    fileLength: "119278"
+  enabled: true
+- id: "D21jmlNInvXd-Q"
+  name: "simplylight-1.19.2-1.4.5-build.42.jar"
+  src: "https://edge.forgecdn.net/files/4016/401/simplylight-1.19.2-1.4.5-build.42.jar"
+  version: "1.4.5-build.42"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "simplylight*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-02T22:03:27.963Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "4613B6D700E1641A2114CF25DEB24B00"
+  fileSize: 552175
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "300331"
+    fileId: "4016401"
+    fileFingerPrint: "142801179"
+    fileLength: "552175"
+  enabled: true
+- id: "skQOEG1BSL7obg"
+  name: "SLI-SpawnLimitIncrease-1.1.0.jar"
+  src: "mods/SLI-SpawnLimitIncrease-1.1.0.jar"
+  version: "1.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "SLI-SpawnLimitIncrease*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-13T19:03:50Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "B32DFDBAC33BB29C6BE98FEA1FEB85C2"
+  fileSize: 31380
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "JIUfQ7GebMs5eA"
+  name: "smoothboot(reloaded)-mc1.19.2-0.0.1.jar"
+  src: "https://edge.forgecdn.net/files/4049/125/smoothboot(reloaded)-mc1.19.2-0.0.1.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-24T22:05:49.113Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "2034A32A93C02D416525D500F101B34D"
+  fileSize: 39849
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "633412"
+    fileId: "4049125"
+    fileFingerPrint: "980453311"
+    fileLength: "39849"
+  enabled: true
+- id: "ifCQMtZS6Ocf8Q"
+  name: "SoL-Carrot-1.19.2-1.14.0.jar"
+  src: "https://edge.forgecdn.net/files/3974/155/SoL-Carrot-1.19.2-1.14.0.jar"
+  version: "1.14.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "SoL-Carrot*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-08T21:50:35.817Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "A5CF63BCCE40D865714EB30347B83210"
+  fileSize: 102384
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "277616"
+    fileId: "3974155"
+    fileFingerPrint: "1926177548"
+    fileLength: "102384"
+  enabled: true
+- id: "hO4t9v2FpU0vbA"
+  name: "spark-1.9.45-forge.jar"
+  src: "https://edge.forgecdn.net/files/4057/111/spark-1.9.45-forge.jar"
+  version: "forge"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "spark*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-29T20:57:38.363Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "250E4CCD9C609088DF134CC6D9A8A364"
+  fileSize: 2812999
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "361579"
+    fileId: "4057111"
+    fileFingerPrint: "2976745150"
+    fileLength: "2812999"
+  enabled: true
+- id: "vPLzZ3ywu+sYpA"
+  name: "StorageDrawers-1.19-11.1.2.jar"
+  src: "https://edge.forgecdn.net/files/3884/263/StorageDrawers-1.19-11.1.2.jar"
+  version: "11.1.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "StorageDrawers*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-19T03:30:31.72Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "3F65972AC73962B980A5C7FACF24292E"
+  fileSize: 580748
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "223852"
+    fileId: "3884263"
+    fileFingerPrint: "2516682888"
+    fileLength: "580748"
+  enabled: true
+- id: "T26r4dMd2Vfecw"
+  name: "supermartijn642configlib-1.1.6b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/792/supermartijn642configlib-1.1.6b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "supermartijn642configlib*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T10:35:31.463Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "559D896DAD9316C3FC8CE1DE245D9C4D"
+  fileSize: 205936
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "438332"
+    fileId: "3871792"
+    fileFingerPrint: "3481120806"
+    fileLength: "205936"
+  enabled: true
+- id: "nMspP8V0d0KqaA"
+  name: "supermartijn642corelib-1.0.19a-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3910/759/supermartijn642corelib-1.0.19a-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "supermartijn642corelib*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-01T08:54:55.04Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "ADE0A3D719827FDF9489DCB97A528028"
+  fileSize: 207123
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "454372"
+    fileId: "3910759"
+    fileFingerPrint: "1667509382"
+    fileLength: "207123"
+  enabled: true
+- id: "vXegGtFy-SI+8g"
+  name: "swingthroughgrass-1.19.2-1.10.0.jar"
+  src: "https://edge.forgecdn.net/files/3922/675/swingthroughgrass-1.19.2-1.10.0.jar"
+  version: "1.10.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "swingthroughgrass*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-07T08:35:33.597Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "D822B909AB3A9728592A6572C4A3145B"
+  fileSize: 22820
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "264353"
+    fileId: "3922675"
+    fileFingerPrint: "1459472471"
+    fileLength: "22820"
+  enabled: true
+- id: "9K+WNiashCtCIQ"
+  name: "TerraBlender-forge-1.19.2-2.0.1.129.jar"
+  src: "https://edge.forgecdn.net/files/4057/292/TerraBlender-forge-1.19.2-2.0.1.129.jar"
+  version: "2.0.1.129"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "TerraBlender-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-29T23:51:41.963Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "D2B4037F03B3473BF4002BD20AD5D8A8"
+  fileSize: 98731
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "563928"
+    fileId: "4057292"
+    fileFingerPrint: "2173014256"
+    fileLength: "98731"
+  enabled: true
+- id: "9i3IgdMsKRTHeQ"
+  name: "tesseract-1.0.27b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3871/938/tesseract-1.0.27b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "tesseract*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-12T13:11:38.89Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "BB4DEBEEC75359C7D6DEED4C4F30EBC5"
+  fileSize: 1553975
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "379232"
+    fileId: "3871938"
+    fileFingerPrint: "1102200760"
+    fileLength: "1553975"
+  enabled: true
+- id: "TlytuDMcPGYuPA"
+  name: "theoneprobe-1.19-6.2.2.jar"
+  src: "https://edge.forgecdn.net/files/3965/693/theoneprobe-1.19-6.2.2.jar"
+  version: "6.2.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "theoneprobe*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-03T17:40:36.41Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "67F217C81B311F2C5131758F8C37CEFD"
+  fileSize: 332491
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "245211"
+    fileId: "3965693"
+    fileFingerPrint: "1287672580"
+    fileLength: "332491"
+  enabled: true
+- id: "QLZPB3F89FjkQQ"
+  name: "titanium-1.19.2-3.7.0-23.jar"
+  src: "https://edge.forgecdn.net/files/4015/180/titanium-1.19.2-3.7.0-23.jar"
+  version: "3.7.0-23"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "titanium*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-02T12:08:05.523Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "C9946277B01F893C5332BC5B4A282239"
+  fileSize: 615891
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "287342"
+    fileId: "4015180"
+    fileFingerPrint: "255021969"
+    fileLength: "615891"
+  enabled: true
+- id: "v2yXhsfCb5NeQA"
+  name: "ToastControl-1.19.2-7.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4028/343/ToastControl-1.19.2-7.0.0.jar"
+  version: "7.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ToastControl*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-14T08:39:02.747Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "BD7091D48D6F68D1D61B9C9446AB1E8B"
+  fileSize: 25747
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "271740"
+    fileId: "4028343"
+    fileFingerPrint: "4215861118"
+    fileLength: "25747"
+  enabled: true
+- id: "B56eFSui4zn-NQ"
+  name: "ToolStats-Forge-1.19.2-12.0.2.jar"
+  src: "https://edge.forgecdn.net/files/3944/168/ToolStats-Forge-1.19.2-12.0.2.jar"
+  version: "12.0.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ToolStats-Forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-20T23:17:49.57Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "586DCC3243BA2665EDF0C41439426009"
+  fileSize: 18968
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "377109"
+    fileId: "3944168"
+    fileFingerPrint: "3483488690"
+    fileLength: "18968"
+  enabled: true
+- id: "JLw5dyWGrV1oHQ"
+  name: "TrampleStopper-3.8.1-build.35+mc1.19.2.jar"
+  src: "https://edge.forgecdn.net/files/3981/408/TrampleStopper-3.8.1-build.35+mc1.19.2.jar"
+  version: "build.35+mc1.19.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "TrampleStopper*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-10T17:03:20.113Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "76CA0EC4169F50CF31190D69130AEF1B"
+  fileSize: 9491
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "297028"
+    fileId: "3981408"
+    fileFingerPrint: "4125824286"
+    fileLength: "9491"
+  enabled: true
+- id: "S-xJ87WWAUmTzg"
+  name: "trashcans-1.0.15b-forge-mc1.19.jar"
+  src: "https://edge.forgecdn.net/files/3963/474/trashcans-1.0.15b-forge-mc1.19.jar"
+  version: "forge-mc1.19"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "trashcans*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-09-02T10:53:30.997Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "61566F3E038C3B986927753A4B2C5A82"
+  fileSize: 149792
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "394535"
+    fileId: "3963474"
+    fileFingerPrint: "3086567527"
+    fileLength: "149792"
+  enabled: true
+- id: "+Wurywid54D2Jw"
+  name: "trashslot-forge-1.19-12.0.0.jar"
+  src: "https://edge.forgecdn.net/files/3832/604/trashslot-forge-1.19-12.0.0.jar"
+  version: "12.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "trashslot-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-06-14T21:41:13.833Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "161803EFF9218B117A3583AD24C8808D"
+  fileSize: 112720
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "235577"
+    fileId: "3832604"
+    fileFingerPrint: "2388572884"
+    fileLength: "112720"
+  enabled: true
+- id: "KVQ5UAKITDnvzQ"
+  name: "twilightforest-1.19.2-4.2.1468-universal.jar"
+  src: "https://edge.forgecdn.net/files/4075/841/twilightforest-1.19.2-4.2.1468-universal.jar"
+  version: "4.2.1468-universal"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "twilightforest*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-09T20:17:01.003Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "700F91192563C88AC43843DE471FEE5F"
+  fileSize: 23563663
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "227639"
+    fileId: "4075841"
+    fileFingerPrint: "3163700490"
+    fileLength: "23563663"
+  enabled: true
+- id: "VwWQZBscJkinbg"
+  name: "universalgrid-1.19.2-1.033.jar"
+  src: "https://edge.forgecdn.net/files/4026/872/universalgrid-1.19.2-1.033.jar"
+  version: "1.033"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "universalgrid*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-12T17:49:00.003Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "D8426A629A154136EDDB60DC0F770E53"
+  fileSize: 39963
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "536160"
+    fileId: "4026872"
+    fileFingerPrint: "2146640467"
+    fileLength: "39963"
+  enabled: true
+- id: "tU5KLqt79h2R6A"
+  name: "useful_backpacks-1.19.2-1.14.1.106.jar"
+  src: "https://edge.forgecdn.net/files/4036/693/useful_backpacks-1.19.2-1.14.1.106.jar"
+  version: "1.14.1.106"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "useful_backpacks*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-21T17:30:55.873Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "BDEB945639650D7CB3432A72EC1203FD"
+  fileSize: 175128
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "274338"
+    fileId: "4036693"
+    fileFingerPrint: "1572910593"
+    fileLength: "175128"
+  enabled: true
+- id: "6tJh1q1Diirv6g"
+  name: "u_team_core-1.19.2-4.4.3.235.jar"
+  src: "https://edge.forgecdn.net/files/4069/195/u_team_core-1.19.2-4.4.3.235.jar"
+  version: "4.4.3.235"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "u_team_core*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-11-05T20:42:03.36Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "7B419F1C87615C548315185D33DEE890"
+  fileSize: 397819
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "273744"
+    fileId: "4069195"
+    fileFingerPrint: "4172854619"
+    fileLength: "397819"
+  enabled: true
+- id: "oMecyZORVIV3Qw"
+  name: "viescraftmachines-1.19.2-2.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4015/230/viescraftmachines-1.19.2-2.0.0.jar"
+  version: "2.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "viescraftmachines*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-02T12:43:16.37Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "1E354613E027603CA106E8BEC571B4FC"
+  fileSize: 9659677
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "246795"
+    fileId: "4015230"
+    fileFingerPrint: "246858940"
+    fileLength: "9659677"
+  enabled: true
+- id: "bwZ+fuOUZMKVKA"
+  name: "waystones-forge-1.19-11.1.0.jar"
+  src: "https://edge.forgecdn.net/files/3901/921/waystones-forge-1.19-11.1.0.jar"
+  version: "11.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "waystones-forge*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-07-27T10:43:47.09Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "FBBFD5E6F26BBA45157A9FBCD714C695"
+  fileSize: 365792
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "245755"
+    fileId: "3901921"
+    fileFingerPrint: "1723661896"
+    fileLength: "365792"
+  enabled: true
+- id: "rARaEctyUOj-Nw"
+  name: "WitherSkeletonTweaks-1.19.2-8.0.0.jar"
+  src: "https://edge.forgecdn.net/files/4028/349/WitherSkeletonTweaks-1.19.2-8.0.0.jar"
+  version: "8.0.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "WitherSkeletonTweaks*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-14T08:42:19.917Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "BD6569F0BCF334B57AF7A0669316EF78"
+  fileSize: 28216
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "255902"
+    fileId: "4028349"
+    fileFingerPrint: "4143931547"
+    fileLength: "28216"
+  enabled: true
+- id: "C4f4E4u9UUBcvA"
+  name: "World Stripper-1.19.2-3.2.2.jar"
+  src: "https://edge.forgecdn.net/files/3921/630/World Stripper-1.19.2-3.2.2.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-08-06T18:38:32.147Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "65839F326BF9B8093E4709F9D13BA147"
+  fileSize: 78630
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "250603"
+    fileId: "3921630"
+    fileFingerPrint: "2969536928"
+    fileLength: "78630"
+  enabled: true
+- id: "W0jHI2-IrM0S8A"
+  name: "YungsApi-1.19.2-Forge-3.8.2.jar"
+  src: "https://edge.forgecdn.net/files/4035/2/YungsApi-1.19.2-Forge-3.8.2.jar"
+  version: "Forge-3.8.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "YungsApi*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-20T01:08:14.263Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "8D5F278317853325B09380A02C4637A9"
+  fileSize: 208757
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "421850"
+    fileId: "4035002"
+    fileFingerPrint: "107642512"
+    fileLength: "208757"
+  enabled: true
+- id: "bn+wZJ8ZM6PWYg"
+  name: "YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar"
+  src: "https://edge.forgecdn.net/files/4031/199/YungsBetterMineshafts-1.19.2-Forge-3.2.0.jar"
+  version: "Forge-3.2.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "YungsBetterMineshafts*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-16T19:09:20.04Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "E4B85013323E1CF4800267CD919FB928"
+  fileSize: 273471
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "389665"
+    fileId: "4031199"
+    fileFingerPrint: "3804913689"
+    fileLength: "273471"
+  enabled: true
+- id: "SF2bSykAJkOOXw"
+  name: "YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar"
+  src: "https://edge.forgecdn.net/files/4031/366/YungsBetterOceanMonuments-1.19.2-Forge-2.1.0.jar"
+  version: "Forge-2.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "YungsBetterOceanMonuments*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-16T21:16:20.913Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "4CF44B2AFD9F67CC23A71CBF767D46B8"
+  fileSize: 1403765
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "689238"
+    fileId: "4031366"
+    fileFingerPrint: "3950622109"
+    fileLength: "1403765"
+  enabled: true
+- id: "8ABKNN013nM06A"
+  name: "YungsExtras-1.19.2-Forge-3.1.0.jar"
+  src: "https://edge.forgecdn.net/files/4031/230/YungsExtras-1.19.2-Forge-3.1.0.jar"
+  version: "Forge-3.1.0"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "YungsExtras*.jar"
+    absolute: false
+    override: true
+  parent: "Cqn+gqtQBRfmLQ"
+  group: false
+  description: ""
+  itemDate: "2022-10-16T19:36:16.697Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "95E19CC18B2FF87E2138100EF077E849"
+  fileSize: 406444
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+    projectId: "480006"
+    fileId: "4031230"
+    fileFingerPrint: "1824555963"
+    fileLength: "406444"
+  enabled: true
+- id: "tPWeLGUkPA5-FA"
+  name: "resourcepacks"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "resourcepacks"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "35LxKx4yE4EYTQ"
+  name: "Slightly-Improved-Font-1.0.0.zip"
+  src: "resourcepacks/Slightly-Improved-Font-1.0.0.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "tPWeLGUkPA5-FA"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T14:54:54Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "A858C1CABC1CF25A64A10517CA85F3D7"
+  fileSize: 7746
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "29p2OOyiE0GfdA"
+  name: "Vanilla-PBR-1-3-1.zip"
+  src: "resourcepacks/Vanilla-PBR-1-3-1.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "tPWeLGUkPA5-FA"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T15:02:47Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "D4616B56828FBD632A37C971148FDAB1"
+  fileSize: 3888355
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "u+RfaiKtP+vTYw"
+  name: "shaderpacks"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "shaderpacks"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2022-11-13T19:50:06Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "7UR0y1sPVfepFQ"
+  name: "BSL_v8.2.zip"
+  src: "shaderpacks/BSL_v8.2.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T14:35:25Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "F8CCFB82D095D74A16062FB2B37444FF"
+  fileSize: 925936
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "XNtLdOrBo8QOTQ"
+  name: "BSL_v8.2.zip.txt"
+  src: "shaderpacks/BSL_v8.2.zip.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T15:57:50Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "07031358B0F0E776E133BC754D9D1188"
+  fileSize: 60
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "OoqpJB0ML3nMCg"
+  name: "ComplementaryReimagined_r1.3.zip"
+  src: "shaderpacks/ComplementaryReimagined_r1.3.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:29Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "1AF1CB00909DCE5EFA72FE02BC8E4790"
+  fileSize: 223579
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "nJBEVuD1JdgOrw"
+  name: "ComplementaryReimagined_r1.3.zip.txt"
+  src: "shaderpacks/ComplementaryReimagined_r1.3.zip.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T16:28:23Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "9061B68DED93D5461A88C6B6E605D0B4"
+  fileSize: 170
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "p3MkR1Fx9Mw6tA"
+  name: "ComplementaryShaders_v4.6.zip"
+  src: "shaderpacks/ComplementaryShaders_v4.6.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-07T17:51:29Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "7A48A5DD0F154855ED5A1F2DEF959EC3"
+  fileSize: 3454588
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "y+I85TRSNaxqsg"
+  name: "ComplementaryShaders_v4.6.zip.txt"
+  src: "shaderpacks/ComplementaryShaders_v4.6.zip.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T16:45:16Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "74E6A7F2B65A5F8E91A4F146C41BA16B"
+  fileSize: 387
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "8EDRHhjA4OKwQQ"
+  name: "MakeUp-UltraFast-8.6g.zip"
+  src: "shaderpacks/MakeUp-UltraFast-8.6g.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T14:37:14Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "48C37AF736B81043E176C7CAB6AD768D"
+  fileSize: 323863
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "r74uzR58OW5TGg"
+  name: "MakeUp-UltraFast-8.6g.zip.txt"
+  src: "shaderpacks/MakeUp-UltraFast-8.6g.zip.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T16:25:49Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "55A0E4DCC84B1A5430B754198FCE15B1"
+  fileSize: 61
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "rwVAMwr2HiobMQ"
+  name: "SEUS Renewed v1.0.1.zip"
+  src: "shaderpacks/SEUS%20Renewed%20v1.0.1.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T14:41:41Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "8FAEB04D9953C9B10B0794ACAFC4C1AA"
+  fileSize: 7062638
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+- id: "Ldry1-66QVQPRg"
+  name: "SEUS Renewed v1.0.1.zip.txt"
+  src: "shaderpacks/SEUS%20Renewed%20v1.0.1.zip.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "u+RfaiKtP+vTYw"
+  group: false
+  description: ""
+  itemDate: "2022-11-12T16:29:22Z"
+  updateDate: "2022-11-13T20:19:02Z"
+  hashes:
+    md5: "B6E124A9DDE444D742CD2A92D703E221"
+  fileSize: 159
+  additionalFields:
+    createdAt: "2022-11-13T20:19:02Z"
+  enabled: true
+additionalFields: {}
+updateDate: "2022-11-13T20:23:16Z"
+experimental: false
+includeVersions: []

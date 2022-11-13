@@ -1,0 +1,386 @@
+--- !<com.sheryv.tools.filematcher.model.BundleVersion>
+versionId: 3
+versionName: "4.1.0"
+versionUrlPart: "4.1.0"
+changesDescription: ""
+entries:
+- id: "7JC7YF82f5dsOA"
+  name: "kubejs"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "kubejs"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2021-11-10T18:26:38Z"
+  updateDate: "2021-11-13T16:47:11Z"
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    createdAt: "2021-11-13T16:47:11Z"
+  enabled: true
+- id: "nj53iN9drYELKQ"
+  name: "server_scripts"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "server_scripts"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "7JC7YF82f5dsOA"
+  group: true
+  description: ""
+  itemDate: "2021-11-10T18:26:38Z"
+  updateDate: "2021-11-13T16:47:11Z"
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    createdAt: "2021-11-13T16:47:11Z"
+  enabled: true
+- id: "JrIh3hIEKA9qBQ"
+  name: "recipes.js"
+  src: "kubejs/server_scripts/recipes.js"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "nj53iN9drYELKQ"
+  group: false
+  description: ""
+  itemDate: "2021-11-10T18:26:38Z"
+  updateDate: "2021-11-13T16:47:11Z"
+  hashes:
+    md5: "95E98847A7E39CE60959F844BE7833D5"
+  fileSize: 17824
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    createdAt: "2021-11-13T16:47:11Z"
+  enabled: true
+- id: "GGiNwk2BONSEuw"
+  name: "mods"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "mods"
+    matching: {}
+    absolute: false
+    override: true
+  group: true
+  description: ""
+  itemDate: "2021-11-10T18:26:38Z"
+  updateDate: "2021-11-13T16:47:11Z"
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    createdAt: "2021-11-13T16:47:11Z"
+  enabled: true
+- id: "l0LsV5qK6yMATw"
+  name: "ae2extras-1.3.1-1.16.5.jar"
+  src: "https://edge.forgecdn.net/files/3457/753/ae2extras-1.3.1-1.16.5.jar"
+  version: "1.16.5"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ae2extras*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-09-12T17:52:44.933Z"
+  updateDate: "2021-09-12T17:52:44.933Z"
+  hashes:
+    md5: "8DC159EB38C08E732E8D25F953CDE13E"
+  fileSize: 171013
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "421104"
+    fileId: "3457753"
+    fileFingerPrint: "3582888490"
+    fileLength: "171013"
+  enabled: true
+- id: "xbsxs1oGV5cOng"
+  name: "appliedenergistics2-8.4.2.jar"
+  src: "https://edge.forgecdn.net/files/3480/20/appliedenergistics2-8.4.2.jar"
+  version: "8.4.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "appliedenergistics2*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-10-03T12:30:29.977Z"
+  updateDate: "2021-10-03T12:30:29.977Z"
+  hashes:
+    md5: "3690D0DC457ABA63D1D7F32C83E486A6"
+  fileSize: 4817971
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "223794"
+    fileId: "3480020"
+    fileFingerPrint: "115056380"
+    fileLength: "4817971"
+  enabled: true
+- id: "Bz4ue4Vvg5RvLA"
+  name: "cabletiers-1.16.5-0.531.jar"
+  src: "https://edge.forgecdn.net/files/3498/851/cabletiers-1.16.5-0.531.jar"
+  version: "0.531"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "cabletiers*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-10-22T09:01:58.323Z"
+  updateDate: "2021-10-22T09:01:58.323Z"
+  hashes:
+    md5: "6AE466D28142E280059FF82E16936928"
+  fileSize: 211209
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "454382"
+    fileId: "3498851"
+    fileFingerPrint: "3925546262"
+    fileLength: "211209"
+  enabled: true
+- id: "TE0uKphZ7V3Icw"
+  name: "demagnetize-forge-1.16.2-1.2.2.jar"
+  src: "https://edge.forgecdn.net/files/3033/223/demagnetize-forge-1.16.2-1.2.2.jar"
+  version: "1.2.2"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "demagnetize-forge*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2020-08-15T15:14:43.79Z"
+  updateDate: "2020-08-15T15:14:43.79Z"
+  hashes:
+    md5: "983232C6452C1E8B7F851A7DA4F2AA90"
+  fileSize: 63566
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "301356"
+    fileId: "3033223"
+    fileFingerPrint: "2282712898"
+    fileLength: "63566"
+  enabled: true
+- id: "mY7SPZhrNd3c2g"
+  name: "extradisks-1.16.4-1.5.1.jar"
+  src: "https://edge.forgecdn.net/files/3328/131/extradisks-1.16.4-1.5.1.jar"
+  version: "1.5.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "extradisks*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-05-28T13:26:00.29Z"
+  updateDate: "2021-05-28T13:26:00.29Z"
+  hashes:
+    md5: "3409325857610E8CDC7CE70B17B6D71C"
+  fileSize: 244548
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "351491"
+    fileId: "3328131"
+    fileFingerPrint: "3979826824"
+    fileLength: "244548"
+  enabled: true
+- id: "wycwQl-UlzYtkw"
+  name: "flickerfix-1.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3169/106/flickerfix-1.0.1.jar"
+  version: "1.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "flickerfix*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-01-15T04:54:46.67Z"
+  updateDate: "2021-01-15T04:54:46.67Z"
+  hashes:
+    md5: "52AF1F140922BDF2EA60DD48A45ED408"
+  fileSize: 4712
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "431430"
+    fileId: "3169106"
+    fileFingerPrint: "722134177"
+    fileLength: "4712"
+  enabled: true
+- id: "We62Z97EPuNo5g"
+  name: "ImmersivePetroleum-1.16.5-3.3.0-7.jar"
+  src: "https://edge.forgecdn.net/files/3489/757/ImmersivePetroleum-1.16.5-3.3.0-7.jar"
+  version: "3.3.0-7"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ImmersivePetroleum*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-10-13T09:08:39.377Z"
+  updateDate: "2021-10-13T09:08:39.377Z"
+  hashes:
+    md5: "9522AC011D17AC2BC0BBEA3006060F31"
+  fileSize: 1484721
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "268250"
+    fileId: "3489757"
+    fileFingerPrint: "3616412215"
+    fileLength: "1484721"
+  enabled: true
+- id: "fG7iSC95V4ro+A"
+  name: "leap-1.16.4-1.1.1.jar"
+  src: "https://edge.forgecdn.net/files/3243/768/leap-1.16.4-1.1.1.jar"
+  version: "1.1.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "leap*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-03-18T14:53:24.573Z"
+  updateDate: "2021-03-18T14:53:24.573Z"
+  hashes:
+    md5: "8F366F69EE8BEE642F0CDEB8D1636E92"
+  fileSize: 22011
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "371402"
+    fileId: "3243768"
+    fileFingerPrint: "1733413714"
+    fileLength: "22011"
+  enabled: true
+- id: "S+MaQEZ9kDi7Zw"
+  name: "pitg-1.16.5-2.0.1.jar"
+  src: "https://edge.forgecdn.net/files/3432/890/pitg-1.16.5-2.0.1.jar"
+  version: "2.0.1"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "pitg*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-08-20T23:51:53.28Z"
+  updateDate: "2021-08-20T23:51:53.28Z"
+  hashes:
+    md5: "9D39A7223685B0BB7247D0A43A6A3E1C"
+  fileSize: 575719
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "374529"
+    fileId: "3432890"
+    fileFingerPrint: "2146737499"
+    fileLength: "575719"
+  enabled: true
+- id: "wuR6fVhWrlp8Sw"
+  name: "ReAuth-1.16-Forge-3.9.3.jar"
+  src: "https://edge.forgecdn.net/files/3105/779/ReAuth-1.16-Forge-3.9.3.jar"
+  version: "Forge-3.9.3"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "ReAuth*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2020-11-08T15:24:53.037Z"
+  updateDate: "2020-11-08T15:24:53.037Z"
+  hashes:
+    md5: "3B3095744E922D89AB6443529865DF43"
+  fileSize: 38126
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "237701"
+    fileId: "3105779"
+    fileFingerPrint: "2323416152"
+    fileLength: "38126"
+  enabled: true
+- id: "M2Gr60l+Nqq9Vw"
+  name: "rftoolscontrol-1.16-4.0.11.jar"
+  src: "https://edge.forgecdn.net/files/3380/280/rftoolscontrol-1.16-4.0.11.jar"
+  version: "4.0.11"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolscontrol*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-07-07T16:51:39.4Z"
+  updateDate: "2021-07-07T16:51:39.4Z"
+  hashes:
+    md5: "87E8CB9FD61E993AC53A367C113DCC9F"
+  fileSize: 615168
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "250763"
+    fileId: "3380280"
+    fileFingerPrint: "2371023085"
+    fileLength: "615168"
+  enabled: true
+- id: "Wnc45xDSVeRztw"
+  name: "rftoolspower-1.16-3.0.9.jar"
+  src: "https://edge.forgecdn.net/files/3380/276/rftoolspower-1.16-3.0.9.jar"
+  version: "3.0.9"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "rftoolspower*.jar"
+    absolute: false
+    override: true
+  parent: "GGiNwk2BONSEuw"
+  group: false
+  description: ""
+  itemDate: "2021-07-07T16:48:54.04Z"
+  updateDate: "2021-07-07T16:48:54.04Z"
+  hashes:
+    md5: "C7B44C19BED938E28039748AD020DEF4"
+  fileSize: 567903
+  additionalFields:
+    generatedAt: "2021-11-10T18:26:38Z"
+    projectId: "290209"
+    fileId: "3380276"
+    fileFingerPrint: "257744224"
+    fileLength: "567903"
+  enabled: true
+additionalFields: {}
+updateDate: "2021-11-13T18:07:59Z"
+experimental: false
+includeVersions:
+- 2

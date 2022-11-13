@@ -4722,7 +4722,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "Mekanism*.jar"
+      wildcard: "Mekanism-*.jar"
     absolute: false
     override: true
   parent: "L9zZMtncJ3e7Zg"
@@ -5422,7 +5422,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "refinedstorage*.jar"
+      wildcard: "refinedstorage-*.jar"
     absolute: false
     override: true
   parent: "L9zZMtncJ3e7Zg"

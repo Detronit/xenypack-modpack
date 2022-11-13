@@ -11,6 +11,27 @@ description: ""
 additionalFields: {}
 updateDate: "2022-11-13T20:28:29Z"
 bundles:
+- id: "xenypack_5_client_-_mc_1.19.2"
+  name: "Xenypack 5 Client - MC 1.19.2"
+  description: ""
+  versioningMode: "ONLY_SELECTED"
+  preferredBasePath:
+    default: "${APPDATA}\\.minecraft"
+  baseItemUrl: "5/client/"
+  updateDate: "2022-11-13T20:28:29Z"
+  additionalFields:
+    forge-version: "41.1.47"
+    forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.47/forge-1.19.2-43.1.47-installer.jar"
+    java17: "https://adoptium.net/temurin/releases/"
+    optifine: "https://optifine.net/adloadx?f=preview_OptiFine_1.19.2_HD_U_I1_pre2.jar&x=0cfe"
+    launcher-ultim-mc: "https://www.mediafire.com/file/1rsskrm3uxpyjl3/UltimMC-5-win32.zip/file"
+    vmOptions: "-Xmx4000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
+    vmOptions-ultim-mc: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
+  versions:
+    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
+      versionId: 1
+      link: "xenypack_5_client_-_mc_1.19.2_5.0.0.yaml"
+      versionName: "5.0.0"
 - id: "xenypack_4_client_-_mc_1.16.5"
   name: "Xenypack 4 Client - MC 1.16.5"
   description: ""
@@ -84,24 +105,4 @@ bundles:
     versionId: 1
     link: "xenypack_4_server_-_mc_1.16.5_4.0.0.yaml"
     versionName: "4.0.0"
-- id: "xenypack_5_client_-_mc_1.19.2"
-  name: "Xenypack 5 Client - MC 1.19.2"
-  description: ""
-  versioningMode: "ONLY_SELECTED"
-  preferredBasePath:
-    default: "${APPDATA}\\.minecraft"
-  baseItemUrl: "5/client/"
-  updateDate: "2022-11-13T20:28:29Z"
-  additionalFields:
-    forge-version: "41.1.47"
-    forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.47/forge-1.19.2-43.1.47-installer.jar"
-    java17: "https://adoptium.net/temurin/releases/"
-    optifine: "https://optifine.net/adloadx?f=preview_OptiFine_1.19.2_HD_U_I1_pre2.jar&x=0cfe"
-    launcher-ultim-mc: "https://www.mediafire.com/file/1rsskrm3uxpyjl3/UltimMC-5-win32.zip/file"
-    vmOptions: "-Xmx4000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
-    vmOptions-ultim-mc: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
-  versions:
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 1
-    link: "xenypack_5_client_-_mc_1.19.2_5.0.0.yaml"
-    versionName: "5.0.0"
+

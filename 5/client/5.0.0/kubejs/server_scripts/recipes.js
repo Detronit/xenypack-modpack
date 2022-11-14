@@ -110,7 +110,7 @@ ServerEvents.recipes(e => {
 
 
     function id(text) {
-        return (text+'').replace(/[^\w\d]/g, '')
+        return (text + '').replace(/[^\w\d]/g, '')
     }
 
     function toolsClear(suffix) {
@@ -133,10 +133,13 @@ ServerEvents.recipes(e => {
     function toolsWithAddition(material, suffix, additionalMaterial) {
         const ingredients = {A: material, S: '#forge:rods/wooden', X: additionalMaterial}
         shapedAdd(`${suffix}_pickaxe`, ['AAA', ' X ', ' S '], ingredients, id(additionalMaterial))
-        shapedAdd(`${suffix}_axe`, ['AA ',  'AX ', ' S '], ingredients, id(additionalMaterial))
-        shapedAdd(`${suffix}_shovel`, [' A ',  ' X ', ' S '], ingredients, id(additionalMaterial))
-        shapedAdd(`${suffix}_hoe`, ['AA ',  ' X ', ' S '], ingredients, id(additionalMaterial))
-        shapedAdd(`${suffix}_sword`, [' A ',  ' A ', ' X '], {A: material, X: additionalMaterial}, id(additionalMaterial))
+        shapedAdd(`${suffix}_axe`, ['AA ', 'AX ', ' S '], ingredients, id(additionalMaterial))
+        shapedAdd(`${suffix}_shovel`, [' A ', ' X ', ' S '], ingredients, id(additionalMaterial))
+        shapedAdd(`${suffix}_hoe`, ['AA ', ' X ', ' S '], ingredients, id(additionalMaterial))
+        shapedAdd(`${suffix}_sword`, [' A ', ' A ', ' X '], {
+            A: material,
+            X: additionalMaterial
+        }, id(additionalMaterial))
     }
 
     function armorClear(suffix) {
@@ -182,6 +185,35 @@ ServerEvents.recipes(e => {
         D: '#forge:gems/diamond',
         E: 'minecraft:ender_eye',
         G: '#forge:ingots/gold',
+    })
+
+    shaped('waystones:return_scroll', [' E ', 'GDG', 'PPP'], {
+        E: '#forge:ender_pearls',
+        G: '#forge:nuggets/gold',
+        P: '#forge:paper',
+        D: '#forge:dyes/purple'
+    })
+
+    shaped('waystones:bound_scroll', ['DDD', 'GEG', 'PBP'], {
+        E: '#forge:ender_pearls',
+        G: '#forge:nuggets/gold',
+        P: '#forge:paper',
+        D: '#forge:dyes/purple',
+        B: 'minecraft:blaze_powder'
+    })
+
+    shaped('waystones:warp_scroll', ['GDG', 'GEG', 'PBP'], {
+        E: '#forge:ender_pearls',
+        G: '#forge:nuggets/gold',
+        P: '#forge:paper',
+        D: '#forge:dyes/purple',
+        B: 'minecraft:blaze_powder'
+    })
+
+    shaped('waystones:warp_stone', ['DED', 'ENE', 'DED'], {
+        E: '#forge:ender_pearls',
+        D: '#forge:dyes/purple',
+        N: 'minecraft:netherite_scrap'
     })
 
     // shaped('buildinggadgets:gadget_building', [
@@ -283,10 +315,10 @@ ServerEvents.recipes(e => {
     // e.shapeless('appliedenergistics2:interface', 'appliedenergistics2:cable_interface').id(`kubejs:ae_interface`)
 
 
-    e.remove({ id: 'minecraft:cake' })
-    e.remove({ id: 'minecraft:daylight_detector' })
-    e.remove({ id: 'minecraft:comparator' })
-    e.remove({ id: 'minecraft:beehive' })
+    e.remove({id: 'minecraft:cake'})
+    e.remove({id: 'minecraft:daylight_detector'})
+    e.remove({id: 'minecraft:comparator'})
+    e.remove({id: 'minecraft:beehive'})
 
     //special
 

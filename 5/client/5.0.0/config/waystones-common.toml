@@ -4,10 +4,10 @@
 	inverseXpCost = false
 	#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
 	#Range: > -2147483648
-	blocksPerXpLevel = 1000
+	blocksPerXpLevel = 200
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	minimumBaseXpCost = 0.0
+	minimumBaseXpCost = 2.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	maximumBaseXpCost = 8.0
@@ -16,34 +16,34 @@
 	xpCostPerLeashed = 1
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
-	dimensionalWarpXpCost = 5
+	dimensionalWarpXpCost = 6.5
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	globalWaystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpStoneXpCostMultiplier = 0.75
+	warpStoneXpCostMultiplier = 2.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 0.25
+	waystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sharestoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from a portstone.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	portstoneXpCostMultiplier = 0.25
+	portstoneXpCostMultiplier = 1.25
 	#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpPlateXpCostMultiplier = 0.25
+	warpPlateXpCostMultiplier = 0.5
 	#The multiplier applied to the base xp cost when teleporting via the inventory button.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	inventoryButtonXpCostMultiplier = 0.0
+	inventoryButtonXpCostMultiplier = 1.0
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
 	restrictToCreative = false
 	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-	restrictRenameToOwner = false
+	restrictRenameToOwner = true
 	#If enabled, waystones generated in worldgen are unbreakable.
 	generatedWaystonesUnbreakable = false
 	#If enabled, leashed mobs will be teleported with you
@@ -129,5 +129,5 @@
 
 [compatibility]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.
-	displayWaystonesOnJourneyMap = true
+	displayWaystonesOnJourneyMap = false
 

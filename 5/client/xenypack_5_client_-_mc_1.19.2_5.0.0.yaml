@@ -2794,9 +2794,9 @@ entries:
     fileLength: "37254"
   enabled: true
 - id: "1UWu9dJ1ErQscQ"
-  name: "canary-mc1.19.2-0.0.10.jar"
-  src: "https://edge.forgecdn.net/files/4071/156/canary-mc1.19.2-0.0.10.jar"
-  version: "0.0.10"
+  name: "canary-mc1.19.2-0.0.9.jar"
+  src: "https://edge.forgecdn.net/files/4057/358/canary-mc1.19.2-0.0.9.jar"
+  version: "0.0.9"
   type: "ITEM"
   target:
     matching:
@@ -2810,13 +2810,13 @@ entries:
   updateDate: "2022-11-14T15:36:34Z"
   hashes:
     md5: "3B3297EB203F4EEC9E4B4DE0B13AF5B9"
-  fileSize: 533538
+  fileSize: 574918
   additionalFields:
     createdAt: "2022-11-13T20:38:56Z"
     projectId: "665658"
-    fileId: "4071156"
-    fileFingerPrint: "4037249173"
-    fileLength: "533538"
+    fileId: "4057358"
+    fileFingerPrint: "961653483"
+    fileLength: "574918"
   enabled: true
 - id: "bkHiND-8Ungcnw"
   name: "cc-tweaked-1.19.2-1.101.1.jar"
@@ -3248,7 +3248,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "create*.jar"
+      wildcard: "create-*.jar"
     absolute: false
     override: true
   parent: "L9zZMtncJ3e7Zg"

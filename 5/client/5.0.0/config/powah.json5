@@ -118,13 +118,13 @@
 				"nitro": 2000000
 			},
 			"generation_rates": {
-				"starter": 15,
-				"basic": 70,
-				"hardened": 160,
-				"blazing": 250,
-				"niotic": 500,
-				"spirited": 850,
-				"nitro": 1500
+				"starter": 250,
+				"basic": 750,
+				"hardened": 1400,
+				"blazing": 3000,
+				"niotic": 5000,
+				"spirited": 8000,
+				"nitro": 15000
 			}
 		},
 		"solar_panels": {

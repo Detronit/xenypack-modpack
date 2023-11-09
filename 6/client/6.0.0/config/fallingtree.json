@@ -11,7 +11,7 @@
     "maxSize": 100,
     "maxSizeAction": "ABORT",
     "breakOrder": "FURTHEST_FIRST",
-    "minimumLeavesAroundRequired": 1,
+    "minimumLeavesAroundRequired": 4,
     "includePersistentLeavesInRequiredCount": true,
     "treeBreaking": true,
     "leavesBreaking": true,
@@ -28,9 +28,9 @@
     "denied": [],
     "preserve": false,
     "ignoreTools": false,
-    "damageMultiplicand": 1.0,
+    "damageMultiplicand": 1.5,
     "damageRounding": "ROUND_DOWN",
-    "speedMultiplicand": 0.0,
+    "speedMultiplicand": 0.6,
     "forceToolUsage": false
   },
   "player": {

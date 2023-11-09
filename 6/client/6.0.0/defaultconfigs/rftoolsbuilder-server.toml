@@ -15,7 +15,7 @@
 	builderRfPerLiquid = 300
 	#Base RF per block operation for the builder when used as a quarry or voider (actual cost depends on hardness of block)
 	#Range: > 0
-	builderRfPerQuarry = 300
+	builderRfPerQuarry = 400
 	#RF per block that is skipped (used when a filter is added to the builder)
 	#Range: > 0
 	builderRfPerSkipped = 50
@@ -53,10 +53,10 @@
 	voidShapeCardFactor = 0.5
 	#The RF per operation of the builder is multiplied with this factor when using the silk quarry shape card
 	#Range: 0.0 ~ 1000000.0
-	silkquarryShapeCardFactor = 3.0
+	silkquarryShapeCardFactor = 6.0
 	#The RF per operation of the builder is multiplied with this factor when using the fortune quarry shape card
 	#Range: 0.0 ~ 1000000.0
-	fortunequarryShapeCardFactor = 2.0
+	fortunequarryShapeCardFactor = 4.0
 	#Use this block for the builder to replace with
 	quarryReplace = "minecraft:dirt"
 	#If true the quarry will also quarry tile entities. Otherwise it just ignores them
@@ -71,7 +71,7 @@
 	clearingQuarryAllowed = true
 	#The base speed (number of blocks per tick) of the quarry
 	#Range: > 0
-	quarryBaseSpeed = 8
+	quarryBaseSpeed = 1
 	#Multiply the infusion factor with this value and add that to the quarry base speed
 	#Range: > 0
 	quarryInfusionSpeedFactor = 20
@@ -106,7 +106,7 @@
 	maxDisjointShieldDistance = 64
 	#Base amount of RF/tick for every 10 blocks in the shield (while active)
 	#Range: > 0
-	shieldRfBase = 8
+	shieldRfBase = 16
 	#RF/tick for every 10 blocks added in case of camo mode
 	#Range: > 0
 	shieldRfCamo = 2
@@ -115,10 +115,10 @@
 	shieldRfShield = 2
 	#The amount of RF to consume for a single spike of damage for one entity
 	#Range: > 0
-	shieldRfDamage = 1000
+	shieldRfDamage = 10000
 	#The amount of RF to consume for a single spike of damage for one entity (used in case of player-type damage)
 	#Range: > 0
-	shieldRfDamagePlayer = 2000
+	shieldRfDamagePlayer = 20000
 	#The amount of damage to do for a single spike on one entity
 	#Range: 0.0 ~ 1.0E9
 	shieldDamage = 5.0

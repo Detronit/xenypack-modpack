@@ -24,7 +24,7 @@
     "command_block": true,
     "mob_growth": true,
     "harvest_tool.new_line": false,
-    "entity_health.max_for_render": 40,
+    "entity_health.max_for_render": 10,
     "entity_health.show_fractions": false,
     "mob_spawner": true,
     "redstone": true,
@@ -59,9 +59,6 @@
     "hud": true,
     "hud.status": true,
     "hud.contents": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -120,11 +117,5 @@
   },
   "corpse": {
     "corpse": true
-  },
-  "securitycraft": {
-    "showowner": true,
-    "showmodules": true,
-    "info": true,
-    "showcustomname": true
   }
 }

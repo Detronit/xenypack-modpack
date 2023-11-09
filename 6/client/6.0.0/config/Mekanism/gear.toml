@@ -5,7 +5,7 @@
 	#Atomic Disassembler Settings
 	[gear.atomic_disassembler]
 		#Base Energy (Joules) usage of the Atomic Disassembler. (Gets multiplied by speed factor)
-		energyUsage = "10"
+		energyUsage = "500"
 		#Cost in Joules of using the Atomic Disassembler as a weapon.
 		energyUsageWeapon = "2000"
 		#The max Atomic Disassembler Vein Mining Block Count.
@@ -22,7 +22,7 @@
 		minDamage = 4
 		#The bonus attack damage of the Atomic Disassembler when it has at least energyUsageWeapon power stored. (Value is in number of half hearts)
 		#Range: 1 ~ 10000
-		maxDamage = 20
+		maxDamage = 10
 		#Attack speed of the Atomic Disassembler.
 		#Range: -4.0 ~ 100.0
 		attackSpeed = -2.4
@@ -49,7 +49,7 @@
 		#Amount (joules) of energy the Electric Bow can accept per tick.
 		chargeRate = "600"
 		#Cost in Joules of using the Electric Bow.
-		energyUsage = "120"
+		energyUsage = "1200"
 		#Cost in Joules of using the Electric Bow with flame mode active.
 		energyUsageFire = "1200"
 
@@ -74,14 +74,14 @@
 	#Free Runner Settings
 	[gear.free_runner]
 		#Energy cost/multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * freeRunnerFallEnergyCost. (1 FallDamage is 1 half heart)
-		fallEnergyCost = "50"
+		fallEnergyCost = "100"
 		#Percent of damage taken from falling that can be absorbed by Free Runners when they have enough power.
 		#Range: 0.0 ~ 1.0
 		fallDamageReductionRatio = 1.0
 		#Maximum amount (joules) of energy Free Runners can contain.
-		maxEnergy = "64000"
+		maxEnergy = "128000"
 		#Amount (joules) of energy the Free Runners can accept per tick.
-		chargeRate = "320"
+		chargeRate = "640"
 
 		#Armored Free Runner Settings
 		[gear.free_runner.armored]
@@ -133,7 +133,7 @@
 		chargeRate = "5000"
 		#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
 		#Range: 0 ~ 6000
-		delay = 0
+		delay = 20
 
 	#Scuba Tank Settings
 	[gear.scuba_tank]
@@ -165,7 +165,7 @@
 	#Meka-Tool Settings
 	[gear.mekatool]
 		#Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
-		energyUsage = "10"
+		energyUsage = "500"
 		#Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
 		energyUsageSilk = "100"
 		#Cost in Joules of using the Meka-Tool to deal 4 units of damage.

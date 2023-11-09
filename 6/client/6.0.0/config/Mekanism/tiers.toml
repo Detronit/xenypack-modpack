@@ -41,13 +41,13 @@
 		advancedOutput = 4000
 		#Storage size of Elite fluid tanks in mB.
 		#Range: > 1
-		eliteStorage = 128000
+		eliteStorage = 200000
 		#Output rate of Elite fluid tanks in mB.
 		#Range: > 1
 		eliteOutput = 16000
 		#Storage size of Ultimate fluid tanks in mB.
 		#Range: > 1
-		ultimateStorage = 256000
+		ultimateStorage = 500000
 		#Output rate of Ultimate fluid tanks in mB.
 		#Range: > 1
 		ultimateOutput = 64000

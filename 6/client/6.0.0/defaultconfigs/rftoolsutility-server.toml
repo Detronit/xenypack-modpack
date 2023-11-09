@@ -108,7 +108,7 @@
 	dimensionWarnPercentage = 5
 	#Maximum RF storage that the advanced charged porter item can hold (note that teleporting this way uses 50% more RF then with a matter transmitter)
 	#Range: > 0
-	advancedChargedPorterMaxRF = 1000000
+	advancedChargedPorterMaxRF = 5000000
 	#Maximum RF storage that the charged porter item can hold (note that teleporting this way uses 50% more RF then with a matter transmitter)
 	#Range: > 0
 	chargedPorterMaxRF = 200000
@@ -164,10 +164,10 @@
 	#Range: > 0
 	timeTeleportDist = 10
 	#Set this to false to disable the 'whoosh' message on teleport
-	whooshMessage = true
+	whooshMessage = false
 	#The volume for the teleporting sound (1.0 is default)
 	#Range: 0.0 ~ 1.0
-	volumeTeleport = 1.0
+	volumeTeleport = 0.7
 	#The volume for the error sound when teleportation fails (1.0 is default)
 	#Range: 0.0 ~ 1.0
 	volumeTeleportError = 1.0
@@ -190,16 +190,16 @@
 [environmental]
 	#Maximum RF storage that the environmental controller can hold
 	#Range: > 0
-	environmentalMaxRF = 500000
+	environmentalMaxRF = 2500000
 	#RF per tick that the the environmental controller can receive
 	#Range: > 0
-	environmentalRFPerTick = 20000
+	environmentalRFPerTick = 50000
 	#The minimum RF/tick usage that an active controller consumes
 	#Range: > 0
 	environmentalMinRFUsage = 5
 	#When the environmental controller is used on mobs the power usage is multiplied with this
 	#Range: 0.0 ~ 1.0E8
-	mobsPowerMultiplier = 2.0
+	mobsPowerMultiplier = 3.0
 	#RF per tick/per block for the feather falling module
 	#Range: 0.0 ~ 1.0E9
 	featherfallingRFPerTick = 0.001
@@ -208,49 +208,49 @@
 	featherfallingPlusRFPerTick = 0.003
 	#RF per tick/per block for the flight module
 	#Range: 0.0 ~ 1.0E9
-	flightRFPerTick = 0.004
+	flightRFPerTick = 0.008
 	#RF per tick/per block for the glowing module
 	#Range: 0.0 ~ 1.0E9
 	glowingRFPerTick = 0.001
 	#RF per tick/per block for the haste module
 	#Range: 0.0 ~ 1.0E9
-	hasteRFPerTick = 0.001
+	hasteRFPerTick = 0.002
 	#RF per tick/per block for the haste plus module
 	#Range: 0.0 ~ 1.0E9
-	hastePlusRFPerTick = 0.003
+	hastePlusRFPerTick = 0.004
 	#RF per tick/per block for the night vision module
 	#Range: 0.0 ~ 1.0E9
 	nightvisionRFPerTick = 0.001
 	#RF per tick/per block for the peaceful module
 	#Range: 0.0 ~ 1.0E9
-	peacefulRFPerTick = 0.001
+	peacefulRFPerTick = 0.005
 	#RF per tick/per block for the regeneration module
 	#Range: 0.0 ~ 1.0E9
-	regenerationRFPerTick = 0.0015
+	regenerationRFPerTick = 0.002
 	#RF per tick/per block for the regeneration plus module
 	#Range: 0.0 ~ 1.0E9
 	regenerationPlusRFPerTick = 0.0045
 	#RF per tick/per block for the saturation module
 	#Range: 0.0 ~ 1.0E9
-	saturationRFPerTick = 0.001
+	saturationRFPerTick = 0.002
 	#RF per tick/per block for the saturation plus module
 	#Range: 0.0 ~ 1.0E9
-	saturationPlusRFPerTick = 0.003
+	saturationPlusRFPerTick = 0.004
 	#RF per tick/per block for the speed module
 	#Range: 0.0 ~ 1.0E9
-	speedRFPerTick = 0.001
+	speedRFPerTick = 0.002
 	#RF per tick/per block for the speed plus module
 	#Range: 0.0 ~ 1.0E9
-	speedPlusRFPerTick = 0.003
+	speedPlusRFPerTick = 0.004
 	#RF per tick/per block for the wather breathing module
 	#Range: 0.0 ~ 1.0E9
 	watherBreathingRFPerTick = 0.001
 	#RF per tick/per block for the luck module
 	#Range: 0.0 ~ 1.0E9
-	luckRFPerTick = 0.002
+	luckRFPerTick = 0.005
 	#RF per tick/per block for the noTeleport module
 	#Range: 0.0 ~ 1.0E9
-	noTeleportRFPerTick = 0.002
+	noTeleportRFPerTick = 0.005
 	#RF per tick/per block for the blindness module
 	#Range: 0.0 ~ 1.0E9
 	blindnessRFPerTick = 0.01

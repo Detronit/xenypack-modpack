@@ -6,10 +6,10 @@
 	[common.general]
 		#A multiplier for balancing fuel consumption.
 		#Range: 0.5 ~ 100.0
-		fuelUsageMultiplier = 1.0
+		fuelUsageMultiplier = 2.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
 		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 1.0
+		powerProductionMultiplier = 0.5
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20
@@ -86,16 +86,16 @@
 		#Range: > 0
 		userWorldGenVersion = 1
 		#Enable generation of Yellorite Ore.
-		yelloriteOreEnableWorldGen = true
+		yelloriteOreEnableWorldGen = false
 		#Maximum number of Yellorite Ore clusters per chunk.
 		#Range: 1 ~ 25
-		yelloriteOreMaxClustersPerChunk = 3
+		yelloriteOreMaxClustersPerChunk = 1
 		#Maximum number of Yellorite Ores to generate in each cluster.
 		#Range: 1 ~ 16
-		yelloriteOrePerCluster = 5
+		yelloriteOrePerCluster = 1
 		#Maximum height (Y coordinate) in the world to generate Yellorite Ore.
 		#Range: 1 ~ 256
-		yelloriteOreMaxY = 32
+		yelloriteOreMaxY = 1
 		#Enable generation of Anglesite Ore.
 		anglesiteOreEnableWorldGen = true
 		#Maximum number of Anglesite Ore clusters per chunk.

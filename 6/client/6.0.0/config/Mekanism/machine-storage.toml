@@ -16,7 +16,7 @@
 	#Base energy storage (Joules).
 	energizedSmelter = "20000"
 	#Base energy storage (Joules).
-	digitalMiner = "50000"
+	digitalMiner = "100000"
 	#Base energy storage (Joules).
 	electricPump = "40000"
 	#Base energy storage (Joules).

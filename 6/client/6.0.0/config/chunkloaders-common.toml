@@ -1,7 +1,7 @@
 [Limitations]
     # How many chunks should players be able to load per world? Use -1 for infinite.
     # Allowed range: -1 ~ 1000 - Default: -1
-    maxLoadedChunksPerPlayer = -1
+    maxLoadedChunksPerPlayer = 40
 
     # After how many minutes of offline time should players' chunk loaders be disabled? Use -1 to disable the inactivity timeout.
     # Allowed range: -1 ~ 525600 - Default: 10080
@@ -13,7 +13,7 @@
 
     # Can players use the chunk loader map? If false, players will see the message 'The chunk loader map is disabled on this server'.
     # Allowed values: true, false - Default: true
-    canPlayersUseMap = true
+    canPlayersUseMap = false
 
 [General]
     # In what radius should the Single Chunk Loader be able to load chunks?

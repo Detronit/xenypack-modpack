@@ -3,8 +3,8 @@
 	#Should elevators have the same color in order to teleport ?
 	sameColor = false
 	#Elevator range
-	#Range: 3 ~ 4064
-	range = 384
+	#Range: 3 ~ 256
+	range = 255
 	#Realign players to the center of elevator ?
 	precisionTarget = true
 	#Can mobs spawn on elevators ?

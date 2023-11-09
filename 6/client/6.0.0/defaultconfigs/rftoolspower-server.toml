@@ -84,13 +84,13 @@
 		endergenicBadParticles = 10
 		#Multiplier for power generation
 		#Range: 0.0 ~ 1.0E9
-		powergenFactor = 2.0
+		powergenFactor = 1.0
 
 	#Coal generator settings
 	[general.coalgenerator]
 		#Amount of RF generated per tick
 		#Range: > 0
-		generatePerTick = 60
+		generatePerTick = 25
 		#Amount of ticks generated per coal
 		#Range: > 0
 		ticksPerCoal = 600

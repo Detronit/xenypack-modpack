@@ -5,3 +5,7 @@
 #Allowed Values: ON, DEFAULT, OFF
 keepCurios = "DEFAULT"
 
+# [[curiosSettings]]
+#   identifier = "feet"
+#   size = 1
+#   priority = 1000

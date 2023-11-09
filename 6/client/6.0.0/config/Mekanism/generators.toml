@@ -2,16 +2,16 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	energyPerFusionFuel = "10000000"
+	energyPerFusionFuel = "100000"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "50"
+	solarGeneration = "45"
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "300"
+	advancedSolarGeneration = "220"
 
 	#Bio Generator Settings
 	[generators.bio_generator]
 		#Amount of energy in Joules the Bio Generator produces per tick.
-		bioGeneration = "350"
+		bioGeneration = "250"
 		#The capacity in mB of the fluid tank in the Bio Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -19,11 +19,11 @@
 	#Heat Generator Settings
 	[generators.heat_generator]
 		#Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 "sides".
-		heatGeneration = "200"
+		heatGeneration = "45"
 		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
-		heatGenerationLava = "30"
+		heatGenerationLava = "10"
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
-		heatGenerationNether = "100"
+		heatGenerationNether = "20"
 		#The capacity in mB of the fluid tank in the Heat Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -37,9 +37,9 @@
 		tankCapacity = 18000
 		#The number of ticks each mB of Ethylene burns for in the Gas-Burning Generator.
 		#Range: > 1
-		ethyleneBurnTicks = 40
+		ethyleneBurnTicks = 20
 		#Multiplier for calculating the energy density of Ethylene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
-		ethyleneDensityMultiplier = "40"
+		ethyleneDensityMultiplier = "2"
 
 	#Turbine Settings
 	[generators.turbine]
@@ -48,10 +48,10 @@
 		turbineBladesPerCoil = 4
 		#The rate at which steam is vented into the turbine.
 		#Range: 0.1 ~ 1024000.0
-		turbineVentGasFlow = 32000.0
+		turbineVentGasFlow = 16000.0
 		#The rate at which steam is dispersed into the turbine.
 		#Range: 0.1 ~ 1024000.0
-		turbineDisperserGasFlow = 1280.0
+		turbineDisperserGasFlow = 640.0
 		#Amount of energy (J) that each block of the turbine contributes to the total energy capacity. Max = volume * energyCapacityPerVolume
 		energyCapacityPerVolume = "16000000"
 		#Amount of gas (mB) that each block of the turbine's steam cavity contributes to the volume. Max = volume * gasPerTank
@@ -64,14 +64,14 @@
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
-		windGenerationMin = "60"
+		windGenerationMin = "45"
 		#Maximum base generation value of the Wind Generator.
-		generationMax = "480"
+		generationMax = "180"
 		#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's min height.
 		#Range: -2032 ~ 2030
 		minY = 24
 		#The maximum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's logical height.
-		maxY = 2031
+		maxY = 300
 		#The list of dimension ids that the Wind Generator will not generate power in.
 		windGenerationDimBlacklist = []
 
@@ -79,10 +79,10 @@
 	[generators.fusion_reactor]
 		#The fraction of the heat dissipated from the case that is converted to Joules.
 		#Range: 0.0 ~ 1.0
-		thermocoupleEfficiency = 0.05
+		thermocoupleEfficiency = 0.01
 		#The fraction fraction of heat from the casing that can be transferred to all sources that are not water. Will impact max heat, heat transfer to thermodynamic conductors, and power generation.
 		#Range: 0.001 ~ 1.0
-		casingThermalConductivity = 0.1
+		casingThermalConductivity = 0.05
 		#The fraction of the heat from the casing that is dissipated to water when water cooling is in use. Will impact max heat, and steam generation.
 		#Range: 0.0 ~ 1.0
 		waterHeatingRatio = 0.3
@@ -90,7 +90,7 @@
 		#Range: 2 ~ 1000000
 		fuelCapacity = 1000
 		#Amount of energy (J) the fusion reactor can store.
-		energyCapacity = "1000000000"
+		energyCapacity = "100000000"
 		#Amount of water (mB) per injection rate that the fusion reactor can store. Max = injectionRate * waterPerInjection
 		#Range: 1 ~ 21913098
 		waterPerInjection = 1000000
@@ -110,10 +110,10 @@
 	#Fission Reactor Settings
 	[generators.fission_reactor]
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
-		energyPerFissionFuel = "1000000"
+		energyPerFissionFuel = "100000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
 		#Range: 1.0 ~ 1000000.0
-		casingHeatCapacity = 1000.0
+		casingHeatCapacity = 5000.0
 		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0

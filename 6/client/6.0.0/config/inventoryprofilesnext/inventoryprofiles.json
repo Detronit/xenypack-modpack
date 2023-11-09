@@ -1,5 +1,65 @@
 {
     "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_lock_slots": {
+            "value": false
+        },
+        "enable_updates_check": false,
         "first_run": false
+    },
+    "GuiSettings": {
+        "show_regular_sort_button": {
+            "value": false
+        },
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "sort_inventory_in_columns": {
+            "main": {
+                "keys": "LEFT_BRACKET"
+            }
+        },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "RIGHT_BRACKET"
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": ""
+            }
+        }
     }
 }

@@ -3,10 +3,10 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
-    "create",
+    "mekanism",
     "thermal",
-    "immersiveengineering",
-    "mekanism"
+    "create",
+    "immersiveengineering"
   ],
   "stoneStrata": [
     "stone",

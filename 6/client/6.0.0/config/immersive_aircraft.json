@@ -1,7 +1,7 @@
 {
   "enableDropsForNonPlayer": true,
-  "enableCrashExplosion": false,
-  "enableCrashBlockDestruction": true,
+  "enableCrashExplosion": true,
+  "enableCrashBlockDestruction": false,
   "enableCrashFire": true,
   "crashExplosionRadius": 2.0,
   "separateCamera": true,
@@ -9,10 +9,10 @@
   "enableTrails": true,
   "enableAnimatedSails": true,
   "renderDistance": 192.0,
-  "fuelConsumption": 1.0,
-  "windClearWeather": 1.0,
-  "windRainWeather": 3.0,
-  "windThunderWeather": 3.0,
+  "fuelConsumption": 3.0,
+  "windClearWeather": 2.0,
+  "windRainWeather": 4.0,
+  "windThunderWeather": 5.0,
   "collisionDamage": true,
   "onlyPlayerCanDestroyAircraft": true,
   "burnFuelInCreative": false,
@@ -25,8 +25,8 @@
   },
   "validDimensions": {
     "minecraft:overworld": true,
-    "minecraft:the_end": true,
-    "minecraft:the_nether": true
+    "minecraft:the_end": false,
+    "minecraft:the_nether": false
   },
   "version": 1
 }

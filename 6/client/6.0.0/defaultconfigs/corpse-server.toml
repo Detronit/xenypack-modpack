@@ -7,7 +7,7 @@ death_storage_duration = -1
 [corpse]
 	#The time passed (in ticks) after a corpse turns into a skeleton
 	#Range: > 0
-	skeleton_time = 72000
+	skeleton_time = 36000
 	#If the corpse should lie on its face
 	lie_on_face = false
 	#If the corpse should wear the players equipment

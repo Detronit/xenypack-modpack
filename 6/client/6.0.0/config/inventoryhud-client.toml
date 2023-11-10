@@ -7,7 +7,7 @@
 	invVert = false
 	#Inventory HUD alpha
 	#Range: 0 ~ 100
-	invAlpha = 0
+	invAlpha = 40
 	#Toggle on by default
 	byDefault = false
 	#Animate recently picked up items
@@ -59,7 +59,7 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 100
+	potAlpha = 40
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
@@ -77,7 +77,7 @@
 	#Show Potion HUD when debug menu is open
 	potWithDebug = true
 	#Show all levels of effects
-	potionLevels = false
+	potionLevels = true
 
 #DONT TOUCH THESE FIELDS!
 [positions]
@@ -104,7 +104,7 @@
 	xArmPos = 225
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 35
+	yArmPos = 36
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	potValign = "TOP"
@@ -113,10 +113,10 @@
 	potHalign = "LEFT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 7
+	xPotionPos = 1
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 21
+	yPotionPos = 16
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

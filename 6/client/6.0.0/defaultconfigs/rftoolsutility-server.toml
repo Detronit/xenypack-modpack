@@ -193,82 +193,82 @@
 	environmentalMaxRF = 2500000
 	#RF per tick that the the environmental controller can receive
 	#Range: > 0
-	environmentalRFPerTick = 50000
+	environmentalRFPerTick = 500000
 	#The minimum RF/tick usage that an active controller consumes
 	#Range: > 0
-	environmentalMinRFUsage = 5
+	environmentalMinRFUsage = 50
 	#When the environmental controller is used on mobs the power usage is multiplied with this
 	#Range: 0.0 ~ 1.0E8
 	mobsPowerMultiplier = 3.0
 	#RF per tick/per block for the feather falling module
 	#Range: 0.0 ~ 1.0E9
-	featherfallingRFPerTick = 0.001
+	featherfallingRFPerTick = 0.004
 	#RF per tick/per block for the feather falling plus module
 	#Range: 0.0 ~ 1.0E9
-	featherfallingPlusRFPerTick = 0.003
+	featherfallingPlusRFPerTick = 0.012
 	#RF per tick/per block for the flight module
 	#Range: 0.0 ~ 1.0E9
-	flightRFPerTick = 0.008
+	flightRFPerTick = 0.032
 	#RF per tick/per block for the glowing module
 	#Range: 0.0 ~ 1.0E9
-	glowingRFPerTick = 0.001
+	glowingRFPerTick = 0.004
 	#RF per tick/per block for the haste module
 	#Range: 0.0 ~ 1.0E9
-	hasteRFPerTick = 0.002
+	hasteRFPerTick = 0.008
 	#RF per tick/per block for the haste plus module
 	#Range: 0.0 ~ 1.0E9
-	hastePlusRFPerTick = 0.004
+	hastePlusRFPerTick = 0.016
 	#RF per tick/per block for the night vision module
 	#Range: 0.0 ~ 1.0E9
-	nightvisionRFPerTick = 0.001
+	nightvisionRFPerTick = 0.004
 	#RF per tick/per block for the peaceful module
 	#Range: 0.0 ~ 1.0E9
-	peacefulRFPerTick = 0.005
+	peacefulRFPerTick = 0.02
 	#RF per tick/per block for the regeneration module
 	#Range: 0.0 ~ 1.0E9
-	regenerationRFPerTick = 0.002
+	regenerationRFPerTick = 0.008
 	#RF per tick/per block for the regeneration plus module
 	#Range: 0.0 ~ 1.0E9
-	regenerationPlusRFPerTick = 0.0045
+	regenerationPlusRFPerTick = 0.018
 	#RF per tick/per block for the saturation module
 	#Range: 0.0 ~ 1.0E9
-	saturationRFPerTick = 0.002
+	saturationRFPerTick = 0.008
 	#RF per tick/per block for the saturation plus module
 	#Range: 0.0 ~ 1.0E9
-	saturationPlusRFPerTick = 0.004
+	saturationPlusRFPerTick = 0.016
 	#RF per tick/per block for the speed module
 	#Range: 0.0 ~ 1.0E9
-	speedRFPerTick = 0.002
+	speedRFPerTick = 0.008
 	#RF per tick/per block for the speed plus module
 	#Range: 0.0 ~ 1.0E9
-	speedPlusRFPerTick = 0.004
+	speedPlusRFPerTick = 0.016
 	#RF per tick/per block for the wather breathing module
 	#Range: 0.0 ~ 1.0E9
-	watherBreathingRFPerTick = 0.001
+	watherBreathingRFPerTick = 0.004
 	#RF per tick/per block for the luck module
 	#Range: 0.0 ~ 1.0E9
-	luckRFPerTick = 0.005
+	luckRFPerTick = 0.02
 	#RF per tick/per block for the noTeleport module
 	#Range: 0.0 ~ 1.0E9
-	noTeleportRFPerTick = 0.005
+	noTeleportRFPerTick = 0.02
 	#RF per tick/per block for the blindness module
 	#Range: 0.0 ~ 1.0E9
-	blindnessRFPerTick = 0.01
+	blindnessRFPerTick = 0.04
 	#Set to true to make the blindness module work on players
 	blindnessAvailable = false
 	#RF per tick/per block for the weakness module
 	#Range: 0.0 ~ 1.0E9
-	weaknessRFPerTick = 0.01
+	weaknessRFPerTick = 0.04
 	#Set to true to make the weakness module work on players
 	weaknessAvailable = false
 	#RF per tick/per block for the poison module
 	#Range: 0.0 ~ 1.0E9
-	poisonRFPerTick = 0.02
+	poisonRFPerTick = 0.08
 	#Set to true to make the poison module work on players
 	poisonAvailable = false
 	#RF per tick/per block for the slowness module
 	#Range: 0.0 ~ 1.0E9
-	slownessRFPerTick = 0.012
+	slownessRFPerTick = 0.05
 	#Set to true to make the slowness module work on players
 	slownessAvailable = false
 

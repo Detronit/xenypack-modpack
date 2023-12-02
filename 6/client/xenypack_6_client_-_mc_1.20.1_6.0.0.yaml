@@ -10901,7 +10901,68 @@ entries:
   additionalFields:
     createdAt: "2023-11-10T17:34:43Z"
   enabled: true
+- id: "sHtxGanfD-_WAg"
+  name: "startup_scripts"
+  src: ""
+  version: null
+  type: "ITEM"
+  target:
+    directory:
+      default: "startup_scripts"
+      windows: null
+      unix: null
+    matching:
+      regex: null
+      wildcard: null
+      prefix: null
+      options: null
+    absolute: false
+    override: true
+  parent: "kWUYrRb2Uo_JhA"
+  group: true
+  website: null
+  description: ""
+  itemDate: "2023-12-02T09:33:33Z"
+  updateDate: "2023-11-10T17:34:43Z"
+  hashes: null
+  category: null
+  fileSize: null
+  tags: null
+  additionalFields:
+    createdAt: "2023-11-09T18:10:31Z"
+  enabled: true
+- id: "6tnsjA5x5TBIlA"
+  name: "example.js"
+  src: "kubejs/startup_scripts/example.js"
+  version: null
+  type: "ITEM"
+  target:
+    directory: null
+    matching:
+      regex: null
+      wildcard: null
+      prefix: null
+      options: null
+    absolute: false
+    override: true
+  parent: "sHtxGanfD-_WAg"
+  group: false
+  website: null
+  description: ""
+  itemDate: "2023-12-02T09:21:49Z"
+  updateDate: "2023-12-02T09:35:59Z"
+  hashes:
+    md5: "CB72577FC3DBB4EBEA195656F67D1F97"
+    sha256: null
+    sha1: null
+    crc32: null
+  category: null
+  fileSize: 646
+  tags: null
+  additionalFields:
+    createdAt: "2023-12-02T09:35:59Z"
+  enabled: true
 additionalFields: {}
-updateDate: "2023-11-10T17:39:42Z"
+updateDate: "2023-12-02T09:37:23Z"
 experimental: false
 includeVersions: []

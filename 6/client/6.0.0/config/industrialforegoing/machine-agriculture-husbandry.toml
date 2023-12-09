@@ -7,7 +7,7 @@
 		#Amount of Power Consumed per Operation - Default: [400FE]
 		powerPerOperation = 400
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 500000
 		#How many animals there need to be in the area to stop the machine from working
 		maxAnimalInTheArea = 35
 
@@ -39,7 +39,7 @@
 		#Amount of Power Consumer per Operation - Default: [400FE]
 		powerPerOperation = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 40000
 		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]
 		maxSludgeTankSize = 8000
 		#Max Amount of Stored Fluid for 'EtherTank' - Default: [1000mB]
@@ -51,7 +51,7 @@
 		#Amount of Power Consumed per Operation - Default: [400FE]
 		powerPerOperation = 1000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 40000
 		#Max Amount of Stored Fluid - Default: [8000mB]
 		maxTankSize = 8000
 
@@ -117,7 +117,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
-		powerPerOperation = 50
+		powerPerOperation = 100
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 20000
 		#Max Amount of Stored Fluid - Default: [8000mB]

@@ -3,11 +3,11 @@
 
 	[MachineResourceProductionConfig.WashingFactoryConfig]
 		#Progress bar size [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
+		maxProgress = 500
 		#Amount of Power Consumed per Tick - Default: [60FE]
 		powerPerTick = 2000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 400000
+		maxStoredPower = 1000000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
 		maxTankSize = 8000
 		#Max Amount of Output Fluid  - Default: [8000mB]
@@ -17,7 +17,7 @@
 		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 4000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 200000
+		maxStoredPower = 2000000
 		#Amount of ticks for 2x production - Default: [20 * 5 FE]
 		ticksFor2XProduction = 100
 		#Amount of ticks for 3x production - Default: [20 * 45 FE]
@@ -31,7 +31,7 @@
 		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 40
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 20000
 		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
 		maxWaterTankSize = 1000
 
@@ -47,9 +47,9 @@
 		#Progress bar size [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 400
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 50000
 		#Max Amount of Stored Fluid - Default: [8000mB]
 		maxTankSize = 8000
 
@@ -101,9 +101,9 @@
 
 	[MachineResourceProductionConfig.SludgeRefinerConfig]
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 40
+		powerPerTick = 100
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 20000
 		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
 		maxSludgeTankSize = 8000
 
@@ -129,7 +129,7 @@
 		#Amount of Power Consumed per Tick - Default: [60FE]
 		powerPerTick = 600
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 200000
 		#Max Amount of Stored Fluid [Water] - Default: [2000mB]
 		maxWaterTankSize = 2000
 		#Max Amount of Stored Fluid [Lava] - Default: [2000mB]
@@ -145,9 +145,9 @@
 
 	[MachineResourceProductionConfig.ResourcefulFurnaceConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerTick = 500
+		powerPerTick = 250
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 200000
 		#Max Amount of Stored Fluid [Essence] - Default: [8000mB]
 		maxEssenceTankSize = 16000
 

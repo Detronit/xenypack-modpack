@@ -5,9 +5,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 500
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 5000
+		powerPerTick = 2500
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 200000
+		maxStoredPower = 1500000
 		#Max Essence [mb] - Default: [32000 mb]
 		tankSize = 32000
 
@@ -33,9 +33,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 500
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 5000
+		powerPerTick = 2500
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 200000
+		maxStoredPower = 1500000
 		#Max Essence [mb] - Default: [64000 mb]
 		tankSize = 64000
 		#Ignore max level for enchanting
@@ -45,9 +45,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
 		maxProgress = 500
 		#Amount of Power Consumed per Tick - Default: [40FE]
-		powerPerTick = 10000
+		powerPerTick = 2500
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 400000
+		maxStoredPower = 1500000
 		#Max Essence [mb] - Default: [32000 mb]
 		tankSize = 32000
 

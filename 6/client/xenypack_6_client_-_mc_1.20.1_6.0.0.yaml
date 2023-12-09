@@ -10962,6 +10962,68 @@ entries:
   additionalFields:
     createdAt: "2023-12-02T09:35:59Z"
   enabled: true
+- id: "KaDAoQzf60qVYg"
+  name: "LibX-1.20.1-5.0.7.jar"
+  src: "https://mediafilez.forgecdn.net/files/4795/564/LibX-1.20.1-5.0.7.jar"
+  version: null
+  type: "ITEM"
+  target:
+    directory: null
+    matching:
+      regex: null
+      wildcard: null
+      prefix: null
+      options: null
+    absolute: false
+    override: true
+  parent: "Iz8dUUmzW8RVvA"
+  group: false
+  website: null
+  description: ""
+  itemDate: "2023-12-03T19:47:04Z"
+  updateDate: "2023-11-10T17:34:43Z"
+  hashes:
+    md5: "C3B71B3061A0D586DE2B576409BA7FF3"
+    sha256: null
+    sha1: null
+    crc32: null
+  category: null
+  fileSize: 1251952
+  tags: null
+  additionalFields:
+    createdAt: "2023-12-09T12:51:55Z"
+  enabled: true
+- id: "9Q0EtQuS94hkpg"
+  name: "SimplyTools-1.20.1-2.0.4.jar"
+  src: "https://mediafilez.forgecdn.net/files/4848/458/SimplyTools-1.20.1-2.0.4.jar"
+  version: null
+  type: "ITEM"
+  target:
+    directory: null
+    matching:
+      regex: null
+      wildcard: null
+      prefix: null
+      options: null
+    absolute: false
+    override: true
+  parent: "Iz8dUUmzW8RVvA"
+  group: false
+  website: null
+  description: ""
+  itemDate: "2023-12-03T19:40:06Z"
+  updateDate: "2023-11-10T17:34:43Z"
+  hashes:
+    md5: "D72D5CF6BDE5AC49CDE13E27259FF15D"
+    sha256: null
+    sha1: null
+    crc32: null
+  category: null
+  fileSize: 239877
+  tags: null
+  additionalFields:
+    createdAt: "2023-12-09T12:51:55Z"
+  enabled: true
 additionalFields: {}
 updateDate: "2023-12-02T09:37:23Z"
 experimental: false

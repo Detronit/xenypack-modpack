@@ -9,7 +9,7 @@
 		fuelUsageMultiplier = 2.0
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
 		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 0.5
+		powerProductionMultiplier = 3.0
 		#Number of ticks between updates for the Redstone Port.
 		#Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20
@@ -57,7 +57,7 @@
 		#A multiplier for balancing turbine power production.
 		#Stacks with powerProductionMultiplier.
 		#Range: 0.5 ~ 10.0
-		turbinePowerProductionMultiplier = 1.0
+		turbinePowerProductionMultiplier = 0.75
 
 	#Define how Fluidizer works
 	[common.fluidizer]

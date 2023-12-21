@@ -1,0 +1,32 @@
+{
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.FactoryContainer": {
+        "ignore": true
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
+        "ignore": true
+    },
+    "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.container.BasicAddonContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ThermoContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.MagmatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.FurnatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ReactorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyCellContainer": {
+        "ignore": true
+    }
+}

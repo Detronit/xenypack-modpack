@@ -4203,7 +4203,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "create*.jar"
+      wildcard: "create-*.jar"
     absolute: false
     override: true
   parent: "hOBlS001ztVlTg"
@@ -4520,7 +4520,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "embeddium*.jar"
+      wildcard: "embeddium-*.jar"
     absolute: false
     override: true
   parent: "hOBlS001ztVlTg"
@@ -5447,7 +5447,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "Jade*.jar"
+      wildcard: "Jade-*.jar"
     absolute: false
     override: true
   parent: "hOBlS001ztVlTg"
@@ -6023,7 +6023,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "Mekanism*.jar"
+      wildcard: "Mekanism-*.jar"
     absolute: false
     override: true
   parent: "hOBlS001ztVlTg"
@@ -6882,7 +6882,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "refinedstorage*.jar"
+      wildcard: "refinedstorage-*.jar"
     absolute: false
     override: true
   parent: "hOBlS001ztVlTg"

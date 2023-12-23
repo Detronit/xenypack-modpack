@@ -14,8 +14,6 @@
 	animatedInv = false
 	#Hide background if inventory is empty
 	hideBackground = false
-	#Show Inventory HUD when debug menu is open
-	invWithDebug = true
 
 #Settings for ArmorStatus HUD
 [armorhud]
@@ -213,11 +211,4 @@
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"
-
-#Notification settings
-[notification]
-	#Last notified mod version
-	lastNotifiedVersion = "1.20.1-10.0.0-169"
-	#Notify more than once
-	keepNotifying = true
 

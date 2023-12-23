@@ -4,28 +4,28 @@
 	inverseXpCost = false
 	#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
 	#Range: > -2147483648
-	blocksPerXpLevel = 200
+	blocksPerXpLevel = 500
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	minimumBaseXpCost = 2.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	maximumBaseXpCost = 8.0
+	maximumBaseXpCost = 5.0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
 	xpCostPerLeashed = 1
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
-	dimensionalWarpXpCost = 5.5
+	dimensionalWarpXpCost = 3.5
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	globalWaystoneXpCostMultiplier = 1.0
+	globalWaystoneXpCostMultiplier = 0.25
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	warpStoneXpCostMultiplier = 2.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 0.25
+	waystoneXpCostMultiplier = 0.5
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sharestoneXpCostMultiplier = 0.5
@@ -34,7 +34,7 @@
 	portstoneXpCostMultiplier = 0.25
 	#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpPlateXpCostMultiplier = 0.5
+	warpPlateXpCostMultiplier = 0.25
 	#The multiplier applied to the base xp cost when teleporting via the inventory button.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	inventoryButtonXpCostMultiplier = 1.0
@@ -117,7 +117,7 @@
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
 	customWaystoneNames = []
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
-	spawnInVillages = false
+	spawnInVillages = true
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
 	forceSpawnInVillages = false
 

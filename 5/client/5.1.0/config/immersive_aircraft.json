@@ -2,7 +2,7 @@
   "enableDropsForNonPlayer": true,
   "enableCrashExplosion": true,
   "enableCrashBlockDestruction": false,
-  "enableCrashFire": true,
+  "enableCrashFire": false,
   "crashExplosionRadius": 2.0,
   "separateCamera": true,
   "useThirdPersonByDefault": true,
@@ -26,7 +26,7 @@
   "validDimensions": {
     "minecraft:overworld": true,
     "minecraft:the_end": false,
-    "minecraft:the_nether": false
+    "minecraft:the_nether": true
   },
   "version": 1
 }

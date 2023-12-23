@@ -16,8 +16,8 @@
 	opaqueTransmitters = false
 	#Allow sneak + scroll to change item modes.
 	allowModeScroll = true
-	#If true will move HUD text alignment and compass rendering to the right side of the screen, and move the MekaSuit module rendering to the left side.
-	reverseHUD = false
+	#Align HUD (text) with left (if true) or right (if false)
+	alignHUDLeft = true
 	#Scale of the text displayed on the HUD.
 	#Range: 0.25 ~ 1.0
 	hudScale = 0.6
@@ -51,14 +51,11 @@
 		#Opacity of HUD used by MekaSuit.
 		#Range: 0.0 ~ 1.0
 		hudOpacity = 0.4000000059604645
-		#Color (RGB) of HUD used by MekaSuit.
-		#Range: 0 ~ 16777215
+		#Color of HUD used by MekaSuit.
 		hudColor = 4257264
-		#Color (RGB) of warning HUD elements used by MekaSuit.
-		#Range: 0 ~ 16777215
+		#Color of warning HUD elements used by MekaSuit.
 		hudWarningColor = 16768335
-		#Color (RGB) of danger HUD elements used by MekaSuit.
-		#Range: 0 ~ 16777215
+		#Color of danger HUD elements used by MekaSuit.
 		hudDangerColor = 16726076
 		#Visual jitter of MekaSuit HUD, seen when moving the player's head. Bigger value = more jitter.
 		#Range: 1.0 ~ 100.0
@@ -102,16 +99,16 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 10
-				y = 15
+				x = 2147483647
+				y = 2147483647
 
 			[client.gui.window.transporterConfig]
-				x = 10
-				y = 15
+				x = 2147483647
+				y = 2147483647
 
 			[client.gui.window.upgrade]
-				x = 10
-				y = 15
+				x = 2147483647
+				y = 2147483647
 
 	#QIO Config
 	[client.qio]

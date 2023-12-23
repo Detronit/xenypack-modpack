@@ -10,6 +10,30 @@ EnableAdvancedConfig = true
 #
 mode = "MODERN"
 
+[WorldGen]
+    #
+    # Valid range: [1,)
+    # Default: 5
+    #
+    UraniumOreMaxClustersPerChunk = 5.0
+
+    #
+    # Valid range: [1,)
+    # Default: 6
+    #
+    UraniumMaxOrePerCluster = 6.0
+
+    #
+    # Valid range: [5,)
+    # Default: 50
+    #
+    UraniumOreMaxSpawnY = 50.0
+
+    #
+    # Default: true
+    #
+    EnableUraniumGeneration = false
+
 [Reactor]
     #
     # Valid range: [3,)

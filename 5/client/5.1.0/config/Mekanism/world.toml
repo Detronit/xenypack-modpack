@@ -266,7 +266,7 @@
 				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
 				type = "ABSOLUTE"
 				#Value used for calculating y for the anchor based on the type.
-				value = 16
+				value = 8
 
 		#buried uranium vein Generation Settings.
 		[world_generation.uranium.buried]
@@ -274,7 +274,7 @@
 			shouldGenerate = true
 			#Chance that buried uranium veins generates in a chunk.
 			#Range: 1 ~ 256
-			perChunk = 5
+			perChunk = 7
 			#Maximum number of blocks in a buried uranium vein.
 			#Range: 1 ~ 64
 			maxVeinSize = 9

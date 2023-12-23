@@ -74,18 +74,21 @@
 	[general.energy_conversion]
 		#Disables IC2 power integration. Requires world restart (server-side option in SMP).
 		blacklistIC2 = true
-		#Conversion multiplier from EU to Joules (EU * euConversionRate = Joules)
-		euConversionRate = "10"
+		#Conversion multiplier from EU to Joules (EU * JoulePerEU = Joules)
+		JoulePerEU = "10"
 		#Disables Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP).
 		blacklistForge = false
-		#Conversion multiplier from Forge Energy to Joules (FE * feConversionRate = Joules)
-		feConversionRate = "2.5000"
+		#Conversion multiplier from Forge Energy to Joules (FE * JoulePerForgeEnergy = Joules)
+		JoulePerForgeEnergy = "2.5000"
 		#Disables Flux Networks higher throughput Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP). Note: Disabling Forge Energy integration also disables this.
 		blacklistFluxNetworks = false
 		#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethylene burn rate and Gas generator energy capacity.
-		HydrogenEnergyDensity = "100"
+		HydrogenEnergyDensity = "200"
+		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
+		#Range: > 1
+		EthyleneBurnTime = 40
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
-		maxEnergyPerSteam = "5"
+		maxEnergyPerSteam = "10"
 
 	#Radiation Settings
 	[general.radiation]
@@ -140,7 +143,7 @@
 	#Oredictionificator Settings
 	[general.oredictionificator]
 		#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add in accidental conversions of things that are not actually equivalent.
-		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/", "forge:raw_materials/", "forge:storage_blocks/"]
+		validItemFilters = ["forge:dusts/", "forge:ingots/", "forge:nuggets/", "forge:ores/"]
 
 	#Pump Settings
 	[general.pump]
@@ -149,12 +152,12 @@
 		maxPumpRange = 80
 		#If enabled makes Water and Heavy Water blocks be removed from the world on pump.
 		pumpWaterSources = false
-		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
-		#Range: 1 ~ 1000
-		pumpHeavyWaterAmount = 10
 		#Fluidic Plenisher stops after this many blocks.
 		#Range: 1 ~ 1000000
 		maxPlenisherNodes = 4000
+		#mB of Heavy Water that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
+		#Range: 1 ~ 1000
+		pumpHeavyWaterAmount = 10
 
 	#Quantum Entangloporter Settings
 	[general.quantum_entangloporter]
@@ -178,25 +181,10 @@
 	[general.nutritional_paste]
 		#Saturation level of Nutritional Paste when eaten.
 		#Range: 0.0 ~ 100.0
-		saturation = 0.0
+		saturation = 0.1
 		#How much mB of Nutritional Paste equates to one 'half-food.'
 		#Range: > 1
 		mbPerFood = 50
-
-	#Boiler Settings
-	[general.boiler]
-		#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
-		#Range: 1 ~ 368224
-		waterPerTank = 16000
-		#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
-		#Range: 10 ~ 1581510980256305
-		steamPerTank = 160000
-		#Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank
-		#Range: 1 ~ 1581510980256305
-		heatedCoolantPerTank = 256000
-		#Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank
-		#Range: 1 ~ 1581510980256305
-		cooledCoolantPerTank = 256000
 
 	#Thermal Evaporation Plant Settings
 	[general.thermal_evaporation]
@@ -230,3 +218,17 @@
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 		energyPerInput = "1000000"
 
+	#Boiler Settings
+	[general.boiler]
+		#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
+		#Range: 1 ~ 368224
+		waterPerTank = 16000
+		#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
+		#Range: 10 ~ 1581510980256305
+		steamPerTank = 160000
+		#Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank
+		#Range: 1 ~ 1581510980256305
+		heatedCoolantPerTank = 256000
+		#Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank
+		#Range: 1 ~ 1581510980256305
+		cooledCoolantPerTank = 256000

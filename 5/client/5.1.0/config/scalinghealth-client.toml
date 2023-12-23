@@ -2,9 +2,9 @@
 [debug]
 
 	[debug.overlay]
-		#Position of debug overlay
+		#Position of debug overlay   4   7 13
 		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
-		anchor = "TOP_RIGHT"
+		anchor = "CENTER_LEFT"
 		#Overlay text size, where 1 is standard-sized text
 		#Range: 0.01 ~ 1.7976931348623157E308
 		textScale = 0.75
@@ -97,13 +97,13 @@
 		[difficulty.meter.position]
 			#Position of the difficulty meter.
 			#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
-			anchor = "BOTTOM_LEFT"
+			anchor = "TOP_RIGHT"
 			#Fine-tune the difficulty meter's position
 			#Range: > -2147483648
-			offsetX = 5
+			offsetX = -110
 			#Fine-tune the difficulty meter's position
 			#Range: > -2147483648
-			offsetY = -20
+			offsetY = 5
 
 		[difficulty.meter.text]
 			#Scale of text on the difficulty meter

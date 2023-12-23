@@ -31,7 +31,7 @@
 		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 40
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
 		maxWaterTankSize = 1000
 
@@ -65,9 +65,9 @@
 
 	[MachineResourceProductionConfig.MechanicalDirtConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 25000
+		powerPerOperation = 2500
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 200000
+		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
 		maxMeatTankSize = 8000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -103,7 +103,7 @@
 		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 100
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
 		maxSludgeTankSize = 8000
 
@@ -153,11 +153,11 @@
 
 	[MachineResourceProductionConfig.MarineFisherConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 600
+		maxProgress = 1200
 		#Amount of Power Consumed per Tick - Default: [5000FE]
-		powerPerOperation = 50000
+		powerPerOperation = 500000
 		#Max Stored Power [FE] - Default: [20000 FE]
-		maxStoredPower = 200000
+		maxStoredPower = 1000000
 
 	[MachineResourceProductionConfig.FluidCollectorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -165,7 +165,7 @@
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 2000
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 20000
+		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
 		maxOutputTankSize = 16000
 

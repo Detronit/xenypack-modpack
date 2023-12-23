@@ -82,7 +82,7 @@
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
 		#Allowed values: [1,)
-		Cooldown = 30
+		Cooldown = 200
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
 		"Max Animals" = 32
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
@@ -403,9 +403,9 @@
 			#Whether this pickarang type can act as a hoe.
 			"Can Act As Hoe" = false
 			#Whether this pickarang type can act as a shovel.
-			"Can Act As Shovel" = true
+			"Can Act As Shovel" = false
 			#Whether this pickarang type can act as an axe.
-			"Can Act As Axe" = true
+			"Can Act As Axe" = false
 
 		[tools.pickarang.echorang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -421,11 +421,11 @@
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
 			#Whether this pickarang type can act as a hoe.
-			"Can Act As Hoe" = true
+			"Can Act As Hoe" = false
 			#Whether this pickarang type can act as a shovel.
-			"Can Act As Shovel" = true
+			"Can Act As Shovel" = false
 			#Whether this pickarang type can act as an axe.
-			"Can Act As Axe" = true
+			"Can Act As Axe" = false
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.

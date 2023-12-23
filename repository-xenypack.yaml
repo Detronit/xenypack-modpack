@@ -9,7 +9,7 @@ title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
 additionalFields: {}
-updateDate: "2023-12-23T14:44:21Z"
+updateDate: "2023-12-23T15:01:40Z"
 bundles:
 - id: "xenypack_5_client_-_mc_1.19.2"
   name: "Xenypack 5 Client - MC 1.19.2"
@@ -20,14 +20,12 @@ bundles:
     default: "${APPDATA}\\.minecraft"
   # Url used as base path for all versions - can be relative
   baseItemUrl: "5/client/"
-  updateDate: "2023-12-23T14:42:17Z"
+  updateDate: "2023-12-23T15:01:40Z"
   additionalFields:
-    forge-version: "41.1.47"
-    forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.47/forge-1.19.2-43.1.47-installer.jar"
     java17: "https://adoptium.net/temurin/releases/"
     optifine: "https://optifine.net/adloadx?f=preview_OptiFine_1.19.2_HD_U_I1_pre2.jar&x=0cfe"
     launcher-ultim-mc: "https://www.mediafire.com/file/1rsskrm3uxpyjl3/UltimMC-5-win32.zip/file"
-    vmOptions: "-Xmx4000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200\
+    vmOptions: "-Xmx5000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200\
       \ -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch\
       \ -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
       \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
@@ -39,10 +37,14 @@ bundles:
       \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
       \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
       \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
+     vmOptions-server: "-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -Dlog4j2.formatMsgNoLookups=true"
   versions:
   - versionId: 1
     link: "xenypack_5_client_-_mc_1.19.2_5.0.0.yaml"
     versionName: "5.0.0"
+  - versionId: 2
+    link: "xenypack_5_client_-_mc_1.19.2_5.1.0.yaml"
+    versionName: "5.1.0"
 - id: "xenypack_4_client_-_mc_1.16.5"
   name: "Xenypack 4 Client - MC 1.16.5"
   description: ""

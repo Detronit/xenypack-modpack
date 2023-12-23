@@ -6879,7 +6879,9 @@ entries:
     fileFingerPrint: "855501441"
     fileLength: "98171"
   enabled: true
-additionalFields: {}
+additionalFields:
+  forge-version: "41.1.47"
+  forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.47/forge-1.19.2-43.1.47-installer.jar"
 updateDate: "2022-11-14T18:56:04Z"
 experimental: false
 includeVersions: []

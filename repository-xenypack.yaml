@@ -9,29 +9,40 @@ title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
 additionalFields: {}
-updateDate: "2022-11-13T20:28:29Z"
+updateDate: "2023-12-23T14:44:21Z"
 bundles:
 - id: "xenypack_5_client_-_mc_1.19.2"
   name: "Xenypack 5 Client - MC 1.19.2"
   description: ""
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
+    # Default base path (target path on user computer) that is prefilled when bundle is loaded
     default: "${APPDATA}\\.minecraft"
+  # Url used as base path for all versions - can be relative
   baseItemUrl: "5/client/"
-  updateDate: "2022-11-13T20:28:29Z"
+  updateDate: "2023-12-23T14:42:17Z"
   additionalFields:
     forge-version: "41.1.47"
     forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.1.47/forge-1.19.2-43.1.47-installer.jar"
     java17: "https://adoptium.net/temurin/releases/"
     optifine: "https://optifine.net/adloadx?f=preview_OptiFine_1.19.2_HD_U_I1_pre2.jar&x=0cfe"
     launcher-ultim-mc: "https://www.mediafire.com/file/1rsskrm3uxpyjl3/UltimMC-5-win32.zip/file"
-    vmOptions: "-Xmx4000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
-    vmOptions-ultim-mc: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
+    vmOptions: "-Xmx4000m -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200\
+      \ -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch\
+      \ -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
+      \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
+      \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
+      \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
+    vmOptions-ultim-mc: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200\
+      \ -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch\
+      \ -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M\
+      \ -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4\
+      \ -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90\
+      \ -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem"
   versions:
-    - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-      versionId: 1
-      link: "xenypack_5_client_-_mc_1.19.2_5.0.0.yaml"
-      versionName: "5.0.0"
+  - versionId: 1
+    link: "xenypack_5_client_-_mc_1.19.2_5.0.0.yaml"
+    versionName: "5.0.0"
 - id: "xenypack_4_client_-_mc_1.16.5"
   name: "Xenypack 4 Client - MC 1.16.5"
   description: ""
@@ -39,7 +50,6 @@ bundles:
   preferredBasePath:
     windows: "${APPDATA}\\.minecraft"
     unix: "${HOME}/.minecraft"
-  # Url used as base path for all versions - can be relative
   baseItemUrl: "4/client/"
   updateDate: "2021-12-05T12:18:01Z"
   additionalFields:
@@ -63,20 +73,16 @@ bundles:
       \ --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED\
       \ --add-opens java.base/java.util.jar=ALL-UNNAMED"
   versions:
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 1
+  - versionId: 1
     link: "xenypack_4_client_-_mc_1.16.5_4.0.0.yaml"
     versionName: "4.0.0"
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 2
+  - versionId: 2
     link: "xenypack_4_client_-_mc_1.16.5_4.0.1-light.yaml"
     versionName: "4.0.1-light"
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 3
+  - versionId: 3
     link: "xenypack_4_client_-_mc_1.16.5_4.1.0.yaml"
     versionName: "4.1.0"
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 20
+  - versionId: 20
     link: "xenypack_4_client_-_mc_1.16.5_4.2.0-mini.yaml"
     versionName: "4.2.0-mini"
 - id: "xenypack_4_server_-_mc_1.16.5"
@@ -84,7 +90,6 @@ bundles:
   description: ""
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
-    # Default base path (target path on user computer) that is prefilled when bundle is loaded
     default: "${user.home}"
   baseItemUrl: "4/server/"
   updateDate: "2021-11-14T12:02:39Z"
@@ -101,8 +106,7 @@ bundles:
       \ -XX:+UseZGC --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.security.util=ALL-UNNAMED\
       \ --add-opens java.base/java.util.jar=ALL-UNNAMED -jar $jar nogui"
   versions:
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 1
+  - versionId: 1
     link: "xenypack_4_server_-_mc_1.16.5_4.0.0.yaml"
     versionName: "4.0.0"
 - id: "xenypack_6_client_-_mc_1.20.1"
@@ -111,8 +115,6 @@ bundles:
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
     default: "${APPDATA}\\.minecraft"
-    windows: null
-    unix: null
   baseItemUrl: "6/client/"
   updateDate: "2023-11-10T17:39:42Z"
   additionalFields:
@@ -121,12 +123,19 @@ bundles:
     launcher-ultim: "https://www.mediafire.com/file/1rsskrm3uxpyjl3/UltimMC-5-win32.zip/file"
     launcher-polly: "https://github.com/fn2006/PollyMC/releases/latest"
     java17: "https://adoptium.net/temurin/releases/"
-    vmOptions: "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m"
+    vmOptions: "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch\
+      \ -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M\
+      \ -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M\
+      \ -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000\
+      \ -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps\
+      \ -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3\
+      \  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M\
+      \ -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3\
+      \ -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0\
+      \ -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0\
+      \ -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150\
+      \ -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m"
   versions:
-  - !<com.sheryv.tools.filematcher.model.BundleVersionLink>
-    versionId: 1
+  - versionId: 1
     link: "xenypack_6_client_-_mc_1.20.1_6.0.0.yaml"
     versionName: "6.0.0"
-  link: null
-  linkedId: null
-  isLink: false

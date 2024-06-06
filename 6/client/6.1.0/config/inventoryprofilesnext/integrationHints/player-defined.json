@@ -1,0 +1,65 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "PROFILE_SELECTOR": {
+                "bottom": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 126,
+                "top": -10
+            },
+            "SETTINGS": {
+                "horizontalOffset": 112,
+                "top": -25
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 11,
+                "top": -8
+            },
+            "SETTINGS": {
+                "horizontalOffset": 22,
+                "top": -23
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 27,
+                "top": -8
+            },
+            "SETTINGS": {
+                "horizontalOffset": 38,
+                "top": -23
+            }
+        }
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ThermoContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.MagmatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.FurnatorContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.ReactorSolidAccessPortContainer": {
+        "ignore": true
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ReactorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyCellContainer": {
+        "ignore": true
+    }
+}

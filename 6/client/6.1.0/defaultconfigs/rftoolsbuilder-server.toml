@@ -6,7 +6,7 @@
 	builderMaxRF = 1000000
 	#RF per tick that the builder can receive
 	#Range: > 0
-	builderRFPerTick = 20000
+	builderRFPerTick = 50000
 	#RF per block operation for the builder when used to build
 	#Range: > 0
 	builderRfPerOperation = 500
@@ -15,7 +15,7 @@
 	builderRfPerLiquid = 300
 	#Base RF per block operation for the builder when used as a quarry or voider (actual cost depends on hardness of block)
 	#Range: > 0
-	builderRfPerQuarry = 400
+	builderRfPerQuarry = 800
 	#RF per block that is skipped (used when a filter is added to the builder)
 	#Range: > 0
 	builderRfPerSkipped = 50
@@ -50,13 +50,13 @@
 	collectRFPerTickPerArea = 0.5
 	#The RF per operation of the builder is multiplied with this factor when using the void shape card
 	#Range: 0.0 ~ 1000000.0
-	voidShapeCardFactor = 0.5
+	voidShapeCardFactor = 0.75
 	#The RF per operation of the builder is multiplied with this factor when using the silk quarry shape card
 	#Range: 0.0 ~ 1000000.0
-	silkquarryShapeCardFactor = 6.0
+	silkquarryShapeCardFactor = 10.0
 	#The RF per operation of the builder is multiplied with this factor when using the fortune quarry shape card
 	#Range: 0.0 ~ 1000000.0
-	fortunequarryShapeCardFactor = 4.0
+	fortunequarryShapeCardFactor = 5.0
 	#Use this block for the builder to replace with
 	quarryReplace = "minecraft:dirt"
 	#If true the quarry will also quarry tile entities. Otherwise it just ignores them
@@ -88,10 +88,10 @@
 [shield]
 	#Maximum RF storage that the shield block can hold
 	#Range: > 0
-	shieldMaxRF = 200000
+	shieldMaxRF = 2000000
 	#RF per tick that the shield block can receive
 	#Range: > 0
-	shieldRFPerTick = 5000
+	shieldRFPerTick = 10000
 	#Maximum size (in blocks) of a tier 1 shield
 	#Range: 0 ~ 1000000
 	shieldMaxSize = 256
@@ -106,7 +106,7 @@
 	maxDisjointShieldDistance = 64
 	#Base amount of RF/tick for every 10 blocks in the shield (while active)
 	#Range: > 0
-	shieldRfBase = 16
+	shieldRfBase = 48
 	#RF/tick for every 10 blocks added in case of camo mode
 	#Range: > 0
 	shieldRfCamo = 2
@@ -213,11 +213,11 @@
 	vehicleStatusRFPerTick = 2
 	#Amount of RF used for one movement
 	#Range: > 0
-	rfPerMove = 1000
+	rfPerMove = 2000
 	#Maximum RF storage that the mover controller can hold
 	#Range: > 0
 	moverControllerMaxRF = 100000
 	#RF per tick that the mover controller can receive
 	#Range: > 0
-	moverControllerRFPerTick = 1000
+	moverControllerRFPerTick = 2000
 

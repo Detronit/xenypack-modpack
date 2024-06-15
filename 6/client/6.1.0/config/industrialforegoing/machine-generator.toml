@@ -17,7 +17,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 200
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 2000
+		powerPerOperation = 8000
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 20000
 		maxWaterTankStorage = 16000

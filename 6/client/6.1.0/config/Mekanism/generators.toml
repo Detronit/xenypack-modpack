@@ -23,7 +23,7 @@
 		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
 		heatGenerationLava = "10"
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
-		heatGenerationNether = "20"
+		heatGenerationNether = "30"
 		#The capacity in mB of the fluid tank in the Heat Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -39,7 +39,7 @@
 		#Range: > 1
 		ethyleneBurnTicks = 20
 		#Multiplier for calculating the energy density of Ethylene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
-		ethyleneDensityMultiplier = "2"
+		ethyleneDensityMultiplier = "1"
 
 	#Turbine Settings
 	[generators.turbine]
@@ -113,7 +113,7 @@
 		energyPerFissionFuel = "100000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
 		#Range: 1.0 ~ 1000000.0
-		casingHeatCapacity = 5000.0
+		casingHeatCapacity = 2000.0
 		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0

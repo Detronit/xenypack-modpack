@@ -85,7 +85,7 @@
 		#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethylene burn rate and Gas generator energy capacity.
 		HydrogenEnergyDensity = "100"
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
-		maxEnergyPerSteam = "5"
+		maxEnergyPerSteam = "1"
 
 	#Radiation Settings
 	[general.radiation]
@@ -117,7 +117,7 @@
 	[general.digital_miner]
 		#Energy multiplier for using silk touch mode with the Digital Miner.
 		#Range: > 1
-		silkMultiplier = 20
+		silkMultiplier = 10
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
 		maxRadius = 32
@@ -228,5 +228,5 @@
 		#Range: 1 ~ 9223372036854775807
 		outputTankCapacity = 1000
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
-		energyPerInput = "1000000"
+		energyPerInput = "100000"
 

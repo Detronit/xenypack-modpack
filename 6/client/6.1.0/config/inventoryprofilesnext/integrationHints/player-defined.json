@@ -61,5 +61,23 @@
     },
     "owmii.powah.inventory.EnergyCellContainer": {
         "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -4,
+                "bottom": 15
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -4
+            },
+            "SETTINGS": {
+                "horizontalOffset": 33,
+                "top": -23
+            }
+        }
+    },
+    "com.enderio.machines.common.menu.PoweredSpawnerMenu": {
+        "ignore": true
     }
 }

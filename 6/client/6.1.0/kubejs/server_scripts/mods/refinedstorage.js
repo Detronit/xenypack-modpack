@@ -3,6 +3,15 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
+  function energize(ingredient, result, power) {
+    event.recipes.powah.energizing({
+      ingredients: ingredient.map(i => Ingredient.of(i).toJson()),
+      energy: power,
+      result: result
+    })
+  }
+
+
   // silicon unifying
   /* hold for tag fix
   event.replaceInput({}, '#refinedstorage:silicon', '#forge:silicon')
@@ -70,5 +79,13 @@ ServerEvents.recipes(event => {
       recipe.json.add('key', key)
     }
   })
+
+
+  energize(['universalgrid:wireless_universal_grid'], 'universalgrid:creative_wireless_universal_grid', 2147483647)
+  energize(['refinedstorage:wireless_grid'], 'refinedstorage:creative_wireless_grid', 2147483647)
+  energize(['refinedstorage:wireless_fluid_grid'], 'refinedstorage:creative_wireless_fluid_grid', 2147483647)
+  energize(['refinedstorage:wireless_crafting_monitor'], 'refinedstorage:creative_wireless_crafting_monitor', 2147483647)
+  energize(['refinedstorageaddons:wireless_crafting_grid'], 'refinedstorageaddons:creative_wireless_crafting_grid', 2147483647)
+  energize(['refinedstorage:portable_grid'], 'refinedstorage:creative_portable_grid', 2147483647)
 })
 

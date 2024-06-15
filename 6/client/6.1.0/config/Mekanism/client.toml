@@ -11,7 +11,7 @@
 	holidays = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 10.0
-	baseSoundVolume = 0.25
+	baseSoundVolume = 0.5
 	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
 	opaqueTransmitters = false
 	#Allow sneak + scroll to change item modes.
@@ -102,7 +102,7 @@
 				y = 2147483647
 
 			[client.gui.window.sideConfig]
-				x = 10
+				x = 8
 				y = 15
 
 			[client.gui.window.transporterConfig]
@@ -110,8 +110,8 @@
 				y = 15
 
 			[client.gui.window.upgrade]
-				x = 10
-				y = 15
+				x = 7
+				y = -45
 
 	#QIO Config
 	[client.qio]

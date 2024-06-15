@@ -16,7 +16,7 @@
 	#Enable ore gen of power crystals. Still drops as loot.
 	powerCrystalsOreGen = false
 	#Mobs will gain bonus health with difficulty.
-	mobHpIncrease = true
+	mobHpIncrease = false
 	#Mobs will gain bonus damage with difficulty.
 	mobDamageIncrease = true
 	#Enable player damage scaling.
@@ -26,7 +26,7 @@
 	#Enable difficulty system. If disabled, everything will have 0 difficulty.
 	enableDifficulty = true
 	#Enable blights. If disabled, no blights will spawn.
-	enableBlights = true
+	enableBlights = false
 
 #Debug settings are intended for tuning configs or diagnosing issues.
 #They may decrease performance and should be disabled for normal play.

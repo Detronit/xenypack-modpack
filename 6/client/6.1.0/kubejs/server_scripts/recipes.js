@@ -4,45 +4,48 @@ const MID = 'xenypack'
 
 ServerEvents.recipes(e => {
     var TO_REMOVE_LIST = [
+        'twilightforest:uncrafting_table',
+        'mekanism:cardboard_box',
+        /extrastorage:(block|disk|storagepart)_.+/,
+        /extrastorage:advanced_(importer|exporter)/,
+        'extradisks:infinite_storage_disk',
+        'extradisks:infinite_storage_part',
+        'extradisks:infinite_storage_block',
+        'immersive_aircraft:gyrodyne',
 
         // mek
-        'mekanism:electric_bow',
-        'mekanism:cardboard_box',
+        // 'mekanism:electric_bow',
         'mekanism:atomic_disassembler',
         'mekanism:meka_tool',
         /mekanism:mekasuit_.+/,
-        'mekanism:nutritional_liquifier',
-        'mekanism:nutritional_paste_bucket',
-        'mekanism:canteen',
+        // 'mekanism:nutritional_liquifier',
+        // 'mekanism:nutritional_paste_bucket',
+        // 'mekanism:canteen',
 
-        'twilightforest:uncrafting_table',
         /industrialforegoing:infinity_.+/,
-        /industrialforegoing:\w+_black_hole_tank/,
-        /industrialforegoing:\w+_black_hole_unit/,
-        'industrialforegoing:black_hole_controller',
+        // /industrialforegoing:\w+_black_hole_tank/,
+        // /industrialforegoing:\w+_black_hole_unit/,
+        // 'industrialforegoing:black_hole_controller',
         'industrialforegoing:biofuel_generator',
         'industrialforegoing:biofuel_bucket',
         'industrialforegoing:bioreactor',
-        'industrialforegoing:fermentation_station',
-        'industrialforegoing:fermented_ore_meat_bucket',
-        'industrialforegoing:fluid_sieving_machine',
-        'industrialforegoing:material_stonework_factory',
-        'industrialforegoing:marine_fisher',
+        // 'industrialforegoing:fermentation_station',
+        // 'industrialforegoing:fermented_ore_meat_bucket',
+        // 'industrialforegoing:fluid_sieving_machine',
+        // 'industrialforegoing:material_stonework_factory',
+        // 'industrialforegoing:marine_fisher',
         'industrialforegoing:meat_feeder',
-        /industrialforegoing:mycelial_\w+/,
-        'industrialforegoing:ore_laser_base',
+        // /industrialforegoing:mycelial_\w+/,
+        // 'industrialforegoing:ore_laser_base',
         'industrialforegoing:raw_ore_meat_bucket',
-        'industrialforegoing:resourceful_furnace',
-        'industrialforegoing:spores_recreator',
-        'industrialforegoing:washing_factory',
-        'industrialforegoing:potion_brewer',
+        // 'industrialforegoing:resourceful_furnace',
+        // 'industrialforegoing:spores_recreator',
+        // 'industrialforegoing:washing_factory',
+        // 'industrialforegoing:potion_brewer',
         'immersive_aircraft:airship',
         'immersive_aircraft:cargo_airship',
-        'immersive_aircraft:gyrodyne',
         /mekanismtools:(osmium|steel)_(pickaxe|axe|hoe|shovel|sword|helmet|boots|chestplate|leggings|shield)/,
         /mekanismtools:refined_glowstone_(helmet|boots|chestplate|leggings|shield)/,
-        /extrastorage:(block|disk|storagepart)_.+/,
-        /extrastorage:advanced_(importer|exporter)/,
         'buildinggadgets2:gadget_cut_paste',
         'buildinggadgets2:gadget_destruction',
         'buildinggadgets2:gadget_exchanging',
@@ -61,8 +64,8 @@ ServerEvents.recipes(e => {
     ]
 
     // to remove
-    TO_REMOVE_LIST.forEach(r => e.remove({ output: r }))
-    TO_REMOVE_IDS.forEach(r => e.remove({ id: r }))
+    // TO_REMOVE_LIST.forEach(r => e.remove({ output: r }))
+    // TO_REMOVE_IDS.forEach(r => e.remove({ id: r }))
 
     function shaped(result, pattern, ingredients, index) {
         e.remove({
@@ -265,6 +268,33 @@ ServerEvents.recipes(e => {
         'H': 'immersive_aircraft:hull',
     })
 
+    shapedAdd('mekanism:atomic_disassembler', [
+        'APA',
+        'ECU',
+        ' I '
+    ], {
+        'A': 'mekanism:alloy_atomic',
+        'P': 'mekanismtools:netherite_paxel',
+        'C': 'mekanism:elite_energy_cube',
+        'E': Item.of('minecraft:enchanted_book').enchant('efficiency', 3).strongNBT().toJson(),
+        'U': Item.of('minecraft:enchanted_book').enchant('unbreaking', 1).strongNBT().toJson(),
+        'I': '#forge:ingots/netherite'
+    })
+
+    shaped('mekanism:meka_tool', [
+        'ECU',
+        'ADA',
+        'PSP'
+    ], {
+        'A': 'mekanism:hdpe_sheet',
+        'D': 'mekanism:atomic_disassembler',
+        'C': 'mekanism:advanced_induction_cell',
+        'E': 'minecraft:calibrated_sculk_sensor',
+        'U': 'mekanism:teleportation_core',
+        'S': 'minecraft:nether_star',
+        'P': 'mekanism:pellet_polonium'
+    })
+
 
     function energize(ingredient, result, power) {
         e.recipes.powah.energizing({
@@ -274,11 +304,41 @@ ServerEvents.recipes(e => {
         })
     }
 
-    energize(['refinedstorage:wireless_grid'], 'refinedstorage:creative_wireless_grid', 2147483647)
-    energize(['refinedstorage:wireless_fluid_grid'], 'refinedstorage:creative_wireless_fluid_grid', 2147483647)
-    energize(['refinedstorage:wireless_crafting_monitor'], 'refinedstorage:creative_wireless_crafting_monitor', 2147483647)
-    energize(['refinedstorageaddons:wireless_crafting_grid'], 'refinedstorageaddons:creative_wireless_crafting_grid', 2147483647)
-    energize(['refinedstorage:portable_grid'], 'refinedstorage:creative_portable_grid', 2147483647)
 
+    energize(['pipez:ultimate_upgrade', 'powah:ender_core'], 'pipez:infinity_upgrade', 2147483647)
+
+
+    e.replaceInput(
+        { output: 'aeinfinitybooster:infinity_card' },
+        'minecraft:nether_star',
+        '#forge:storage_blocks/emerald'
+    )
+    e.replaceInput(
+        { output: 'aeinfinitybooster:dimension_card' },
+        'minecraft:nether_star',
+        'minecraft:experience_bottle'
+    )
+
+    // e.custom(
+    //     {
+    //         type: "lychee:anvil_crafting",
+    //         item_in: [
+    //             {
+    //                 item: "apple"
+    //             },
+    //             {
+    //                 item: "gold_ingot"
+    //             }
+    //         ],
+    //         item_out: {
+    //             item: "golden_apple"
+    //         },
+    //         level_cost: 1,
+    //         material_cost: 8,
+    //         post: {
+    //             type: "prevent_default"
+    //         }
+    //     }
+    // )
 });
 

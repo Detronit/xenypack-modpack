@@ -283,10 +283,10 @@
 
 [management]
 	"Automatic Tool Restock" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 	"Expanded Item Interactions" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 
@@ -1541,7 +1541,7 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Elytra Indicator" = true
 	"Greener Grass" = true
 	"Improved Tooltips" = true
@@ -1600,7 +1600,7 @@
 		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
-		"Shulker Box Require Shift" = false
+		"Shulker Box Require Shift" = true
 		"Map Require Shift" = false
 		#The value of each shank of food.
 		#Tweak this when using mods like Hardcore Hunger which change that value.

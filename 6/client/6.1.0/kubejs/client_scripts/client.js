@@ -129,49 +129,49 @@ ItemEvents.tooltip(event => {
 
     TO_REMOVE_LIST.forEach(r => event.add(r, ['§6Recipe removed§r [modpack ' + MODPACK + ']']))
 
-    // event.add('immersiveengineering:capacitor_lv', [
-    //     [Text.of('Capacity:'), ' ', Text.of('100,000').aqua(), ' ', Text.of('FE')],
-    //     [Text.of('Transfer rate:'), ' ', Text.of('256').gold(), ' ', Text.of('FE/t')]
-    // ])
-    // event.add('immersiveengineering:capacitor_mv', [
-    //     [Text.of('Capacity:'), ' ', Text.of('1,000,000').aqua(), ' ', Text.of('FE')],
-    //     [Text.of('Transfer rate:'), ' ', Text.of('1,024').gold(), ' ', Text.of('FE/t')]
-    // ])
-    // event.add('immersiveengineering:capacitor_hv', [
-    //     [Text.of('Capacity:'), ' ', Text.of('4,000,000').aqua(), ' ', Text.of('FE')],
-    //     [Text.of('Transfer rate:'), ' ', Text.of('4,096').gold(), ' ', Text.of('FE/t')]
-    // ])
-    // event.add('immersiveengineering:wirecoil_copper', [
-    //     [Text.of('Transfer rate:'), ' ', Text.of('512').gold(), ' ', Text.of('FE/t')]
-    // ])
-    // event.add('immersiveengineering:wirecoil_steel', [
-    //     [Text.of('Transfer rate:'), ' ', Text.of('32,768').gold(), ' ', Text.of('FE/t')]
-    // ])
-    // event.add('immersiveengineering:wirecoil_electrum', [
-    //     [Text.of('Transfer rate:'), ' ', Text.of('4,096').gold(), ' ', Text.of('FE/t')]
-    // ])
+    event.add('immersiveengineering:capacitor_lv', [
+        [Text.of('Capacity:'), ' ', Text.of('500').aqua(), ' ', Text.of('kFE')],
+        [Text.of('Transfer rate:'), ' ', Text.of('2').gold(), ' ', Text.of('kFE/t')]
+    ])
+    event.add('immersiveengineering:capacitor_mv', [
+        [Text.of('Capacity:'), ' ', Text.of('4').aqua(), ' ', Text.of('MFE')],
+        [Text.of('Transfer rate:'), ' ', Text.of('8').gold(), ' ', Text.of('kFE/t')]
+    ])
+    event.add('immersiveengineering:capacitor_hv', [
+        [Text.of('Capacity:'), ' ', Text.of('20').aqua(), ' ', Text.of('MFE')],
+        [Text.of('Transfer rate:'), ' ', Text.of('32').gold(), ' ', Text.of('kFE/t')]
+    ])
+    event.add('immersiveengineering:wirecoil_copper', [
+        [Text.of('Transfer rate:'), ' ', Text.of('2,048').gold(), ' ', Text.of('FE/t')]
+    ])
+    event.add('immersiveengineering:wirecoil_steel', [
+        [Text.of('Transfer rate:'), ' ', Text.of('32,768').gold(), ' ', Text.of('FE/t')]
+    ])
+    event.add('immersiveengineering:wirecoil_electrum', [
+        [Text.of('Transfer rate:'), ' ', Text.of('8,192').gold(), ' ', Text.of('FE/t')]
+    ])
 
 
     event.add('powah:energy_cell_starter', [
-        [Text.of('Capacity:'), ' ', Text.of('250,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('250').darkAqua(), ' ', Text.of('kFE')]
     ])
     event.add('powah:energy_cell_basic', [
-        [Text.of('Capacity:'), ' ', Text.of('1,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('1').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_hardened', [
-        [Text.of('Capacity:'), ' ', Text.of('4,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('4').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_blazing', [
-        [Text.of('Capacity:'), ' ', Text.of('16,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('16').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_niotic', [
-        [Text.of('Capacity:'), ' ', Text.of('50,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('50').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_spirited', [
-        [Text.of('Capacity:'), ' ', Text.of('250,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('250').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_nitro', [
-        [Text.of('Capacity:'), ' ', Text.of('1,000,000,000').aqua(), ' ', Text.of('FE')]
+        [Text.of('Capacity:'), ' ', Text.of('1').gold(), ' ', Text.of('BFE')]
     ])
 
 })

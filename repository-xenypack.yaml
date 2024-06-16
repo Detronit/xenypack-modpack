@@ -9,16 +9,18 @@ title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
 additionalFields: {}
-updateDate: "2024-06-15T21:17:29Z"
+updateDate: "2024-06-16T17:08:41Z"
 bundles:
 - id: "xenypack_6_client_-_mc_1.20.1"
   name: "Xenypack 6 Client - MC 1.20.1"
   description: ""
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
+    # Default base path (target path on user computer) that is prefilled when bundle is loaded
     default: "${APPDATA}\\.minecraft"
+  # Url used as base path for all versions - can be relative
   baseItemUrl: "6/client/"
-  updateDate: "2024-06-15T21:11:25Z"
+  updateDate: "2024-06-16T17:08:41Z"
   additionalFields:
     forge-version: "47.2.20"
     forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-installer.jar"
@@ -26,32 +28,30 @@ bundles:
     launcher-polly: "https://github.com/fn2006/PollyMC/releases/latest"
     java17: "https://adoptium.net/temurin/releases/"
     vmOptions: "-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysPreTouch\
-    \ -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M\
-    \ -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M\
-    \ -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000\
-    \ -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps\
-    \ -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3\
-    \  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M\
-    \ -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3\
-    \ -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0\
-    \ -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0\
-    \ -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150\
-    \ -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m"
+      \ -XX:+DisableExplicitGC -XX:+UseNUMA -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M\
+      \ -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M\
+      \ -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000\
+      \ -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps\
+      \ -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3\
+      \  -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M\
+      \ -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3\
+      \ -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0\
+      \ -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0\
+      \ -XX:G1ConcRSHotCardLimit=16 -XX:G1ConcRefinementServiceIntervalMillis=150\
+      \ -XX:GCTimeRatio=99 -XX:+UseLargePages -XX:LargePageSizeInBytes=2m"
   versions:
-    - versionId: 1
-      link: "xenypack_6_client_-_mc_1.20.1_6.0.0.yaml"
-      versionName: "6.0.0"
-    - versionId: 10
-      link: "xenypack_6_client_-_mc_1.20.1_6.1.0.yaml"
-      versionName: "6.1.0"
+  - versionId: 1
+    link: "xenypack_6_client_-_mc_1.20.1_6.0.0.yaml"
+    versionName: "6.0.0"
+  - versionId: 2
+    link: "xenypack_6_client_-_mc_1.20.1_6.1.0.yaml"
+    versionName: "6.1.0"
 - id: "xenypack_5_client_-_mc_1.19.2"
   name: "Xenypack 5 Client - MC 1.19.2"
   description: ""
   versioningMode: "ONLY_SELECTED"
   preferredBasePath:
-    # Default base path (target path on user computer) that is prefilled when bundle is loaded
     default: "${APPDATA}\\.minecraft"
-  # Url used as base path for all versions - can be relative
   baseItemUrl: "5/client/"
   updateDate: "2023-12-23T15:01:40Z"
   additionalFields:
@@ -149,4 +149,3 @@ bundles:
   - versionId: 1
     link: "xenypack_4_server_-_mc_1.16.5_4.0.0.yaml"
     versionName: "4.0.0"
-

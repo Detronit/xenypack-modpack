@@ -6,66 +6,16 @@ ServerEvents.recipes(e => {
     var TO_REMOVE_LIST = [
         'twilightforest:uncrafting_table',
         'mekanism:cardboard_box',
-        /extrastorage:(block|disk|storagepart)_.+/,
-        /extrastorage:advanced_(importer|exporter)/,
+        /^extrastorage:(block|disk|storagepart)_.+/,
+        /^extrastorage:advanced_(importer|exporter)/,
         'extradisks:infinite_storage_disk',
         'extradisks:infinite_storage_part',
         'extradisks:infinite_storage_block',
         'immersive_aircraft:gyrodyne',
-
-        // mek
-        // 'mekanism:electric_bow',
-        'mekanism:atomic_disassembler',
-        'mekanism:meka_tool',
-        /mekanism:mekasuit_.+/,
-        // 'mekanism:nutritional_liquifier',
-        // 'mekanism:nutritional_paste_bucket',
-        // 'mekanism:canteen',
-
-        /industrialforegoing:infinity_.+/,
-        // /industrialforegoing:\w+_black_hole_tank/,
-        // /industrialforegoing:\w+_black_hole_unit/,
-        // 'industrialforegoing:black_hole_controller',
-        'industrialforegoing:biofuel_generator',
-        'industrialforegoing:biofuel_bucket',
-        'industrialforegoing:bioreactor',
-        // 'industrialforegoing:fermentation_station',
-        // 'industrialforegoing:fermented_ore_meat_bucket',
-        // 'industrialforegoing:fluid_sieving_machine',
-        // 'industrialforegoing:material_stonework_factory',
-        // 'industrialforegoing:marine_fisher',
-        'industrialforegoing:meat_feeder',
-        // /industrialforegoing:mycelial_\w+/,
-        // 'industrialforegoing:ore_laser_base',
-        'industrialforegoing:raw_ore_meat_bucket',
-        // 'industrialforegoing:resourceful_furnace',
-        // 'industrialforegoing:spores_recreator',
-        // 'industrialforegoing:washing_factory',
-        // 'industrialforegoing:potion_brewer',
-        'immersive_aircraft:airship',
-        'immersive_aircraft:cargo_airship',
-        /mekanismtools:(osmium|steel)_(pickaxe|axe|hoe|shovel|sword|helmet|boots|chestplate|leggings|shield)/,
-        /mekanismtools:refined_glowstone_(helmet|boots|chestplate|leggings|shield)/,
-        'buildinggadgets2:gadget_cut_paste',
-        'buildinggadgets2:gadget_destruction',
-        'buildinggadgets2:gadget_exchanging',
-        'wstweaks:blaze_blade',
-        'wstweaks:lava_blade',
-
-    ]
-
-    const TO_REMOVE_IDS = [
-        'industrialforegoing:dissolution_chamber/infinity_launcher',
-        'industrialforegoing:dissolution_chamber/infinity_drill',
-        'industrialforegoing:dissolution_chamber/infinity_saw',
-        'industrialforegoing:dissolution_chamber/infinity_hammer',
-        'industrialforegoing:dissolution_chamber/infinity_trident',
-        'industrialforegoing:dissolution_chamber/infinity_backpack',
     ]
 
     // to remove
-    // TO_REMOVE_LIST.forEach(r => e.remove({ output: r }))
-    // TO_REMOVE_IDS.forEach(r => e.remove({ id: r }))
+    TO_REMOVE_LIST.forEach(r => e.remove({ output: r }))
 
     function shaped(result, pattern, ingredients, index) {
         e.remove({

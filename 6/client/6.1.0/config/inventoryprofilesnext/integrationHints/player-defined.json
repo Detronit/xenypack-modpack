@@ -33,8 +33,8 @@
                 "top": -8
             },
             "SETTINGS": {
-                "horizontalOffset": 38,
-                "top": -23
+                "horizontalOffset": 45,
+                "top": -25
             }
         }
     },
@@ -79,5 +79,67 @@
     },
     "com.enderio.machines.common.menu.PoweredSpawnerMenu": {
         "ignore": true
+    },
+    "com.enderio.machines.common.menu.TravelAnchorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulBinderMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.AlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PaintingMachineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.WiredChargerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.StirlingGeneratorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SagMillMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SlicerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CapacitorBankMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CrafterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulEngineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.DrainMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PrimitiveAlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.EnchanterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.FluidTankMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.ConduitMenu": {
+        "ignore": true
+    },
+    "com.refinedmods.refinedstorage.container.CrafterManagerContainerMenu": {
+        "ignore": true
+    },
+    "appeng.menu.me.items.CraftingTermMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.common.TerminalSettingsScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": -25
+            }
+        }
     }
 }

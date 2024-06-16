@@ -17,7 +17,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -35,7 +34,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -72,7 +70,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -109,7 +106,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -182,10 +178,10 @@ entries:
   group: false
   description: ""
   itemDate: "2024-05-27T15:02:31Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "B9C8DDD3A084C5F6F5C4D2981B02D485"
-  fileSize: 729
+    md5: "029AD5451A07DA5B062A797963ABE755"
+  fileSize: 728
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -410,10 +406,10 @@ entries:
   group: false
   description: ""
   itemDate: "2024-06-13T18:50:17Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "3352A6D45B10B4AB428399CBCE19D12D"
-  fileSize: 4971
+    md5: "0D135BBFF5D1DB730E8DD6269CAF49EF"
+  fileSize: 4970
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -429,9 +425,9 @@ entries:
   group: false
   description: ""
   itemDate: "2024-06-13T18:48:27Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "460D3D008A14373E7758D23150F1F6D6"
+    md5: "5D4F1C515E9A33209407D6BBB080CF05"
   fileSize: 807
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
@@ -507,7 +503,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -582,7 +577,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -676,7 +670,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -789,7 +782,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -845,7 +837,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -863,7 +854,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -898,10 +888,10 @@ entries:
   group: false
   description: ""
   itemDate: "2024-06-15T19:21:31Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "318FBADD46A67F1D6C77E40229B91F59"
-  fileSize: 2356
+    md5: "244F1080933351AA66F1EE4B9EAAE7DC"
+  fileSize: 4154
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -995,7 +985,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -1051,10 +1040,9 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
-  enabled: true
+  enabled: false
 - id: "KdMtU-nvkyuNHA"
   name: "ingredient-list-mod-sort-order.ini"
   src: "config/jei/ingredient-list-mod-sort-order.ini"
@@ -1107,7 +1095,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -1163,7 +1150,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -1521,10 +1507,10 @@ entries:
   group: false
   description: ""
   itemDate: "2023-10-29T10:51:53Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "2198E6198EF6E3DBEF6BBCC66AA26A0A"
-  fileSize: 787
+    md5: "A0A344EF781480DF43AA31E20D946536"
+  fileSize: 788
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -1637,7 +1623,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -1863,7 +1848,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2184,7 +2168,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2202,7 +2185,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2220,7 +2202,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2238,7 +2219,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2275,7 +2255,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2291,10 +2270,10 @@ entries:
   group: false
   description: ""
   itemDate: "2024-06-08T19:25:28Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "760C3C25384D3FAA2773DFF1ADB66983"
-  fileSize: 9570
+    md5: "9B345E52E0E9EAED4EBB90359B7326A9"
+  fileSize: 10147
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2312,7 +2291,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2368,13 +2346,12 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
 - id: "9fQXzisHJwxiTg"
   name: "forge"
-  src: "https://mediafilez.forgecdn.net/files/4920/550/kubejspowah-1.2.1.jar"
+  src: "https://mediafilez.forgecdn.net/files/5363/774/lionfishapi-1.9.jar"
   type: "ITEM"
   target:
     directory:
@@ -2386,7 +2363,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2404,7 +2380,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2441,7 +2416,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2459,7 +2433,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2591,7 +2564,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2609,7 +2581,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2722,7 +2693,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2740,7 +2710,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2796,7 +2765,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2814,7 +2782,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -2832,7 +2799,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -3021,7 +2987,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -3058,7 +3023,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -3169,10 +3133,10 @@ entries:
   group: false
   description: ""
   itemDate: "2024-06-15T19:00:10Z"
-  updateDate: "2024-06-15T20:20:07Z"
+  updateDate: "2024-06-16T17:04:26Z"
   hashes:
-    md5: "BD0A1C69F531A975476743D8B1560B67"
-  fileSize: 12112
+    md5: "E3B9084E9F2090259259B30591B32CAF"
+  fileSize: 9842
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -3209,7 +3173,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -3245,7 +3208,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:17:32Z"
-  updateDate: "2024-06-15T20:20:07Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -4300,27 +4262,6 @@ entries:
     fileFingerPrint: "1243520454"
     fileLength: "20299"
   enabled: true
-- id: "_gZvVvQETytPuw"
-  name: "cofh_core-1.20.1-11.0.2.56.jar"
-  src: "mods/cofh_core-1.20.1-11.0.2.56.jar"
-  version: "11.0.2.56"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "cofh_core*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-05-27T08:35:25Z"
-  updateDate: "2024-06-15T20:20:08Z"
-  hashes:
-    md5: "8D5ECDAE594951C49899B6BF38B41B7D"
-  fileSize: 1509649
-  additionalFields:
-    createdAt: "2024-06-15T20:20:08Z"
-  enabled: false
 - id: "lQHzwssdAXppjA"
   name: "collective-1.20.1-6.66.jar"
   src: "https://mediafilez.forgecdn.net/files/4762/770/collective-1.20.1-6.66.jar"
@@ -4827,7 +4768,8 @@ entries:
   src: "https://edge.forgecdn.net/files/4612/224/Dungeon%20Crawl-1.20.1-2.3.14.jar"
   type: "ITEM"
   target:
-    matching: {}
+    matching:
+      wildcard: "Dungeon Crawl*.jar"
     absolute: false
     override: true
   parent: "jlhB8BCh6zih1Q"
@@ -5020,31 +4962,6 @@ entries:
     fileFingerPrint: "4144567036"
     fileLength: "1005465"
   enabled: true
-- id: "P9EFtS5ggItdKQ"
-  name: "embeddiumextras-1.20.1-v2.0.0.jar"
-  src: "https://mediafilez.forgecdn.net/files/5090/254/embeddiumextras-1.20.1-v2.0.0.jar"
-  version: "v2.0.0"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "embeddiumextras*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-02-08T17:45:24.72Z"
-  updateDate: "2024-06-15T20:20:08Z"
-  hashes:
-    md5: "F9DA26CE55A6F2ECC6DB3075A26BFA4B"
-  fileSize: 783145
-  additionalFields:
-    createdAt: "2024-06-15T20:20:08Z"
-    projectId: "558905"
-    fileId: "5090254"
-    fileFingerPrint: "3656952542"
-    fileLength: "783145"
-  enabled: true
 - id: "MdZ-lRzHDu8zYA"
   name: "emi-1.1.6+1.20.1+forge.jar"
   src: "https://mediafilez.forgecdn.net/files/5311/316/emi-1.1.6%2B1.20.1%2Bforge.jar"
@@ -5065,7 +4982,7 @@ entries:
   fileSize: 976147
   additionalFields:
     createdAt: "2024-06-15T20:20:08Z"
-  enabled: true
+  enabled: false
 - id: "ekMDMT0sxKSrrw"
   name: "emitrades-forge-1.2.1+mc1.20.1.jar"
   src: "https://mediafilez.forgecdn.net/files/4901/194/emitrades-forge-1.2.1%2Bmc1.20.1.jar"
@@ -5086,7 +5003,7 @@ entries:
   fileSize: 53378
   additionalFields:
     createdAt: "2024-06-15T20:20:08Z"
-  enabled: true
+  enabled: false
 - id: "sNZF3k17sfsMlw"
   name: "emi_loot-0.6.5+1.20.1+forge.jar"
   src: "https://mediafilez.forgecdn.net/files/4971/64/emi_loot-0.6.5%2B1.20.1%2Bforge.jar"
@@ -5107,7 +5024,7 @@ entries:
   fileSize: 346986
   additionalFields:
     createdAt: "2024-06-15T20:20:08Z"
-  enabled: true
+  enabled: false
 - id: "l7V8EDhguLtTeg"
   name: "EnchantmentDescriptions-Forge-1.20.1-17.0.8.jar"
   src: "https://edge.forgecdn.net/files/4756/855/EnchantmentDescriptions-Forge-1.20.1-17.0.8.jar"
@@ -5444,7 +5361,7 @@ entries:
   type: "ITEM"
   target:
     matching:
-      wildcard: "FastLeafDecay-32*.jar"
+      wildcard: "FastLeafDecay*.jar"
     absolute: false
     override: true
   parent: "jlhB8BCh6zih1Q"
@@ -6056,7 +5973,8 @@ entries:
   src: "https://mediafilez.forgecdn.net/files/4699/629/invhud.forge.1.20.1-3.4.18.jar"
   type: "ITEM"
   target:
-    matching: {}
+    matching:
+      wildcard: "invhud.forge*.jar"
     absolute: false
     override: true
   parent: "jlhB8BCh6zih1Q"
@@ -6240,7 +6158,7 @@ entries:
     fileId: "5101366"
     fileFingerPrint: "469612569"
     fileLength: "1127828"
-  enabled: true
+  enabled: false
 - id: "cMSz9KW50_5pwQ"
   name: "jmi-forge-1.20.1-0.14-47.jar"
   src: "https://edge.forgecdn.net/files/5135/354/jmi-forge-1.20.1-0.14-47.jar"
@@ -7095,31 +7013,6 @@ entries:
     fileId: "5308267"
     fileFingerPrint: "2955454496"
     fileLength: "173523"
-  enabled: true
-- id: "HysiIXmloozhDQ"
-  name: "moreoverlays-1.22.3-mc1.20.2.jar"
-  src: "https://edge.forgecdn.net/files/5077/151/moreoverlays-1.22.3-mc1.20.2.jar"
-  version: "mc1.20.2"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "moreoverlays*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-02-03T00:04:56.49Z"
-  updateDate: "2024-06-15T20:20:10Z"
-  hashes:
-    md5: "D7AB18C2CB436059557EA21960A37767"
-  fileSize: 94869
-  additionalFields:
-    createdAt: "2024-06-15T20:20:09Z"
-    projectId: "391382"
-    fileId: "5077151"
-    fileFingerPrint: "2625965403"
-    fileLength: "94869"
   enabled: true
 - id: "nTnll_VULOGn3g"
   name: "morered-1.20.1-4.0.0.4.jar"
@@ -8275,10 +8168,12 @@ entries:
   enabled: true
 - id: "FnX7miwo_Ibaxw"
   name: "SimpleBackups-1.20.1-3.1.6.jar"
-  src: "https://mediafilez.forgecdn.net/files/4640/133/SimpleBackups-1.20.1-3.1.2.jar"
+  src: "https://mediafilez.forgecdn.net/files/5369/377/SimpleBackups-1.20.1-3.1.6.jar"
+  version: "3.1.6"
   type: "ITEM"
   target:
-    matching: {}
+    matching:
+      wildcard: "SimpleBackups*.jar"
     absolute: false
     override: true
   parent: "jlhB8BCh6zih1Q"
@@ -8291,7 +8186,7 @@ entries:
   fileSize: 40131
   additionalFields:
     createdAt: "2024-06-15T20:20:11Z"
-  enabled: false
+  enabled: true
 - id: "TV4YWx9_ZWauQA"
   name: "SimpleLogin-1.20.1-1.0.2-all.jar"
   src: "https://mediafilez.forgecdn.net/files/4745/380/SimpleLogin-1.20.1-1.0.2-all.jar"
@@ -8717,31 +8612,6 @@ entries:
   fileSize: 3509637
   additionalFields:
     createdAt: "2024-06-15T20:20:11Z"
-  enabled: true
-- id: "8hJWElcD9KpO4g"
-  name: "textrues_embeddium_options-0.1.5+mc1.20.1.jar"
-  src: "https://mediafilez.forgecdn.net/files/5083/995/textrues_embeddium_options-0.1.5%2Bmc1.20.1.jar"
-  version: "0.1.5+mc1.20.1"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "textrues_embeddium_options*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-02-06T03:26:06.687Z"
-  updateDate: "2024-06-15T20:20:11Z"
-  hashes:
-    md5: "5B858B143F394778683FBB7595665DA8"
-  fileSize: 163631
-  additionalFields:
-    createdAt: "2024-06-15T20:20:11Z"
-    projectId: "910506"
-    fileId: "5083995"
-    fileFingerPrint: "4005961129"
-    fileLength: "163631"
   enabled: true
 - id: "84qjc8tXwqsbrQ"
   name: "time-in-a-bottle-4.0.4-mc1.20.1.jar"
@@ -9398,27 +9268,6 @@ entries:
     fileFingerPrint: "1334321869"
     fileLength: "1033262"
   enabled: true
-- id: "YEXCYHOpRQI8KA"
-  name: "ZeroCore2-1.20.1-2.1.42.jar"
-  src: "mods/ZeroCore2-1.20.1-2.1.42.jar"
-  version: "2.1.42"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "ZeroCore2*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-05-25T13:40:34Z"
-  updateDate: "2024-06-15T20:20:12Z"
-  hashes:
-    md5: "728D47D6F67DC00304B08CF4D1009FDD"
-  fileSize: 1209272
-  additionalFields:
-    createdAt: "2024-06-15T20:20:12Z"
-  enabled: false
 - id: "IBHgEn2Zk0g-gw"
   name: "Zeta-1.0-16.jar"
   src: "https://edge.forgecdn.net/files/5254/672/Zeta-1.0-16.jar"
@@ -9449,7 +9298,8 @@ entries:
   src: "https://edge.forgecdn.net/files/5207/771/%5b1.20.1%5d%20SecurityCraft%20v1.9.9.jar"
   type: "ITEM"
   target:
-    matching: {}
+    matching:
+      wildcard: "[1.20.1] SecurityCraft*.jar"
     absolute: false
     override: true
   parent: "jlhB8BCh6zih1Q"
@@ -9484,7 +9334,7 @@ entries:
   fileSize: 17616
   additionalFields:
     createdAt: "2024-06-15T20:20:12Z"
-  enabled: true
+  enabled: false
 - id: "oa5atpiX4iOl1w"
   name: "resourcepacks"
   src: ""
@@ -9498,7 +9348,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:12Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:12Z"
   enabled: true
@@ -9534,7 +9383,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-15T20:16:49Z"
-  updateDate: "2024-06-15T20:20:12Z"
   additionalFields:
     createdAt: "2024-06-15T20:20:12Z"
   enabled: true
@@ -9595,7 +9443,218 @@ entries:
   additionalFields:
     createdAt: "2024-06-15T20:20:12Z"
   enabled: true
+- id: "R8BV42nIFy59cg"
+  name: "ComplementaryUnbound_r5.2.1.zip"
+  src: "https://mediafilez.forgecdn.net/files/5403/840/ComplementaryUnbound_r5.2.1.zip"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "A0bAQs7lbQxQGg"
+  group: false
+  description: ""
+  itemDate: "2024-06-13T19:14:44Z"
+  updateDate: "2024-06-15T20:20:12Z"
+  hashes:
+    md5: "87C171768EB3DEDFFFCF922F9A7ABF6D"
+  fileSize: 439886
+  additionalFields:
+    createdAt: "2024-06-16T07:50:54Z"
+  enabled: true
+- id: "fCsLZvupP59ZbQ"
+  name: "xenypack_version.txt"
+  src: "xenypack_version.txt"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  group: false
+  description: ""
+  itemDate: "2024-06-15T21:47:38Z"
+  updateDate: "2024-06-16T07:50:54Z"
+  hashes:
+    md5: "1B4503C04F45D68AE09FB22125331A69"
+  fileSize: 5
+  additionalFields:
+    createdAt: "2024-06-16T07:50:54Z"
+  enabled: true
+- id: "KM54b1AL3XvjOw"
+  name: "refinedstorage.json"
+  src: "config/inventoryprofilesnext/integrationHints/refinedstorage.json"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "FQV9_5JUwpoRng"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T10:49:50Z"
+  updateDate: "2024-06-15T20:16:49Z"
+  hashes:
+    md5: "40D5E71F4372EC63B08E33D681B533D9"
+  fileSize: 5037
+  additionalFields:
+    createdAt: "2024-06-16T17:04:26Z"
+  enabled: true
+- id: "k9_b38WmAQyVsA"
+  name: "roughlyenoughitems"
+  src: ""
+  type: "ITEM"
+  target:
+    directory:
+      default: "roughlyenoughitems"
+    matching: {}
+    absolute: false
+    override: true
+  parent: "Rs3XCWN14gskpw"
+  group: true
+  description: ""
+  itemDate: "2024-06-16T17:03:46Z"
+  updateDate: "2024-06-15T20:16:49Z"
+  additionalFields:
+    createdAt: "2024-06-16T17:04:26Z"
+  enabled: true
+- id: "WnbTdP7a1OKprQ"
+  name: "collapsible.json5"
+  src: "config/roughlyenoughitems/collapsible.json5"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "k9_b38WmAQyVsA"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T16:14:29Z"
+  updateDate: "2024-06-16T17:04:26Z"
+  hashes:
+    md5: "A5C3F2190DDD43D1C7646F1B68C2306F"
+  fileSize: 92876
+  additionalFields:
+    createdAt: "2024-06-16T17:04:26Z"
+  enabled: true
+- id: "xxGw2narFVP9nQ"
+  name: "config.json5"
+  src: "config/roughlyenoughitems/config.json5"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "k9_b38WmAQyVsA"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T11:09:13Z"
+  updateDate: "2024-06-16T17:04:26Z"
+  hashes:
+    md5: "79FF19F648A86E3CB08858AF3959E408"
+  fileSize: 13892
+  additionalFields:
+    createdAt: "2024-06-16T17:04:26Z"
+  enabled: true
+- id: "nJBI_R2EoY_7Ew"
+  name: "embeddium-0.3.20+mc1.20.1.jar"
+  src: "https://mediafilez.forgecdn.net/files/5410/220/embeddium-0.3.20%2Bmc1.20.1.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "embeddium*.jar"
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T15:17:55Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "DF9B89D8BAE6D1E3C7F78A182765EEBB"
+  fileSize: 1292488
+  additionalFields:
+    createdAt: "2024-06-16T17:04:29Z"
+  enabled: true
+- id: "K5nzTGW7spYJvw"
+  name: "embeddiumextras-1.20.1-v2.0.0-custom.jar"
+  src: "mods/embeddiumextras-1.20.1-v2.0.0-custom.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T16:25:08Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "E3E080948307A3F528D6177A4949E967"
+  fileSize: 783148
+  additionalFields:
+    createdAt: "2024-06-16T17:04:29Z"
+  enabled: true
+- id: "NzBPkR1p2MnHgA"
+  name: "light-overlay-8.0.0-forge.jar"
+  src: "https://mediafilez.forgecdn.net/files/4573/178/light-overlay-8.0.0-forge.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "light-overlay*.jar"
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T09:01:45Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "081458D10736BE6FEF3DA2A31BCDC8F5"
+  fileSize: 65273
+  additionalFields:
+    createdAt: "2024-06-16T17:04:31Z"
+  enabled: true
+- id: "1nU4nxaqs6e1Zw"
+  name: "REIPluginCompatibilities-forge-12.0.93.jar"
+  src: "https://mediafilez.forgecdn.net/files/4837/449/REIPluginCompatibilities-forge-12.0.93.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "REIPluginCompatibilities*.jar"
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T08:52:31Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "551C50467DECB913D67F072A83F381BE"
+  fileSize: 462966
+  additionalFields:
+    createdAt: "2024-06-16T17:04:31Z"
+  enabled: true
+- id: "SYG0cxKzLDYaEg"
+  name: "RoughlyEnoughItems-12.1.725-forge.jar"
+  src: "https://mediafilez.forgecdn.net/files/5301/376/RoughlyEnoughItems-12.1.725-forge.jar"
+  type: "ITEM"
+  target:
+    matching:
+      wildcard: "RoughlyEnoughItems*.jar"
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-16T08:52:39Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "98ED11D32EC00C9F493ACEC721236E94"
+  fileSize: 2322046
+  additionalFields:
+    createdAt: "2024-06-16T17:04:31Z"
+  enabled: true
 additionalFields: {}
-updateDate: "2024-06-15T21:17:29Z"
+updateDate: "2024-06-16T17:08:41Z"
 experimental: false
 includeVersions: []

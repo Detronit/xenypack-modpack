@@ -12,7 +12,7 @@
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		fullscreen = "FULLSCREEN"
+		fullscreen = "WINDOWED"
 		#Configure FPS Display gravity
 		#Places counter on specified corner of your screen
 		#Allowed Values: LEFT, CENTER, RIGHT
@@ -23,7 +23,7 @@
 		#Configure FPS Display margin
 		#Give some space between corner and text
 		#Range: 0 ~ 48
-		fpsDisplayMargin = 3
+		fpsDisplayMargin = 4
 
 	[embeddiumextras.performance]
 		#Toggles JREI item rendering until searching
@@ -32,7 +32,7 @@
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
-		fontShadows = true
+		fontShadows = false
 
 		[embeddiumextras.performance.distanceCulling]
 
@@ -40,7 +40,7 @@
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 36864
+				cullingMaxDistanceX = 25600
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
 				enable = true
@@ -58,14 +58,14 @@
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				#Range: > 0
-				cullingMaxDistanceX = 14400
+				cullingMaxDistanceX = 4096
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
 				enable = true
 				#Configure vertical max distance before cull Block entities
 				#Value is raw
 				#Range: 0 ~ 512
-				cullingMaxDistanceY = 64
+				cullingMaxDistanceY = 32
 				#List of all Block Entities to be ignored by distance culling
 				#Uses ResourceLocation to identify it
 				#Example 1: "minecraft:chest" - Ignores chests only
@@ -101,9 +101,9 @@
 			#Range: 0.0 ~ 1.0
 			newMoonBright = 0.0
 			#Toggle Darkness on End dimension
-			enableOnEnd = true
+			enableOnEnd = false
 			#Toggle Darkness default mode for modded dimensions
-			valueByDefault = false
+			valueByDefault = true
 			#Configure Darkness Mode
 			#Each config changes what is considered 'true darkness'
 			#Allowed Values: TOTAL_DARKNESS, PITCH_BLACK, DARK, DIM, OFF
@@ -120,7 +120,7 @@
 			#Range: 0.0 ~ 1.0
 			netherFogBright = 0.5
 			#Toggle Darkness on Nether dimension
-			enableOnNether = true
+			enableOnNether = false
 			#Toggle darkness when dimension has no SkyLight
 			enableOnNoSkyLight = false
 			#Disables all bright sources of darkness like moon or fog

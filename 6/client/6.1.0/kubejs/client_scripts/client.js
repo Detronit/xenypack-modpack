@@ -1,126 +1,84 @@
 const MODPACK = 'XenyPack';
 
 const TO_REMOVE_LIST = [
-
-    // mek
-    'mekanism:electric_bow',
-    'mekanism:cardboard_box',
-    'mekanism:atomic_disassembler',
-    'mekanism:meka_tool',
-    /mekanism:mekasuit_.+/,
-    'mekanism:nutritional_liquifier',
-    'mekanism:nutritional_paste_bucket',
-    'mekanism:canteen',
-
     'twilightforest:uncrafting_table',
-    /industrialforegoing:\w+_black_hole_tank/,
-    /industrialforegoing:\w+_black_hole_unit/,
-    'industrialforegoing:black_hole_controller',
-    'industrialforegoing:biofuel_generator',
-    'industrialforegoing:biofuel_bucket',
-    'industrialforegoing:bioreactor',
-    'industrialforegoing:fermentation_station',
-    'industrialforegoing:fermented_ore_meat_bucket',
-    'industrialforegoing:fluid_sieving_machine',
-    'industrialforegoing:material_stonework_factory',
-    'industrialforegoing:marine_fisher',
-    'industrialforegoing:meat_feeder',
-    /industrialforegoing:mycelial_\w+/,
-    'industrialforegoing:ore_laser_base',
-    'industrialforegoing:raw_ore_meat_bucket',
-    'industrialforegoing:resourceful_furnace',
-    'industrialforegoing:spores_recreator',
-    'industrialforegoing:washing_factory',
-    'industrialforegoing:potion_brewer',
-    'immersive_aircraft:airship',
-    'immersive_aircraft:cargo_airship',
+    'mekanism:cardboard_box',
+    /^extrastorage:(block|disk|storagepart)_.+/,
+    /^extrastorage:advanced_(importer|exporter)/,
+    'extradisks:infinite_storage_disk',
+    'extradisks:infinite_storage_part',
+    'extradisks:infinite_storage_block',
     'immersive_aircraft:gyrodyne',
-    /mekanismtools:(osmium|steel)_(pickaxe|axe|hoe|shovel|sword|helmet|boots|chestplate|leggings|shield)/,
-    /mekanismtools:refined_glowstone_(helmet|boots|chestplate|leggings|shield)/,
-    /extrastorage:(block|disk|storagepart)_.+/,
-    /extrastorage:advanced_(importer|exporter)/,
-    'buildinggadgets2:gadget_cut_paste',
-    'buildinggadgets2:gadget_destruction',
-    'buildinggadgets2:gadget_exchanging',
-    'wstweaks:blaze_blade',
-    'wstweaks:lava_blade',
-// infinity
-    'industrialforegoing:infinity_launcher',
-    'industrialforegoing:infinity_drill',
-    'industrialforegoing:infinity_saw',
-    'industrialforegoing:infinity_hammer',
-    'industrialforegoing:infinity_trident',
-    'industrialforegoing:infinity_backpack',
 ]
 
 
 ItemEvents.tooltip(event => {
 
-	//pipes
-	event.add('pipez:item_pipe', [
-		[Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],
-		[Text.of('Basic:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
-		[Text.of('Improved:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/10t').gold()],
-		[Text.of('Advanced:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/5t').darkAqua()],
-		[Text.of('Ultimate:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
-		[Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
-	])
-	event.add('pipez:fluid_pipe', [
-		[Text.of('Default:'), ' ', Text.of('50'), ' ', Text.of('mB/t')],
-		[Text.of('Basic:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
-		[Text.of('Improved:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
-		[Text.of('Advanced:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-		[Text.of('Ultimate:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
-		[Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-	])
-	event.add('pipez:gas_pipe', [
-		[Text.of('Default:'), ' ', Text.of('200'), ' ', Text.of('mB/t')],
-		[Text.of('Basic:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
-		[Text.of('Improved:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
-		[Text.of('Advanced:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-		[Text.of('Ultimate:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
-		[Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-	])
-	event.add('pipez:energy_pipe', [
-		[Text.of('Default:'), ' ', Text.of('256'), ' ', Text.of('FE/t')],
-		[Text.of('Basic:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
-		[Text.of('Improved:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
-		[Text.of('Advanced:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
-		[Text.of('Ultimate:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
-		[Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
-	])
+    //pipes
+    event.add('pipez:item_pipe', [
+        [Text.of('Default:'), ' ', Text.of('4'), ' ', Text.of('items/20t')],
+        [Text.of('Basic:'), ' ', Text.of('8'), ' ', Text.of('items/15t')],
+        [Text.of('Improved:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/10t').gold()],
+        [Text.of('Advanced:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/5t').darkAqua()],
+        [Text.of('Ultimate:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
+        [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
+    ])
+    event.add('pipez:fluid_pipe', [
+        [Text.of('Default:'), ' ', Text.of('50'), ' ', Text.of('mB/t')],
+        [Text.of('Basic:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
+        [Text.of('Improved:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
+        [Text.of('Advanced:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
+        [Text.of('Ultimate:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
+        [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
+    ])
+    event.add('pipez:gas_pipe', [
+        [Text.of('Default:'), ' ', Text.of('200'), ' ', Text.of('mB/t')],
+        [Text.of('Basic:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
+        [Text.of('Improved:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
+        [Text.of('Advanced:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
+        [Text.of('Ultimate:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
+        [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
+    ])
+    event.add('pipez:energy_pipe', [
+        [Text.of('Default:'), ' ', Text.of('256'), ' ', Text.of('FE/t')],
+        [Text.of('Basic:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
+        [Text.of('Improved:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
+        [Text.of('Advanced:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
+        [Text.of('Ultimate:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
+        [Text.of('Infinity:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
+    ])
 
-	//upgrades
-	event.add('pipez:basic_upgrade', [
-		[Text.of('Item:'), ' ', Text.of('8'), ' ', Text.of('items/t')],
-		[Text.of('Fluid:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
-		[Text.of('Gas:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
-		[Text.of('Energy:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
-	])
-	event.add('pipez:improved_upgrade', [
-		[Text.of('Item:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/t').gold()],
-		[Text.of('Fluid:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
-		[Text.of('Gas:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
-		[Text.of('Energy:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
-	])
-	event.add('pipez:advanced_upgrade', [
-		[Text.of('Item:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/t').darkAqua()],
-		[Text.of('Fluid:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-		[Text.of('Gas:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
-		[Text.of('Energy:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
-	])
-	event.add('pipez:ultimate_upgrade', [
-		[Text.of('Item:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
-		[Text.of('Fluid:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
-		[Text.of('Gas:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
-		[Text.of('Energy:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
-	])
-	event.add('pipez:infinity_upgrade', [
-		[Text.of('Item:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
-		[Text.of('Fluid:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-		[Text.of('Gas:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
-		[Text.of('Energy:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
-	])
+    //upgrades
+    event.add('pipez:basic_upgrade', [
+        [Text.of('Item:'), ' ', Text.of('8'), ' ', Text.of('items/t')],
+        [Text.of('Fluid:'), ' ', Text.of('100'), ' ', Text.of('mB/t')],
+        [Text.of('Gas:'), ' ', Text.of('400'), ' ', Text.of('mB/t')],
+        [Text.of('Energy:'), ' ', Text.of('1,024'), ' ', Text.of('FE/t')],
+    ])
+    event.add('pipez:improved_upgrade', [
+        [Text.of('Item:').gold(), ' ', Text.of('16').yellow(), ' ', Text.of('items/t').gold()],
+        [Text.of('Fluid:').gold(), ' ', Text.of('500').yellow(), ' ', Text.of('mB/t').gold()],
+        [Text.of('Gas:').gold(), ' ', Text.of('2,000').yellow(), ' ', Text.of('mB/t').gold()],
+        [Text.of('Energy:').gold(), ' ', Text.of('8,192').yellow(), ' ', Text.of('FE/t').gold()],
+    ])
+    event.add('pipez:advanced_upgrade', [
+        [Text.of('Item:').darkAqua(), ' ', Text.of('32').aqua(), ' ', Text.of('items/t').darkAqua()],
+        [Text.of('Fluid:').darkAqua(), ' ', Text.of('2,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
+        [Text.of('Gas:').darkAqua(), ' ', Text.of('8,000').aqua(), ' ', Text.of('mB/t').darkAqua()],
+        [Text.of('Energy:').darkAqua(), ' ', Text.of('32,768').aqua(), ' ', Text.of('FE/t').darkAqua()],
+    ])
+    event.add('pipez:ultimate_upgrade', [
+        [Text.of('Item:').darkGray(), ' ', Text.of('64').gray(), ' ', Text.of('items/t').darkGray()],
+        [Text.of('Fluid:').darkGray(), ' ', Text.of('10,000').gray(), ' ', Text.of('mB/t').darkGray()],
+        [Text.of('Gas:').darkGray(), ' ', Text.of('40,000').gray(), ' ', Text.of('mB/t').darkGray()],
+        [Text.of('Energy:').darkGray(), ' ', Text.of('131,072').gray(), ' ', Text.of('FE/t').darkGray()],
+    ])
+    event.add('pipez:infinity_upgrade', [
+        [Text.of('Item:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('items/t').darkPurple()],
+        [Text.of('Fluid:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
+        [Text.of('Gas:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('mB/t').darkPurple()],
+        [Text.of('Energy:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
+    ])
 
 
     Color.DYE.forEach(d => {
@@ -178,11 +136,68 @@ ItemEvents.tooltip(event => {
 
 
 JEIEvents.hideItems(event => {
-    event.hide(/extrastorage:advanced_(importer|exporter)/)
-    event.hide('twilightforest:uncrafting_table')
+    TO_REMOVE_LIST.forEach(r => event.hide(r))
+    event.hide(/enderio:(clear_glass|fused_quartz)_[dpnmea]+_.*/)
+    event.hide('enderio:filled_soul_vial')
+
+
     Color.DYE.forEach(color => {
         ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor'].forEach(machine => {
             event.hide(`refinedstorage:${color}_${machine}`)
         })
     })
+})
+
+
+REIEvents.groupEntries(event => {
+    const suffixes = {
+        '': '',
+        'Iron': 'iron_',
+        'Gold': 'gold_',
+        'Diamond': 'diamond_',
+        'Netherite': 'netherite_',
+        'Copper': 'copper_',
+    }
+
+    const counterSymbols = {
+        1: 'I', 2: 'II', 3: 'III', 4: 'IV'
+    }
+
+    for (let name in suffixes) {
+        if (name) {
+            let code = suffixes[name];
+
+            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}barrels`,
+                (name ? `${name} ` : '') + 'Barrels',
+                Item.of(`sophisticatedstorage:${code}barrel`),
+            )
+
+            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}chests`,
+                (name ? `${name} ` : '') + 'Chests',
+                Item.of(`sophisticatedstorage:${code}chest`),
+            )
+
+            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}shulker_boxes`,
+                (name ? `${name} ` : '') + 'Shulker Box',
+                Item.of(`sophisticatedstorage:${code}shulker_box`),
+            )
+        }
+    }
+
+    for (let count of [1, 2, 3, 4]) {
+        for (let name in suffixes) {
+            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_limited_${suffixes[name]}barrels_${count}`,
+                `Limited ${name ? `${name} ` : ''}Barrels ${counterSymbols[count]}`,
+                Item.of(`sophisticatedstorage:limited_${suffixes[name]}barrel_${count}`),
+            )
+        }
+    }
+
+    event.groupSameItem(`kubejs:rei_groups/${MODPACK}/quark_seed_pouch`, 'Seed Pouches', Item.of('quark:seed_pouch'))
+
+    event.groupSameItem(`kubejs:rei_groups/${MODPACK}/suspicious_stew`, 'Suspicious Stews', Item.of('suspicious_stew'))
+
+    event.groupItems(`kubejs:rei_groups/${MODPACK}/security_reinforced_blocks`, 'Reinforced Blocks', [
+        /^securitycraft:reinforced_.*/,
+    ])
 })

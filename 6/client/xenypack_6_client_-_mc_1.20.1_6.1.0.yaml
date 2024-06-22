@@ -1507,10 +1507,10 @@ entries:
   group: false
   description: ""
   itemDate: "2023-10-29T10:51:53Z"
-  updateDate: "2024-06-16T17:04:26Z"
+  updateDate: "2024-06-22T18:27:36Z"
   hashes:
-    md5: "A0A344EF781480DF43AA31E20D946536"
-  fileSize: 788
+    md5: "F2908EAEF0B78826FCED73DD565B111F"
+  fileSize: 789
   additionalFields:
     createdAt: "2024-06-15T20:20:07Z"
   enabled: true
@@ -8467,31 +8467,6 @@ entries:
     fileFingerPrint: "1515254383"
     fileLength: "3114590"
   enabled: true
-- id: "sr2gDlzvFpIb-A"
-  name: "sparsestructuresreforged-1.20.1-1.0.0.jar"
-  src: "https://edge.forgecdn.net/files/5014/1/sparsestructuresreforged-1.20.1-1.0.0.jar"
-  version: "1.0.0"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "sparsestructuresreforged*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-01-07T09:56:52.777Z"
-  updateDate: "2024-06-15T20:20:11Z"
-  hashes:
-    md5: "4B4F42744410837C9B98F5174AC9A172"
-  fileSize: 7071
-  additionalFields:
-    createdAt: "2024-06-15T20:20:11Z"
-    projectId: "912104"
-    fileId: "5014001"
-    fileFingerPrint: "3173105412"
-    fileLength: "7071"
-  enabled: true
 - id: "VoZcv3za1xgP7w"
   name: "Steam_Rails-1.6.4+forge-mc1.20.1.jar"
   src: "https://edge.forgecdn.net/files/5331/300/Steam_Rails-1.6.4%2bforge-mc1.20.1.jar"
@@ -9667,7 +9642,6 @@ entries:
   group: true
   description: ""
   itemDate: "2024-06-22T17:21:23Z"
-  updateDate: "2024-06-15T20:16:49Z"
   additionalFields:
     createdAt: "2024-06-22T17:22:25Z"
   enabled: true
@@ -9747,7 +9721,45 @@ entries:
   additionalFields:
     createdAt: "2024-06-22T17:22:26Z"
   enabled: true
+- id: "JqPDtjbHlByijA"
+  name: "sparsestructures.json5"
+  src: "config/sparsestructures.json5"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "Rs3XCWN14gskpw"
+  group: false
+  description: ""
+  itemDate: "2024-06-22T18:11:12Z"
+  updateDate: "2024-06-15T20:16:49Z"
+  hashes:
+    md5: "BC1B454066C8F8D00FAB1966F253129A"
+  fileSize: 1386
+  additionalFields:
+    createdAt: "2024-06-22T18:27:36Z"
+  enabled: true
+- id: "6KSnaCqWUcdhcQ"
+  name: "sparsestructuresreforged-1.20.1-0.0.1.jar"
+  src: "https://mediafilez.forgecdn.net/files/5179/463/sparsestructuresreforged-1.20.1-0.0.1.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-22T17:53:22Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "E3815A7EC7FF7BA8994701437992AA62"
+  fileSize: 9240
+  additionalFields:
+    createdAt: "2024-06-22T18:27:37Z"
+  enabled: true
 additionalFields: {}
-updateDate: "2024-06-22T17:23:49Z"
+updateDate: "2024-06-22T18:27:50Z"
 experimental: false
 includeVersions: []

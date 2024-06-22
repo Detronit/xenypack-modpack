@@ -9711,7 +9711,7 @@ entries:
   enabled: true
 - id: "RfSIkYBIuUP1ng"
   name: "ExtendedAE-1.20-1.1.6-forge.jar"
-  src: "mods/ExtendedAE-1.20-1.1.6-forge.jar"
+  src: "https://edge.forgecdn.net/files/4841/795/ExtendedAE-1.20-0.1.22-forge.jar"
   type: "ITEM"
   target:
     matching: {}
@@ -9730,7 +9730,7 @@ entries:
   enabled: true
 - id: "VmKevnraShEvRA"
   name: "Glodium-1.20-1.3-forge.jar"
-  src: "mods/Glodium-1.20-1.3-forge.jar"
+  src: "https://mediafilez.forgecdn.net/files/5044/862/Glodium-1.20-1.3-forge.jar"
   type: "ITEM"
   target:
     matching: {}

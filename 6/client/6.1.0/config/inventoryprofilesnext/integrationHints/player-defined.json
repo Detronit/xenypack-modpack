@@ -141,5 +141,67 @@
                 "top": -25
             }
         }
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": -25
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerWirelessConnector": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerActiveFormationPlane": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExDrive": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInscriber": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOPort": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.xmod.wt.ContainerUWirelessExPAT": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPatternModifier": {
+        "ignore": true
+    },
+    "appeng.menu.me.common.MEStorageMenu": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.container.BasicAddonContainer": {
+        "ignore": true
     }
 }

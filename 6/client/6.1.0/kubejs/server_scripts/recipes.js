@@ -261,12 +261,12 @@ ServerEvents.recipes(e => {
     e.replaceInput(
         { output: 'aeinfinitybooster:infinity_card' },
         'minecraft:nether_star',
-        '#forge:storage_blocks/emerald'
+        'ae2:singularity'
     )
     e.replaceInput(
         { output: 'aeinfinitybooster:dimension_card' },
         'minecraft:nether_star',
-        'minecraft:experience_bottle'
+        '#forge:storage_blocks/emerald'
     )
 
     // e.custom(

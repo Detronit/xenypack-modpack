@@ -5022,31 +5022,6 @@ entries:
     fileFingerPrint: "2921139882"
     fileLength: "240148"
   enabled: true
-- id: "yRbJ3wcuh_7n9A"
-  name: "EnderIO-1.20.1-6.0.25-alpha.jar"
-  src: "https://edge.forgecdn.net/files/5171/872/EnderIO-1.20.1-6.0.25-alpha.jar"
-  version: "6.0.25-alpha"
-  type: "ITEM"
-  target:
-    matching:
-      wildcard: "EnderIO*.jar"
-    absolute: false
-    override: true
-  parent: "jlhB8BCh6zih1Q"
-  group: false
-  description: ""
-  itemDate: "2024-03-10T15:45:27.647Z"
-  updateDate: "2024-06-15T20:20:08Z"
-  hashes:
-    md5: "3C74E468150DCB50F6D50E0F7FBAFC27"
-  fileSize: 6905389
-  additionalFields:
-    createdAt: "2024-06-15T20:20:08Z"
-    projectId: "64578"
-    fileId: "5171872"
-    fileFingerPrint: "4029323608"
-    fileLength: "6905389"
-  enabled: true
 - id: "sD-rLyGF0hbWZw"
   name: "endertanks-forge-1.20.1-1.3.jar"
   src: "https://edge.forgecdn.net/files/5317/849/endertanks-forge-1.20.1-1.3.jar"
@@ -9765,7 +9740,26 @@ entries:
   additionalFields:
     createdAt: "2024-06-23T14:11:36Z"
   enabled: true
+- id: "RhtAOc4WzE6Uyg"
+  name: "EnderIO-1.20.1-6.1.2-beta-all.jar"
+  src: "https://mediafilez.forgecdn.net/files/5460/93/EnderIO-1.20.1-6.1.2-beta-all.jar"
+  type: "ITEM"
+  target:
+    matching: {}
+    absolute: false
+    override: true
+  parent: "jlhB8BCh6zih1Q"
+  group: false
+  description: ""
+  itemDate: "2024-06-23T12:00:41Z"
+  updateDate: "2024-06-15T20:17:32Z"
+  hashes:
+    md5: "9D9E3E05D11EBCEDDAAEBCC872F4F4B7"
+  fileSize: 7135115
+  additionalFields:
+    createdAt: "2024-06-23T18:21:09Z"
+  enabled: true
 additionalFields: {}
-updateDate: "2024-06-23T14:13:04Z"
+updateDate: "2024-06-23T18:22:39Z"
 experimental: false
 includeVersions: []

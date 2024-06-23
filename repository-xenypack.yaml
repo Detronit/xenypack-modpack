@@ -9,7 +9,7 @@ title: "Xenypack modpack files for Minecraft"
 author: ""
 description: ""
 additionalFields: {}
-updateDate: "2024-06-23T14:13:04Z"
+updateDate: "2024-06-23T18:22:39Z"
 bundles:
 - id: "xenypack_6_client_-_mc_1.20.1"
   name: "Xenypack 6 Client - MC 1.20.1"
@@ -20,7 +20,7 @@ bundles:
     default: "${APPDATA}\\.minecraft"
   # Url used as base path for all versions - can be relative
   baseItemUrl: "6/client/"
-  updateDate: "2024-06-23T14:13:04Z"
+  updateDate: "2024-06-23T18:22:39Z"
   additionalFields:
     forge-version: "47.2.20"
     forge-installer: "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-installer.jar"

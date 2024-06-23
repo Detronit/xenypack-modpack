@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
     ]
 
     // to remove
-    TO_REMOVE_LIST.forEach(r => e.remove({ output: r }))
+    TO_REMOVE_LIST.forEach(r => e.remove({output: r}))
 
     function shaped(result, pattern, ingredients, index) {
         e.remove({
@@ -46,15 +46,15 @@ ServerEvents.recipes(e => {
     }
 
     function toolsClear(prefix) {
-        e.remove({ output: `${prefix}_pickaxe` })
-        e.remove({ output: `${prefix}_axe` })
-        e.remove({ output: `${prefix}_shovel` })
-        e.remove({ output: `${prefix}_hoe` })
-        e.remove({ output: `${prefix}_sword` })
+        e.remove({output: `${prefix}_pickaxe`})
+        e.remove({output: `${prefix}_axe`})
+        e.remove({output: `${prefix}_shovel`})
+        e.remove({output: `${prefix}_hoe`})
+        e.remove({output: `${prefix}_sword`})
     }
 
     function tools(material, handle, prefix) {
-        const ingredients = { A: material, S: handle || '#forge:rods/wooden' }
+        const ingredients = {A: material, S: handle || '#forge:rods/wooden'}
         shapedAdd(`${prefix}_pickaxe`, ['AAA', ' S ', ' S '], ingredients)
         shapedAdd(`${prefix}_axe`, ['AAA', 'AS ', ' S '], ingredients)
         shapedAdd(`${prefix}_shovel`, [' A ', ' S ', ' S '], ingredients)
@@ -63,7 +63,7 @@ ServerEvents.recipes(e => {
     }
 
     function toolsWithAddition(material, prefix, additionalMaterial) {
-        const ingredients = { A: material, S: '#forge:rods/wooden', X: additionalMaterial }
+        const ingredients = {A: material, S: '#forge:rods/wooden', X: additionalMaterial}
         shapedAdd(`${prefix}_pickaxe`, ['AAA', ' X ', ' S '], ingredients, id(additionalMaterial))
         shapedAdd(`${prefix}_axe`, ['AA ', 'AX ', ' S '], ingredients, id(additionalMaterial))
         shapedAdd(`${prefix}_shovel`, [' A ', ' X ', ' S '], ingredients, id(additionalMaterial))
@@ -75,14 +75,14 @@ ServerEvents.recipes(e => {
     }
 
     function armorClear(prefix) {
-        e.remove({ output: `${prefix}_chestplate`, })
-        e.remove({ output: `${prefix}_boots`, })
-        e.remove({ output: `${prefix}_leggings`, })
-        e.remove({ output: `${prefix}_helmet`, })
+        e.remove({output: `${prefix}_chestplate`,})
+        e.remove({output: `${prefix}_boots`,})
+        e.remove({output: `${prefix}_leggings`,})
+        e.remove({output: `${prefix}_helmet`,})
     }
 
     function armor(material, prefix) {
-        const ingredients = { A: material };
+        const ingredients = {A: material};
         shapedAdd(`${prefix}_chestplate`, ['A A', 'AAA', 'AAA'], ingredients, '_b')
         shapedAdd(`${prefix}_boots`, ['   ', 'A A', 'A A'], ingredients, '_b')
         shapedAdd(`${prefix}_leggings`, ['AAA', 'A A', 'A A'], ingredients, '_b')
@@ -90,7 +90,7 @@ ServerEvents.recipes(e => {
     }
 
     function armorWithAddition(material, prefix, additionalMaterial) {
-        const ingredients = { A: material, X: additionalMaterial };
+        const ingredients = {A: material, X: additionalMaterial};
         shapedAdd(`${prefix}_chestplate`, ['AXA', 'AAA', 'AAA'], ingredients, id(additionalMaterial))
         shapedAdd(`${prefix}_boots`, ['X  ', 'A A', 'A A'], ingredients, id(additionalMaterial))
         shapedAdd(`${prefix}_leggings`, ['AAA', 'AXA', 'A A'], ingredients, id(additionalMaterial))
@@ -153,23 +153,23 @@ ServerEvents.recipes(e => {
     shaped('rsinfinitybooster:infinity_card', [
         'ECE',
         'CBC',
-        'DDD'
+        'DRD'
     ], {
         E: 'minecraft:ender_eye',
         B: '#forge:storage_blocks/emerald',
         D: '#forge:gems/diamond',
         C: 'refinedstorage:range_upgrade',
+        R: 'powah:blazing_crystal_block',
     })
 
     shaped('rsinfinitybooster:dimension_card', [
         'ECE',
         'CRC',
-        'DOD'
+        'OOO'
     ], {
         E: 'minecraft:ender_eye',
         C: 'rsinfinitybooster:infinity_card',
         R: '#forge:storage_blocks/redstone',
-        D: '#forge:gems/diamond',
         O: '#forge:ingots/netherite',
     })
 
@@ -218,7 +218,7 @@ ServerEvents.recipes(e => {
         'H': 'immersive_aircraft:hull',
     })
 
-    shapedAdd('mekanism:atomic_disassembler', [
+    shaped('mekanism:atomic_disassembler', [
         'APA',
         'ECU',
         ' I '
@@ -226,7 +226,7 @@ ServerEvents.recipes(e => {
         'A': 'mekanism:alloy_atomic',
         'P': 'mekanismtools:netherite_paxel',
         'C': 'mekanism:elite_energy_cube',
-        'E': Item.of('minecraft:enchanted_book').enchant('efficiency', 3).strongNBT().toJson(),
+        'E': Item.of('minecraft:enchanted_book').enchant('efficiency', 4).strongNBT().toJson(),
         'U': Item.of('minecraft:enchanted_book').enchant('unbreaking', 1).strongNBT().toJson(),
         'I': '#forge:ingots/netherite'
     })
@@ -254,20 +254,50 @@ ServerEvents.recipes(e => {
         })
     }
 
-
     energize(['pipez:ultimate_upgrade', 'powah:ender_core'], 'pipez:infinity_upgrade', 2147483647)
 
 
     e.replaceInput(
-        { output: 'aeinfinitybooster:infinity_card' },
-        'minecraft:nether_star',
-        'ae2:singularity'
+        {output: 'buildinggadgets2:gadget_exchanging'},
+        'minecraft:redstone',
+        '#forge:ender_pearls'
     )
-    e.replaceInput(
-        { output: 'aeinfinitybooster:dimension_card' },
-        'minecraft:nether_star',
-        '#forge:storage_blocks/emerald'
-    )
+
+    shaped('buildinggadgets2:gadget_cut_paste', [
+        'IPI',
+        'ESE',
+        'ILI'
+    ], {
+        L: '#forge:gems/lapis',
+        I: '#forge:ingots/iron',
+        S: '#forge:tools/shears',
+        E: '#forge:gems/emerald',
+        P: '#forge:ender_pearls',
+    })
+
+    shaped('aeinfinitybooster:dimension_card', [
+        'BPB',
+        'EEE',
+        'BMB'
+    ], {
+        E: 'minecraft:ender_eye',
+        B: 'aeinfinitybooster:infinity_card',
+        M: '#forge:storage_blocks/emerald',
+        P: 'powah:blazing_crystal_block',
+    })
+
+    shaped('aeinfinitybooster:infinity_card', [
+        'EBE',
+        'BSB',
+        'NDN'
+    ], {
+        E: 'minecraft:ender_eye',
+        B: 'ae2:wireless_booster',
+        D: '#forge:gems/diamond',
+        N: '#forge:ingots/netherite',
+        S: 'ae2:singularity',
+    })
+
 
     // e.custom(
     //     {

@@ -203,5 +203,23 @@
     },
     "com.hrznstudio.titanium.container.BasicAddonContainer": {
         "ignore": true
+    },
+    "owmii.powah.inventory.PlayerTransmitterContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.common.containers.TemplateManagerContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.DischargerContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyHopperContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnderCellContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.SolarContainer": {
+        "ignore": true
     }
 }

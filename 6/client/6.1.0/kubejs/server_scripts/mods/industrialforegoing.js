@@ -12,6 +12,12 @@ ServerEvents.recipes(e => {
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
     )
 
+    e.replaceInput(
+        {output: 'industrialforegoing:fermentation_station'}, 
+        'industrialforegoing:machine_frame_simple',    
+        'industrialforegoing:machine_frame_advanced',            
+    )
+
     e.remove({id: 'industrialforegoing:dissolution_chamber/mycelial_reactor'})
     e.custom({
         "input": [

@@ -1,0 +1,84 @@
+{
+    "ModSettings": {
+        "move_just_refill_modifier": {
+            "main": {
+                "keys": "SPACE"
+            }
+        },
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_lock_slots": {
+            "value": false
+        },
+        "enable_auto_refill": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "add_interval_between_clicks": {
+            "value": true
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "continuous_crafting_checkbox_value": "UNCHECKED",
+        "continuous_crafting_saved_value": false,
+        "show_regular_sort_button": {
+            "value": false
+        },
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": "LEFT_CONTROL,MINUS"
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "sort_inventory_in_columns": {
+            "main": {
+                "keys": "LEFT_BRACKET"
+            }
+        },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "RIGHT_BRACKET"
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": "LEFT_CONTROL,EQUAL"
+            }
+        }
+    }
+}

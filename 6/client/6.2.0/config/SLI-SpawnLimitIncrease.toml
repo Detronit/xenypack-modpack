@@ -1,0 +1,39 @@
+
+[General]
+	enableLogging = false
+
+#Here you can change vanilla spawn limits. 
+#Limits are applied per mob category and defines how many mobs can be spawned in certain area. 
+#It affects attempts of spawn of animals and monsters but it does not increase spawn rate. To refresh these values only config reload is required
+[Spawn_Limits]
+	#When false spawn limits are not changed
+	enableLimitModification = true
+	#Limit for monsters - hostile mobs
+	#Vanilla default: 70
+	#Range: 1 ~ 2000
+	monsterLimit = 180
+	#Limit for creatures - passive mobs, animals
+	#Vanilla default: 10
+	#Range: 1 ~ 2000
+	creatureLimit = 160
+	#Limit for ambient - bats...
+	#Vanilla default: 15
+	#Range: 1 ~ 2000
+	ambientLimit = 15
+	#Limit for water creatures - dolphins, squids...
+	#Vanilla default: 5
+	#Range: 1 ~ 2000
+	waterCreatureLimit = 25
+	#Limit for water ambient - fish...
+	#Vanilla default: 20
+	#Range: 1 ~ 2000
+	waterAmbientLimit = 20
+	#Limit for axolotls
+	#Vanilla default: 5
+	#Range: 1 ~ 2000
+	axolotlsLimit = 5
+	#Limit for underground water creatures - glow squids
+	#Vanilla default: 5
+	#Range: 1 ~ 2000
+	undergroundWaterCreatureLimit = 5
+

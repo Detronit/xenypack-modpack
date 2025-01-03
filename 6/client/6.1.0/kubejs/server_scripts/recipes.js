@@ -8,6 +8,7 @@ ServerEvents.recipes(e => {
         'mekanism:cardboard_box',
         /^extrastorage:(block|disk|storagepart)_.+/,
         /^extrastorage:advanced_(importer|exporter)/,
+        /^scalinghealth:.*/,
         'extradisks:infinite_storage_disk',
         'extradisks:infinite_storage_part',
         'extradisks:infinite_storage_block',
@@ -322,3 +323,12 @@ ServerEvents.recipes(e => {
     // )
 });
 
+// EntityEvents.drops(event => {
+//     var ind = event.drops.indexOf(d=>d.item == Item.of('minecraft:beef'))
+
+//     console.info(`To drop from ${event.entity}: ${event.drops}`)
+//     if (ind >= 0) {
+//         event.drop.remove(ind)
+//         console.info(`Dropped from ${event.entity} | ${event.drops.map(d=>d.item)} | ${beef} | ${Object.keys(event)}`)
+//     }
+// });

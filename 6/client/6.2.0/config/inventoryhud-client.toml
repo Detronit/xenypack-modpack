@@ -59,7 +59,7 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 40
+	potAlpha = 30
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
@@ -113,10 +113,10 @@
 	potHalign = "LEFT"
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 1
+	xPotionPos = 2
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 16
+	yPotionPos = 30
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: true;
+	cheat-mode: false;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -27,7 +27,8 @@
 	index-order: mod_then_similar_items;
 
 	/**
-	 * Whether normal search queries should include the tooltip.
+	 * Whether normal search queries should include the tooltip. Requires
+	 * index-tooltips to be enabled..
 	 */
 	search-tooltip-by-default: false;
 
@@ -46,12 +47,6 @@
 	 * loading speed if you have slow mods.
 	 */
 	index-tooltips: false;
-
-	/** unparsed */
-	search-tooltip-by-default: true;
-
-	/** unparsed */
-	search-tooltip-by-default: true;
 }
 
 #ui {
@@ -327,12 +322,12 @@
 	/**
 	 * Focuses the search bar.
 	 */
-	focus-search: "ctrl key.keyboard.f";
+	focus-search: "ctrl key.keyboard.s";
 
 	/**
 	 * Clears the search bar.
 	 */
-	clear-search: "key.keyboard.unknown";
+	clear-search: "ctrl key.keyboard.d";
 
 	/**
 	 * Display the recipes for creating a stack.
@@ -343,7 +338,7 @@
 	/**
 	 * Display the recipes that can be created using a stack.
 	 */
-	view-uses: "key.keyboard.u";
+	view-uses: "key.keyboard.t";
 	view-uses: "key.mouse.right";
 
 	/**
@@ -361,12 +356,12 @@
 	/**
 	 * Display the recipe tree for a given stack.
 	 */
-	view-stack-tree: "key.keyboard.unknown";
+	view-stack-tree: "key.keyboard.z";
 
 	/**
 	 * Display the recipe tree.
 	 */
-	view-tree: "key.keyboard.unknown";
+	view-tree: "key.keyboard.x";
 
 	/**
 	 * Return to the previous page in EMI.
@@ -376,13 +371,13 @@
 	/**
 	 * Return to the next page in EMI after going back.
 	 */
-	forward: "key.keyboard.unknown";
+	forward: "key.keyboard.f12";
 
 	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result.
 	 */
-	craft-one: "key.mouse.left";
+	craft-one: "ctrl key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
@@ -394,7 +389,7 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in inventory if possible.
 	 */
-	craft-one-to-inventory: "key.keyboard.unknown";
+	craft-one-to-inventory: "alt key.mouse.left";
 
 	/**
 	 * When on a stack with an associated recipe:
@@ -407,7 +402,7 @@
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result and put in cursor if possible.
 	 */
-	craft-one-to-cursor: "ctrl key.mouse.left";
+	craft-one-to-cursor: "key.mouse.middle";
 
 	/**
 	 * Display the recipe that will be used to craft on a stack with no recipe context.
@@ -417,12 +412,12 @@
 	/**
 	 * Cheat in one of an item into the inventory.
 	 */
-	cheat-one-to-inventory: "ctrl key.mouse.right";
+	cheat-one-to-inventory: "ctrl shift key.mouse.right";
 
 	/**
 	 * Cheat in a stack of an item into the inventory.
 	 */
-	cheat-stack-to-inventory: "ctrl key.mouse.left";
+	cheat-stack-to-inventory: "ctrl shift key.mouse.left";
 
 	/**
 	 * Cheat in one of an item into the cursor.

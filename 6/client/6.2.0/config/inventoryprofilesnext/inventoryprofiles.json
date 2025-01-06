@@ -42,7 +42,7 @@
     "Hotkeys": {
         "open_config_menu": {
             "main": {
-                "keys": "LEFT_CONTROL,MINUS"
+                "keys": "LEFT_ALT,MINUS"
             }
         },
         "reload_custom_configs": {

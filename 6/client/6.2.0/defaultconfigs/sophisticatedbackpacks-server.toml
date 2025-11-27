@@ -63,7 +63,7 @@
 		inventorySlotCount = 120
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 4
+		upgradeSlotCount = 5
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]

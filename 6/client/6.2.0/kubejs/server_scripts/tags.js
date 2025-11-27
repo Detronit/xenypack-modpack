@@ -4,7 +4,6 @@ ServerEvents.tags('item', event => {
     event.add('forge:cheese', '#forge:cheeses')
     // event.add('forge:plastic', 'pneumaticcraft:plastic')
 
-    //temp byg fix until above 2.0.0.13
     event.add('c:black_sand', '#forge:black_sand')
     event.add('c:white_sand', '#forge:white_sand')
     event.add('c:blue_sand', '#forge:blue_sand')
@@ -20,7 +19,23 @@ ServerEvents.tags('item', event => {
     // event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
     event.add('forge:gems/dimensionalshard', 'rftoolsbase:dimensionalshard');
     // e.add('forge:seeds', ['immersiveengineering:seed']); //'bluepower:flax_seeds'
+
+    // #c:hidden_from_recipe_viewers
+    // event.add('c:hidden_from_recipe_viewers', 'enderio:filled_soul_vial')
+    global.hiddenItems.forEach(record => {
+        let name = (record.name || record.hidden) + ''
+        const i = name.indexOf(':')
+        let mod = ''
+        if(i > 0) {
+            mod = name.substring(0, i).replace(/\W/g, '') + '/'
+            name = name.substring(i + 1)
+        }
+        name = name.replace(/\W/g, '')
+        event.add(`kubejs:${mod}${name}`, record.tagged)
+        event.add(`kubejs:${mod}${name}`, record.hidden)
+    })
 })
+
 
 ServerEvents.tags('block', event => {
     event.add('forge:relocation_not_supported',
@@ -36,6 +51,14 @@ ServerEvents.tags('block', event => {
     event.add('ae2:blacklisted/spatial','#forge:relocation_not_supported')
     event.add('forge:storage_blocks/uraninite', 'powah:uraninite_block');
 
+
+    const stones = event.get('minecraft:base_stone_overworld').getObjectIds()
+    stones.forEach(stone => {
+        event.remove('endermanoverhaul:cave_enderman_holdable', stone);
+    })
+
+    event.add('entangled:invalid_targets', ['@megacells','@expatternprovider','@cabletiers','@ae2','@refinedstorage'])
+    event.add('create:non_movable',['@sophisticatedstorage', '#forge:relocation_not_supported'])
 })
 
 ServerEvents.tags('entity_type', event => {

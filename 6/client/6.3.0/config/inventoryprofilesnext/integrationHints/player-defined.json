@@ -1,0 +1,225 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "PROFILE_SELECTOR": {
+                "bottom": 25
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 126,
+                "top": -10
+            },
+            "SETTINGS": {
+                "horizontalOffset": 112,
+                "top": -25
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 11,
+                "top": -8
+            },
+            "SETTINGS": {
+                "horizontalOffset": 22,
+                "top": -23
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 27,
+                "top": -8
+            },
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": -25
+            }
+        }
+    },
+    "mekanism.common.inventory.container.tile.MekanismTileContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ThermoContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.MagmatorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.FurnatorContainer": {
+        "ignore": true
+    },
+    "it.zerono.mods.extremereactors.gamecontent.multiblock.reactor.container.ReactorSolidAccessPortContainer": {
+        "ignore": true
+    },
+    "mekanism.common.registration.impl.ContainerTypeDeferredRegister$ContainerBuilder$1": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.ReactorContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyCellContainer": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.client.screen.container.BasicAddonScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -4,
+                "bottom": 15
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": -4
+            },
+            "SETTINGS": {
+                "horizontalOffset": 33,
+                "top": -23
+            }
+        }
+    },
+    "com.enderio.machines.common.menu.PoweredSpawnerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.TravelAnchorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulBinderMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.AlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PaintingMachineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.WiredChargerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.StirlingGeneratorMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SagMillMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SlicerMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CapacitorBankMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.CrafterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.SoulEngineMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.DrainMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.PrimitiveAlloySmelterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.EnchanterMenu": {
+        "ignore": true
+    },
+    "com.enderio.machines.common.menu.FluidTankMenu": {
+        "ignore": true
+    },
+    "com.enderio.conduits.common.menu.ConduitMenu": {
+        "ignore": true
+    },
+    "com.refinedmods.refinedstorage.container.CrafterManagerContainerMenu": {
+        "ignore": true
+    },
+    "appeng.menu.me.items.CraftingTermMenu": {
+        "ignore": true
+    },
+    "appeng.client.gui.me.common.TerminalSettingsScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": -25
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.client.gui.GuiExPatternProvider": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": -25
+            }
+        }
+    },
+    "com.glodblock.github.extendedae.container.ContainerExPatternProvider": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInterface": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerWirelessConnector": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerTagExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModStorageBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerModExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerActiveFormationPlane": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPreciseExportBus": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExDrive": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExMolecularAssembler": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExInscriber": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerExIOPort": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.xmod.wt.ContainerUWirelessExPAT": {
+        "ignore": true
+    },
+    "com.glodblock.github.extendedae.container.ContainerPatternModifier": {
+        "ignore": true
+    },
+    "appeng.menu.me.common.MEStorageMenu": {
+        "ignore": true
+    },
+    "com.hrznstudio.titanium.container.BasicAddonContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.PlayerTransmitterContainer": {
+        "ignore": true
+    },
+    "com.direwolf20.buildinggadgets2.common.containers.TemplateManagerContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.DischargerContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnergyHopperContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.EnderCellContainer": {
+        "ignore": true
+    },
+    "owmii.powah.inventory.SolarContainer": {
+        "ignore": true
+    }
+}

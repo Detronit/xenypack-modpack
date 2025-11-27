@@ -1,15 +1,3 @@
-const MODPACK = 'XenyPack';
-
-const TO_REMOVE_LIST = [
-    'twilightforest:uncrafting_table',
-    'mekanism:cardboard_box',
-    /^extrastorage:(block|disk|storagepart)_.+/,
-    /^extrastorage:advanced_(importer|exporter)/,
-    'extradisks:infinite_storage_disk',
-    'extradisks:infinite_storage_part',
-    'extradisks:infinite_storage_block',
-    'immersive_aircraft:gyrodyne',
-]
 
 
 ItemEvents.tooltip(event => {
@@ -85,7 +73,7 @@ ItemEvents.tooltip(event => {
         event.add('refinedstorage:' + d, 'Right click or craft with a dye to color');
     })
 
-    TO_REMOVE_LIST.forEach(r => event.add(r, ['§6Recipe removed§r [modpack ' + MODPACK + ']']))
+    global.removedItems.forEach(r => event.add(r, ['§6Recipe removed§r [modpack ' + global.modpack + ']']))
 
     event.add('immersiveengineering:capacitor_lv', [
         [Text.of('Capacity:'), ' ', Text.of('500').aqua(), ' ', Text.of('kFE')],
@@ -129,18 +117,45 @@ ItemEvents.tooltip(event => {
         [Text.of('Capacity:'), ' ', Text.of('250').aqua(), ' ', Text.of('MFE')]
     ])
     event.add('powah:energy_cell_nitro', [
-        [Text.of('Capacity:'), ' ', Text.of('1').gold(), ' ', Text.of('BFE')]
+        [Text.of('Capacity:'), ' ', Text.of('1,000').gold(), ' ', Text.of('MFE')]
     ])
-
 })
 
 
 JEIEvents.hideItems(event => {
-    TO_REMOVE_LIST.forEach(r => event.hide(r))
-    event.hide(/enderio:(clear_glass|fused_quartz)_[dpnmea]+_.*/)
-    event.hide('enderio:filled_soul_vial')
+    global.removedItems.forEach(r => event.hide(r))
+    global.hiddenItems.forEach(r => event.hide(r.hidden))
 
 
+    // event.hide(/enderio:(clear_glass|fused_quartz)_[dpnmea]+_.*/)
+    // event.hide('enderio:filled_soul_vial')
+    // event.hide(Ingredient.of('enderio:broken_spawner').except('{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'))
+    // event.hide(Ingredient.of('enderio:filled_soul_vial').except('{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}'))
+    // Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}')
+    // Ingredient.of('enderio:filled_soul_vial').getItems().forEach(i => {
+    //     console.log('Matched ==> ', i)
+    // })
+    // const s = Item.of('quark:seed_pouch', '{itemCount:640,storedItem:{Count:1b,id:"minecraft:sweet_berries"}}').strongNBT()
+    // const i = Ingredient.of([/quark:seed_pouch\[storedItem=\{Count:1b,id:"minecraft:coc.*"\}\]/])
+    // const s = Ingredient.of([/quark:seed_pouch\{itemCount:640,storedItem:\{Count:1b,id:"minecraft:sweet_berries"\}\}/])
+
+
+    // const z = Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:zombie"}}}}').strongNBT()
+
+    // console.log('KUBEJS ids ==> ', Ingredient.of('enderio:filled_soul_vial').getItemIds())
+    // console.log('KUBEJS json ==> ', Ingredient.of('enderio:filled_soul_vial').getItemTypes())
+    // console.log('KUBEJS json2 ==> ' + s.asIngredient().toJson().toString())
+    // console.log('KUBEJS json3 ==> ' + s.toJson().toString())
+    // console.log('KUBEJS json4 ==> ' + i.toJson().toString())
+    // event.hide(s)
+    // event.hide(i)
+
+    // Ingredient.of([/enderio:filled_soul_vial/]).getStacks().forEach(i => {
+    //
+    //     console.log('KUBEJS stack ==> ', i, i.getId(), i.getNbtString())
+    //     console.log('KUBEJS stack json ==> ' + i.toJson().toString())
+    // })
+    // event.hide('enderio:filled_soul_vial',  Ingredient.of('enderio:filled_soul_vial').subtract(z).asIngredient())
     Color.DYE.forEach(color => {
         ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor'].forEach(machine => {
             event.hide(`refinedstorage:${color}_${machine}`)
@@ -148,56 +163,87 @@ JEIEvents.hideItems(event => {
     })
 })
 
+// RecipeViewerEvents.removeEntries('item', event => {
+//     // global.removedItems.forEach(r => event.remove(r))
 
-REIEvents.groupEntries(event => {
-    const suffixes = {
-        '': '',
-        'Iron': 'iron_',
-        'Gold': 'gold_',
-        'Diamond': 'diamond_',
-        'Netherite': 'netherite_',
-        'Copper': 'copper_',
-    }
 
-    const counterSymbols = {
-        1: 'I', 2: 'II', 3: 'III', 4: 'IV'
-    }
+//     event.remove(/enderio:(clear_glass|fused_quartz)_[dpnmea]+_.*/)
+//     // event.remove('enderio:filled_soul_vial')
+//     // event.remove(Ingredient.of('enderio:spawner').except('enderio:spawner[potion_contents={potion:"minecraft:night_vision"}]'))
+	
 
-    for (let name in suffixes) {
-        if (name) {
-            let code = suffixes[name];
+//     Color.DYE.forEach(color => {
+//         ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor'].forEach(machine => {
+//             event.remove(`refinedstorage:${color}_${machine}`)
+//         })
+//     })
 
-            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}barrels`,
-                (name ? `${name} ` : '') + 'Barrels',
-                Item.of(`sophisticatedstorage:${code}barrel`),
-            )
 
-            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}chests`,
-                (name ? `${name} ` : '') + 'Chests',
-                Item.of(`sophisticatedstorage:${code}chest`),
-            )
 
-            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_${code}shulker_boxes`,
-                (name ? `${name} ` : '') + 'Shulker Box',
-                Item.of(`sophisticatedstorage:${code}shulker_box`),
-            )
-        }
-    }
 
-    for (let count of [1, 2, 3, 4]) {
-        for (let name in suffixes) {
-            event.groupSameItem(`kubejs:rei_groups/${MODPACK}/storage_limited_${suffixes[name]}barrels_${count}`,
-                `Limited ${name ? `${name} ` : ''}Barrels ${counterSymbols[count]}`,
-                Item.of(`sophisticatedstorage:limited_${suffixes[name]}barrel_${count}`),
-            )
-        }
-    }
 
-    event.groupSameItem(`kubejs:rei_groups/${MODPACK}/quark_seed_pouch`, 'Seed Pouches', Item.of('quark:seed_pouch'))
+//     global.hiddenItems.forEach(record => {
+//         event.remove(record.hidden)
+//     })
 
-    event.groupSameItem(`kubejs:rei_groups/${MODPACK}/suspicious_stew`, 'Suspicious Stews', Item.of('suspicious_stew'))
+// })
 
-    event.groupItems(`kubejs:rei_groups/${MODPACK}/security_reinforced_blocks`, 'Reinforced Blocks', [
-        /^securitycraft:reinforced_.*/,
-    ])
-})
+
+// REIEvents.groupEntries(event => {
+//     const suffixes = {
+//         '': '',
+//         'Iron': 'iron_',
+//         'Gold': 'gold_',
+//         'Diamond': 'diamond_',
+//         'Netherite': 'netherite_',
+//         'Copper': 'copper_',
+//     }
+
+//     const counterSymbols = {
+//         1: 'I', 2: 'II', 3: 'III', 4: 'IV'
+//     }
+
+//     for (let name in suffixes) {
+//         if (name) {
+//             let code = suffixes[name];
+
+//             event.groupSameItem(`kubejs:rei_groups/${global.modpack}/storage_${code}barrels`,
+//                 (name ? `${name} ` : '') + 'Barrels',
+//                 Item.of(`sophisticatedstorage:${code}barrel`),
+//             )
+
+//             event.groupSameItem(`kubejs:rei_groups/${global.modpack}/storage_${code}chests`,
+//                 (name ? `${name} ` : '') + 'Chests',
+//                 Item.of(`sophisticatedstorage:${code}chest`),
+//             )
+
+//             event.groupSameItem(`kubejs:rei_groups/${global.modpack}/storage_${code}shulker_boxes`,
+//                 (name ? `${name} ` : '') + 'Shulker Box',
+//                 Item.of(`sophisticatedstorage:${code}shulker_box`),
+//             )
+//         }
+//     }
+
+//     for (let count of [1, 2, 3, 4]) {
+//         for (let name in suffixes) {
+//             event.groupSameItem(`kubejs:rei_groups/${global.modpack}/storage_limited_${suffixes[name]}barrels_${count}`,
+//                 `Limited ${name ? `${name} ` : ''}Barrels ${counterSymbols[count]}`,
+//                 Item.of(`sophisticatedstorage:limited_${suffixes[name]}barrel_${count}`),
+//             )
+//         }
+//     }
+
+//     event.groupSameItem(`kubejs:rei_groups/${global.modpack}/quark_seed_pouch`, 'Seed Pouches', Item.of('quark:seed_pouch'))
+
+//     event.groupSameItem(`kubejs:rei_groups/${global.modpack}/suspicious_stew`, 'Suspicious Stews', Item.of('suspicious_stew'))
+
+//     event.groupItems(`kubejs:rei_groups/${global.modpack}/security_reinforced_blocks`, 'Reinforced Blocks', [
+//         /^securitycraft:reinforced_.*/,
+//     ])
+// })
+
+
+// RecipeViewerEvents.removeCategories(event => {
+// 	event.remove('minecraft:tag_recipes/item')
+// 	event.remove('minecraft:tag_recipes/block')
+// })

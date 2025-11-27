@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -592,7 +592,7 @@
 		# - utilitix
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[tweaks.emotes]
 		#The enabled default emotes. Remove from this list to disable them. You can also re-order them, if you feel like it.

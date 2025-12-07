@@ -2679,9 +2679,7 @@
 		{
 			dependencies: ["11B8C5F88DCB3BF5"]
 			description: [
-				"{atm9.quest.chapter2.desc.SG}"
-				""
-				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1D42B373285DEF81\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+				"Tinker Construct helps you create your custom tools and armor."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -2689,10 +2687,10 @@
 			size: 1.5d
 			tasks: [{
 				id: "305AAE40607BC719"
-				item: "silentgear:tyrian_steel_block"
+				item: "tconstruct:cinderslime_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.chapter2.SG}"
+			title: "Tinker Construct"
 			x: 0.0d
 			y: -8.5d
 		}

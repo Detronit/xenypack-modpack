@@ -1783,11 +1783,6 @@
 			id: "42951D14ADCD9332"
 			rewards: [
 				{
-					id: "618C5C25773A6B26"
-					item: "croptopia:potato_chips"
-					type: "item"
-				}
-				{
 					id: "2B26D0DEC6A0AC55"
 					type: "xp"
 					xp: 100

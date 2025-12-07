@@ -1481,26 +1481,6 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
-			icon: "croptopia:chocolate"
-			id: "486060882E507CF1"
-			rewards: [{
-				id: "6C008390E836F306"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.productiveBees.subt.spawnsFromDirtNest}"
-			tasks: [{
-				id: "4DFDEAD81868CEF4"
-				title: "{atm9.quest.productiveBees.chocolateMiningBee}"
-				type: "checkmark"
-			}]
-			title: "{atm9.quest.productiveBees.chocolateMiningBee}"
-			x: -5.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["131EC039435B8878"]
-			hide_dependency_lines: true
 			icon: "minecraft:blue_dye"
 			id: "2CA4D7253DA1825F"
 			rewards: [{
@@ -2754,46 +2734,6 @@
 			title: "{atm9.quest.productiveBees.farmerBee}"
 			x: 2.0d
 			y: 16.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			icon: "tombstone:grave_dust"
-			id: "4351DAA8B607BCBB"
-			rewards: [{
-				id: "3E53E43ACB7E4CB8"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "{atm9.quest.productiveBees.ghostlySkeletalZombee}"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "productivebees:configurable_honeycomb"
-					tag: {
-						EntityTag: {
-							type: "productivebees:grave"
-						}
-					}
-				}
-				id: "6D15CFE8E1CF6D25"
-				item: {
-					Count: 1
-					id: "itemfilters:strong_nbt"
-					tag: {
-						value: {
-							EntityTag: {
-								type: "productivebees:grave"
-							}
-						}
-					}
-				}
-				title: "{atm9.quest.productiveBees.gravesComb}"
-				type: "item"
-			}]
-			title: "{atm9.quest.productiveBees.gravesBee}"
-			x: 0.0d
-			y: 15.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]

@@ -880,105 +880,6 @@
 		}
 		{
 			dependencies: ["698A959C9E449592"]
-			description: ["{atm9.quest.chapter1.desc.silent_gear}"]
-			id: "680F2CB6905F08AD"
-			rewards: [{
-				id: "2C52336368ACAE77"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "gear"
-			size: 1.25d
-			tasks: [{
-				id: "629F4296DDD32604"
-				item: {
-					Count: 1
-					id: "silentgear:pickaxe"
-					tag: {
-						Damage: 0
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										ID: "silentgear:pickaxe_head"
-										Item: {
-											Count: 1b
-											id: "silentgear:pickaxe_head"
-											tag: {
-												Damage: 0
-												Materials: [{
-													ID: "silentgear:iron"
-												}]
-											}
-										}
-									}
-									{
-										ID: "silentgear:rod"
-										Item: {
-											Count: 1b
-											id: "silentgear:rod"
-											tag: {
-												Materials: [{
-													ID: "silentgear:wood"
-												}]
-											}
-										}
-									}
-								]
-							}
-							Properties: {
-								LockStats: 0b
-								ModVersion: "3.5.0"
-								Stats: {
-									"silentgear:attack_reach": 3.0f
-									"silentgear:attack_speed": -2.8f
-									"silentgear:charging_value": 0.7f
-									"silentgear:durability": 250.0f
-									"silentgear:enchantment_value": 14.0f
-									"silentgear:harvest_level": 2.0f
-									"silentgear:harvest_speed": 6.0f
-									"silentgear:magic_damage": 1.0f
-									"silentgear:melee_damage": 3.0f
-									"silentgear:rarity": 20.0f
-									"silentgear:repair_efficiency": 1.0f
-								}
-								Traits: [
-									{
-										Level: 3b
-										Name: "silentgear:malleable"
-									}
-									{
-										Level: 1b
-										Name: "silentgear:magnetic"
-									}
-									{
-										Level: 2b
-										Name: "silentgear:flexible"
-									}
-								]
-							}
-							Rendering: {
-								Model: 3
-								ModelKey: "pickaxe:pickaxe_head{iron},rod{wood},"
-							}
-						}
-						SGear_UUID: [I;
-							2053226576
-							840254061
-							-1565882294
-							1308565543
-						]
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "{atm9.quest.chapter1.silent_gear}"
-			x: 8.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["698A959C9E449592"]
 			description: ["{atm9.quest.chapter1.desc.redstone}"]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
@@ -1170,41 +1071,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2D879A34A5788CCC"]
-			description: ["{atm9.quest.chapter1.desc.jetpack}"]
-			id: "4EDD67D5C6823344"
-			rewards: [
-				{
-					id: "58BD4F4CDF1B551D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					id: "042A4ECF7974E406"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "55FE958734110229"
-				item: {
-					Count: 1
-					id: "ironjetpacks:jetpack"
-					tag: {
-						Id: "ironjetpacks:wood"
-						Throttle: 1.0d
-					}
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			title: "{atm9.quest.chapter1.jetpack}"
-			x: 17.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["4E9229FBA875C0BE"]
 			description: ["{atm9.quest.chapter1.desc.teleporting}"]
 			id: "79494986A7957292"
@@ -1390,33 +1256,6 @@
 			title: "{atm9.quest.chapter1.MA}"
 			x: -4.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["681E89DB12A21A09"]
-			description: ["{atm9.quest.chapter1.desc.toast}"]
-			id: "2114BABF547A0E2A"
-			rewards: [
-				{
-					id: "6BC6FF38041DD59C"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "194D8E694665B35A"
-					table_id: 487623848494439020L
-					type: "loot"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "08D68241A798A476"
-				item: "croptopia:toast"
-				type: "item"
-			}]
-			title: "{atm9.quest.chapter1.toast}"
-			x: -2.0d
-			y: 7.0d
 		}
 		{
 			dependencies: ["4E9229FBA875C0BE"]

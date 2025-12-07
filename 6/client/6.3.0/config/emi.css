@@ -27,6 +27,11 @@
 	index-order: mod_then_similar_items;
 
 	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
+
+	/**
 	 * Whether normal search queries should include the tooltip. Requires
 	 * index-tooltips to be enabled..
 	 */
@@ -366,12 +371,12 @@
 	/**
 	 * Return to the previous page in EMI.
 	 */
-	back: "key.keyboard.backspace";
+	back: "key.mouse.4";
 
 	/**
 	 * Return to the next page in EMI after going back.
 	 */
-	forward: "key.keyboard.f12";
+	forward: "key.mouse.5";
 
 	/**
 	 * When on a stack with an associated recipe:

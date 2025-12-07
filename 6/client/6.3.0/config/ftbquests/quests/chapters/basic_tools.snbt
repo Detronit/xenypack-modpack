@@ -810,54 +810,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "3B88D58B11B5DC78"
-			optional: true
-			rewards: [{
-				id: "36BF3BBA127B5F0C"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "{atm9.quest.tools.subt.tier4}"
-			tasks: [
-				{
-					id: "3D7B36B1CBAB6ADF"
-					item: {
-						Count: 1
-						id: "mininggadgets:mininggadget_simple"
-						tag: {
-							battery_tier: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5F1B08F29E1383DE"
-					item: {
-						Count: 1
-						id: "mininggadgets:mininggadget_fancy"
-						tag: {
-							battery_tier: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "470E74755C072CFE"
-					item: {
-						Count: 1
-						id: "mininggadgets:mininggadget"
-						tag: {
-							battery_tier: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -1.5d
-		}
-		{
 			description: ["{atm9.quest.tools.desc.tool}"]
 			hide_dependent_lines: true
 			id: "5151CDD8FCDE7A07"

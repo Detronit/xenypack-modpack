@@ -911,7 +911,7 @@
 				""
 				"{atm9.quest.mekanismReactors.desc.checklist.7}"
 			]
-			icon: "chipped:hazard_red_concrete"
+			icon: "mekanism:dosimeter"
 			id: "3591EAA8E397F992"
 			min_width: 300
 			rewards: [{

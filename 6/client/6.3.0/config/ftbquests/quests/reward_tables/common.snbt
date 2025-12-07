@@ -18,16 +18,6 @@
 		{ item: "functionalstorage:oak_1", random_bonus: 2, weight: 7.0f }
 		{ item: "functionalstorage:void_upgrade", weight: 3.0f }
 		{ item: "functionalstorage:storage_controller" }
-		{
-			item: {
-				Count: 1
-				id: "silentgear:sturdy_repair_kit"
-				tag: {
-					Storage: { }
-				}
-			}
-			weight: 5.0f
-		}
 		{ item: "waystones:waystone", weight: 3.0f }
 		{
 			item: {
@@ -316,41 +306,6 @@
 		{ item: "minecraft:beehive", weight: 7.0f }
 		{ item: "productivebees:advanced_oak_beehive", weight: 5.0f }
 		{ item: "ae2:flawless_budding_quartz" }
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:hammer 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 2"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 7.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:pickaxe 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 5.0f
-		}
-		{
-			command: "/sgear_random_gear @p silentgear:paxel 3"
-			elevate_perms: true
-			silent: true
-			type: "command"
-			weight: 3.0f
-		}
 		{ item: "powah:magmator_basic" }
 		{ item: "powah:furnator_basic" }
 		{

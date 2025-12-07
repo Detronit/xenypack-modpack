@@ -15,7 +15,7 @@
 	#Limit for creatures - passive mobs, animals
 	#Vanilla default: 10
 	#Range: 1 ~ 2000
-	creatureLimit = 160
+	creatureLimit = 100
 	#Limit for ambient - bats...
 	#Vanilla default: 15
 	#Range: 1 ~ 2000

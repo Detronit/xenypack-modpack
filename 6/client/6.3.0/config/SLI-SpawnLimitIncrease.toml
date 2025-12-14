@@ -11,7 +11,7 @@
 	#Limit for monsters - hostile mobs
 	#Vanilla default: 70
 	#Range: 1 ~ 2000
-	monsterLimit = 180
+	monsterLimit = 200
 	#Limit for creatures - passive mobs, animals
 	#Vanilla default: 10
 	#Range: 1 ~ 2000
